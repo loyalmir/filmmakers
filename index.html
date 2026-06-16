@@ -157,6 +157,28 @@
   .field textarea{min-height:230px;}
   .field input:focus,.field textarea:focus{outline:2px solid var(--amber);outline-offset:-1px;border-color:var(--amber);}
   .field .subj{font-weight:600;}
+  .lbl-note{font-family:var(--sans);font-size:10px;font-weight:500;color:var(--muted-2);letter-spacing:0;text-transform:none;margin-left:6px;}
+  .filebox{display:flex;flex-direction:column;gap:6px;}
+  .fileitem{display:flex;align-items:center;gap:8px;background:var(--card);border:1px solid var(--line-strong);border-radius:9px;padding:9px 11px;font-size:13.5px;font-weight:600;color:var(--ink);}
+  .fileitem .fi-ico{font-size:13px;}
+  .fileitem .fi-note{margin-left:auto;font-family:var(--mono);font-size:10px;color:var(--muted-2);font-weight:400;letter-spacing:.03em;}
+  .copy-body-link{display:block;width:100%;background:none;border:none;color:var(--muted);font-size:12.5px;font-weight:600;padding:11px;margin-top:4px;cursor:pointer;}
+  .filehdr{font-size:13px;font-weight:700;margin:18px 0 9px;}
+  .slot{display:flex;align-items:center;gap:11px;background:var(--card);border:1px solid var(--line-strong);border-radius:11px;padding:11px 12px;margin-bottom:8px;}
+  .slot-ico{flex:0 0 auto;width:40px;height:40px;border-radius:9px;background:#eceae4;color:var(--muted);font-family:var(--mono);font-size:11px;font-weight:600;display:flex;align-items:center;justify-content:center;}
+  .slot-ico.ppt{background:#f3e2d4;color:var(--amber-deep);}
+  .slot-mid{flex:1;min-width:0;}
+  .slot-name{font-size:13.5px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+  .slot-name.has{color:var(--green);}
+  .slot-sub{font-size:11px;color:var(--muted-2);margin-top:1px;}
+  .slot-btn{flex:0 0 auto;border:1px solid var(--ink);background:var(--ink);color:#fff;font-weight:700;font-size:12.5px;padding:8px 14px;border-radius:8px;cursor:pointer;}
+  .seg{display:flex;gap:0;border:1px solid var(--line-strong);border-radius:9px;overflow:hidden;width:fit-content;}
+  .seg-btn{border:none;background:var(--card);color:var(--muted);font-family:var(--sans);font-weight:700;font-size:13px;padding:9px 22px;cursor:pointer;}
+  .seg-btn[aria-pressed="true"]{background:var(--ink);color:#fff;}
+  .fi-dl{margin-left:auto;border:1px solid var(--ink);background:var(--ink);color:#fff;font-weight:700;font-size:11.5px;padding:6px 11px;border-radius:7px;cursor:pointer;white-space:nowrap;}
+  .fi-miss{margin-left:auto;font-size:10.5px;color:var(--amber-deep);font-weight:600;}
+  .fileitem.col{flex-direction:column;align-items:stretch;gap:7px;}
+  .fileitem .fi-top{display:flex;align-items:center;gap:8px;}
 
   .need-mail{background:var(--green-soft);border:1px solid #b3d3bf;border-radius:10px;padding:11px 12px;margin-bottom:14px;font-size:12.5px;color:var(--green);line-height:1.55;}
   .need-mail b{font-weight:700;}
@@ -223,17 +245,22 @@
       <input type="email" id="mailAddr" placeholder="공고에서 복사한 메일 붙여넣기" autocomplete="off" />
     </div>
     <div class="field">
-      <label for="subj">메일 제목</label>
+      <label for="subj">메일 제목 <span class="lbl-note">공고가 원하는 형식</span></label>
       <input type="text" id="subj" class="subj" />
+    </div>
+    <div class="field">
+      <label>첨부파일명 <span class="lbl-note">이 이름으로 파일 저장해서 첨부</span></label>
+      <div class="filebox" id="fileBox"></div>
     </div>
     <div class="field">
       <label for="bodyTxt">본문</label>
       <textarea id="bodyTxt"></textarea>
     </div>
     <div class="sheet-foot">
-      <button class="btn btn-ghost" id="copyBtn">본문 복사</button>
-      <button class="btn btn-primary" id="sendBtn">메일 앱으로 열기</button>
+      <button class="btn btn-ghost" id="sendBtn">메일 앱</button>
+      <button class="btn btn-primary" id="copyAllBtn">전체 복사</button>
     </div>
+    <button class="copy-body-link" id="copyBtn">본문만 복사</button>
     <div class="copied" id="copiedMsg"></div>
   </div>
 </div>
@@ -261,6 +288,28 @@
     </div>
     <div class="field"><label for="pSpec">특기</label><input id="pSpec" /></div>
     <div class="field"><label for="pReel">연기 영상 링크</label><input id="pReel" placeholder="유튜브/구글드라이브 주소" /></div>
+
+    <div class="filehdr">프로필 파일 <span class="lbl-note">올려두면 공고가 원하는 형식·이름으로 내려줍니다</span></div>
+    <div class="slot" id="slotPdf">
+      <div class="slot-ico">PDF</div>
+      <div class="slot-mid"><div class="slot-name" id="pdfName">파일 없음</div><div class="slot-sub">PDF로 달라는 공고용</div></div>
+      <button class="slot-btn" id="pdfPick">선택</button>
+      <input type="file" id="pdfInput" accept=".pdf,application/pdf" hidden />
+    </div>
+    <div class="slot" id="slotPptx">
+      <div class="slot-ico ppt">PPT</div>
+      <div class="slot-mid"><div class="slot-name" id="pptxName">파일 없음</div><div class="slot-sub">PPT로 달라는 공고용</div></div>
+      <button class="slot-btn" id="pptxPick">선택</button>
+      <input type="file" id="pptxInput" accept=".ppt,.pptx,application/vnd.openxmlformats-officedocument.presentationml.presentation" hidden />
+    </div>
+    <div class="field" style="margin-top:12px;">
+      <label>형식 지정 없는 공고엔 기본으로</label>
+      <div class="seg" id="defFmt">
+        <button data-fmt="pdf" class="seg-btn">PDF</button>
+        <button data-fmt="pptx" class="seg-btn">PPT</button>
+      </div>
+    </div>
+
     <div class="sheet-foot">
       <button class="btn btn-primary" id="profSave">저장</button>
     </div>
@@ -283,6 +332,9 @@ const me = {
   email:"Loyalmir@naver.com",
   spec:"액션(독션), 클라이밍, 부산 사투리, 운전(1종보통·14년 무사고), 요리",
   reel:"",
+  // 프로필 파일 (세션 내 보관 / 배포 시엔 repo URL로)
+  files:{ pdf:{file:null,url:"",label:""}, pptx:{file:null,url:"",label:""} },
+  defaultFormat:"pdf",
   // 가산점 키워드 (공고 특기와 겹치면 상위 노출)
   bonus:["액션","독션","클라이밍","부산","사투리"]
 };
@@ -292,7 +344,7 @@ const NOTICES = [
   { id:1, cat:"단편영화", title:"마지막 정류장", role:"남자 주연 '도현'", ageMin:30, ageMax:38, gender:"male",
     syn:"폐역에 갇힌 마지막 손님과 역무원. 하룻밤 사이 드러나는 비밀을 그린 미스터리 단편.",
     due:"6/24 마감", specials:["액션 가능자 우대"], email:"castingstop@gmail.com",
-    subjectFmt:"[{title}] {role} 지원 - {name}", required:["프로필","연기 영상","연락처"] },
+    subjectFmt:"[{title}] {role} 지원 - {name}", required:["프로필","연기 영상","연락처"], profileFormat:"pdf" },
 
   { id:2, cat:"장편 독립영화", title:"해무 너머", role:"남자 조연 '기철' (선원)", ageMin:28, ageMax:45, gender:"male",
     syn:"부산 영도 뱃사람들의 마지막 출항. 사투리 자연스러운 분 우대하는 독립장편.",
@@ -307,12 +359,12 @@ const NOTICES = [
   { id:4, cat:"OTT 시리즈", title:"크랙", role:"남자 단역 '순찰 경찰'", ageMin:25, ageMax:35, gender:"male",
     syn:"대형 OTT 범죄 스릴러. 현장 통제 경찰 단역. 디테일한 표정 연기 가능자.",
     due:"6/30 마감", specials:[], email:null,
-    subjectFmt:"{title} {role} 지원 ({name})", required:["프로필","연락처"] },
+    subjectFmt:"{title} {role} 지원 ({name})", required:["프로필","연락처"], profileFormat:"pptx" },
 
   { id:5, cat:"단편영화", title:"등반", role:"남자 주연 '준'", ageMin:26, ageMax:36, gender:"male",
     syn:"실내 클라이밍장에서 만난 두 사람. 벽을 오르며 서로의 한계를 마주하는 성장 드라마. 클라이밍 가능자 필수.",
     due:"6/22 마감", specials:["클라이밍 가능자 필수"], email:"climb.short@daum.net",
-    subjectFmt:"<{title}> {role} - {name}", required:["프로필","연기 영상","연락처"] },
+    subjectFmt:"<{title}> {role} - {name}", required:["프로필","연기 영상","연락처"], fileName:"등반_{name}_프로필" },
 
   { id:6, cat:"연극·뮤지컬", title:"붉은 방", role:"남자 '아버지'", ageMin:38, ageMax:48, gender:"male",
     syn:"한 가족의 붕괴를 그린 2인극. 무게감 있는 중년 남성 배역.",
@@ -473,11 +525,98 @@ function buildBody(n){
   return lines.join("\n");
 }
 
+/* 첨부파일명 — 공고가 원하는 형식·이름으로 */
+function profileFormatFor(n){
+  return (n.profileFormat==="pdf"||n.profileFormat==="pptx") ? n.profileFormat : me.defaultFormat;
+}
+function profileBaseName(n){
+  const fmt = n.fileName ? n.fileName : `${me.name}_프로필`;
+  return fmt.replace("{name}",me.name).replace("{title}",n.title).replace("{role}",roleLabel(n.role).replace(/['"]/g,""));
+}
+function fileList(n){
+  const out=[];
+  if(n.required.includes("프로필")){
+    const fmt = profileFormatFor(n);
+    const ext = fmt==="pptx" ? "pptx" : "pdf";
+    const slot = me.files[fmt];
+    const have = !!(slot && (slot.file || slot.url));
+    out.push({ kind:"profile", fmt, name:`${profileBaseName(n)}.${ext}`, note:fmt.toUpperCase(), have });
+  }
+  if(n.required.includes("연기 영상")) out.push({ kind:"reel", name:`${me.name}_연기영상`, note:"본문에 링크로" });
+  if(n.required.includes("자기소개")) out.push({ kind:"intro", name:"첨부 프로필 참고", note:"본문 안내" });
+  return out;
+}
+
+/* 저장된 프로필 파일을 '원하는 이름'으로 내려받기 */
+async function downloadProfile(fmt, filename){
+  const slot = me.files[fmt];
+  if(!slot || (!slot.file && !slot.url)){
+    document.getElementById("copiedMsg").textContent = `${fmt.toUpperCase()} 프로필이 없어요 — 프로필 화면에서 올려주세요`;
+    return;
+  }
+  try{
+    let blob;
+    if(slot.file){ blob = slot.file; }
+    else{ const r = await fetch(slot.url); blob = await r.blob(); }
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url; a.download = filename;
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(()=>URL.revokeObjectURL(url), 1500);
+    document.getElementById("copiedMsg").textContent = `${filename} 내려받음 ✓ 메일에서 첨부하세요`;
+  }catch(e){
+    document.getElementById("copiedMsg").textContent = "내려받기 실패 — 파일이 같은 사이트(repo)에 있어야 이름변경이 돼요";
+  }
+}
+
+/* 받는사람+제목+첨부파일명+본문 한 덩어리 */
+function buildAllBlock(n){
+  const addr = (n.email || document.getElementById("mailAddr").value || "").trim() || "(공고에서 메일 주소 복사해 넣기)";
+  const files = fileList(n).map(f=>`  · ${f.name}`).join("\n") || "  · (첨부 없음)";
+  return [
+    `받는사람: ${addr}`,
+    `제목: ${buildSubject(n)}`,
+    `첨부파일명:`,
+    files,
+    "",
+    "────────────────",
+    "",
+    document.getElementById("bodyTxt").value
+  ].join("\n");
+}
+
 let currentNotice=null;
+function renderFileBox(n){
+  const box=document.getElementById("fileBox");
+  const files=fileList(n);
+  if(!files.length){ box.innerHTML=`<div class="fileitem"><span class="fi-ico">—</span>요구한 첨부파일 없음</div>`; return; }
+  box.innerHTML="";
+  files.forEach(f=>{
+    const el=document.createElement("div");
+    el.className="fileitem";
+    if(f.kind==="profile"){
+      el.innerHTML=`<span class="fi-ico">📎</span>${f.name}`;
+      if(f.have){
+        const b=document.createElement("button");
+        b.className="fi-dl"; b.textContent="이 이름으로 내려받기";
+        b.onclick=()=>downloadProfile(f.fmt, f.name);
+        el.appendChild(b);
+      }else{
+        const s=document.createElement("span");
+        s.className="fi-miss"; s.textContent=`${f.note} 파일 필요`;
+        el.appendChild(s);
+      }
+    }else{
+      el.innerHTML=`<span class="fi-ico">${f.kind==="reel"?"🎬":"📝"}</span>${f.name}<span class="fi-note">${f.note}</span>`;
+    }
+    box.appendChild(el);
+  });
+}
 function openMail(n){
   currentNotice=n;
   document.getElementById("subj").value=buildSubject(n);
   document.getElementById("bodyTxt").value=buildBody(n);
+  renderFileBox(n);
   const needMail=document.getElementById("needMail");
   const mailField=document.getElementById("mailField");
   const addr=document.getElementById("mailAddr");
@@ -493,6 +632,11 @@ document.getElementById("sendBtn").onclick=()=>{
   const subj=encodeURIComponent(document.getElementById("subj").value);
   const body=encodeURIComponent(document.getElementById("bodyTxt").value);
   window.location.href=`mailto:${addr}?subject=${subj}&body=${body}`;
+};
+document.getElementById("copyAllBtn").onclick=async()=>{
+  const t=buildAllBlock(currentNotice);
+  try{ await navigator.clipboard.writeText(t); document.getElementById("copiedMsg").textContent="전체 복사 완료 ✓ 네이버 메일에 붙여넣고 맞추세요"; }
+  catch{ document.getElementById("copiedMsg").textContent="복사 실패 — 본문 길게 눌러 직접 복사하세요"; }
 };
 document.getElementById("copyBtn").onclick=async()=>{
   const t=document.getElementById("bodyTxt").value;
@@ -517,10 +661,27 @@ document.getElementById("mailClose").onclick=closeSheets;
 document.getElementById("profClose").onclick=closeSheets;
 
 /* ---------------- 프로필 편집 ---------------- */
+function refreshSlots(){
+  const pdf=me.files.pdf, pptx=me.files.pptx;
+  const pn=document.getElementById("pdfName"), xn=document.getElementById("pptxName");
+  pn.textContent = pdf.label || (pdf.url?"연결된 파일":"파일 없음");
+  xn.textContent = pptx.label || (pptx.url?"연결된 파일":"파일 없음");
+  pn.className = "slot-name"+((pdf.file||pdf.url)?" has":"");
+  xn.className = "slot-name"+((pptx.file||pptx.url)?" has":"");
+  document.querySelectorAll("#defFmt .seg-btn").forEach(b=>b.setAttribute("aria-pressed", b.dataset.fmt===me.defaultFormat));
+}
 function loadProfileForm(){
   pName.value=me.name; pBorn.value=me.born; pHeight.value=me.height; pWeight.value=me.weight;
   pPhone.value=me.phone; pEmail.value=me.email; pSpec.value=me.spec; pReel.value=me.reel;
+  refreshSlots();
 }
+document.getElementById("pdfPick").onclick=()=>document.getElementById("pdfInput").click();
+document.getElementById("pptxPick").onclick=()=>document.getElementById("pptxInput").click();
+document.getElementById("pdfInput").onchange=(e)=>{ const f=e.target.files[0]; if(f){ me.files.pdf.file=f; me.files.pdf.label=f.name; refreshSlots(); } };
+document.getElementById("pptxInput").onchange=(e)=>{ const f=e.target.files[0]; if(f){ me.files.pptx.file=f; me.files.pptx.label=f.name; refreshSlots(); } };
+document.querySelectorAll("#defFmt .seg-btn").forEach(b=>{
+  b.onclick=()=>{ me.defaultFormat=b.dataset.fmt; refreshSlots(); };
+});
 document.getElementById("meChip").onclick=()=>{ loadProfileForm(); openSheet("profSheet"); };
 document.getElementById("profSave").onclick=()=>{
   me.name=pName.value.trim()||me.name; me.born=pBorn.value.trim(); me.height=pHeight.value.trim();
