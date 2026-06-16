@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<title>캐스팅 슬레이트 · 필름메이커스 모음</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --ink:#17191e;
+    --slate:#1d2127;
+    --slate-2:#262b32;
+    --paper:#f1f0ec;
+    --card:#ffffff;
+    --line:#e4e2dc;
+    --line-strong:#d4d1c8;
+    --muted:#73767d;
+    --muted-2:#9a9ca2;
+    --amber:#df8f2a;
+    --amber-deep:#b06814;
+    --amber-soft:#fbeeda;
+    --green:#3f7d5a;
+    --green-soft:#e3efe7;
+    --strike:#b6b3ab;
+    --mono:"Spline Sans Mono",ui-monospace,Menlo,monospace;
+    --sans:"Pretendard Variable",Pretendard,system-ui,sans-serif;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    font-family:var(--sans);
+    background:var(--paper);
+    color:var(--ink);
+    line-height:1.5;
+    padding-bottom:env(safe-area-inset-bottom);
+  }
+  .wrap{max-width:560px;margin:0 auto;min-height:100vh;background:var(--paper);}
+
+  /* ---- slate header ---- */
+  .slate{
+    background:var(--slate);
+    color:#fff;
+    padding:18px 18px 16px;
+    padding-top:calc(18px + env(safe-area-inset-top));
+    position:relative;
+    overflow:hidden;
+  }
+  .slate::before{
+    content:"";position:absolute;top:0;left:0;right:0;height:14px;
+    background:repeating-linear-gradient(115deg,#fff 0 18px,var(--slate) 18px 36px);
+    opacity:.92;
+  }
+  .slate-top{display:flex;align-items:flex-start;justify-content:space-between;margin-top:14px;gap:12px;}
+  .brand-eyebrow{font-family:var(--mono);font-size:10.5px;letter-spacing:.22em;text-transform:uppercase;color:var(--amber);font-weight:600;}
+  .brand-title{font-size:21px;font-weight:800;letter-spacing:-.02em;margin-top:3px;line-height:1.15;}
+  .brand-sub{font-size:12px;color:#aeb2ba;margin-top:5px;}
+  .me-chip{
+    flex-shrink:0;display:flex;flex-direction:column;align-items:flex-end;gap:3px;
+    background:var(--slate-2);border:1px solid #353b44;border-radius:11px;
+    padding:8px 11px;cursor:pointer;text-align:right;
+  }
+  .me-chip:active{background:#2f353d;}
+  .me-chip .lbl{font-family:var(--mono);font-size:9px;letter-spacing:.14em;color:var(--muted-2);text-transform:uppercase;}
+  .me-chip .nm{font-size:13px;font-weight:700;}
+  .me-chip .ed{font-size:10.5px;color:var(--amber);}
+
+  /* ---- filter bar ---- */
+  .controls{padding:14px 14px 6px;position:sticky;top:0;z-index:20;background:var(--paper);}
+  .chips{display:flex;gap:7px;overflow-x:auto;padding-bottom:3px;scrollbar-width:none;}
+  .chips::-webkit-scrollbar{display:none;}
+  .chip{
+    flex:0 0 auto;border:1px solid var(--line-strong);background:var(--card);
+    color:var(--ink);font-size:13px;font-weight:600;padding:7px 13px;border-radius:999px;
+    cursor:pointer;white-space:nowrap;transition:.12s;
+  }
+  .chip[aria-pressed="true"]{background:var(--ink);color:#fff;border-color:var(--ink);}
+  .summary{
+    display:flex;align-items:baseline;justify-content:space-between;gap:8px;
+    padding:12px 4px 4px;
+  }
+  .summary .big{font-size:14px;font-weight:700;}
+  .summary .big b{color:var(--amber-deep);}
+  .summary .sort{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.04em;}
+
+  /* ---- listing cards ---- */
+  .list{padding:6px 14px 26px;display:flex;flex-direction:column;gap:11px;}
+  .card{
+    background:var(--card);border:1px solid var(--line);border-radius:15px;
+    padding:15px 15px 14px;position:relative;overflow:hidden;
+  }
+  .card.excluded{opacity:.62;background:#f7f6f3;}
+  .card-head{display:flex;align-items:center;gap:8px;margin-bottom:9px;flex-wrap:wrap;}
+  .cat{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--muted);border:1px solid var(--line-strong);border-radius:5px;padding:2px 6px;font-weight:500;}
+  .stamp{
+    margin-left:auto;font-family:var(--mono);font-size:10.5px;font-weight:600;letter-spacing:.08em;
+    text-transform:uppercase;padding:3px 9px;border-radius:6px;border:1.5px solid;transform:rotate(-2.5deg);
+  }
+  .stamp.fit{color:var(--amber-deep);border-color:var(--amber);background:var(--amber-soft);}
+  .stamp.check{color:var(--green);border-color:#9cc4ac;background:var(--green-soft);}
+  .stamp.out{color:var(--strike);border-color:#d8d5cd;background:#f0efea;transform:rotate(-2deg);}
+  .title{font-size:17px;font-weight:700;letter-spacing:-.01em;line-height:1.32;}
+  .role{font-size:14px;font-weight:600;color:var(--ink);margin-top:3px;}
+  .role .age{color:var(--muted);font-weight:500;}
+  .syn{font-size:13px;color:var(--muted);margin-top:7px;line-height:1.55;
+    display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
+  .meta-row{display:flex;flex-wrap:wrap;gap:6px 13px;margin-top:10px;font-family:var(--mono);font-size:11px;color:var(--muted);}
+  .meta-row .due b{color:var(--amber-deep);font-weight:600;}
+  .reasons{display:flex;flex-wrap:wrap;gap:5px;margin-top:11px;}
+  .rtag{font-size:11.5px;font-weight:600;padding:3px 8px;border-radius:6px;background:var(--amber-soft);color:var(--amber-deep);}
+  .rtag.neutral{background:#eef0f2;color:var(--muted);}
+  .card-foot{display:flex;gap:8px;margin-top:13px;align-items:center;}
+  .btn{
+    border:none;font-family:var(--sans);font-weight:700;font-size:13.5px;
+    padding:11px 14px;border-radius:10px;cursor:pointer;flex:1;transition:.12s;
+  }
+  .btn-primary{background:var(--ink);color:#fff;}
+  .btn-primary:active{background:#000;}
+  .btn-ghost{background:transparent;color:var(--muted);border:1px solid var(--line-strong);flex:0 0 auto;}
+  .mail-state{font-family:var(--mono);font-size:10px;letter-spacing:.05em;color:var(--muted-2);text-transform:uppercase;}
+
+  .show-excluded{
+    margin:4px 14px 30px;text-align:center;font-size:13px;color:var(--muted);
+    background:none;border:1px dashed var(--line-strong);border-radius:10px;padding:11px;width:calc(100% - 28px);cursor:pointer;font-weight:600;
+  }
+
+  /* ---- demo banner ---- */
+  .demo{margin:0 14px;background:var(--amber-soft);border:1px solid #eccf9d;border-radius:11px;
+    padding:10px 12px;font-size:12px;color:var(--amber-deep);line-height:1.5;}
+  .demo b{font-weight:700;}
+
+  /* ---- sheet / modal ---- */
+  .scrim{position:fixed;inset:0;background:rgba(20,20,22,.5);z-index:90;display:none;}
+  .scrim.open{display:block;}
+  .sheet{
+    position:fixed;left:0;right:0;bottom:0;z-index:100;background:var(--paper);
+    border-radius:18px 18px 0 0;max-width:560px;margin:0 auto;max-height:92vh;overflow-y:auto;
+    transform:translateY(100%);transition:transform .26s cubic-bezier(.32,.72,0,1);
+    padding-bottom:calc(18px + env(safe-area-inset-bottom));
+  }
+  .sheet.open{transform:translateY(0);}
+  .sheet-grip{width:38px;height:4px;background:var(--line-strong);border-radius:99px;margin:9px auto 4px;}
+  .sheet-head{display:flex;align-items:center;justify-content:space-between;padding:6px 18px 12px;border-bottom:1px solid var(--line);}
+  .sheet-head h3{font-size:16px;font-weight:800;}
+  .x{background:none;border:none;font-size:22px;color:var(--muted);cursor:pointer;line-height:1;padding:4px;}
+  .sheet-body{padding:16px 18px;}
+
+  .field{margin-bottom:14px;}
+  .field label{display:block;font-family:var(--mono);font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:6px;font-weight:600;}
+  .field input,.field textarea{
+    width:100%;border:1px solid var(--line-strong);border-radius:10px;background:var(--card);
+    font-family:var(--sans);font-size:14px;color:var(--ink);padding:11px 12px;resize:vertical;line-height:1.6;
+  }
+  .field textarea{min-height:230px;}
+  .field input:focus,.field textarea:focus{outline:2px solid var(--amber);outline-offset:-1px;border-color:var(--amber);}
+  .field .subj{font-weight:600;}
+
+  .need-mail{background:var(--green-soft);border:1px solid #b3d3bf;border-radius:10px;padding:11px 12px;margin-bottom:14px;font-size:12.5px;color:var(--green);line-height:1.55;}
+  .need-mail b{font-weight:700;}
+
+  .sheet-foot{display:flex;gap:9px;padding:4px 18px 0;}
+  .copied{font-family:var(--mono);font-size:11px;color:var(--green);text-align:center;height:14px;margin-top:9px;letter-spacing:.05em;}
+
+  /* profile editor reuses field styles */
+  .prow{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
+  @media (max-width:380px){.prow{grid-template-columns:1fr;}}
+  .hint{font-size:11.5px;color:var(--muted);line-height:1.5;margin-top:-6px;margin-bottom:14px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="slate">
+    <div class="slate-top">
+      <div>
+        <div class="brand-eyebrow">Filmmakers · 배우모집</div>
+        <div class="brand-title">캐스팅 슬레이트</div>
+        <div class="brand-sub">올라온 공고에서 나한테 맞는 것만 골라줍니다</div>
+      </div>
+      <div class="me-chip" id="meChip">
+        <span class="lbl">내 슬레이트</span>
+        <span class="nm" id="meName">김건하</span>
+        <span class="ed">프로필 수정 ›</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="controls">
+    <div class="chips" id="catChips"></div>
+    <div class="summary">
+      <div class="big" id="summaryText"></div>
+      <div class="sort">마감임박 순</div>
+    </div>
+  </div>
+
+  <div class="demo">
+    <b>데모 화면이에요.</b> 지금 보이는 공고는 동작 확인용 샘플입니다. 화면이 맘에 들면 실제 필름메이커스 수집을 연결합니다.
+  </div>
+
+  <div class="list" id="list"></div>
+  <button class="show-excluded" id="showExcluded" hidden></button>
+
+</div>
+
+<!-- mail sheet -->
+<div class="scrim" id="scrim"></div>
+<div class="sheet" id="mailSheet" role="dialog" aria-modal="true" aria-label="메일 초안">
+  <div class="sheet-grip"></div>
+  <div class="sheet-head">
+    <h3>지원 메일 초안</h3>
+    <button class="x" id="mailClose" aria-label="닫기">×</button>
+  </div>
+  <div class="sheet-body">
+    <div class="need-mail" id="needMail" hidden>
+      <b>이 공고는 메일 주소가 가려져 있어요.</b><br/>
+      공고 페이지(로그인 상태)에서 지원 메일 주소를 복사해 붙여넣으면, 아래 초안이 그 주소로 연결됩니다.
+    </div>
+    <div class="field" id="mailField" hidden>
+      <label for="mailAddr">지원 메일 주소</label>
+      <input type="email" id="mailAddr" placeholder="공고에서 복사한 메일 붙여넣기" autocomplete="off" />
+    </div>
+    <div class="field">
+      <label for="subj">메일 제목</label>
+      <input type="text" id="subj" class="subj" />
+    </div>
+    <div class="field">
+      <label for="bodyTxt">본문</label>
+      <textarea id="bodyTxt"></textarea>
+    </div>
+    <div class="sheet-foot">
+      <button class="btn btn-ghost" id="copyBtn">본문 복사</button>
+      <button class="btn btn-primary" id="sendBtn">메일 앱으로 열기</button>
+    </div>
+    <div class="copied" id="copiedMsg"></div>
+  </div>
+</div>
+
+<!-- profile sheet -->
+<div class="sheet" id="profSheet" role="dialog" aria-modal="true" aria-label="내 프로필">
+  <div class="sheet-grip"></div>
+  <div class="sheet-head">
+    <h3>내 슬레이트 (프로필)</h3>
+    <button class="x" id="profClose" aria-label="닫기">×</button>
+  </div>
+  <div class="sheet-body">
+    <p class="hint">메일 초안에 자동으로 들어가는 정보예요. 한 번만 정확히 넣어두면 됩니다.</p>
+    <div class="prow">
+      <div class="field"><label for="pName">이름</label><input id="pName" /></div>
+      <div class="field"><label for="pBorn">출생</label><input id="pBorn" /></div>
+    </div>
+    <div class="prow">
+      <div class="field"><label for="pHeight">키 (cm)</label><input id="pHeight" /></div>
+      <div class="field"><label for="pWeight">몸무게 (kg)</label><input id="pWeight" /></div>
+    </div>
+    <div class="prow">
+      <div class="field"><label for="pPhone">전화번호</label><input id="pPhone" /></div>
+      <div class="field"><label for="pEmail">내 이메일</label><input id="pEmail" /></div>
+    </div>
+    <div class="field"><label for="pSpec">특기</label><input id="pSpec" /></div>
+    <div class="field"><label for="pReel">연기 영상 링크</label><input id="pReel" placeholder="유튜브/구글드라이브 주소" /></div>
+    <div class="sheet-foot">
+      <button class="btn btn-primary" id="profSave">저장</button>
+    </div>
+    <div class="copied" id="profSaved"></div>
+  </div>
+</div>
+
+<script>
+/* ---------------- 내 프로필 (PDF 기준 초기값) ---------------- */
+const me = {
+  name:"김건하",
+  born:"90년생",
+  age:36,
+  acceptMin:20,   // 동안! 20대 청년부터
+  acceptMax:42,   // ~40대 초반
+  gender:"male",
+  height:"174",
+  weight:"65",
+  phone:"010-7130-2859",
+  email:"Loyalmir@naver.com",
+  spec:"액션(독션), 클라이밍, 부산 사투리, 운전(1종보통·14년 무사고), 요리",
+  reel:"",
+  // 가산점 키워드 (공고 특기와 겹치면 상위 노출)
+  bonus:["액션","독션","클라이밍","부산","사투리"]
+};
+
+/* ---------------- 샘플 공고 ---------------- */
+const NOTICES = [
+  { id:1, cat:"단편영화", title:"마지막 정류장", role:"남자 주연 '도현'", ageMin:30, ageMax:38, gender:"male",
+    syn:"폐역에 갇힌 마지막 손님과 역무원. 하룻밤 사이 드러나는 비밀을 그린 미스터리 단편.",
+    due:"6/24 마감", specials:["액션 가능자 우대"], email:"castingstop@gmail.com",
+    subjectFmt:"[{title}] {role} 지원 - {name}", required:["프로필","연기 영상","연락처"] },
+
+  { id:2, cat:"장편 독립영화", title:"해무 너머", role:"남자 조연 '기철' (선원)", ageMin:28, ageMax:45, gender:"male",
+    syn:"부산 영도 뱃사람들의 마지막 출항. 사투리 자연스러운 분 우대하는 독립장편.",
+    due:"6/27 마감", specials:["부산 사투리 가능자 우대"], email:null,
+    subjectFmt:"<{title}> {role} 지원합니다 / {name}", required:["프로필","자기소개","연락처"] },
+
+  { id:3, cat:"단편영화", title:"안전구역", role:"여주인공", ageMin:24, ageMax:34, gender:"female",
+    syn:"정체불명의 재난 '극야현상' 속 집에 고립된 여자. 믿어온 세계의 진실과 마주하는 재난 서스펜스.",
+    due:"6/20 마감", specials:[], email:"jylim7274@naver.com",
+    subjectFmt:"<{title}>_{role}_{name}", required:["프로필","연기 영상","연락처"] },
+
+  { id:4, cat:"OTT 시리즈", title:"크랙", role:"남자 단역 '순찰 경찰'", ageMin:25, ageMax:35, gender:"male",
+    syn:"대형 OTT 범죄 스릴러. 현장 통제 경찰 단역. 디테일한 표정 연기 가능자.",
+    due:"6/30 마감", specials:[], email:null,
+    subjectFmt:"{title} {role} 지원 ({name})", required:["프로필","연락처"] },
+
+  { id:5, cat:"단편영화", title:"등반", role:"남자 주연 '준'", ageMin:26, ageMax:36, gender:"male",
+    syn:"실내 클라이밍장에서 만난 두 사람. 벽을 오르며 서로의 한계를 마주하는 성장 드라마. 클라이밍 가능자 필수.",
+    due:"6/22 마감", specials:["클라이밍 가능자 필수"], email:"climb.short@daum.net",
+    subjectFmt:"<{title}> {role} - {name}", required:["프로필","연기 영상","연락처"] },
+
+  { id:6, cat:"연극·뮤지컬", title:"붉은 방", role:"남자 '아버지'", ageMin:38, ageMax:48, gender:"male",
+    syn:"한 가족의 붕괴를 그린 2인극. 무게감 있는 중년 남성 배역.",
+    due:"7/3 마감", specials:[], email:"redroom.stage@naver.com",
+    subjectFmt:"<{title}>_{role}_{name}", required:["프로필","연락처"] },
+
+  { id:7, cat:"웹드라마", title:"오늘부터 출근", role:"남자 주조연 '신입사원'", ageMin:24, ageMax:32, gender:"male",
+    syn:"좌충우돌 신입사원의 첫 직장 적응기. 밝고 코믹한 톤의 웹드라마 시즌1.",
+    due:"6/26 마감", specials:[], email:"work.web@gmail.com",
+    subjectFmt:"[{title}] {role} {name}", required:["프로필","연기 영상","연락처"] },
+
+  { id:8, cat:"장편 상업영화", title:"대교", role:"남아 아역 '준호' (10~12세)", ageMin:10, ageMax:12, gender:"male", child:true,
+    syn:"1990년대 다리 붕괴 사고를 배경으로 한 휴먼 드라마. 주인공의 어린 시절 役.",
+    due:"7/1 마감", specials:[], email:"bridge.film@gmail.com",
+    subjectFmt:"<{title}>_{role}_{name}", required:["프로필","연락처"] },
+
+  { id:9, cat:"단편영화", title:"고요", role:"남자 주연 '가장' (55~65세)", ageMin:55, ageMax:65, gender:"male",
+    syn:"은퇴 후 홀로 남은 노년 가장의 하루를 담담히 따라가는 단편.",
+    due:"6/29 마감", specials:[], email:"goyo.short@naver.com",
+    subjectFmt:"<{title}>_{role}_{name}", required:["프로필","연락처"] },
+];
+
+/* ---------------- 적합도 계산 ---------------- */
+function evaluate(n){
+  const reasons=[]; let status="fit";
+  if(n.child){ return {status:"out", reasons:["아역 배역"]}; }
+  if(n.gender==="female"){ return {status:"out", reasons:["여성 배역"]}; }
+  // 나이 겹침 여부
+  const overlap = n.ageMax>=me.acceptMin && n.ageMin<=me.acceptMax;
+  if(!overlap){
+    return {status:"out", reasons:[`배역 나이 ${n.ageMin}~${n.ageMax}세 · 범위 밖`]};
+  }
+  // 특기 가산점
+  let bonusHit=false;
+  (n.specials||[]).forEach(s=>{
+    if(me.bonus.some(b=>s.includes(b))){ reasons.push("내 특기와 매칭: "+s); bonusHit=true; }
+  });
+  // 나이 매칭 표시
+  reasons.push(`배역 ${n.ageMin}~${n.ageMax}세 · 가능`);
+  // 경계선(내 실제 나이에서 약간 벗어나지만 동안 커버) → 확인필요
+  const tightAge = n.ageMin>me.age+2 || n.ageMax<me.age-6;
+  if(tightAge && !bonusHit){ status="check"; reasons.unshift("나이대 경계 — 동안 어필 필요"); }
+  return {status, reasons, bonusHit};
+}
+
+/* 정렬 우선순위: fit(특기매칭) > fit > check > out, 그 안에서 마감 빠른 순 */
+function dueRank(s){ const m=s.match(/(\d+)\/(\d+)/); return m? (+m[1])*100+(+m[2]) : 9999; }
+
+let activeCat="전체";
+const CATS=["전체","장편 상업영화","장편 독립영화","단편영화","OTT 시리즈","웹드라마","연극·뮤지컬"];
+let showOut=false;
+
+/* ---------------- 렌더 ---------------- */
+function render(){
+  const chipBox=document.getElementById("catChips");
+  chipBox.innerHTML="";
+  CATS.forEach(c=>{
+    const b=document.createElement("button");
+    b.className="chip"; b.textContent=c; b.setAttribute("aria-pressed", c===activeCat);
+    b.onclick=()=>{activeCat=c; render();};
+    chipBox.appendChild(b);
+  });
+
+  let items = NOTICES
+    .filter(n=> activeCat==="전체" || n.cat===activeCat)
+    .map(n=>({n, ev:evaluate(n)}));
+
+  const fitCount = items.filter(i=>i.ev.status!=="out").length;
+  const outItems = items.filter(i=>i.ev.status==="out");
+  let shown = items.filter(i=>i.ev.status!=="out");
+
+  const rankStatus={fit:0,check:1};
+  shown.sort((a,b)=>{
+    const sa=(rankStatus[a.ev.status]??2)-(a.ev.bonusHit?0.5:0);
+    const sb=(rankStatus[b.ev.status]??2)-(b.ev.bonusHit?0.5:0);
+    if(sa!==sb) return sa-sb;
+    return dueRank(a.n.due)-dueRank(b.n.due);
+  });
+  if(showOut){ outItems.sort((a,b)=>dueRank(a.n.due)-dueRank(b.n.due)); shown=shown.concat(outItems); }
+
+  document.getElementById("summaryText").innerHTML =
+    `${items.length}건 중 <b>나랑 맞는 ${fitCount}건</b>`;
+
+  const list=document.getElementById("list");
+  list.innerHTML="";
+  shown.forEach(({n,ev})=>list.appendChild(cardEl(n,ev)));
+
+  const btn=document.getElementById("showExcluded");
+  if(outItems.length>0){
+    btn.hidden=false;
+    btn.textContent = showOut ? "제외된 공고 숨기기" : `안 맞아서 제외된 ${outItems.length}건 보기`;
+    btn.onclick=()=>{showOut=!showOut; render();};
+  } else { btn.hidden=true; }
+}
+
+function cardEl(n,ev){
+  const c=document.createElement("div");
+  c.className="card"+(ev.status==="out"?" excluded":"");
+  const stampTxt = ev.status==="fit"?"적합":ev.status==="check"?"확인필요":"제외";
+  const stampCls = ev.status==="fit"?"fit":ev.status==="check"?"check":"out";
+  const mailState = n.email ? "메일 자동" : "메일 직접입력";
+
+  c.innerHTML=`
+    <div class="card-head">
+      <span class="cat">${n.cat}</span>
+      <span class="stamp ${stampCls}">${stampTxt}</span>
+    </div>
+    <div class="title">${n.title}</div>
+    <div class="role">${n.role}</div>
+    <div class="syn">${n.syn}</div>
+    <div class="meta-row">
+      <span class="due"><b>${n.due}</b></span>
+      <span>${n.email ? "✉ 메일 공개" : "🔒 메일 가려짐"}</span>
+    </div>
+    <div class="reasons">
+      ${(ev.reasons||[]).map(r=>`<span class="rtag ${ev.status==='out'?'neutral':(r.includes('매칭')?'':'neutral')}">${r}</span>`).join("")}
+    </div>
+  `;
+  if(ev.status!=="out"){
+    const foot=document.createElement("div");
+    foot.className="card-foot";
+    const open=document.createElement("button");
+    open.className="btn btn-primary"; open.textContent="메일 초안 쓰기";
+    open.onclick=()=>openMail(n);
+    const st=document.createElement("span");
+    st.className="mail-state"; st.textContent=mailState;
+    foot.appendChild(open); foot.appendChild(st);
+    c.appendChild(foot);
+  }
+  return c;
+}
+
+/* ---------------- 메일 초안 ---------------- */
+function roleLabel(role){ return role.replace(/\s*\(.*?\)\s*/g,"").trim(); }
+
+function buildSubject(n){
+  return n.subjectFmt
+    .replace("{title}",n.title)
+    .replace("{role}",roleLabel(n.role))
+    .replace("{name}",me.name);
+}
+function buildBody(n){
+  const lines=[];
+  lines.push(`안녕하세요. ${n.cat} <${n.title}> 캐스팅 공고 보고 ${roleLabel(n.role)} 役에 지원합니다.`);
+  lines.push("");
+  lines.push(`공고에서 요청하신 ${n.required.join(", ")} 함께 보내드립니다.`);
+  lines.push("");
+  lines.push(`- 이름: ${me.name} (${me.born})`);
+  lines.push(`- 신체: ${me.height}cm / ${me.weight}kg`);
+  lines.push(`- 특기: ${me.spec}`);
+  if(n.required.includes("연기 영상")) lines.push(`- 연기 영상: ${me.reel||"(영상 링크 입력 필요)"}`);
+  if(n.required.includes("자기소개")) lines.push(`- 자기소개: 첨부 프로필 참고`);
+  lines.push(`- 출연작: 첨부 프로필 참고 (드라마·영화·단편 다수)`);
+  lines.push(`- 연락처: ${me.phone} / ${me.email}`);
+  lines.push("");
+  lines.push("좋은 작품에 함께할 수 있다면 감사하겠습니다.");
+  lines.push(`${me.name} 드림`);
+  return lines.join("\n");
+}
+
+let currentNotice=null;
+function openMail(n){
+  currentNotice=n;
+  document.getElementById("subj").value=buildSubject(n);
+  document.getElementById("bodyTxt").value=buildBody(n);
+  const needMail=document.getElementById("needMail");
+  const mailField=document.getElementById("mailField");
+  const addr=document.getElementById("mailAddr");
+  if(n.email){ needMail.hidden=true; mailField.hidden=true; addr.value=n.email; }
+  else{ needMail.hidden=false; mailField.hidden=false; addr.value=""; }
+  document.getElementById("copiedMsg").textContent="";
+  openSheet("mailSheet");
+}
+
+document.getElementById("sendBtn").onclick=()=>{
+  const addr=(currentNotice.email||document.getElementById("mailAddr").value||"").trim();
+  if(!addr){ document.getElementById("mailAddr").focus(); document.getElementById("copiedMsg").textContent="메일 주소를 먼저 넣어주세요"; return; }
+  const subj=encodeURIComponent(document.getElementById("subj").value);
+  const body=encodeURIComponent(document.getElementById("bodyTxt").value);
+  window.location.href=`mailto:${addr}?subject=${subj}&body=${body}`;
+};
+document.getElementById("copyBtn").onclick=async()=>{
+  const t=document.getElementById("bodyTxt").value;
+  try{ await navigator.clipboard.writeText(t); document.getElementById("copiedMsg").textContent="본문이 복사됐어요 ✓"; }
+  catch{ document.getElementById("copiedMsg").textContent="복사 실패 — 길게 눌러 직접 복사하세요"; }
+};
+
+/* ---------------- 시트 제어 ---------------- */
+function openSheet(id){
+  document.getElementById("scrim").classList.add("open");
+  document.getElementById(id).classList.add("open");
+  document.body.style.overflow="hidden";
+}
+function closeSheets(){
+  document.getElementById("scrim").classList.remove("open");
+  document.getElementById("mailSheet").classList.remove("open");
+  document.getElementById("profSheet").classList.remove("open");
+  document.body.style.overflow="";
+}
+document.getElementById("scrim").onclick=closeSheets;
+document.getElementById("mailClose").onclick=closeSheets;
+document.getElementById("profClose").onclick=closeSheets;
+
+/* ---------------- 프로필 편집 ---------------- */
+function loadProfileForm(){
+  pName.value=me.name; pBorn.value=me.born; pHeight.value=me.height; pWeight.value=me.weight;
+  pPhone.value=me.phone; pEmail.value=me.email; pSpec.value=me.spec; pReel.value=me.reel;
+}
+document.getElementById("meChip").onclick=()=>{ loadProfileForm(); openSheet("profSheet"); };
+document.getElementById("profSave").onclick=()=>{
+  me.name=pName.value.trim()||me.name; me.born=pBorn.value.trim(); me.height=pHeight.value.trim();
+  me.weight=pWeight.value.trim(); me.phone=pPhone.value.trim(); me.email=pEmail.value.trim();
+  me.spec=pSpec.value.trim(); me.reel=pReel.value.trim();
+  document.getElementById("meName").textContent=me.name;
+  document.getElementById("profSaved").textContent="저장됐어요 ✓";
+  setTimeout(()=>{closeSheets();},650);
+};
+
+render();
+</script>
+</body>
+</html>
