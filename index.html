@@ -120,6 +120,8 @@
   .btn-primary{background:var(--ink);color:#fff;}
   .btn-primary:active{background:#000;}
   .btn-ghost{background:transparent;color:var(--muted);border:1px solid var(--line-strong);flex:0 0 auto;}
+  .src-link{display:flex;align-items:center;justify-content:center;text-decoration:none;flex:0 0 auto;}
+  .src-link.wide{flex:1;}
   .mail-state{font-family:var(--mono);font-size:10px;letter-spacing:.05em;color:var(--muted-2);text-transform:uppercase;}
 
   .show-excluded{
@@ -182,6 +184,7 @@
 
   .need-mail{background:var(--green-soft);border:1px solid #b3d3bf;border-radius:10px;padding:11px 12px;margin-bottom:14px;font-size:12.5px;color:var(--green);line-height:1.55;}
   .need-mail b{font-weight:700;}
+  .need-src{display:inline-block;margin-top:8px;font-weight:700;color:var(--green);text-decoration:none;border:1px solid #b3d3bf;border-radius:8px;padding:7px 12px;font-size:12.5px;}
 
   .sheet-foot{display:flex;gap:9px;padding:4px 18px 0;}
   .copied{font-family:var(--mono);font-size:11px;color:var(--green);text-align:center;height:14px;margin-top:9px;letter-spacing:.05em;}
@@ -238,7 +241,8 @@
   <div class="sheet-body">
     <div class="need-mail" id="needMail" hidden>
       <b>이 공고는 메일 주소가 가려져 있어요.</b><br/>
-      공고 페이지(로그인 상태)에서 지원 메일 주소를 복사해 붙여넣으면, 아래 초안이 그 주소로 연결됩니다.
+      아래 <b>공고 원본</b>에서 지원 메일 주소를 복사해 붙여넣으면 전체 복사에 반영됩니다.
+      <a class="need-src" id="needSrc" href="#" target="_blank" rel="noopener">공고 원본 열기 ↗</a>
     </div>
     <div class="field" id="mailField" hidden>
       <label for="mailAddr">지원 메일 주소</label>
@@ -344,46 +348,55 @@ const NOTICES = [
   { id:1, cat:"단편영화", title:"마지막 정류장", role:"남자 주연 '도현'", ageMin:30, ageMax:38, gender:"male",
     syn:"폐역에 갇힌 마지막 손님과 역무원. 하룻밤 사이 드러나는 비밀을 그린 미스터리 단편.",
     due:"6/24 마감", specials:["액션 가능자 우대"], email:"castingstop@gmail.com",
+    url:"https://www.filmmakers.co.kr/actorCasting/0000001",
     subjectFmt:"[{title}] {role} 지원 - {name}", required:["프로필","연기 영상","연락처"], profileFormat:"pdf" },
 
   { id:2, cat:"장편 독립영화", title:"해무 너머", role:"남자 조연 '기철' (선원)", ageMin:28, ageMax:45, gender:"male",
     syn:"부산 영도 뱃사람들의 마지막 출항. 사투리 자연스러운 분 우대하는 독립장편.",
     due:"6/27 마감", specials:["부산 사투리 가능자 우대"], email:null,
+    url:"https://www.filmmakers.co.kr/actorCasting/0000002",
     subjectFmt:"<{title}> {role} 지원합니다 / {name}", required:["프로필","자기소개","연락처"] },
 
   { id:3, cat:"단편영화", title:"안전구역", role:"여주인공", ageMin:24, ageMax:34, gender:"female",
     syn:"정체불명의 재난 '극야현상' 속 집에 고립된 여자. 믿어온 세계의 진실과 마주하는 재난 서스펜스.",
     due:"6/20 마감", specials:[], email:"jylim7274@naver.com",
+    url:"https://www.filmmakers.co.kr/actorCasting/0000003",
     subjectFmt:"<{title}>_{role}_{name}", required:["프로필","연기 영상","연락처"] },
 
   { id:4, cat:"OTT 시리즈", title:"크랙", role:"남자 단역 '순찰 경찰'", ageMin:25, ageMax:35, gender:"male",
     syn:"대형 OTT 범죄 스릴러. 현장 통제 경찰 단역. 디테일한 표정 연기 가능자.",
     due:"6/30 마감", specials:[], email:null,
+    url:"https://www.filmmakers.co.kr/actorCasting/0000004",
     subjectFmt:"{title} {role} 지원 ({name})", required:["프로필","연락처"], profileFormat:"pptx" },
 
   { id:5, cat:"단편영화", title:"등반", role:"남자 주연 '준'", ageMin:26, ageMax:36, gender:"male",
     syn:"실내 클라이밍장에서 만난 두 사람. 벽을 오르며 서로의 한계를 마주하는 성장 드라마. 클라이밍 가능자 필수.",
     due:"6/22 마감", specials:["클라이밍 가능자 필수"], email:"climb.short@daum.net",
+    url:"https://www.filmmakers.co.kr/actorCasting/0000005",
     subjectFmt:"<{title}> {role} - {name}", required:["프로필","연기 영상","연락처"], fileName:"등반_{name}_프로필" },
 
   { id:6, cat:"연극·뮤지컬", title:"붉은 방", role:"남자 '아버지'", ageMin:38, ageMax:48, gender:"male",
     syn:"한 가족의 붕괴를 그린 2인극. 무게감 있는 중년 남성 배역.",
     due:"7/3 마감", specials:[], email:"redroom.stage@naver.com",
+    url:"https://www.filmmakers.co.kr/actorCasting/0000006",
     subjectFmt:"<{title}>_{role}_{name}", required:["프로필","연락처"] },
 
   { id:7, cat:"웹드라마", title:"오늘부터 출근", role:"남자 주조연 '신입사원'", ageMin:24, ageMax:32, gender:"male",
     syn:"좌충우돌 신입사원의 첫 직장 적응기. 밝고 코믹한 톤의 웹드라마 시즌1.",
     due:"6/26 마감", specials:[], email:"work.web@gmail.com",
+    url:"https://www.filmmakers.co.kr/actorCasting/0000007",
     subjectFmt:"[{title}] {role} {name}", required:["프로필","연기 영상","연락처"] },
 
   { id:8, cat:"장편 상업영화", title:"대교", role:"남아 아역 '준호' (10~12세)", ageMin:10, ageMax:12, gender:"male", child:true,
     syn:"1990년대 다리 붕괴 사고를 배경으로 한 휴먼 드라마. 주인공의 어린 시절 役.",
     due:"7/1 마감", specials:[], email:"bridge.film@gmail.com",
+    url:"https://www.filmmakers.co.kr/actorCasting/0000008",
     subjectFmt:"<{title}>_{role}_{name}", required:["프로필","연락처"] },
 
   { id:9, cat:"단편영화", title:"고요", role:"남자 주연 '가장' (55~65세)", ageMin:55, ageMax:65, gender:"male",
     syn:"은퇴 후 홀로 남은 노년 가장의 하루를 담담히 따라가는 단편.",
     due:"6/29 마감", specials:[], email:"goyo.short@naver.com",
+    url:"https://www.filmmakers.co.kr/actorCasting/0000009",
     subjectFmt:"<{title}>_{role}_{name}", required:["프로필","연락처"] },
 ];
 
@@ -489,9 +502,21 @@ function cardEl(n,ev){
     const open=document.createElement("button");
     open.className="btn btn-primary"; open.textContent="메일 초안 쓰기";
     open.onclick=()=>openMail(n);
-    const st=document.createElement("span");
-    st.className="mail-state"; st.textContent=mailState;
-    foot.appendChild(open); foot.appendChild(st);
+    foot.appendChild(open);
+    if(n.url){
+      const src=document.createElement("a");
+      src.className="btn btn-ghost src-link"; src.textContent="공고 원본 ↗";
+      src.href=n.url; src.target="_blank"; src.rel="noopener";
+      foot.appendChild(src);
+    }
+    c.appendChild(foot);
+  } else if(n.url){
+    const foot=document.createElement("div");
+    foot.className="card-foot";
+    const src=document.createElement("a");
+    src.className="btn btn-ghost src-link wide"; src.textContent="공고 원본 ↗";
+    src.href=n.url; src.target="_blank"; src.rel="noopener";
+    foot.appendChild(src);
     c.appendChild(foot);
   }
   return c;
@@ -622,6 +647,9 @@ function openMail(n){
   const addr=document.getElementById("mailAddr");
   if(n.email){ needMail.hidden=true; mailField.hidden=true; addr.value=n.email; }
   else{ needMail.hidden=false; mailField.hidden=false; addr.value=""; }
+  const needSrc=document.getElementById("needSrc");
+  if(n.url){ needSrc.href=n.url; needSrc.style.display="inline-block"; }
+  else{ needSrc.style.display="none"; }
   document.getElementById("copiedMsg").textContent="";
   openSheet("mailSheet");
 }
