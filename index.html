@@ -98,6 +98,9 @@
   .src-badge{font-size:11px;font-weight:700;border-radius:6px;padding:2px 8px;letter-spacing:.01em;}
   .src-badge.em{background:#e7eef0;color:#2c5d6b;}
   .src-badge.pf{background:var(--amber-soft);color:var(--amber-deep);}
+  .src-badge.link{background:#ece9f3;color:#5b4b8a;}
+  .stamp.linkst{color:#5b4b8a;border-color:#c5bce0;background:#ece9f3;}
+  .link-card{border-style:dashed;background:#faf9f6;}
   .stamp{
     margin-left:auto;font-family:var(--mono);font-size:10.5px;font-weight:600;letter-spacing:.08em;
     text-transform:uppercase;padding:3px 9px;border-radius:6px;border:1.5px solid;transform:rotate(-2.5deg);
@@ -346,61 +349,12 @@ const me = {
   bonus:["액션","독션","클라이밍","부산","사투리"]
 };
 
-/* ---------------- 필름메이커스 샘플(이메일형) ---------------- */
-const SAMPLE_NOTICES = [
-  { id:1, cat:"단편영화", title:"마지막 정류장", role:"남자 주연 '도현'", ageMin:30, ageMax:38, gender:"male",
-    syn:"폐역에 갇힌 마지막 손님과 역무원. 하룻밤 사이 드러나는 비밀을 그린 미스터리 단편.",
-    due:"6/24 마감", specials:["액션 가능자 우대"], email:"castingstop@gmail.com",
-    url:"https://www.filmmakers.co.kr/actorCasting/0000001",
-    subjectFmt:"[{title}] {role} 지원 - {name}", required:["프로필","연기 영상","연락처"], profileFormat:"pdf" },
-
-  { id:2, cat:"장편 독립영화", title:"해무 너머", role:"남자 조연 '기철' (선원)", ageMin:28, ageMax:45, gender:"male",
-    syn:"부산 영도 뱃사람들의 마지막 출항. 사투리 자연스러운 분 우대하는 독립장편.",
-    due:"6/27 마감", specials:["부산 사투리 가능자 우대"], email:null,
-    url:"https://www.filmmakers.co.kr/actorCasting/0000002",
-    subjectFmt:"<{title}> {role} 지원합니다 / {name}", required:["프로필","자기소개","연락처"] },
-
-  { id:3, cat:"단편영화", title:"안전구역", role:"여주인공", ageMin:24, ageMax:34, gender:"female",
-    syn:"정체불명의 재난 '극야현상' 속 집에 고립된 여자. 믿어온 세계의 진실과 마주하는 재난 서스펜스.",
-    due:"6/20 마감", specials:[], email:"jylim7274@naver.com",
-    url:"https://www.filmmakers.co.kr/actorCasting/0000003",
-    subjectFmt:"<{title}>_{role}_{name}", required:["프로필","연기 영상","연락처"] },
-
-  { id:4, cat:"OTT 시리즈", title:"크랙", role:"남자 단역 '순찰 경찰'", ageMin:25, ageMax:35, gender:"male",
-    syn:"대형 OTT 범죄 스릴러. 현장 통제 경찰 단역. 디테일한 표정 연기 가능자.",
-    due:"6/30 마감", specials:[], email:null,
-    url:"https://www.filmmakers.co.kr/actorCasting/0000004",
-    subjectFmt:"{title} {role} 지원 ({name})", required:["프로필","연락처"], profileFormat:"pptx" },
-
-  { id:5, cat:"단편영화", title:"등반", role:"남자 주연 '준'", ageMin:26, ageMax:36, gender:"male",
-    syn:"실내 클라이밍장에서 만난 두 사람. 벽을 오르며 서로의 한계를 마주하는 성장 드라마. 클라이밍 가능자 필수.",
-    due:"6/22 마감", specials:["클라이밍 가능자 필수"], email:"climb.short@daum.net",
-    url:"https://www.filmmakers.co.kr/actorCasting/0000005",
-    subjectFmt:"<{title}> {role} - {name}", required:["프로필","연기 영상","연락처"], fileName:"등반_{name}_프로필" },
-
-  { id:6, cat:"연극·뮤지컬", title:"붉은 방", role:"남자 '아버지'", ageMin:38, ageMax:48, gender:"male",
-    syn:"한 가족의 붕괴를 그린 2인극. 무게감 있는 중년 남성 배역.",
-    due:"7/3 마감", specials:[], email:"redroom.stage@naver.com",
-    url:"https://www.filmmakers.co.kr/actorCasting/0000006",
-    subjectFmt:"<{title}>_{role}_{name}", required:["프로필","연락처"] },
-
-  { id:7, cat:"웹드라마", title:"오늘부터 출근", role:"남자 주조연 '신입사원'", ageMin:24, ageMax:32, gender:"male",
-    syn:"좌충우돌 신입사원의 첫 직장 적응기. 밝고 코믹한 톤의 웹드라마 시즌1.",
-    due:"6/26 마감", specials:[], email:"work.web@gmail.com",
-    url:"https://www.filmmakers.co.kr/actorCasting/0000007",
-    subjectFmt:"[{title}] {role} {name}", required:["프로필","연기 영상","연락처"] },
-
-  { id:8, cat:"장편 상업영화", title:"대교", role:"남아 아역 '준호' (10~12세)", ageMin:10, ageMax:12, gender:"male", child:true,
-    syn:"1990년대 다리 붕괴 사고를 배경으로 한 휴먼 드라마. 주인공의 어린 시절 役.",
-    due:"7/1 마감", specials:[], email:"bridge.film@gmail.com",
-    url:"https://www.filmmakers.co.kr/actorCasting/0000008",
-    subjectFmt:"<{title}>_{role}_{name}", required:["프로필","연락처"] },
-
-  { id:9, cat:"단편영화", title:"고요", role:"남자 주연 '가장' (55~65세)", ageMin:55, ageMax:65, gender:"male",
-    syn:"은퇴 후 홀로 남은 노년 가장의 하루를 담담히 따라가는 단편.",
-    due:"6/29 마감", specials:[], email:"goyo.short@naver.com",
-    url:"https://www.filmmakers.co.kr/actorCasting/0000009",
-    subjectFmt:"<{title}>_{role}_{name}", required:["프로필","연락처"] },
+/* ---------------- 고정 카드: 캐스트링크(봇 차단 → 수동 확인) ---------------- */
+const PINNED = [
+  { id:"castlink", source:"캐스트링크", sourceType:"link", cat:"",
+    title:"캐스트링크 공고는 직접 확인하세요",
+    syn:"캐스트링크는 자동 수집이 막혀 있어요. 카드를 눌러 사이트에서 직접 공고를 확인하세요.",
+    role:"", due:"", url:"https://castlink.co.kr/ko", email:null, specials:[] }
 ];
 
 /* ---------------- 실제 수집 데이터(원픽·플필) — 미리보기 내장본 ---------------- */
@@ -419,7 +373,7 @@ function normalize(n){
   }, n);
 }
 
-let NOTICES = SAMPLE_NOTICES.concat(PLATFORM_SAMPLES).map(normalize);
+let NOTICES = PINNED.concat(PLATFORM_SAMPLES).map(normalize);
 
 /* 배포 환경에서 repo의 notices.json을 읽어 플랫폼 공고를 라이브로 교체 */
 async function loadNotices(){
@@ -428,7 +382,7 @@ async function loadNotices(){
     if(!r.ok) return;
     const d = await r.json();
     if(d && Array.isArray(d.notices)){
-      NOTICES = SAMPLE_NOTICES.concat(d.notices).map(normalize);
+      NOTICES = PINNED.concat(d.notices).map(normalize);
       const u=document.getElementById("updatedAt");
       if(u && d.updatedAt) u.textContent = "업데이트 " + d.updatedAt.replace("T"," ");
       render();
@@ -439,6 +393,7 @@ async function loadNotices(){
 /* ---------------- 적합도 계산 ---------------- */
 function evaluate(n){
   const reasons=[]; let status="fit";
+  if(n.sourceType==="link"){ return {status:"link", reasons:["봇 차단 — 사이트에서 직접 확인"]}; }
   if(n.child){ return {status:"out", reasons:["아역 배역"]}; }
   if(n.gender==="female"){ return {status:"out", reasons:["여성 배역"]}; }
   // 나이 정보가 있으면 범위 체크, 없으면(플랫폼 공고 등) 통과시키고 확인필요로
@@ -504,8 +459,10 @@ function render(){
     chipBox.appendChild(b);
   });
 
-  let items = NOTICES
-    .filter(n=> activeSrc==="전체" || n.source===activeSrc)
+  const pool = NOTICES.filter(n=> activeSrc==="전체" || n.source===activeSrc);
+  const linkItems = pool.filter(n=> n.sourceType==="link");
+  let items = pool
+    .filter(n=> n.sourceType!=="link")
     .filter(n=> !isExpired(n.due))
     .map(n=>({n, ev:evaluate(n)}));
 
@@ -528,6 +485,7 @@ function render(){
   const list=document.getElementById("list");
   list.innerHTML="";
   shown.forEach(({n,ev})=>list.appendChild(cardEl(n,ev)));
+  linkItems.forEach(n=>list.appendChild(cardEl(n, evaluate(n))));
 
   const btn=document.getElementById("showExcluded");
   if(outItems.length>0){
@@ -539,6 +497,22 @@ function render(){
 
 function cardEl(n,ev){
   const c=document.createElement("div");
+  if(ev.status==="link"){
+    c.className="card link-card";
+    c.innerHTML=`
+      <div class="card-head">
+        <span class="src-badge link">${n.source}</span>
+        <span class="stamp linkst">직접확인</span>
+      </div>
+      <div class="title">${n.title}</div>
+      ${n.syn?`<div class="syn">${n.syn}</div>`:""}
+      <div class="meta-row"><span>↗ 봇 차단이라 자동수집 불가 — 사이트에서 직접 확인</span></div>
+    `;
+    const foot=document.createElement("div"); foot.className="card-foot";
+    foot.appendChild(srcLink(n.url,"사이트에서 직접 보기 ↗",true,true));
+    c.appendChild(foot);
+    return c;
+  }
   c.className="card"+(ev.status==="out"?" excluded":"");
   const stampTxt = ev.status==="fit"?"적합":ev.status==="check"?"확인필요":"제외";
   const stampCls = ev.status==="fit"?"fit":ev.status==="check"?"check":"out";
