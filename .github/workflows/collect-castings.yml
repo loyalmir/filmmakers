@@ -1,0 +1,36 @@
+name: collect-castings
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 체크아웃
+        uses: actions/checkout@v4
+
+      - name: 파이썬 설치
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 공고 수집 실행
+        run: python scrape.py
+
+      - name: 변경분 있으면 커밋
+        run: |
+          git config user.name  "casting-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add notices.json
+          if git diff --staged --quiet; then
+            echo "변경 없음"
+          else
+            git commit -m "공고 자동 갱신"
+            git push
+          fi
