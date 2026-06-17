@@ -228,7 +228,7 @@
   </div>
 
   <div class="demo">
-    <b>원픽·플필 실제 공고가 들어와 있어요.</b> 배포하면 repo의 notices.json으로 매시간 자동 갱신됩니다. (필름메이커스 이메일형은 샘플)
+    <b>원픽·플필 공고를 매시간 자동 수집해요.</b> 마감 지난 건 자동으로 숨겨집니다. 캐스트링크는 봇 차단이라 맨 아래 링크로 직접 확인하세요.
   </div>
 
   <div class="list" id="list"></div>
@@ -349,11 +349,16 @@ const me = {
   bonus:["액션","독션","클라이밍","부산","사투리"]
 };
 
-/* ---------------- 고정 카드: 캐스트링크(봇 차단 → 수동 확인) ---------------- */
+/* ---------------- 고정 카드: 링크형(자동수집 불가) ---------------- */
 const PINNED = [
+  { id:"filmmakers", source:"필름메이커스", sourceType:"linkmail", cat:"",
+    title:"필름메이커스 — 공고 확인 후 메일 지원",
+    syn:"필름메이커스는 약관상 자동수집을 안 합니다. 사이트에서 직접 공고를 보고, 마음에 들면 '메일 초안'으로 바로 지원 준비하세요.",
+    role:"", due:"", url:"https://www.filmmakers.co.kr/actorCasting", email:null,
+    required:["프로필","연기 영상","연락처"], specials:[] },
   { id:"castlink", source:"캐스트링크", sourceType:"link", cat:"",
     title:"캐스트링크 공고는 직접 확인하세요",
-    syn:"캐스트링크는 자동 수집이 막혀 있어요. 카드를 눌러 사이트에서 직접 공고를 확인하세요.",
+    syn:"캐스트링크는 봇 차단으로 자동 수집이 안 됩니다. 카드를 눌러 사이트에서 직접 공고를 확인하세요.",
     role:"", due:"", url:"https://castlink.co.kr/ko", email:null, specials:[] }
 ];
 
@@ -373,7 +378,7 @@ function normalize(n){
   }, n);
 }
 
-let NOTICES = PINNED.concat(PLATFORM_SAMPLES).map(normalize);
+let NOTICES = PLATFORM_SAMPLES.concat(PINNED).map(normalize);
 
 /* 배포 환경에서 repo의 notices.json을 읽어 플랫폼 공고를 라이브로 교체 */
 async function loadNotices(){
@@ -382,7 +387,7 @@ async function loadNotices(){
     if(!r.ok) return;
     const d = await r.json();
     if(d && Array.isArray(d.notices)){
-      NOTICES = PINNED.concat(d.notices).map(normalize);
+      NOTICES = d.notices.concat(PINNED).map(normalize);
       const u=document.getElementById("updatedAt");
       if(u && d.updatedAt) u.textContent = "업데이트 " + d.updatedAt.replace("T"," ");
       render();
@@ -393,7 +398,7 @@ async function loadNotices(){
 /* ---------------- 적합도 계산 ---------------- */
 function evaluate(n){
   const reasons=[]; let status="fit";
-  if(n.sourceType==="link"){ return {status:"link", reasons:["봇 차단 — 사이트에서 직접 확인"]}; }
+  if(n.sourceType==="link" || n.sourceType==="linkmail"){ return {status:"link", reasons:["직접 확인 — 자동수집 안 함"]}; }
   if(n.child){ return {status:"out", reasons:["아역 배역"]}; }
   if(n.gender==="female"){ return {status:"out", reasons:["여성 배역"]}; }
   // 나이 정보가 있으면 범위 체크, 없으면(플랫폼 공고 등) 통과시키고 확인필요로
@@ -509,7 +514,15 @@ function cardEl(n,ev){
       <div class="meta-row"><span>↗ 봇 차단이라 자동수집 불가 — 사이트에서 직접 확인</span></div>
     `;
     const foot=document.createElement("div"); foot.className="card-foot";
-    foot.appendChild(srcLink(n.url,"사이트에서 직접 보기 ↗",true,true));
+    if(n.sourceType==="linkmail"){
+      const open=document.createElement("button");
+      open.className="btn btn-primary"; open.textContent="메일 초안 쓰기";
+      open.onclick=()=>openMail(n);
+      foot.appendChild(open);
+      foot.appendChild(srcLink(n.url,"공고 보기 ↗",false,false));
+    }else{
+      foot.appendChild(srcLink(n.url,"사이트에서 직접 보기 ↗",true,true));
+    }
     c.appendChild(foot);
     return c;
   }
@@ -681,8 +694,13 @@ function renderFileBox(n){
 }
 function openMail(n){
   currentNotice=n;
-  document.getElementById("subj").value=buildSubject(n);
-  document.getElementById("bodyTxt").value=buildBody(n);
+  if(n.sourceType==="linkmail"){
+    document.getElementById("subj").value=`<작품명>_(지원배역)_${me.name}`;
+    document.getElementById("bodyTxt").value=buildBodyGeneric();
+  }else{
+    document.getElementById("subj").value=buildSubject(n);
+    document.getElementById("bodyTxt").value=buildBody(n);
+  }
   renderFileBox(n);
   const needMail=document.getElementById("needMail");
   const mailField=document.getElementById("mailField");
@@ -694,6 +712,23 @@ function openMail(n){
   else{ needSrc.style.display="none"; }
   document.getElementById("copiedMsg").textContent="";
   openSheet("mailSheet");
+}
+function buildBodyGeneric(){
+  const lines=[];
+  lines.push("안녕하세요. 캐스팅 공고 보고 (지원배역) 役에 지원합니다.");
+  lines.push("");
+  lines.push("공고에서 요청하신 자료 함께 보내드립니다.");
+  lines.push("");
+  lines.push(`- 이름: ${me.name} (${me.born})`);
+  lines.push(`- 신체: ${me.height}cm / ${me.weight}kg`);
+  lines.push(`- 특기: ${me.spec}`);
+  lines.push(`- 연기 영상: ${me.reel||"(영상 링크 입력 필요)"}`);
+  lines.push(`- 출연작: 첨부 프로필 참고 (드라마·영화·단편 다수)`);
+  lines.push(`- 연락처: ${me.phone} / ${me.email}`);
+  lines.push("");
+  lines.push("좋은 작품에 함께할 수 있다면 감사하겠습니다.");
+  lines.push(`${me.name} 드림`);
+  return lines.join("\n");
 }
 
 document.getElementById("sendBtn").onclick=()=>{
