@@ -26,6 +26,15 @@ def get_html(key):
 def txt(s):
     return H.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", s))).strip()
 
+# ---- 마감 지난 공고 거르기 ----
+def is_open(due):
+    """due 문자열(YYYY-MM-DD)이 오늘 이후면 True. 날짜 못 읽으면 일단 살림."""
+    m = re.search(r"(\d{4})-(\d{1,2})-(\d{1,2})", due or "")
+    if not m:
+        return True
+    d = datetime.date(int(m.group(1)), int(m.group(2)), int(m.group(3)))
+    return d >= datetime.date.today()
+
 # ---- 성별/나이 해석 (공통) ----
 def parse_gender(s):
     if "여성" in s or "여자" in s or "여배우" in s: g = "female"
@@ -105,9 +114,12 @@ def parse_plfil(html):
     return list(seen.values())
 
 def main():
-    notices = []
-    notices += parse_onepick(get_html("onepick"))
-    notices += parse_plfil(get_html("plfil"))
+    raw = []
+    raw += parse_onepick(get_html("onepick"))
+    raw += parse_plfil(get_html("plfil"))
+    # 마감 지난 공고 제외
+    notices = [n for n in raw if is_open(n.get("due", ""))]
+    dropped = len(raw) - len(notices)
     data = {
         "updatedAt": datetime.datetime.now().astimezone().isoformat(timespec="minutes"),
         "count": len(notices),
@@ -115,7 +127,7 @@ def main():
     }
     out = os.path.join(os.path.dirname(__file__), "notices.json")
     json.dump(data, open(out, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
-    print(f"수집 완료: {len(notices)}건  → {out}")
+    print(f"수집 완료: {len(notices)}건 (마감 제외 {dropped}건)  → {out}")
     by = {}
     for n in notices: by[n["source"]] = by.get(n["source"], 0) + 1
     print("소스별:", by)
