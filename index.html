@@ -293,6 +293,11 @@
       <div class="field"><label for="pWeight">몸무게 (kg)</label><input id="pWeight" /></div>
     </div>
     <div class="prow">
+      <div class="field"><label for="pTop">상의</label><input id="pTop" placeholder="예: 100" /></div>
+      <div class="field"><label for="pBottom">하의</label><input id="pBottom" placeholder="예: 32" /></div>
+      <div class="field"><label for="pShoe">신발</label><input id="pShoe" placeholder="예: 260" /></div>
+    </div>
+    <div class="prow">
       <div class="field"><label for="pPhone">전화번호</label><input id="pPhone" /></div>
       <div class="field"><label for="pEmail">내 이메일</label><input id="pEmail" /></div>
     </div>
@@ -338,6 +343,9 @@ const me = {
   gender:"male",
   height:"174",
   weight:"65",
+  topSize:"100",
+  bottomSize:"32",
+  shoeSize:"260",
   phone:"010-7130-2859",
   email:"Loyalmir@naver.com",
   spec:"액션(독션), 클라이밍, 부산 사투리, 운전(1종보통·14년 무사고), 요리",
@@ -593,6 +601,7 @@ function buildBody(n){
   lines.push("");
   lines.push(`- 이름: ${me.name} (${me.born})`);
   lines.push(`- 신체: ${me.height}cm / ${me.weight}kg`);
+  if(me.topSize||me.bottomSize||me.shoeSize) lines.push(`- 사이즈: 상의 ${me.topSize} / 하의 ${me.bottomSize} / 신발 ${me.shoeSize}`);
   lines.push(`- 특기: ${me.spec}`);
   if(n.required.includes("연기 영상")) lines.push(`- 연기 영상: ${me.reel||"(영상 링크 입력 필요)"}`);
   if(n.required.includes("자기소개")) lines.push(`- 자기소개: 첨부 프로필 참고`);
@@ -721,6 +730,7 @@ function buildBodyGeneric(){
   lines.push("");
   lines.push(`- 이름: ${me.name} (${me.born})`);
   lines.push(`- 신체: ${me.height}cm / ${me.weight}kg`);
+  if(me.topSize||me.bottomSize||me.shoeSize) lines.push(`- 사이즈: 상의 ${me.topSize} / 하의 ${me.bottomSize} / 신발 ${me.shoeSize}`);
   lines.push(`- 특기: ${me.spec}`);
   lines.push(`- 연기 영상: ${me.reel||"(영상 링크 입력 필요)"}`);
   lines.push(`- 출연작: 첨부 프로필 참고 (드라마·영화·단편 다수)`);
@@ -777,6 +787,7 @@ function refreshSlots(){
 }
 function loadProfileForm(){
   pName.value=me.name; pBorn.value=me.born; pHeight.value=me.height; pWeight.value=me.weight;
+  pTop.value=me.topSize||""; pBottom.value=me.bottomSize||""; pShoe.value=me.shoeSize||"";
   pPhone.value=me.phone; pEmail.value=me.email; pSpec.value=me.spec; pReel.value=me.reel;
   refreshSlots();
 }
@@ -791,6 +802,7 @@ document.getElementById("meChip").onclick=()=>{ loadProfileForm(); openSheet("pr
 document.getElementById("profSave").onclick=()=>{
   me.name=pName.value.trim()||me.name; me.born=pBorn.value.trim(); me.height=pHeight.value.trim();
   me.weight=pWeight.value.trim(); me.phone=pPhone.value.trim(); me.email=pEmail.value.trim();
+  me.topSize=pTop.value.trim(); me.bottomSize=pBottom.value.trim(); me.shoeSize=pShoe.value.trim();
   me.spec=pSpec.value.trim(); me.reel=pReel.value.trim();
   document.getElementById("meName").textContent=me.name;
   document.getElementById("profSaved").textContent="저장됐어요 ✓";
