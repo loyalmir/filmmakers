@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T10:21+00:00",
+  "updatedAt": "2026-06-17T14:21+00:00",
   "count": 12,
   "notices": [
     {
@@ -35,6 +35,23 @@
       "specials": []
     },
     {
+      "id": "plfil-4016",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "🎬 웹예능 <미미솔파> 출연자 모집",
+      "role": "",
+      "gender": "any",
+      "ageMin": 21,
+      "ageMax": 27,
+      "ageText": "성별 무관 · 21세 ~ 27세",
+      "due": "2026-06-20",
+      "url": "https://plfil.com/casting/4016",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
+    },
+    {
       "id": "plfil-4015",
       "source": "플필",
       "sourceType": "platform",
@@ -50,23 +67,6 @@
       "email": null,
       "specials": [],
       "pay": "215만원 ~ 240만원"
-    },
-    {
-      "id": "plfil-4014",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "웹예능 <미미솔파> 출연자 모집",
-      "role": "",
-      "gender": "any",
-      "ageMin": 21,
-      "ageMax": 27,
-      "ageText": "성별 무관 · 21세 ~ 27세",
-      "due": "2026-06-19",
-      "url": "https://plfil.com/casting/4014",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
     },
     {
       "id": "plfil-4013",
