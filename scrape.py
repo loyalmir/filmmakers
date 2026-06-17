@@ -6,7 +6,7 @@
 - 로컬에 저장된 HTML(src/*.html)이 있으면 그걸 쓰고(=오프라인 테스트),
   없으면 실제 사이트를 fetch 한다.
 """
-import os, re, json, html as H, datetime, sys
+import os, re, json, html as H, datetime, sys, time
 
 LOCAL = os.path.join(os.path.dirname(__file__), "src")  # 오프라인 테스트용
 
@@ -15,12 +15,19 @@ SOURCES = {
     "plfil":   {"name": "플필",  "type": "platform", "url": "https://plfil.com/casting"},
 }
 
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+                  "(KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "ko-KR,ko;q=0.9,en;q=0.8",
+}
+
 def get_html(key):
     p = os.path.join(LOCAL, f"{key}.html")
     if os.path.exists(p):
         return open(p, encoding="utf-8").read()
     import urllib.request
-    req = urllib.request.Request(SOURCES[key]["url"], headers={"User-Agent": "Mozilla/5.0"})
+    req = urllib.request.Request(SOURCES[key]["url"], headers=HEADERS)
     return urllib.request.urlopen(req, timeout=20).read().decode("utf-8", "replace")
 
 def txt(s):
@@ -49,8 +56,10 @@ def parse_age(s):
     if m: return int(m.group(1)), int(m.group(2)) + 9
     m = re.search(r"(\d{1,2})\s*대", s)
     if m: lo = int(m.group(1)); return lo, lo + 9
-    m = re.search(r"(\d{1,2})\s*~\s*(\d{1,2})\s*세", s)
+    m = re.search(r"(\d{1,2})\s*세?\s*~\s*(\d{1,2})\s*세", s)   # 21세 ~ 27세 / 21 ~ 27세
     if m: return int(m.group(1)), int(m.group(2))
+    m = re.search(r"(\d{1,2})\s*세", s)                          # 단일 'NN세'
+    if m: lo = int(m.group(1)); return lo, lo
     return None, None  # 무관/미표기
 
 # ---- 원픽 ----
@@ -113,10 +122,55 @@ def parse_plfil(html):
     for n in out: seen[n["id"]] = n
     return list(seen.values())
 
+def get_detail(url, num):
+    """상세 HTML 가져오기. 오프라인이면 src/plfil_detail_<num>.html 사용."""
+    p = os.path.join(LOCAL, f"plfil_detail_{num}.html")
+    if os.path.exists(p):
+        return open(p, encoding="utf-8").read()
+    import urllib.request
+    req = urllib.request.Request(url, headers=HEADERS)
+    return urllib.request.urlopen(req, timeout=20).read().decode("utf-8", "replace")
+
+def parse_plfil_detail(html):
+    """상세페이지에서 배역별 (성별, 나이) 목록 추출."""
+    genders = re.findall(r'>성별</p><p[^>]*>(.*?)</p>', html, re.S)
+    ages    = re.findall(r'>모집 나이</p><p[^>]*>(.*?)</p>', html, re.S)
+    roles = []
+    for i in range(max(len(genders), len(ages))):
+        g = txt(genders[i]) if i < len(genders) else ""
+        a = txt(ages[i]) if i < len(ages) else ""
+        lo, hi = parse_age(a)
+        roles.append({"gender": parse_gender(g), "ageMin": lo, "ageMax": hi, "ageText": (g + " · " + a).strip(" ·")})
+    return roles
+
+def enrich_plfil(notices):
+    """플필 공고에 상세페이지 성별·나이를 채워 정확도 향상."""
+    for n in notices:
+        if n.get("source") != "플필":
+            continue
+        num = n["id"].split("-")[-1]
+        try:
+            roles = parse_plfil_detail(get_detail(n["url"], num))
+        except Exception as e:
+            print(f"  상세 보강 실패 {num}: {e}"); continue
+        if not roles:
+            continue
+        non_female = [r for r in roles if r["gender"] != "female"]
+        pick = (non_female or roles)[0]
+        n["gender"]  = pick["gender"]
+        n["ageMin"]  = pick["ageMin"]
+        n["ageMax"]  = pick["ageMax"]
+        n["ageText"] = pick["ageText"]
+        if len(roles) > 1:
+            n["ageText"] += f" 외 {len(roles)-1}개 배역"
+        time.sleep(0.4)
+    return notices
+
 def main():
     raw = []
     raw += parse_onepick(get_html("onepick"))
     raw += parse_plfil(get_html("plfil"))
+    raw = enrich_plfil(raw)            # 플필 상세에서 성별·나이 정확히 보강
     # 마감 지난 공고 제외
     notices = [n for n in raw if is_open(n.get("due", ""))]
     dropped = len(raw) - len(notices)
