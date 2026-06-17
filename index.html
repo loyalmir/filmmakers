@@ -474,6 +474,11 @@ function dueDate(s){
   return null;
 }
 function dueRank(s){ const d=dueDate(s); return d? d.getTime() : 8.64e15; }
+function isExpired(s){
+  const d=dueDate(s); if(!d) return false;       // 날짜 못 읽으면 살림
+  const today=new Date(); today.setHours(0,0,0,0);
+  return d < today;
+}
 function dueLabel(s){
   const d=dueDate(s); if(!d) return s||"";
   const today=new Date(); today.setHours(0,0,0,0);
@@ -501,6 +506,7 @@ function render(){
 
   let items = NOTICES
     .filter(n=> activeSrc==="전체" || n.source===activeSrc)
+    .filter(n=> !isExpired(n.due))
     .map(n=>({n, ev:evaluate(n)}));
 
   const fitCount = items.filter(i=>i.ev.status!=="out").length;
