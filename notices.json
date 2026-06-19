@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T00:18+00:00",
+  "updatedAt": "2026-06-19T06:04+00:00",
   "count": 11,
   "notices": [
     {
@@ -35,7 +35,7 @@
       "specials": []
     },
     {
-      "id": "plfil-4018",
+      "id": "plfil-4019",
       "source": "플필",
       "sourceType": "platform",
       "cat": "기타",
@@ -46,7 +46,7 @@
       "ageMax": 28,
       "ageText": "성별 무관 · 21세 ~ 28세",
       "due": "2026-06-21",
-      "url": "https://plfil.com/casting/4018",
+      "url": "https://plfil.com/casting/4019",
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 10만원"
