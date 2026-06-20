@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T06:51+00:00",
+  "updatedAt": "2026-06-20T09:55+00:00",
   "count": 11,
   "notices": [
     {
@@ -35,6 +35,23 @@
       "specials": []
     },
     {
+      "id": "plfil-4023",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "TV/OTT",
+      "title": "tvN 시대극 드라마 초등학생 동자승 역 캐스팅",
+      "role": "",
+      "gender": "male",
+      "ageMin": 8,
+      "ageMax": 12,
+      "ageText": "남성 · 8세 ~ 12세",
+      "due": "2026-06-21",
+      "url": "https://plfil.com/casting/4023",
+      "email": null,
+      "specials": [],
+      "pay": "30만원 ~ 50만원"
+    },
+    {
       "id": "plfil-4022",
       "source": "플필",
       "sourceType": "platform",
@@ -49,7 +66,7 @@
       "url": "https://plfil.com/casting/4022",
       "email": null,
       "specials": [],
-      "pay": "10만원 ~ 10만원"
+      "pay": "10만원 ~ 12만원"
     },
     {
       "id": "plfil-4019",
@@ -169,23 +186,6 @@
       "email": null,
       "specials": [],
       "pay": "30만원 ~ 50만원"
-    },
-    {
-      "id": "plfil-4002",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "판타지 로맨스 코미디 단편영화 <죽지 못해, 사랑> 주연 배우 모집합니다",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관 외 2개 배역",
-      "due": "2026-06-29",
-      "url": "https://plfil.com/casting/4002",
-      "email": null,
-      "specials": [],
-      "pay": "20만원 ~ 20만원"
     }
   ]
 }
