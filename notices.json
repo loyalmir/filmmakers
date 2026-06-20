@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-19T23:56+00:00",
-  "count": 11,
+  "updatedAt": "2026-06-20T02:30+00:00",
+  "count": 10,
   "notices": [
     {
       "id": "onepick-959",
@@ -101,23 +101,6 @@
       "email": null,
       "specials": [],
       "pay": "20만원 ~ 20만원"
-    },
-    {
-      "id": "plfil-4012",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "TV/OTT",
-      "title": "촬영중 OTT 시리즈 드라마 <로얄세탁소> 남자,여자 이미지단역 캐스팅",
-      "role": "",
-      "gender": "male",
-      "ageMin": 20,
-      "ageMax": 40,
-      "ageText": "남성 · 20세 ~ 40세 외 1개 배역",
-      "due": "2026-06-19",
-      "url": "https://plfil.com/casting/4012",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
     },
     {
       "id": "plfil-4007",
