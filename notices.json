@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-20T23:58+00:00",
-  "count": 11,
+  "updatedAt": "2026-06-21T03:33+00:00",
+  "count": 10,
   "notices": [
     {
       "id": "onepick-959",
@@ -152,23 +152,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4005",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "[홍익대학교 졸업작품] THIRTY ONE NIGHTS 테크노 MV 주연",
-      "role": "",
-      "gender": "female",
-      "ageMin": 23,
-      "ageMax": 30,
-      "ageText": "여성 · 23세 ~ 30세",
-      "due": "2026-06-20",
-      "url": "https://plfil.com/casting/4005",
-      "email": null,
-      "specials": [],
-      "pay": "40만원 ~ 40만원"
     },
     {
       "id": "plfil-4004",
