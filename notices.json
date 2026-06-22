@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-21T22:57+00:00",
-  "count": 10,
+  "updatedAt": "2026-06-22T00:05+00:00",
+  "count": 7,
   "notices": [
     {
       "id": "onepick-959",
@@ -35,23 +35,6 @@
       "specials": []
     },
     {
-      "id": "plfil-4023",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "TV/OTT",
-      "title": "tvN 시대극 드라마 초등학생 동자승 역 캐스팅",
-      "role": "",
-      "gender": "male",
-      "ageMin": 8,
-      "ageMax": 12,
-      "ageText": "남성 · 8세 ~ 12세",
-      "due": "2026-06-21",
-      "url": "https://plfil.com/casting/4023",
-      "email": null,
-      "specials": [],
-      "pay": "30만원 ~ 50만원"
-    },
-    {
       "id": "plfil-4022",
       "source": "플필",
       "sourceType": "platform",
@@ -67,23 +50,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 12만원"
-    },
-    {
-      "id": "plfil-4019",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "🎬 웹예능 <미미솔파> 출연자 모집",
-      "role": "",
-      "gender": "any",
-      "ageMin": 21,
-      "ageMax": 28,
-      "ageText": "성별 무관 · 21세 ~ 28세",
-      "due": "2026-06-21",
-      "url": "https://plfil.com/casting/4019",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
     },
     {
       "id": "plfil-4017",
@@ -152,23 +118,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4004",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "[배우캐스팅] 게임 브랜드 UA 광고 (3편 시리즈) 주연 배우",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관 외 1개 배역",
-      "due": "2026-06-21",
-      "url": "https://plfil.com/casting/4004",
-      "email": null,
-      "specials": [],
-      "pay": "30만원 ~ 50만원"
     }
   ]
 }
