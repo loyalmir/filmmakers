@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-22T00:05+00:00",
-  "count": 7,
+  "updatedAt": "2026-06-22T06:16+00:00",
+  "count": 8,
   "notices": [
     {
       "id": "onepick-959",
@@ -33,6 +33,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4024",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "키성장 영양제 SNS광고 (중,고등 키 큰 남학생)",
+      "role": "",
+      "gender": "male",
+      "ageMin": 15,
+      "ageMax": 20,
+      "ageText": "남성 · 15세 ~ 20세",
+      "due": "2026-06-28",
+      "url": "https://plfil.com/casting/4024",
+      "email": null,
+      "specials": [],
+      "pay": "20만원 ~ 20만원"
     },
     {
       "id": "plfil-4022",
