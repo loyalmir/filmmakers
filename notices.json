@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-22T23:58+00:00",
-  "count": 12,
+  "updatedAt": "2026-06-23T02:44+00:00",
+  "count": 11,
   "notices": [
     {
       "id": "onepick-970",
@@ -65,6 +65,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4027",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "TV/OTT",
+      "title": "촬영중 OTT 시리즈 드라마 <로얄세탁소> 남자 단역 캐스",
+      "role": "",
+      "gender": "male",
+      "ageMin": 30,
+      "ageMax": 60,
+      "ageText": "남성 · 30세 ~ 60세",
+      "due": "2026-06-26",
+      "url": "https://plfil.com/casting/4027",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
     },
     {
       "id": "plfil-4026",
@@ -167,40 +184,6 @@
       "email": null,
       "specials": [],
       "pay": "215만원 ~ 240만원"
-    },
-    {
-      "id": "plfil-4013",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "(여자 모델)룩핀 SNS 광고 셀프캠 모델 모집",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-06-22",
-      "url": "https://plfil.com/casting/4013",
-      "email": null,
-      "specials": [],
-      "pay": "20만원 ~ 20만원"
-    },
-    {
-      "id": "plfil-4007",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "글로벌 유튜브 토크쇼 외국인 패널 모집 (3명)",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-06-22",
-      "url": "https://plfil.com/casting/4007",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
     }
   ]
 }
