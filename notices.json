@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-24T23:55+00:00",
-  "count": 14,
+  "updatedAt": "2026-06-25T02:00+00:00",
+  "count": 13,
   "notices": [
     {
       "id": "onepick-970",
@@ -167,23 +167,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 100만원"
-    },
-    {
-      "id": "plfil-4025",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "상업영화에 출연하실 배우님 섭외 합니다.",
-      "role": "",
-      "gender": "any",
-      "ageMin": 20,
-      "ageMax": 50,
-      "ageText": "성별 무관 · 20세 ~ 50세",
-      "due": "2026-06-24",
-      "url": "https://plfil.com/casting/4025",
-      "email": null,
-      "specials": [],
-      "pay": "25만원 ~ 25만원"
     },
     {
       "id": "plfil-4024",
