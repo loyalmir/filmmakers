@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T06:11+00:00",
+  "updatedAt": "2026-06-26T10:12+00:00",
   "count": 12,
   "notices": [
     {
@@ -67,18 +67,35 @@
       "specials": []
     },
     {
-      "id": "plfil-4031",
+      "id": "plfil-4033",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "📢 식음료 프랜차이즈 광고 영상(CF) 출연 배우 모집",
+      "role": "",
+      "gender": "male",
+      "ageMin": 8,
+      "ageMax": 12,
+      "ageText": "남성 · 8세 ~ 12세 외 2개 배역",
+      "due": "2026-07-03",
+      "url": "https://plfil.com/casting/4033",
+      "email": null,
+      "specials": [],
+      "pay": "30만원 ~ 60만원"
+    },
+    {
+      "id": "plfil-4032",
       "source": "플필",
       "sourceType": "platform",
       "cat": "기타",
-      "title": "🎬 웹예능 <미미솔파> 출연자 모집",
+      "title": "🎬 (급구) 웹예능 <미미솔파> 출연자 모집",
       "role": "",
       "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
+      "ageMin": 21,
+      "ageMax": 29,
+      "ageText": "성별 무관 · 21세 ~ 29세",
       "due": "2026-06-26",
-      "url": "https://plfil.com/casting/4031",
+      "url": "https://plfil.com/casting/4032",
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 10만원"
@@ -184,23 +201,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 12만원"
-    },
-    {
-      "id": "plfil-4017",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "TV/OTT",
-      "title": "tvn 12부작 사극드라마",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관 외 6개 배역",
-      "due": "2026-12-31",
-      "url": "https://plfil.com/casting/4017",
-      "email": null,
-      "specials": [],
-      "pay": "20만원 ~ 100만원"
     }
   ]
 }
