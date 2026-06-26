@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-25T23:05+00:00",
-  "count": 13,
+  "updatedAt": "2026-06-26T02:00+00:00",
+  "count": 12,
   "notices": [
     {
       "id": "onepick-970",
@@ -116,23 +116,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 12만원"
-    },
-    {
-      "id": "plfil-4028",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "숏폼드라마 대기업 말단이 일도 잘함",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-06-25",
-      "url": "https://plfil.com/casting/4028",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
     },
     {
       "id": "plfil-4027",
