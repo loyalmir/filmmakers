@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-26T23:03+00:00",
-  "count": 13,
+  "updatedAt": "2026-06-27T01:54+00:00",
+  "count": 11,
   "notices": [
     {
       "id": "onepick-970",
@@ -101,23 +101,6 @@
       "pay": "30만원 ~ 60만원"
     },
     {
-      "id": "plfil-4032",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "🎬 (급구) 웹예능 <미미솔파> 출연자 모집",
-      "role": "",
-      "gender": "any",
-      "ageMin": 21,
-      "ageMax": 29,
-      "ageText": "성별 무관 · 21세 ~ 29세",
-      "due": "2026-06-26",
-      "url": "https://plfil.com/casting/4032",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
-    },
-    {
       "id": "plfil-4030",
       "source": "플필",
       "sourceType": "platform",
@@ -150,23 +133,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 12만원"
-    },
-    {
-      "id": "plfil-4027",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "TV/OTT",
-      "title": "촬영중 OTT 시리즈 드라마 <로얄세탁소> 남자 단역 캐스",
-      "role": "",
-      "gender": "male",
-      "ageMin": 30,
-      "ageMax": 60,
-      "ageText": "남성 · 30세 ~ 60세",
-      "due": "2026-06-26",
-      "url": "https://plfil.com/casting/4027",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
     },
     {
       "id": "plfil-4026",
