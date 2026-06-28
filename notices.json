@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T02:04+00:00",
+  "updatedAt": "2026-06-28T06:50+00:00",
   "count": 11,
   "notices": [
     {
@@ -74,9 +74,9 @@
       "title": "음악 단편영화 <지구, 궤도이탈>에서 배우님을 모십니다!",
       "role": "",
       "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관 외 4개 배역",
+      "ageMin": 25,
+      "ageMax": 35,
+      "ageText": "성별 무관 · 25세 ~ 35세 외 4개 배역",
       "due": "2026-07-05",
       "url": "https://plfil.com/casting/4038",
       "email": null,
