@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-06-28T23:57+00:00",
-  "count": 11,
+  "updatedAt": "2026-06-29T02:42+00:00",
+  "count": 9,
   "notices": [
     {
       "id": "onepick-970",
@@ -118,23 +118,6 @@
       "pay": "50만원 ~ 50만원"
     },
     {
-      "id": "plfil-4029",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "신규 웹드라마 채널 푸달미디어에서 2부작 시리즈 웹드라마 [후아유 WRU",
-      "role": "",
-      "gender": "male",
-      "ageMin": 20,
-      "ageMax": 30,
-      "ageText": "남성 · 20세 ~ 30세 외 2개 배역",
-      "due": "2026-06-28",
-      "url": "https://plfil.com/casting/4029",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 12만원"
-    },
-    {
       "id": "plfil-4026",
       "source": "플필",
       "sourceType": "platform",
@@ -150,23 +133,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 100만원"
-    },
-    {
-      "id": "plfil-4024",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "키성장 영양제 SNS광고 (중,고등 키 큰 남학생)",
-      "role": "",
-      "gender": "male",
-      "ageMin": 15,
-      "ageMax": 20,
-      "ageText": "남성 · 15세 ~ 20세",
-      "due": "2026-06-28",
-      "url": "https://plfil.com/casting/4024",
-      "email": null,
-      "specials": [],
-      "pay": "20만원 ~ 20만원"
     },
     {
       "id": "plfil-4022",
