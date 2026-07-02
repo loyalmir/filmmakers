@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-02T03:30+00:00",
-  "count": 8,
+  "updatedAt": "2026-07-02T06:58+00:00",
+  "count": 7,
   "notices": [
     {
       "id": "onepick-959",
@@ -119,23 +119,6 @@
       "email": null,
       "specials": [],
       "pay": "50만원 ~ 50만원"
-    },
-    {
-      "id": "plfil-4026",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "OTT숏폼 금기로맨스 드라마(KT지니투자확정) 남녀 주인공을 모집합니다",
-      "role": "",
-      "gender": "male",
-      "ageMin": 27,
-      "ageMax": 40,
-      "ageText": "남성 · 27세 ~ 40세 외 2개 배역",
-      "due": "2026-07-05",
-      "url": "https://plfil.com/casting/4026",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 100만원"
     }
   ]
 }
