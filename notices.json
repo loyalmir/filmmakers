@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-03T01:28+00:00",
-  "count": 8,
+  "updatedAt": "2026-07-03T05:39+00:00",
+  "count": 9,
   "notices": [
     {
       "id": "onepick-959",
@@ -17,6 +17,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4043",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "[학생 졸업작품 MV] 여자 배우 1명 / 남자 배우 1명 모집",
+      "role": "",
+      "gender": "male",
+      "ageMin": 20,
+      "ageMax": 29,
+      "ageText": "남성 · 20세 ~ 29세 외 1개 배역",
+      "due": "2026-07-16",
+      "url": "https://plfil.com/casting/4043",
+      "email": null,
+      "specials": [],
+      "pay": "20만원 ~ 60만원"
     },
     {
       "id": "plfil-4042",
