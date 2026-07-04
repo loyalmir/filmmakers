@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-03T23:53+00:00",
-  "count": 10,
+  "updatedAt": "2026-07-04T01:28+00:00",
+  "count": 9,
   "notices": [
     {
       "id": "onepick-959",
@@ -136,23 +136,6 @@
       "email": null,
       "specials": [],
       "pay": "15만원 ~ 15만원"
-    },
-    {
-      "id": "plfil-4033",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "📢 식음료 프랜차이즈 광고 영상(CF) 출연 배우 모집",
-      "role": "",
-      "gender": "male",
-      "ageMin": 8,
-      "ageMax": 12,
-      "ageText": "남성 · 8세 ~ 12세 외 2개 배역",
-      "due": "2026-07-03",
-      "url": "https://plfil.com/casting/4033",
-      "email": null,
-      "specials": [],
-      "pay": "30만원 ~ 60만원"
     },
     {
       "id": "plfil-4030",
