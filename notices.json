@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-04T23:50+00:00",
-  "count": 9,
+  "updatedAt": "2026-07-05T01:43+00:00",
+  "count": 8,
   "notices": [
     {
       "id": "onepick-959",
@@ -85,23 +85,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 15만원"
-    },
-    {
-      "id": "plfil-4040",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "로맨스 단편영화 [그 여자 작곡, 그 남자 작사] 주연 배우 모집합니다.",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관 외 2개 배역",
-      "due": "2026-07-04",
-      "url": "https://plfil.com/casting/4040",
-      "email": null,
-      "specials": [],
-      "pay": "20만원 ~ 20만원"
     },
     {
       "id": "plfil-4039",
