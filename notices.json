@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-05T23:52+00:00",
-  "count": 8,
+  "updatedAt": "2026-07-06T01:49+00:00",
+  "count": 7,
   "notices": [
     {
       "id": "onepick-959",
@@ -102,23 +102,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 100만원"
-    },
-    {
-      "id": "plfil-4038",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "음악 단편영화 <지구, 궤도이탈>에서 배우님을 모십니다!",
-      "role": "",
-      "gender": "any",
-      "ageMin": 25,
-      "ageMax": 35,
-      "ageText": "성별 무관 · 25세 ~ 35세 외 4개 배역",
-      "due": "2026-07-05",
-      "url": "https://plfil.com/casting/4038",
-      "email": null,
-      "specials": [],
-      "pay": "15만원 ~ 15만원"
     },
     {
       "id": "plfil-4030",
