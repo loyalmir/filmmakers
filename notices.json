@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-07T01:46+00:00",
-  "count": 7,
+  "updatedAt": "2026-07-07T05:55+00:00",
+  "count": 9,
   "notices": [
     {
       "id": "onepick-959",
@@ -17,6 +17,40 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4048",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "[운동복 브랜드 숏폼 광고]2030 남성/여성 모델분을 1분씩 모집합니다",
+      "role": "",
+      "gender": "any",
+      "ageMin": 20,
+      "ageMax": 34,
+      "ageText": "성별 무관 · 20세 ~ 34세",
+      "due": "2026-07-16",
+      "url": "https://plfil.com/casting/4048",
+      "email": null,
+      "specials": [],
+      "pay": "25만원 ~ 25만원"
+    },
+    {
+      "id": "plfil-4047",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "YouTube Shorts 'Eating Bread' Mukbang",
+      "role": "",
+      "gender": "any",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "성별 무관 · 나이 무관",
+      "due": "2026-07-17",
+      "url": "https://plfil.com/casting/4047",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
     },
     {
       "id": "plfil-4044",
