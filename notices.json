@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-08T07:20+00:00",
-  "count": 10,
+  "updatedAt": "2026-07-08T10:03+00:00",
+  "count": 11,
   "notices": [
     {
       "id": "onepick-959",
@@ -17,6 +17,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4051",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "상업영화에 출연하실 배우님 섭외 합니다.",
+      "role": "",
+      "gender": "male",
+      "ageMin": 50,
+      "ageMax": 69,
+      "ageText": "남성 · 50세 ~ 69세",
+      "due": "2026-07-10",
+      "url": "https://plfil.com/casting/4051",
+      "email": null,
+      "specials": [],
+      "pay": "25만원 ~ 25만원"
     },
     {
       "id": "plfil-4050",
