@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-09T02:12+00:00",
-  "count": 10,
+  "updatedAt": "2026-07-09T06:41+00:00",
+  "count": 11,
   "notices": [
     {
       "id": "onepick-959",
@@ -17,6 +17,40 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4053",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "숏폼드라마 <위00 000 000 00>",
+      "role": "",
+      "gender": "male",
+      "ageMin": 38,
+      "ageMax": 48,
+      "ageText": "남성 · 38세 ~ 48세",
+      "due": "2026-07-10",
+      "url": "https://plfil.com/casting/4053",
+      "email": null,
+      "specials": [],
+      "pay": "15만원 ~ 15만원"
+    },
+    {
+      "id": "plfil-4052",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "공익광고 군인 역할 짧은 머리의 20대 남자 모델 구인합니다",
+      "role": "",
+      "gender": "male",
+      "ageMin": 20,
+      "ageMax": 29,
+      "ageText": "남성 · 20세 ~ 29세",
+      "due": "2026-07-09",
+      "url": "https://plfil.com/casting/4052",
+      "email": null,
+      "specials": [],
+      "pay": "40만원 ~ 40만원"
     },
     {
       "id": "plfil-4051",
@@ -153,23 +187,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 15만원"
-    },
-    {
-      "id": "plfil-4039",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "레진코믹스 숏폼 드라마<잠자는 공주 꿈꾸는 악마> 남녀 배우",
-      "role": "",
-      "gender": "male",
-      "ageMin": 21,
-      "ageMax": 35,
-      "ageText": "남성 · 21세 ~ 35세 외 1개 배역",
-      "due": "2026-07-12",
-      "url": "https://plfil.com/casting/4039",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 100만원"
     }
   ]
 }
