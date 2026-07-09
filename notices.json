@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-09T06:41+00:00",
-  "count": 11,
+  "updatedAt": "2026-07-09T10:16+00:00",
+  "count": 10,
   "notices": [
     {
       "id": "onepick-959",
@@ -85,23 +85,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4048",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "[운동복 브랜드 숏폼 광고]2030 남성/여성 모델분을 1분씩 모집합니다",
-      "role": "",
-      "gender": "any",
-      "ageMin": 20,
-      "ageMax": 34,
-      "ageText": "성별 무관 · 20세 ~ 34세",
-      "due": "2026-07-16",
-      "url": "https://plfil.com/casting/4048",
-      "email": null,
-      "specials": [],
-      "pay": "25만원 ~ 25만원"
     },
     {
       "id": "plfil-4047",
