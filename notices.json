@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-08T23:57+00:00",
-  "count": 11,
+  "updatedAt": "2026-07-09T02:12+00:00",
+  "count": 10,
   "notices": [
     {
       "id": "onepick-959",
@@ -34,23 +34,6 @@
       "email": null,
       "specials": [],
       "pay": "25만원 ~ 25만원"
-    },
-    {
-      "id": "plfil-4050",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "광고",
-      "title": "[식품 프랜차이즈 광고 영상] 모델 모집합니다.",
-      "role": "",
-      "gender": "any",
-      "ageMin": 26,
-      "ageMax": 39,
-      "ageText": "성별 무관 · 26세 ~ 39세 외 1개 배역",
-      "due": "2026-07-08",
-      "url": "https://plfil.com/casting/4050",
-      "email": null,
-      "specials": [],
-      "pay": "20만원 ~ 50만원"
     },
     {
       "id": "plfil-4049",
