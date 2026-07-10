@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-10T05:49+00:00",
-  "count": 10,
+  "updatedAt": "2026-07-10T08:55+00:00",
+  "count": 11,
   "notices": [
     {
       "id": "onepick-959",
@@ -17,6 +17,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4055",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "광고",
+      "title": "기업 광고 촬영 2~50대 남자,여자 이미지 모델 구인합니다",
+      "role": "",
+      "gender": "any",
+      "ageMin": 20,
+      "ageMax": 59,
+      "ageText": "성별 무관 · 20세 ~ 59세",
+      "due": "2026-07-12",
+      "url": "https://plfil.com/casting/4055",
+      "email": null,
+      "specials": [],
+      "pay": "25만원 ~ 25만원"
     },
     {
       "id": "plfil-4054",
@@ -51,6 +68,23 @@
       "email": null,
       "specials": [],
       "pay": "15만원 ~ 15만원"
+    },
+    {
+      "id": "plfil-4052",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "공익광고 군인 역할 짧은 머리의 20대 남자 모델 구인합니다",
+      "role": "",
+      "gender": "male",
+      "ageMin": 20,
+      "ageMax": 29,
+      "ageText": "남성 · 20세 ~ 29세",
+      "due": "2026-07-12",
+      "url": "https://plfil.com/casting/4052",
+      "email": null,
+      "specials": [],
+      "pay": "40만원 ~ 40만원"
     },
     {
       "id": "plfil-4051",
@@ -153,23 +187,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 100만원"
-    },
-    {
-      "id": "plfil-4041",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "군대 유튜브 웹드라마",
-      "role": "",
-      "gender": "male",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "남성 · 나이 무관 외 3개 배역",
-      "due": "2026-08-31",
-      "url": "https://plfil.com/casting/4041",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 15만원"
     }
   ]
 }
