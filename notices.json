@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T23:55+00:00",
+  "updatedAt": "2026-07-10T01:45+00:00",
   "count": 10,
   "notices": [
     {
@@ -19,6 +19,23 @@
       "specials": []
     },
     {
+      "id": "plfil-4054",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "광고",
+      "title": "광고 손이 예쁘신 여자 손모델 구인합니다",
+      "role": "",
+      "gender": "female",
+      "ageMin": 20,
+      "ageMax": 40,
+      "ageText": "여성 · 20세 ~ 40세",
+      "due": "2026-07-11",
+      "url": "https://plfil.com/casting/4054",
+      "email": null,
+      "specials": [],
+      "pay": "35만원 ~ 35만원"
+    },
+    {
       "id": "plfil-4053",
       "source": "플필",
       "sourceType": "platform",
@@ -34,23 +51,6 @@
       "email": null,
       "specials": [],
       "pay": "15만원 ~ 15만원"
-    },
-    {
-      "id": "plfil-4052",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "공익광고 군인 역할 짧은 머리의 20대 남자 모델 구인합니다",
-      "role": "",
-      "gender": "male",
-      "ageMin": 20,
-      "ageMax": 29,
-      "ageText": "남성 · 20세 ~ 29세",
-      "due": "2026-07-09",
-      "url": "https://plfil.com/casting/4052",
-      "email": null,
-      "specials": [],
-      "pay": "40만원 ~ 40만원"
     },
     {
       "id": "plfil-4051",
