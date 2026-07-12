@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-11T23:40+00:00",
-  "count": 9,
+  "updatedAt": "2026-07-12T01:20+00:00",
+  "count": 8,
   "notices": [
     {
       "id": "onepick-959",
@@ -68,23 +68,6 @@
       "email": null,
       "specials": [],
       "pay": "25만원 ~ 25만원"
-    },
-    {
-      "id": "plfil-4054",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "광고",
-      "title": "광고 손이 예쁘신 여자 손모델 구인합니다",
-      "role": "",
-      "gender": "female",
-      "ageMin": 20,
-      "ageMax": 40,
-      "ageText": "여성 · 20세 ~ 40세",
-      "due": "2026-07-11",
-      "url": "https://plfil.com/casting/4054",
-      "email": null,
-      "specials": [],
-      "pay": "35만원 ~ 35만원"
     },
     {
       "id": "plfil-4052",
