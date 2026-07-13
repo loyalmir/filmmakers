@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-13T05:21+00:00",
-  "count": 4,
+  "updatedAt": "2026-07-13T08:40+00:00",
+  "count": 5,
   "notices": [
     {
       "id": "onepick-959",
@@ -17,6 +17,40 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4064",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "아이돌 뮤직비디오 스텝역할 20~30대 남녀모델 구인합니다",
+      "role": "",
+      "gender": "any",
+      "ageMin": 20,
+      "ageMax": 35,
+      "ageText": "성별 무관 · 20세 ~ 35세",
+      "due": "2026-07-14",
+      "url": "https://plfil.com/casting/4064",
+      "email": null,
+      "specials": [],
+      "pay": "25만원 ~ 25만원"
+    },
+    {
+      "id": "plfil-4063",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "싸이더스hq 소속사 오디션",
+      "role": "",
+      "gender": "any",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "성별 무관 · 나이 무관",
+      "due": "2026-07-31",
+      "url": "https://plfil.com/casting/4063",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
     },
     {
       "id": "plfil-4062",
@@ -51,23 +85,6 @@
       "email": null,
       "specials": [],
       "pay": "18만원 ~ 18만원"
-    },
-    {
-      "id": "plfil-4049",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "한국 여름 음식 먹방 유튜브 콘텐츠 외국인 출연자 모집",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-07-24",
-      "url": "https://plfil.com/casting/4049",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
     }
   ]
 }
