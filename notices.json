@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T01:21+00:00",
+  "updatedAt": "2026-07-13T05:21+00:00",
   "count": 4,
   "notices": [
     {
@@ -19,6 +19,40 @@
       "specials": []
     },
     {
+      "id": "plfil-4062",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "TV/OTT",
+      "title": "OTT 드라마 <0000> 일진 여고생역(이미지 단역)",
+      "role": "",
+      "gender": "female",
+      "ageMin": 21,
+      "ageMax": 26,
+      "ageText": "여성 · 21세 ~ 26세",
+      "due": "2026-07-14",
+      "url": "https://plfil.com/casting/4062",
+      "email": null,
+      "specials": [],
+      "pay": "20만원 ~ 20만원"
+    },
+    {
+      "id": "plfil-4061",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "[SNS 광고 촬영] 얼굴윤곽 관리 제품 광고 촬영해주실 20-30대",
+      "role": "",
+      "gender": "any",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "성별 무관 · 나이 무관",
+      "due": "2026-07-17",
+      "url": "https://plfil.com/casting/4061",
+      "email": null,
+      "specials": [],
+      "pay": "18만원 ~ 18만원"
+    },
+    {
       "id": "plfil-4049",
       "source": "플필",
       "sourceType": "platform",
@@ -34,40 +68,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4047",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "YouTube Shorts 'Eating Bread' Mukbang",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-07-17",
-      "url": "https://plfil.com/casting/4047",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4044",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "청주대학교 졸업작품 <나는 자라며 그대가 된다> 주,조연 배우 모집",
-      "role": "",
-      "gender": "male",
-      "ageMin": 7,
-      "ageMax": 10,
-      "ageText": "남성 · 7세 ~ 10세 외 4개 배역",
-      "due": "2026-07-19",
-      "url": "https://plfil.com/casting/4044",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 20만원"
     }
   ]
 }
