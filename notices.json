@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-13T08:40+00:00",
-  "count": 5,
+  "updatedAt": "2026-07-13T11:47+00:00",
+  "count": 6,
   "notices": [
     {
       "id": "onepick-959",
@@ -17,6 +17,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4065",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "뮤지컬",
+      "title": "(주)꿈꾸는용 하반기 뮤지컬 오디션",
+      "role": "",
+      "gender": "any",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "성별 무관 · 나이 무관",
+      "due": "2026-07-26",
+      "url": "https://plfil.com/casting/4065",
+      "email": null,
+      "specials": [],
+      "pay": "1000만원 ~ 1000만원"
     },
     {
       "id": "plfil-4064",
