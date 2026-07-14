@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-13T23:40+00:00",
-  "count": 6,
+  "updatedAt": "2026-07-14T01:10+00:00",
+  "count": 7,
   "notices": [
     {
       "id": "onepick-959",
@@ -17,6 +17,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4066",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "다큐멘터리 프로젝트, 직장인/배우 겸업 일상 참여자 모집",
+      "role": "",
+      "gender": "any",
+      "ageMin": 25,
+      "ageMax": 40,
+      "ageText": "성별 무관 · 25세 ~ 40세",
+      "due": "2026-07-18",
+      "url": "https://plfil.com/casting/4066",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
     },
     {
       "id": "plfil-4065",
