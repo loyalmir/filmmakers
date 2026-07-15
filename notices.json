@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-14T23:39+00:00",
-  "count": 13,
+  "updatedAt": "2026-07-15T01:08+00:00",
+  "count": 11,
   "notices": [
     {
       "id": "onepick-959",
@@ -155,23 +155,6 @@
       "pay": "1000만원 ~ 1000만원"
     },
     {
-      "id": "plfil-4064",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "아이돌 뮤직비디오 스텝역할 20~30대 남녀모델 구인합니다",
-      "role": "",
-      "gender": "any",
-      "ageMin": 20,
-      "ageMax": 35,
-      "ageText": "성별 무관 · 20세 ~ 35세",
-      "due": "2026-07-14",
-      "url": "https://plfil.com/casting/4064",
-      "email": null,
-      "specials": [],
-      "pay": "25만원 ~ 25만원"
-    },
-    {
       "id": "plfil-4063",
       "source": "플필",
       "sourceType": "platform",
@@ -187,23 +170,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4062",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "TV/OTT",
-      "title": "OTT 드라마 <0000> 일진 여고생역(이미지 단역)",
-      "role": "",
-      "gender": "female",
-      "ageMin": 21,
-      "ageMax": 26,
-      "ageText": "여성 · 21세 ~ 26세",
-      "due": "2026-07-14",
-      "url": "https://plfil.com/casting/4062",
-      "email": null,
-      "specials": [],
-      "pay": "20만원 ~ 20만원"
     },
     {
       "id": "plfil-4061",
