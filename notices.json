@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T04:47+00:00",
+  "updatedAt": "2026-07-16T07:12+00:00",
   "count": 11,
   "notices": [
     {
@@ -17,6 +17,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4075",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "광고",
+      "title": "광고 셀럽 라이팅&대역 가능한 20~30대 여자 모델 구인합니다",
+      "role": "",
+      "gender": "female",
+      "ageMin": 20,
+      "ageMax": 35,
+      "ageText": "여성 · 20세 ~ 35세",
+      "due": "2026-07-17",
+      "url": "https://plfil.com/casting/4075",
+      "email": null,
+      "specials": [],
+      "pay": "30만원 ~ 30만원"
     },
     {
       "id": "plfil-4074",
@@ -170,23 +187,6 @@
       "email": null,
       "specials": [],
       "pay": "1000만원 ~ 1000만원"
-    },
-    {
-      "id": "plfil-4063",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "싸이더스hq 소속사 오디션",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-07-31",
-      "url": "https://plfil.com/casting/4063",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
     }
   ]
 }
