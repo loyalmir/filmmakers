@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-16T07:12+00:00",
-  "count": 11,
+  "updatedAt": "2026-07-16T09:52+00:00",
+  "count": 12,
   "notices": [
     {
       "id": "onepick-971",
@@ -17,6 +17,40 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4077",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "숏폼드라마 조연 배우 모집",
+      "role": "",
+      "gender": "male",
+      "ageMin": 45,
+      "ageMax": 55,
+      "ageText": "남성 · 45세 ~ 55세 외 4개 배역",
+      "due": "2026-08-07",
+      "url": "https://plfil.com/casting/4077",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 25만원"
+    },
+    {
+      "id": "plfil-4076",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "TV/OTT",
+      "title": "클럽남녀 이미지단역 모집",
+      "role": "",
+      "gender": "any",
+      "ageMin": 20,
+      "ageMax": 35,
+      "ageText": "성별 무관 · 20세 ~ 35세",
+      "due": "2026-07-19",
+      "url": "https://plfil.com/casting/4076",
+      "email": null,
+      "specials": [],
+      "pay": "20만원 ~ 20만원"
     },
     {
       "id": "plfil-4075",
@@ -170,23 +204,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4065",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "뮤지컬",
-      "title": "(주)꿈꾸는용 하반기 뮤지컬 오디션",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-07-26",
-      "url": "https://plfil.com/casting/4065",
-      "email": null,
-      "specials": [],
-      "pay": "1000만원 ~ 1000만원"
     }
   ]
 }
