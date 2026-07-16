@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-16T15:23+00:00",
-  "count": 12,
+  "updatedAt": "2026-07-16T16:59+00:00",
+  "count": 13,
   "notices": [
     {
       "id": "onepick-971",
@@ -17,6 +17,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4080",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "색조 브랜드 바이럴 촬영",
+      "role": "",
+      "gender": "female",
+      "ageMin": 20,
+      "ageMax": 29,
+      "ageText": "여성 · 20세 ~ 29세",
+      "due": "2026-07-20",
+      "url": "https://plfil.com/casting/4080",
+      "email": null,
+      "specials": [],
+      "pay": "60만원 ~ 60만원"
     },
     {
       "id": "plfil-4079",
