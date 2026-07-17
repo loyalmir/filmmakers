@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-16T23:45+00:00",
-  "count": 13,
+  "updatedAt": "2026-07-17T01:20+00:00",
+  "count": 10,
   "notices": [
     {
       "id": "onepick-971",
@@ -138,40 +138,6 @@
       "pay": "25만원 ~ 25만원"
     },
     {
-      "id": "plfil-4073",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "광고",
-      "title": "기능식품 광고 94년생~82년생 사이 남자 모델(아들 역할) 구인합니다",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-07-16",
-      "url": "https://plfil.com/casting/4073",
-      "email": null,
-      "specials": [],
-      "pay": "40만원 ~ 40만원"
-    },
-    {
-      "id": "plfil-4072",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "크림 2종 제품 숏폼 촬영_2030 여성 모델 모집",
-      "role": "",
-      "gender": "female",
-      "ageMin": 20,
-      "ageMax": 35,
-      "ageText": "여성 · 20세 ~ 35세",
-      "due": "2026-07-16",
-      "url": "https://plfil.com/casting/4072",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
-    },
-    {
       "id": "plfil-4071",
       "source": "플필",
       "sourceType": "platform",
@@ -204,23 +170,6 @@
       "email": null,
       "specials": [],
       "pay": "50만원 ~ 50만원"
-    },
-    {
-      "id": "plfil-4069",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "광고",
-      "title": "맥주 광고 밝고 트렌디한 스타일의 20대-30대 초반 남녀모델 구인합니다",
-      "role": "",
-      "gender": "any",
-      "ageMin": 20,
-      "ageMax": 35,
-      "ageText": "성별 무관 · 20세 ~ 35세",
-      "due": "2026-07-16",
-      "url": "https://plfil.com/casting/4069",
-      "email": null,
-      "specials": [],
-      "pay": "30만원 ~ 30만원"
     }
   ]
 }
