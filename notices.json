@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-17T04:50+00:00",
-  "count": 10,
+  "updatedAt": "2026-07-17T07:07+00:00",
+  "count": 11,
   "notices": [
     {
       "id": "onepick-971",
@@ -17,6 +17,40 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4082",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "드라마",
+      "title": "드라마 단편영화 [여명(黎明)] 조·주연 배우 모집합니다. (여자)",
+      "role": "",
+      "gender": "any",
+      "ageMin": 25,
+      "ageMax": 35,
+      "ageText": "성별 무관 · 25세 ~ 35세 외 3개 배역",
+      "due": "2026-07-31",
+      "url": "https://plfil.com/casting/4082",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 15만원"
+    },
+    {
+      "id": "plfil-4081",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "상업영화에 출연하실 배우님 섭외 합니다.",
+      "role": "",
+      "gender": "any",
+      "ageMin": 25,
+      "ageMax": 45,
+      "ageText": "성별 무관 · 25세 ~ 45세",
+      "due": "2026-07-19",
+      "url": "https://plfil.com/casting/4081",
+      "email": null,
+      "specials": [],
+      "pay": "25만원 ~ 25만원"
     },
     {
       "id": "plfil-4080",
@@ -153,23 +187,6 @@
       "email": null,
       "specials": [],
       "pay": "300만원 ~ 500만원"
-    },
-    {
-      "id": "plfil-4070",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "[정오의데이트] 비주얼 좋은 2,30대 남자 모델 구인",
-      "role": "",
-      "gender": "male",
-      "ageMin": 25,
-      "ageMax": 38,
-      "ageText": "남성 · 25세 ~ 38세",
-      "due": "2026-07-31",
-      "url": "https://plfil.com/casting/4070",
-      "email": null,
-      "specials": [],
-      "pay": "50만원 ~ 50만원"
     }
   ]
 }
