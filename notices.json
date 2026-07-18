@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-18T01:13+00:00",
+  "updatedAt": "2026-07-18T04:35+00:00",
   "count": 10,
   "notices": [
     {
@@ -17,6 +17,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4083",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "외국인 모델 섭외[베트남]",
+      "role": "",
+      "gender": "female",
+      "ageMin": 20,
+      "ageMax": 30,
+      "ageText": "여성 · 20세 ~ 30세",
+      "due": "2026-07-22",
+      "url": "https://plfil.com/casting/4083",
+      "email": null,
+      "specials": [],
+      "pay": "30만원 ~ 100만원"
     },
     {
       "id": "plfil-4082",
@@ -153,23 +170,6 @@
       "email": null,
       "specials": [],
       "pay": "25만원 ~ 25만원"
-    },
-    {
-      "id": "plfil-4071",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "[Steam FMV] 플레이타운에서 FMV 메인 여자 배우를 섭외합니다.",
-      "role": "",
-      "gender": "female",
-      "ageMin": 20,
-      "ageMax": 35,
-      "ageText": "여성 · 20세 ~ 35세",
-      "due": "2026-07-31",
-      "url": "https://plfil.com/casting/4071",
-      "email": null,
-      "specials": [],
-      "pay": "300만원 ~ 500만원"
     }
   ]
 }
