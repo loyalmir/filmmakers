@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-17T23:40+00:00",
-  "count": 11,
+  "updatedAt": "2026-07-18T01:13+00:00",
+  "count": 10,
   "notices": [
     {
       "id": "onepick-971",
@@ -136,23 +136,6 @@
       "email": null,
       "specials": [],
       "pay": "20만원 ~ 20만원"
-    },
-    {
-      "id": "plfil-4075",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "광고",
-      "title": "광고 셀럽 라이팅&대역 가능한 20~30대 여자 모델 구인합니다",
-      "role": "",
-      "gender": "female",
-      "ageMin": 20,
-      "ageMax": 35,
-      "ageText": "여성 · 20세 ~ 35세",
-      "due": "2026-07-17",
-      "url": "https://plfil.com/casting/4075",
-      "email": null,
-      "specials": [],
-      "pay": "30만원 ~ 30만원"
     },
     {
       "id": "plfil-4074",
