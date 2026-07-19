@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-18T23:39+00:00",
-  "count": 10,
+  "updatedAt": "2026-07-19T01:18+00:00",
+  "count": 9,
   "notices": [
     {
       "id": "onepick-971",
@@ -153,23 +153,6 @@
       "email": null,
       "specials": [],
       "pay": "20만원 ~ 20만원"
-    },
-    {
-      "id": "plfil-4074",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "상업영화에 출연하실 배우님 섭외 합니다.",
-      "role": "",
-      "gender": "male",
-      "ageMin": 40,
-      "ageMax": 60,
-      "ageText": "남성 · 40세 ~ 60세",
-      "due": "2026-07-18",
-      "url": "https://plfil.com/casting/4074",
-      "email": null,
-      "specials": [],
-      "pay": "25만원 ~ 25만원"
     }
   ]
 }
