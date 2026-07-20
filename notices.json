@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-19T23:43+00:00",
-  "count": 11,
+  "updatedAt": "2026-07-20T01:21+00:00",
+  "count": 9,
   "notices": [
     {
       "id": "onepick-971",
@@ -87,23 +87,6 @@
       "pay": "10만원 ~ 15만원"
     },
     {
-      "id": "plfil-4081",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "상업영화에 출연하실 배우님 섭외 합니다.",
-      "role": "",
-      "gender": "any",
-      "ageMin": 25,
-      "ageMax": 45,
-      "ageText": "성별 무관 · 25세 ~ 45세",
-      "due": "2026-07-19",
-      "url": "https://plfil.com/casting/4081",
-      "email": null,
-      "specials": [],
-      "pay": "25만원 ~ 25만원"
-    },
-    {
       "id": "plfil-4080",
       "source": "플필",
       "sourceType": "platform",
@@ -170,23 +153,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 25만원"
-    },
-    {
-      "id": "plfil-4076",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "TV/OTT",
-      "title": "클럽남녀 이미지단역 모집",
-      "role": "",
-      "gender": "any",
-      "ageMin": 20,
-      "ageMax": 35,
-      "ageText": "성별 무관 · 20세 ~ 35세",
-      "due": "2026-07-19",
-      "url": "https://plfil.com/casting/4076",
-      "email": null,
-      "specials": [],
-      "pay": "20만원 ~ 20만원"
     }
   ]
 }
