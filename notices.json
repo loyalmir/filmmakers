@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-20T23:44+00:00",
-  "count": 12,
+  "updatedAt": "2026-07-21T01:18+00:00",
+  "count": 9,
   "notices": [
     {
       "id": "onepick-971",
@@ -104,23 +104,6 @@
       "pay": "10만원 ~ 10만원"
     },
     {
-      "id": "plfil-4088",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "TV/OTT",
-      "title": "OTT드라마 이미지단역",
-      "role": "",
-      "gender": "any",
-      "ageMin": 24,
-      "ageMax": 30,
-      "ageText": "성별 무관 · 24세 ~ 30세",
-      "due": "2026-07-20",
-      "url": "https://plfil.com/casting/4088",
-      "email": null,
-      "specials": [],
-      "pay": "20만원 ~ 20만원"
-    },
-    {
       "id": "plfil-4087",
       "source": "플필",
       "sourceType": "platform",
@@ -170,40 +153,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 15만원"
-    },
-    {
-      "id": "plfil-4080",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "색조 브랜드 바이럴 촬영",
-      "role": "",
-      "gender": "female",
-      "ageMin": 20,
-      "ageMax": 29,
-      "ageText": "여성 · 20세 ~ 29세",
-      "due": "2026-07-20",
-      "url": "https://plfil.com/casting/4080",
-      "email": null,
-      "specials": [],
-      "pay": "60만원 ~ 60만원"
-    },
-    {
-      "id": "plfil-4079",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "웹드라마 <당연한 것들의 정체> 여자 배우님 모집합니다.",
-      "role": "",
-      "gender": "female",
-      "ageMin": 23,
-      "ageMax": 29,
-      "ageText": "여성 · 23세 ~ 29세",
-      "due": "2026-07-20",
-      "url": "https://plfil.com/casting/4079",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
     }
   ]
 }
