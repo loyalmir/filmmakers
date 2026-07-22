@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-21T23:45+00:00",
-  "count": 11,
+  "updatedAt": "2026-07-22T01:16+00:00",
+  "count": 10,
   "notices": [
     {
       "id": "onepick-971",
@@ -102,23 +102,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4090",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "TV/OTT",
-      "title": "OTT드라마 <0000>",
-      "role": "",
-      "gender": "female",
-      "ageMin": 39,
-      "ageMax": 45,
-      "ageText": "여성 · 39세 ~ 45세",
-      "due": "2026-07-21",
-      "url": "https://plfil.com/casting/4090",
-      "email": null,
-      "specials": [],
-      "pay": "20만원 ~ 20만원"
     },
     {
       "id": "plfil-4089",
