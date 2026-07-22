@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-22T01:16+00:00",
-  "count": 10,
+  "updatedAt": "2026-07-22T04:54+00:00",
+  "count": 11,
   "notices": [
     {
       "id": "onepick-971",
@@ -17,6 +17,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4096",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "동화책 및 샴푸/토너/부스터 패키지 숏폼 촬영_2030 한국인 여성 모델",
+      "role": "",
+      "gender": "female",
+      "ageMin": 25,
+      "ageMax": 38,
+      "ageText": "여성 · 25세 ~ 38세",
+      "due": "2026-07-24",
+      "url": "https://plfil.com/casting/4096",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
     },
     {
       "id": "plfil-4095",
