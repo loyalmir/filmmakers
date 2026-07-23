@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-22T23:51+00:00",
-  "count": 11,
+  "updatedAt": "2026-07-23T01:24+00:00",
+  "count": 10,
   "notices": [
     {
       "id": "onepick-971",
@@ -19,21 +19,21 @@
       "specials": []
     },
     {
-      "id": "plfil-4099",
+      "id": "plfil-4100",
       "source": "플필",
       "sourceType": "platform",
       "cat": "기타",
-      "title": "[샴푸 바이럴 영상] 남자(3040) 여자(2030)배우님 모집합니다",
+      "title": "[힐닷] 손발톱 앰플 SNS 광고용 숏폼 영상 촬영",
       "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-07-22",
-      "url": "https://plfil.com/casting/4099",
+      "gender": "male",
+      "ageMin": 40,
+      "ageMax": 60,
+      "ageText": "남성 · 40세 ~ 60세 외 1개 배역",
+      "due": "2026-07-30",
+      "url": "https://plfil.com/casting/4100",
       "email": null,
       "specials": [],
-      "pay": "10만원 ~ 25만원"
+      "pay": "10만원 ~ 15만원"
     },
     {
       "id": "plfil-4098",
@@ -167,23 +167,6 @@
       "ageText": "성별 무관 · 나이 무관",
       "due": "2026-07-31",
       "url": "https://plfil.com/casting/4091",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4089",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "게임 굿즈 6종 숏폼 촬영_20대 여성 모델 모집",
-      "role": "",
-      "gender": "female",
-      "ageMin": 20,
-      "ageMax": 30,
-      "ageText": "여성 · 20세 ~ 30세",
-      "due": "2026-07-22",
-      "url": "https://plfil.com/casting/4089",
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 10만원"
