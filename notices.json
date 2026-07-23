@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23T20:05+00:00",
+  "updatedAt": "2026-07-23T21:53+00:00",
   "count": 12,
   "notices": [
     {
@@ -17,6 +17,40 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4108",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "50~70대 출연자 모집 | 《낯섦의 실험실》",
+      "role": "",
+      "gender": "any",
+      "ageMin": 40,
+      "ageMax": 80,
+      "ageText": "성별 무관 · 40세 ~ 80세",
+      "due": "2026-07-26",
+      "url": "https://plfil.com/casting/4108",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
+    },
+    {
+      "id": "plfil-4107",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "30대 출연자 모집 | 《낯섦의 실험실》",
+      "role": "",
+      "gender": "any",
+      "ageMin": 30,
+      "ageMax": 40,
+      "ageText": "성별 무관 · 30세 ~ 40세",
+      "due": "2026-07-26",
+      "url": "https://plfil.com/casting/4107",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
     },
     {
       "id": "plfil-4106",
@@ -170,40 +204,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4096",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "동화책 및 샴푸/토너/부스터 패키지 숏폼 촬영_2030 한국인 여성 모델",
-      "role": "",
-      "gender": "female",
-      "ageMin": 25,
-      "ageMax": 38,
-      "ageText": "여성 · 25세 ~ 38세",
-      "due": "2026-07-24",
-      "url": "https://plfil.com/casting/4096",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4095",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "PC방 브랜드 숏폼 광고",
-      "role": "",
-      "gender": "any",
-      "ageMin": 20,
-      "ageMax": 30,
-      "ageText": "성별 무관 · 20세 ~ 30세",
-      "due": "2026-07-24",
-      "url": "https://plfil.com/casting/4095",
-      "email": null,
-      "specials": [],
-      "pay": "20만원 ~ 30만원"
     }
   ]
 }
