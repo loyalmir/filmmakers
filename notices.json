@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T04:56+00:00",
+  "updatedAt": "2026-07-24T07:25+00:00",
   "count": 11,
   "notices": [
     {
@@ -139,23 +139,6 @@
       "pay": "25만원 ~ 25만원"
     },
     {
-      "id": "plfil-4101",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "광고",
-      "title": "염색 샴푸 제품 광고 시니어 모델 구합니다 (60-70대)",
-      "role": "",
-      "gender": "male",
-      "ageMin": 50,
-      "ageMax": 70,
-      "ageText": "남성 · 50세 ~ 70세 외 1개 배역",
-      "due": "2026-07-26",
-      "url": "https://plfil.com/casting/4101",
-      "email": null,
-      "specials": [],
-      "pay": "30만원 ~ 30만원"
-    },
-    {
       "id": "plfil-4100",
       "source": "플필",
       "sourceType": "platform",
@@ -188,6 +171,23 @@
       "email": null,
       "specials": [],
       "pay": "30만원 ~ 30만원"
+    },
+    {
+      "id": "plfil-4097",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "리프트업 팩 및 트레일러닝 토삭스 숏폼 촬영_2030 여성 모델 모집",
+      "role": "",
+      "gender": "female",
+      "ageMin": 24,
+      "ageMax": 33,
+      "ageText": "여성 · 24세 ~ 33세",
+      "due": "2026-07-24",
+      "url": "https://plfil.com/casting/4097",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
     }
   ]
 }
