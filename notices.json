@@ -1,23 +1,7 @@
 {
-  "updatedAt": "2026-07-23T23:45+00:00",
-  "count": 12,
+  "updatedAt": "2026-07-24T01:20+00:00",
+  "count": 11,
   "notices": [
-    {
-      "id": "onepick-971",
-      "source": "원픽",
-      "sourceType": "platform",
-      "cat": "드라마",
-      "title": "미드폼 드라마<OOOO> 춤,노래 가능한 남자 배우 모집",
-      "role": "나이 20대 | 성별 남성 | 경력 무관",
-      "gender": "male",
-      "ageMin": 20,
-      "ageMax": 29,
-      "ageText": "나이 20대 | 성별 남성 | 경력 무관",
-      "due": "2026-07-23",
-      "url": "https://www.myonepick.com/audi/list/",
-      "email": null,
-      "specials": []
-    },
     {
       "id": "plfil-4108",
       "source": "플필",
