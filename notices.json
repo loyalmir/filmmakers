@@ -1,7 +1,24 @@
 {
-  "updatedAt": "2026-07-24T01:20+00:00",
+  "updatedAt": "2026-07-24T04:56+00:00",
   "count": 11,
   "notices": [
+    {
+      "id": "plfil-4109",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "부산 워터밤 부스 촬영 및 사전 셀프캠 촬영 20대 남,여 배우님 모집",
+      "role": "",
+      "gender": "any",
+      "ageMin": 20,
+      "ageMax": 33,
+      "ageText": "성별 무관 · 20세 ~ 33세",
+      "due": "2026-07-27",
+      "url": "https://plfil.com/casting/4109",
+      "email": null,
+      "specials": [],
+      "pay": "60만원 ~ 70만원"
+    },
     {
       "id": "plfil-4108",
       "source": "플필",
@@ -171,23 +188,6 @@
       "email": null,
       "specials": [],
       "pay": "30만원 ~ 30만원"
-    },
-    {
-      "id": "plfil-4097",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "리프트업 팩 및 트레일러닝 토삭스 숏폼 촬영_2030 여성 모델 모집",
-      "role": "",
-      "gender": "female",
-      "ageMin": 24,
-      "ageMax": 33,
-      "ageText": "여성 · 24세 ~ 33세",
-      "due": "2026-07-24",
-      "url": "https://plfil.com/casting/4097",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
     }
   ]
 }
