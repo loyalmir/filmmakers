@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-26T05:17+00:00",
-  "count": 9,
+  "updatedAt": "2026-07-26T08:01+00:00",
+  "count": 10,
   "notices": [
     {
       "id": "onepick-972",
@@ -17,6 +17,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4111",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "독립영화에 출연하실 배우님 섭외 합니다.",
+      "role": "",
+      "gender": "female",
+      "ageMin": 25,
+      "ageMax": 36,
+      "ageText": "여성 · 25세 ~ 36세",
+      "due": "2026-07-27",
+      "url": "https://plfil.com/casting/4111",
+      "email": null,
+      "specials": [],
+      "pay": "20만원 ~ 20만원"
     },
     {
       "id": "plfil-4109",
