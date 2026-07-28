@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-07-28T07:28+00:00",
-  "count": 12,
+  "updatedAt": "2026-07-28T10:18+00:00",
+  "count": 13,
   "notices": [
+    {
+      "id": "onepick-974",
+      "source": "원픽",
+      "sourceType": "platform",
+      "cat": "유튜브, 인스타",
+      "title": "[크리에이터 모집] 더에잇이엔티 틱톡 라이브 크리에이터 모집",
+      "role": "나이 무관 | 성별 무관 | 경력 무관",
+      "gender": "any",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "나이 무관 | 성별 무관 | 경력 무관",
+      "due": "상시모집",
+      "url": "https://www.myonepick.com/audi/list/",
+      "email": null,
+      "specials": []
+    },
     {
       "id": "onepick-973",
       "source": "원픽",
