@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-27T23:51+00:00",
-  "count": 12,
+  "updatedAt": "2026-07-28T01:16+00:00",
+  "count": 9,
   "notices": [
     {
       "id": "onepick-973",
@@ -120,23 +120,6 @@
       "pay": "25만원 ~ 25만원"
     },
     {
-      "id": "plfil-4114",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "광고",
-      "title": "가구 광고 30대 중반~ 60대 남녀 이미지모델 구인합니다",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-07-27",
-      "url": "https://plfil.com/casting/4114",
-      "email": null,
-      "specials": [],
-      "pay": "35만원 ~ 35만원"
-    },
-    {
       "id": "plfil-4113",
       "source": "플필",
       "sourceType": "platform",
@@ -169,40 +152,6 @@
       "email": null,
       "specials": [],
       "pay": "20만원 ~ 20만원"
-    },
-    {
-      "id": "plfil-4111",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "독립영화에 출연하실 배우님 섭외 합니다.",
-      "role": "",
-      "gender": "female",
-      "ageMin": 25,
-      "ageMax": 36,
-      "ageText": "여성 · 25세 ~ 36세",
-      "due": "2026-07-27",
-      "url": "https://plfil.com/casting/4111",
-      "email": null,
-      "specials": [],
-      "pay": "20만원 ~ 20만원"
-    },
-    {
-      "id": "plfil-4109",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "부산 워터밤 부스 촬영 및 사전 셀프캠 촬영 20대 남,여 배우님 모집",
-      "role": "",
-      "gender": "any",
-      "ageMin": 20,
-      "ageMax": 33,
-      "ageText": "성별 무관 · 20세 ~ 33세",
-      "due": "2026-07-27",
-      "url": "https://plfil.com/casting/4109",
-      "email": null,
-      "specials": [],
-      "pay": "60만원 ~ 70만원"
     }
   ]
 }
