@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-29T23:49+00:00",
-  "count": 16,
+  "updatedAt": "2026-07-30T01:11+00:00",
+  "count": 14,
   "notices": [
     {
       "id": "onepick-975",
@@ -152,23 +152,6 @@
       "pay": "10만원 ~ 20만원"
     },
     {
-      "id": "plfil-4122",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "광고",
-      "title": "가전제품 광고 셀럽 라이팅&대역 가능한 20~30대 남자 모델 구인합니다",
-      "role": "",
-      "gender": "male",
-      "ageMin": 20,
-      "ageMax": 35,
-      "ageText": "남성 · 20세 ~ 35세",
-      "due": "2026-07-29",
-      "url": "https://plfil.com/casting/4122",
-      "email": null,
-      "specials": [],
-      "pay": "35만원 ~ 35만원"
-    },
-    {
       "id": "plfil-4121",
       "source": "플필",
       "sourceType": "platform",
@@ -218,23 +201,6 @@
       "email": null,
       "specials": [],
       "pay": "25만원 ~ 25만원"
-    },
-    {
-      "id": "plfil-4118",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "러닝 토삭스 및 효소 제품 숏폼 촬영 모델 모집",
-      "role": "",
-      "gender": "female",
-      "ageMin": 20,
-      "ageMax": 35,
-      "ageText": "여성 · 20세 ~ 35세",
-      "due": "2026-07-29",
-      "url": "https://plfil.com/casting/4118",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
     },
     {
       "id": "plfil-4117",
