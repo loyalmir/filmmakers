@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-30T23:50+00:00",
-  "count": 13,
+  "updatedAt": "2026-07-31T01:24+00:00",
+  "count": 11,
   "notices": [
     {
       "id": "onepick-974",
@@ -185,40 +185,6 @@
       "email": null,
       "specials": [],
       "pay": "9999만원 ~ 9999만원"
-    },
-    {
-      "id": "plfil-4120",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "부산 워터밤 브랜드팝업 광고 20대 여성 모델",
-      "role": "",
-      "gender": "female",
-      "ageMin": 20,
-      "ageMax": 30,
-      "ageText": "여성 · 20세 ~ 30세",
-      "due": "2026-07-30",
-      "url": "https://plfil.com/casting/4120",
-      "email": null,
-      "specials": [],
-      "pay": "60만원 ~ 70만원"
-    },
-    {
-      "id": "plfil-4119",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "일본어 가능하신 여자 배우님 섭외 합니다.",
-      "role": "",
-      "gender": "female",
-      "ageMin": 45,
-      "ageMax": 70,
-      "ageText": "여성 · 45세 ~ 70세",
-      "due": "2026-07-30",
-      "url": "https://plfil.com/casting/4119",
-      "email": null,
-      "specials": [],
-      "pay": "25만원 ~ 25만원"
     }
   ]
 }
