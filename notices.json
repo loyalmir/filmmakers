@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-07-31T05:20+00:00",
-  "count": 11,
+  "updatedAt": "2026-07-31T08:27+00:00",
+  "count": 14,
   "notices": [
     {
       "id": "onepick-974",
@@ -49,6 +49,57 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4134",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "광고",
+      "title": "플랫폼 광고 남여 이미지모델 구인합니다",
+      "role": "",
+      "gender": "any",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "성별 무관 · 나이 무관",
+      "due": "2026-08-03",
+      "url": "https://plfil.com/casting/4134",
+      "email": null,
+      "specials": [],
+      "pay": "35만원 ~ 35만원"
+    },
+    {
+      "id": "plfil-4133",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "GL웹드 알바생X 카페사장 채경역",
+      "role": "",
+      "gender": "female",
+      "ageMin": 30,
+      "ageMax": 35,
+      "ageText": "여성 · 30세 ~ 35세",
+      "due": "2026-08-02",
+      "url": "https://plfil.com/casting/4133",
+      "email": null,
+      "specials": [],
+      "pay": "20만원 ~ 20만원"
+    },
+    {
+      "id": "plfil-4132",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "<로다이브> 여드름 스킨케어 10대~20대 초반 메인 여자 모델",
+      "role": "",
+      "gender": "female",
+      "ageMin": 17,
+      "ageMax": 28,
+      "ageText": "여성 · 17세 ~ 28세",
+      "due": "2026-08-08",
+      "url": "https://plfil.com/casting/4132",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 50만원"
     },
     {
       "id": "plfil-4131",
