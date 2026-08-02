@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-01T23:45+00:00",
-  "count": 14,
+  "updatedAt": "2026-08-02T01:23+00:00",
+  "count": 12,
   "notices": [
     {
       "id": "onepick-974",
@@ -118,40 +118,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 20만원"
-    },
-    {
-      "id": "plfil-4136",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "독립영화에 출연하실 여자 배우님 섭외 합니다.",
-      "role": "",
-      "gender": "female",
-      "ageMin": 20,
-      "ageMax": 85,
-      "ageText": "여성 · 20세 ~ 85세",
-      "due": "2026-08-01",
-      "url": "https://plfil.com/casting/4136",
-      "email": null,
-      "specials": [],
-      "pay": "20만원 ~ 20만원"
-    },
-    {
-      "id": "plfil-4135",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "독립영화에 출연하실 남자 배우님 섭외 합니다.",
-      "role": "",
-      "gender": "male",
-      "ageMin": 20,
-      "ageMax": 33,
-      "ageText": "남성 · 20세 ~ 33세",
-      "due": "2026-08-01",
-      "url": "https://plfil.com/casting/4135",
-      "email": null,
-      "specials": [],
-      "pay": "20만원 ~ 20만원"
     },
     {
       "id": "plfil-4134",
