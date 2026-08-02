@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T07:58+00:00",
+  "updatedAt": "2026-08-02T09:53+00:00",
   "count": 12,
   "notices": [
     {
@@ -33,6 +33,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4143",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "단편영화 '한 걸음' 캐스팅 공고",
+      "role": "",
+      "gender": "female",
+      "ageMin": 18,
+      "ageMax": 28,
+      "ageText": "여성 · 18세 ~ 28세",
+      "due": "2026-08-04",
+      "url": "https://plfil.com/casting/4143",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 20만원"
     },
     {
       "id": "plfil-4142",
@@ -186,23 +203,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 50만원"
-    },
-    {
-      "id": "plfil-4131",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "유튜브 캡틴김상호 여배우, 병사역할 수시모집",
-      "role": "",
-      "gender": "male",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "남성 · 나이 무관 외 2개 배역",
-      "due": "2026-11-30",
-      "url": "https://plfil.com/casting/4131",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 20만원"
     }
   ]
 }
