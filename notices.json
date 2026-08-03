@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-03T05:26+00:00",
-  "count": 12,
+  "updatedAt": "2026-08-03T08:55+00:00",
+  "count": 13,
   "notices": [
     {
       "id": "onepick-974",
@@ -33,6 +33,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4148",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "로맨틱 코미디 웹드라마 <인류의숙제> 남자주인공 모집",
+      "role": "",
+      "gender": "male",
+      "ageMin": 19,
+      "ageMax": 25,
+      "ageText": "남성 · 19세 ~ 25세",
+      "due": "2026-08-28",
+      "url": "https://plfil.com/casting/4148",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 30만원"
     },
     {
       "id": "plfil-4147",
