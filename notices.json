@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-02T23:46+00:00",
-  "count": 12,
+  "updatedAt": "2026-08-03T01:23+00:00",
+  "count": 10,
   "notices": [
     {
       "id": "onepick-974",
@@ -33,6 +33,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4144",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "광고",
+      "title": "플랫폼 광고 40대 중후반 남자 이미지모델 구인합니다",
+      "role": "",
+      "gender": "male",
+      "ageMin": 40,
+      "ageMax": 50,
+      "ageText": "남성 · 40세 ~ 50세",
+      "due": "2026-08-03",
+      "url": "https://plfil.com/casting/4144",
+      "email": null,
+      "specials": [],
+      "pay": "35만원 ~ 35만원"
     },
     {
       "id": "plfil-4143",
@@ -103,23 +120,6 @@
       "pay": "15만원 ~ 15만원"
     },
     {
-      "id": "plfil-4139",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "6-7 아역 배우 섭외 합니다.",
-      "role": "",
-      "gender": "female",
-      "ageMin": 6,
-      "ageMax": 7,
-      "ageText": "여성 · 6세 ~ 7세",
-      "due": "2026-08-02",
-      "url": "https://plfil.com/casting/4139",
-      "email": null,
-      "specials": [],
-      "pay": "20만원 ~ 20만원"
-    },
-    {
       "id": "plfil-4138",
       "source": "플필",
       "sourceType": "platform",
@@ -169,40 +169,6 @@
       "email": null,
       "specials": [],
       "pay": "35만원 ~ 35만원"
-    },
-    {
-      "id": "plfil-4133",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "GL웹드 알바생X 카페사장 채경역",
-      "role": "",
-      "gender": "female",
-      "ageMin": 30,
-      "ageMax": 35,
-      "ageText": "여성 · 30세 ~ 35세",
-      "due": "2026-08-02",
-      "url": "https://plfil.com/casting/4133",
-      "email": null,
-      "specials": [],
-      "pay": "20만원 ~ 20만원"
-    },
-    {
-      "id": "plfil-4132",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "<로다이브> 여드름 스킨케어 10대~20대 초반 메인 여자 모델",
-      "role": "",
-      "gender": "female",
-      "ageMin": 17,
-      "ageMax": 28,
-      "ageText": "여성 · 17세 ~ 28세",
-      "due": "2026-08-08",
-      "url": "https://plfil.com/casting/4132",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 50만원"
     }
   ]
 }
