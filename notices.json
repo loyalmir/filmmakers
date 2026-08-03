@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-03T01:23+00:00",
-  "count": 10,
+  "updatedAt": "2026-08-03T05:26+00:00",
+  "count": 12,
   "notices": [
     {
       "id": "onepick-974",
@@ -33,6 +33,57 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4147",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "북트롤리 제품 숏폼 촬영 2030 한국인 여성 모델 모집",
+      "role": "",
+      "gender": "female",
+      "ageMin": 20,
+      "ageMax": 35,
+      "ageText": "여성 · 20세 ~ 35세",
+      "due": "2026-08-05",
+      "url": "https://plfil.com/casting/4147",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
+    },
+    {
+      "id": "plfil-4146",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "여성청결제 및 멀티 런치백 제품 숏폼 촬영 모델 모집",
+      "role": "",
+      "gender": "female",
+      "ageMin": 20,
+      "ageMax": 35,
+      "ageText": "여성 · 20세 ~ 35세",
+      "due": "2026-08-05",
+      "url": "https://plfil.com/casting/4146",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
+    },
+    {
+      "id": "plfil-4145",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "TV/OTT",
+      "title": "넷플릭스 시리즈 드라마<아OO> 워홀러 영어가능자 이미지단역 섭외",
+      "role": "",
+      "gender": "male",
+      "ageMin": 20,
+      "ageMax": 29,
+      "ageText": "남성 · 20세 ~ 29세",
+      "due": "2026-08-11",
+      "url": "https://plfil.com/casting/4145",
+      "email": null,
+      "specials": [],
+      "pay": "25만원 ~ 25만원"
     },
     {
       "id": "plfil-4144",
@@ -152,23 +203,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 20만원"
-    },
-    {
-      "id": "plfil-4134",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "광고",
-      "title": "플랫폼 광고 남여 이미지모델 구인합니다",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-08-03",
-      "url": "https://plfil.com/casting/4134",
-      "email": null,
-      "specials": [],
-      "pay": "35만원 ~ 35만원"
     }
   ]
 }
