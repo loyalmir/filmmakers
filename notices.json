@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-03T23:56+00:00",
-  "count": 13,
+  "updatedAt": "2026-08-04T01:29+00:00",
+  "count": 12,
   "notices": [
     {
       "id": "onepick-974",
@@ -101,23 +101,6 @@
       "email": null,
       "specials": [],
       "pay": "25만원 ~ 25만원"
-    },
-    {
-      "id": "plfil-4144",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "광고",
-      "title": "플랫폼 광고 40대 중후반 남자 이미지모델 구인합니다",
-      "role": "",
-      "gender": "male",
-      "ageMin": 40,
-      "ageMax": 50,
-      "ageText": "남성 · 40세 ~ 50세",
-      "due": "2026-08-03",
-      "url": "https://plfil.com/casting/4144",
-      "email": null,
-      "specials": [],
-      "pay": "35만원 ~ 35만원"
     },
     {
       "id": "plfil-4143",
