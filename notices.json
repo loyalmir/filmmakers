@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-04T23:51+00:00",
-  "count": 13,
+  "updatedAt": "2026-08-05T01:17+00:00",
+  "count": 10,
   "notices": [
     {
       "id": "onepick-974",
@@ -137,23 +137,6 @@
       "pay": "30만원 ~ 40만원"
     },
     {
-      "id": "plfil-4148",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "로맨틱 코미디 웹드라마 <인류의숙제> 남자주인공 모집",
-      "role": "",
-      "gender": "male",
-      "ageMin": 19,
-      "ageMax": 25,
-      "ageText": "남성 · 19세 ~ 25세",
-      "due": "2026-08-04",
-      "url": "https://plfil.com/casting/4148",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 30만원"
-    },
-    {
       "id": "plfil-4147",
       "source": "플필",
       "sourceType": "platform",
@@ -186,40 +169,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4145",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "TV/OTT",
-      "title": "넷플릭스 시리즈 드라마<아OO> 워홀러 영어가능자 이미지단역 섭외",
-      "role": "",
-      "gender": "male",
-      "ageMin": 20,
-      "ageMax": 29,
-      "ageText": "남성 · 20세 ~ 29세",
-      "due": "2026-08-04",
-      "url": "https://plfil.com/casting/4145",
-      "email": null,
-      "specials": [],
-      "pay": "25만원 ~ 25만원"
-    },
-    {
-      "id": "plfil-4143",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "단편영화 '한 걸음' 캐스팅 공고",
-      "role": "",
-      "gender": "female",
-      "ageMin": 18,
-      "ageMax": 28,
-      "ageText": "여성 · 18세 ~ 28세",
-      "due": "2026-08-04",
-      "url": "https://plfil.com/casting/4143",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 20만원"
     }
   ]
 }
