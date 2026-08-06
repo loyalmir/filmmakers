@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-08-06T01:14+00:00",
-  "count": 13,
+  "updatedAt": "2026-08-06T04:51+00:00",
+  "count": 15,
   "notices": [
+    {
+      "id": "onepick-976",
+      "source": "원픽",
+      "sourceType": "platform",
+      "cat": "드라마",
+      "title": "미드폼 드라마<OOOO> 30대 초반 여자 배우 모집",
+      "role": "나이 30대 | 성별 여성 | 경력 무관",
+      "gender": "female",
+      "ageMin": 30,
+      "ageMax": 39,
+      "ageText": "나이 30대 | 성별 여성 | 경력 무관",
+      "due": "2026-08-15",
+      "url": "https://www.myonepick.com/audi/list/",
+      "email": null,
+      "specials": []
+    },
     {
       "id": "onepick-974",
       "source": "원픽",
@@ -35,6 +51,23 @@
       "specials": []
     },
     {
+      "id": "plfil-4160",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "(급구)안경 및 반지 제품 숏폼 촬영",
+      "role": "",
+      "gender": "female",
+      "ageMin": 22,
+      "ageMax": 35,
+      "ageText": "여성 · 22세 ~ 35세",
+      "due": "2026-08-07",
+      "url": "https://plfil.com/casting/4160",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
+    },
+    {
       "id": "plfil-4159",
       "source": "플필",
       "sourceType": "platform",
@@ -43,8 +76,8 @@
       "role": "",
       "gender": "female",
       "ageMin": 20,
-      "ageMax": 32,
-      "ageText": "여성 · 20세 ~ 32세",
+      "ageMax": 35,
+      "ageText": "여성 · 20세 ~ 35세",
       "due": "2026-08-31",
       "url": "https://plfil.com/casting/4159",
       "email": null,
