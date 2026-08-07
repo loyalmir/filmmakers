@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T10:39+00:00",
+  "updatedAt": "2026-08-07T11:35+00:00",
   "count": 15,
   "notices": [
     {
@@ -49,6 +49,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4168",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "단편영화 <쉿!(shxt!)>배우님을 모집합니다.",
+      "role": "",
+      "gender": "male",
+      "ageMin": 30,
+      "ageMax": 49,
+      "ageText": "남성 · 30세 ~ 49세",
+      "due": "2026-08-13",
+      "url": "https://plfil.com/casting/4168",
+      "email": null,
+      "specials": [],
+      "pay": "15만원 ~ 15만원"
     },
     {
       "id": "plfil-4166",
@@ -236,23 +253,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4154",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "TV/OTT",
-      "title": "MBC 시트콤 <하와수 리포트>에서 대머리 배우분을 모집합니다.",
-      "role": "",
-      "gender": "male",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "남성 · 나이 무관",
-      "due": "2026-08-12",
-      "url": "https://plfil.com/casting/4154",
-      "email": null,
-      "specials": [],
-      "pay": "30만원 ~ 40만원"
     }
   ]
 }
