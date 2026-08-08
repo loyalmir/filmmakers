@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-07T23:22+00:00",
-  "count": 15,
+  "updatedAt": "2026-08-08T00:39+00:00",
+  "count": 12,
   "notices": [
     {
       "id": "onepick-976",
@@ -153,23 +153,6 @@
       "pay": "215만원 ~ 240만원"
     },
     {
-      "id": "plfil-4160",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "(급구)안경 및 반지 제품 숏폼 촬영",
-      "role": "",
-      "gender": "female",
-      "ageMin": 22,
-      "ageMax": 35,
-      "ageText": "여성 · 22세 ~ 35세",
-      "due": "2026-08-07",
-      "url": "https://plfil.com/casting/4160",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
-    },
-    {
       "id": "plfil-4159",
       "source": "플필",
       "sourceType": "platform",
@@ -219,40 +202,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 50만원"
-    },
-    {
-      "id": "plfil-4156",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "TV/OTT",
-      "title": "넷플릭스 시리즈 <아oo> 음악 관련 특기자",
-      "role": "",
-      "gender": "female",
-      "ageMin": 30,
-      "ageMax": 60,
-      "ageText": "여성 · 30세 ~ 60세 외 1개 배역",
-      "due": "2026-08-07",
-      "url": "https://plfil.com/casting/4156",
-      "email": null,
-      "specials": [],
-      "pay": "25만원 ~ 25만원"
-    },
-    {
-      "id": "plfil-4155",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "온소금&전용잔 세트 및 쫀득이 제품 숏폼 촬영 모델 모집",
-      "role": "",
-      "gender": "female",
-      "ageMin": 20,
-      "ageMax": 35,
-      "ageText": "여성 · 20세 ~ 35세",
-      "due": "2026-08-07",
-      "url": "https://plfil.com/casting/4155",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
     }
   ]
 }
