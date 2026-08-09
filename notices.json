@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-08T23:15+00:00",
-  "count": 12,
+  "updatedAt": "2026-08-09T00:42+00:00",
+  "count": 11,
   "notices": [
     {
       "id": "onepick-976",
@@ -168,23 +168,6 @@
       "email": null,
       "specials": [],
       "pay": "30만원 ~ 30만원"
-    },
-    {
-      "id": "plfil-4158",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "쇼타임 BL 숏폼드라마 <블라인드 스팟> 남자주인공 모집",
-      "role": "",
-      "gender": "male",
-      "ageMin": 19,
-      "ageMax": 39,
-      "ageText": "남성 · 19세 ~ 39세",
-      "due": "2026-08-08",
-      "url": "https://plfil.com/casting/4158",
-      "email": null,
-      "specials": [],
-      "pay": "100만원 ~ 200만원"
     },
     {
       "id": "plfil-4157",
