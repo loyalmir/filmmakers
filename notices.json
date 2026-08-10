@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T21:29+00:00",
+  "updatedAt": "2026-08-10T22:23+00:00",
   "count": 15,
   "notices": [
     {
@@ -49,6 +49,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4180",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "숏폼BL드라마에서 남주연을 모십니다.",
+      "role": "",
+      "gender": "male",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "남성 · 나이 무관",
+      "due": "2026-08-31",
+      "url": "https://plfil.com/casting/4180",
+      "email": null,
+      "specials": [],
+      "pay": "200만원 ~ 200만원"
     },
     {
       "id": "plfil-4179",
@@ -236,23 +253,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4165",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "상업영화 <0 00 000>",
-      "role": "",
-      "gender": "male",
-      "ageMin": 35,
-      "ageMax": 45,
-      "ageText": "남성 · 35세 ~ 45세",
-      "due": "2026-08-10",
-      "url": "https://plfil.com/casting/4165",
-      "email": null,
-      "specials": [],
-      "pay": "20만원 ~ 25만원"
     }
   ]
 }
