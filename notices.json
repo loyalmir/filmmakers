@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T03:03+00:00",
+  "updatedAt": "2026-08-10T05:12+00:00",
   "count": 12,
   "notices": [
     {
@@ -49,6 +49,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4173",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "방송 제작용 걸밴드 멤버 모집 (키보드, 드럼, 베이스 등)",
+      "role": "",
+      "gender": "female",
+      "ageMin": 19,
+      "ageMax": 31,
+      "ageText": "여성 · 19세 ~ 31세",
+      "due": "2026-08-31",
+      "url": "https://plfil.com/casting/4173",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
     },
     {
       "id": "plfil-4172",
@@ -106,7 +123,7 @@
       "source": "플필",
       "sourceType": "platform",
       "cat": "",
-      "title": "PLUS X E&M 소속사 × 배우의시작 내방 오디션 모집 공고!!",
+      "title": "PLUS X E&M 소속사 × 배우의시작 내방 오디션 모집!(이메일필수)",
       "role": "",
       "gender": "male",
       "ageMin": 20,
@@ -185,23 +202,6 @@
       "email": null,
       "specials": [],
       "pay": "30만원 ~ 30만원"
-    },
-    {
-      "id": "plfil-4157",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "TV/OTT",
-      "title": "Wavve, MBC every1 <하와수 리포트> 배우모집",
-      "role": "",
-      "gender": "male",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "남성 · 나이 무관",
-      "due": "2026-08-28",
-      "url": "https://plfil.com/casting/4157",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 50만원"
     }
   ]
 }
