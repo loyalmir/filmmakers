@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T08:00+00:00",
+  "updatedAt": "2026-08-11T09:46+00:00",
   "count": 15,
   "notices": [
     {
@@ -49,6 +49,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4185",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "공익광고 임산부 역할 30대 여자, 노부부 역할 60-70대 남녀 모델",
+      "role": "",
+      "gender": "any",
+      "ageMin": 60,
+      "ageMax": 75,
+      "ageText": "성별 무관 · 60세 ~ 75세 외 1개 배역",
+      "due": "2026-08-12",
+      "url": "https://plfil.com/casting/4185",
+      "email": null,
+      "specials": [],
+      "pay": "40만원 ~ 40만원"
     },
     {
       "id": "plfil-4184",
@@ -233,23 +250,6 @@
       "ageText": "남성 · 40세 ~ 59세 외 2개 배역",
       "due": "2026-08-14",
       "url": "https://plfil.com/casting/4174",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4173",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "방송 제작용 걸밴드 멤버 모집 (키보드, 드럼, 베이스 등)",
-      "role": "",
-      "gender": "female",
-      "ageMin": 19,
-      "ageMax": 31,
-      "ageText": "여성 · 19세 ~ 31세",
-      "due": "2026-08-31",
-      "url": "https://plfil.com/casting/4173",
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 10만원"
