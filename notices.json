@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T00:43+00:00",
+  "updatedAt": "2026-08-11T02:56+00:00",
   "count": 14,
   "notices": [
     {
@@ -60,7 +60,7 @@
       "gender": "female",
       "ageMin": 20,
       "ageMax": 29,
-      "ageText": "여성 · 20세 ~ 29세 외 1개 배역",
+      "ageText": "여성 · 20세 ~ 29세",
       "due": "2026-09-30",
       "url": "https://plfil.com/casting/4181",
       "email": null,
@@ -211,9 +211,9 @@
       "title": "고체 탈취제 브랜드 모델 모집 30대 이상 남녀 화학 관련학과 전공자",
       "role": "",
       "gender": "male",
-      "ageMin": 30,
+      "ageMin": 20,
       "ageMax": 70,
-      "ageText": "남성 · 30세 ~ 70세 외 1개 배역",
+      "ageText": "남성 · 20세 ~ 70세 외 1개 배역",
       "due": "2026-08-31",
       "url": "https://plfil.com/casting/4172",
       "email": null,
