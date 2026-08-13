@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-12T23:27+00:00",
-  "count": 15,
+  "updatedAt": "2026-08-13T00:52+00:00",
+  "count": 14,
   "notices": [
     {
       "id": "onepick-976",
@@ -134,23 +134,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4185",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "공익광고 임산부 역할 30대 여자, 노부부 역할 60-70대 남녀 모델",
-      "role": "",
-      "gender": "any",
-      "ageMin": 60,
-      "ageMax": 75,
-      "ageText": "성별 무관 · 60세 ~ 75세 외 1개 배역",
-      "due": "2026-08-12",
-      "url": "https://plfil.com/casting/4185",
-      "email": null,
-      "specials": [],
-      "pay": "40만원 ~ 40만원"
     },
     {
       "id": "plfil-4184",
