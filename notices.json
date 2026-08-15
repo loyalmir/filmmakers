@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T07:19+00:00",
+  "updatedAt": "2026-08-15T08:12+00:00",
   "count": 13,
   "notices": [
     {
@@ -49,6 +49,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4198",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "바른손이앤에이 숏폼 로맨틱코미디 <렌더링 러브> 남자주인공(아이돌)모집",
+      "role": "",
+      "gender": "male",
+      "ageMin": 25,
+      "ageMax": 35,
+      "ageText": "남성 · 25세 ~ 35세 외 1개 배역",
+      "due": "2026-08-19",
+      "url": "https://plfil.com/casting/4198",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 30만원"
     },
     {
       "id": "plfil-4197",
@@ -202,23 +219,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 100만원"
-    },
-    {
-      "id": "plfil-4186",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "도라지 정과 및 소불고기 밀키트 제품 영상 촬영 모델 모집",
-      "role": "",
-      "gender": "female",
-      "ageMin": 21,
-      "ageMax": 35,
-      "ageText": "여성 · 21세 ~ 35세",
-      "due": "2026-08-17",
-      "url": "https://plfil.com/casting/4186",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
     }
   ]
 }
