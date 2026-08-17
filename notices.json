@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T04:28+00:00",
+  "updatedAt": "2026-08-17T05:24+00:00",
   "count": 9,
   "notices": [
     {
@@ -33,6 +33,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4200",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "7세 남자 아이 섭외 합니다!",
+      "role": "",
+      "gender": "male",
+      "ageMin": 6,
+      "ageMax": 7,
+      "ageText": "남성 · 6세 ~ 7세",
+      "due": "2026-08-18",
+      "url": "https://plfil.com/casting/4200",
+      "email": null,
+      "specials": [],
+      "pay": "20만원 ~ 20만원"
     },
     {
       "id": "plfil-4198",
@@ -135,23 +152,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4187",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "레진스낵 웹드라마 <힘내라! 여대리> 남,녀 주인공 모집!!!",
-      "role": "",
-      "gender": "male",
-      "ageMin": 26,
-      "ageMax": 39,
-      "ageText": "남성 · 26세 ~ 39세 외 2개 배역",
-      "due": "2026-08-31",
-      "url": "https://plfil.com/casting/4187",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 100만원"
     }
   ]
 }
