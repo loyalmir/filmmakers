@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-16T23:08+00:00",
-  "count": 11,
+  "updatedAt": "2026-08-17T00:27+00:00",
+  "count": 9,
   "notices": [
     {
       "id": "onepick-974",
@@ -115,40 +115,6 @@
       "ageText": "남성 · 28세 ~ 37세",
       "due": "2026-08-17",
       "url": "https://plfil.com/casting/4194",
-      "email": null,
-      "specials": [],
-      "pay": "20만원 ~ 20만원"
-    },
-    {
-      "id": "plfil-4193",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "키 크신 남자 배우님 섭외 합니다.",
-      "role": "",
-      "gender": "male",
-      "ageMin": 36,
-      "ageMax": 50,
-      "ageText": "남성 · 36세 ~ 50세",
-      "due": "2026-08-16",
-      "url": "https://plfil.com/casting/4193",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4191",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "JYP NMIXX 뮤직비디오 20~30대 여자 단역 모집 공고",
-      "role": "",
-      "gender": "female",
-      "ageMin": 20,
-      "ageMax": 35,
-      "ageText": "여성 · 20세 ~ 35세",
-      "due": "2026-08-16",
-      "url": "https://plfil.com/casting/4191",
       "email": null,
       "specials": [],
       "pay": "20만원 ~ 20만원"
