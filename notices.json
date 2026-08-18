@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-18T03:33+00:00",
-  "count": 9,
+  "updatedAt": "2026-08-18T04:22+00:00",
+  "count": 10,
   "notices": [
     {
       "id": "onepick-974",
@@ -33,6 +33,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4203",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "넷플릭스 비공개 영화 <o직o> 이미지 단역 (현장대사 있음)",
+      "role": "",
+      "gender": "female",
+      "ageMin": 30,
+      "ageMax": 52,
+      "ageText": "여성 · 30세 ~ 52세",
+      "due": "2026-08-29",
+      "url": "https://plfil.com/casting/4203",
+      "email": null,
+      "specials": [],
+      "pay": "25만원 ~ 25만원"
     },
     {
       "id": "plfil-4202",
