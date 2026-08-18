@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-18T05:17+00:00",
-  "count": 11,
+  "updatedAt": "2026-08-18T06:20+00:00",
+  "count": 12,
   "notices": [
     {
       "id": "onepick-974",
@@ -33,6 +33,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4205",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "레진스낵 숏 드라마 <가족이 되어주라!> 남녀 주인공 모집",
+      "role": "",
+      "gender": "male",
+      "ageMin": 23,
+      "ageMax": 42,
+      "ageText": "남성 · 23세 ~ 42세 외 1개 배역",
+      "due": "2026-09-30",
+      "url": "https://plfil.com/casting/4205",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 50만원"
     },
     {
       "id": "plfil-4204",
