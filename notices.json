@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-18T02:07+00:00",
-  "count": 8,
+  "updatedAt": "2026-08-18T03:33+00:00",
+  "count": 9,
   "notices": [
     {
       "id": "onepick-974",
@@ -33,6 +33,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4202",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "GL '비밀레슨' 여주인공 2분 캐스팅",
+      "role": "",
+      "gender": "female",
+      "ageMin": 29,
+      "ageMax": 35,
+      "ageText": "여성 · 29세 ~ 35세 외 1개 배역",
+      "due": "2026-08-23",
+      "url": "https://plfil.com/casting/4202",
+      "email": null,
+      "specials": [],
+      "pay": "50만원 ~ 50만원"
     },
     {
       "id": "plfil-4201",
