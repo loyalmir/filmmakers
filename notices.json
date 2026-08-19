@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T05:18+00:00",
+  "updatedAt": "2026-08-19T06:21+00:00",
   "count": 13,
   "notices": [
     {
@@ -33,6 +33,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4210",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "광고",
+      "title": "가습기 광고 10대후반~ 80대 개성있는 이미지 모델 구인합니다",
+      "role": "",
+      "gender": "any",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "성별 무관 · 나이 무관",
+      "due": "2026-08-19",
+      "url": "https://plfil.com/casting/4210",
+      "email": null,
+      "specials": [],
+      "pay": "25만원 ~ 25만원"
     },
     {
       "id": "plfil-4209",
@@ -203,23 +220,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 30만원"
-    },
-    {
-      "id": "plfil-4197",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "쇼타임 플랫폼 BL 웹드라마 남자 주인공 모집",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관 외 1개 배역",
-      "due": "2026-08-31",
-      "url": "https://plfil.com/casting/4197",
-      "email": null,
-      "specials": [],
-      "pay": "200만원 ~ 200만원"
     }
   ]
 }
