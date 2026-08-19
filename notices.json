@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-19T00:28+00:00",
-  "count": 11,
+  "updatedAt": "2026-08-19T02:10+00:00",
+  "count": 12,
   "notices": [
     {
       "id": "onepick-974",
@@ -33,6 +33,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4208",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "[비공개 뮤직비디오] 남녀 이미지 단역으로 출연할 배우님들 섭외합니다.",
+      "role": "",
+      "gender": "male",
+      "ageMin": 35,
+      "ageMax": 45,
+      "ageText": "남성 · 35세 ~ 45세 외 3개 배역",
+      "due": "2026-08-21",
+      "url": "https://plfil.com/casting/4208",
+      "email": null,
+      "specials": [],
+      "pay": "20만원 ~ 20만원"
     },
     {
       "id": "plfil-4207",
