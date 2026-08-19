@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-19T08:20+00:00",
-  "count": 13,
+  "updatedAt": "2026-08-19T09:20+00:00",
+  "count": 14,
   "notices": [
     {
       "id": "onepick-974",
@@ -33,6 +33,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4212",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "테이프커터기 및 커피 제품 영상 촬영 모델 모집",
+      "role": "",
+      "gender": "female",
+      "ageMin": 20,
+      "ageMax": 35,
+      "ageText": "여성 · 20세 ~ 35세",
+      "due": "2026-08-21",
+      "url": "https://plfil.com/casting/4212",
+      "email": null,
+      "specials": [],
+      "pay": "20만원 ~ 20만원"
     },
     {
       "id": "plfil-4211",
