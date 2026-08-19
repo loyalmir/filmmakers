@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-18T23:10+00:00",
-  "count": 14,
+  "updatedAt": "2026-08-19T00:28+00:00",
+  "count": 11,
   "notices": [
     {
       "id": "onepick-974",
@@ -154,23 +154,6 @@
       "pay": "35만원 ~ 35만원"
     },
     {
-      "id": "plfil-4200",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "7세 남자 아이 섭외 합니다!",
-      "role": "",
-      "gender": "male",
-      "ageMin": 6,
-      "ageMax": 7,
-      "ageText": "남성 · 6세 ~ 7세",
-      "due": "2026-08-18",
-      "url": "https://plfil.com/casting/4200",
-      "email": null,
-      "specials": [],
-      "pay": "20만원 ~ 20만원"
-    },
-    {
       "id": "plfil-4198",
       "source": "플필",
       "sourceType": "platform",
@@ -203,40 +186,6 @@
       "email": null,
       "specials": [],
       "pay": "200만원 ~ 200만원"
-    },
-    {
-      "id": "plfil-4196",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "<더리더> 숏폼 드라마 (이메일 필수!!)",
-      "role": "",
-      "gender": "male",
-      "ageMin": 20,
-      "ageMax": 35,
-      "ageText": "남성 · 20세 ~ 35세 외 1개 배역",
-      "due": "2026-08-18",
-      "url": "https://plfil.com/casting/4196",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 15만원"
-    },
-    {
-      "id": "plfil-4195",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "원형러그 및 멀티백팩 제품 영상 촬영 모델 모집",
-      "role": "",
-      "gender": "female",
-      "ageMin": 23,
-      "ageMax": 35,
-      "ageText": "여성 · 23세 ~ 35세",
-      "due": "2026-08-18",
-      "url": "https://plfil.com/casting/4195",
-      "email": null,
-      "specials": [],
-      "pay": "16만원 ~ 16만원"
     }
   ]
 }
