@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T07:30+00:00",
+  "updatedAt": "2026-08-20T08:21+00:00",
   "count": 13,
   "notices": [
     {
@@ -49,6 +49,40 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4218",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "장편 독립영화 <Proximity> 단역배우들 모집",
+      "role": "",
+      "gender": "male",
+      "ageMin": 60,
+      "ageMax": 70,
+      "ageText": "남성 · 60세 ~ 70세 외 8개 배역",
+      "due": "2026-08-23",
+      "url": "https://plfil.com/casting/4218",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
+    },
+    {
+      "id": "plfil-4217",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "공익광고 엄마 역할 30대 초반, 4-5세 아동 이미지 모델 구인합니다",
+      "role": "",
+      "gender": "any",
+      "ageMin": 4,
+      "ageMax": 5,
+      "ageText": "성별 무관 · 4세 ~ 5세 외 1개 배역",
+      "due": "2026-08-21",
+      "url": "https://plfil.com/casting/4217",
+      "email": null,
+      "specials": [],
+      "pay": "30만원 ~ 30만원"
     },
     {
       "id": "plfil-4216",
@@ -185,40 +219,6 @@
       "email": null,
       "specials": [],
       "pay": "20만원 ~ 20만원"
-    },
-    {
-      "id": "plfil-4206",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "뮤지컬",
-      "title": "[ 페인터즈 ] 남자배우 오디션 추가 모집 !!",
-      "role": "",
-      "gender": "male",
-      "ageMin": 20,
-      "ageMax": 32,
-      "ageText": "남성 · 20세 ~ 32세",
-      "due": "2026-08-31",
-      "url": "https://plfil.com/casting/4206",
-      "email": null,
-      "specials": [],
-      "pay": "220만원 ~ 300만원"
-    },
-    {
-      "id": "plfil-4205",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "레진스낵 숏 드라마 <가족이 되어주라!> 남녀 주인공 모집",
-      "role": "",
-      "gender": "male",
-      "ageMin": 23,
-      "ageMax": 42,
-      "ageText": "남성 · 23세 ~ 42세 외 1개 배역",
-      "due": "2026-09-30",
-      "url": "https://plfil.com/casting/4205",
-      "email": null,
-      "specials": [],
-      "pay": "100만원 ~ 100만원"
     }
   ]
 }
