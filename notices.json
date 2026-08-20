@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-08-20T04:23+00:00",
-  "count": 12,
+  "updatedAt": "2026-08-20T05:19+00:00",
+  "count": 13,
   "notices": [
+    {
+      "id": "onepick-977",
+      "source": "원픽",
+      "sourceType": "platform",
+      "cat": "드라마",
+      "title": "미드폼 드라마 <OOO> 30대초반 남자배우 모집",
+      "role": "나이 30대 | 성별 남성 | 경력 무관",
+      "gender": "male",
+      "ageMin": 30,
+      "ageMax": 39,
+      "ageText": "나이 30대 | 성별 남성 | 경력 무관",
+      "due": "2026-08-27",
+      "url": "https://www.myonepick.com/audi/list/",
+      "email": null,
+      "specials": []
+    },
     {
       "id": "onepick-974",
       "source": "원픽",
