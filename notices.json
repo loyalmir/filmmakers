@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T02:08+00:00",
+  "updatedAt": "2026-08-20T03:35+00:00",
   "count": 12,
   "notices": [
     {
@@ -33,6 +33,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4214",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "영진위 지원작 장편독립영화",
+      "role": "",
+      "gender": "male",
+      "ageMin": 50,
+      "ageMax": 60,
+      "ageText": "남성 · 50세 ~ 60세",
+      "due": "2026-08-23",
+      "url": "https://plfil.com/casting/4214",
+      "email": null,
+      "specials": [],
+      "pay": "25만원 ~ 25만원"
     },
     {
       "id": "plfil-4213",
@@ -186,23 +203,6 @@
       "email": null,
       "specials": [],
       "pay": "25만원 ~ 25만원"
-    },
-    {
-      "id": "plfil-4202",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "GL '비밀레슨' 여주인공 2분 캐스팅",
-      "role": "",
-      "gender": "female",
-      "ageMin": 29,
-      "ageMax": 35,
-      "ageText": "여성 · 29세 ~ 35세 외 1개 배역",
-      "due": "2026-08-23",
-      "url": "https://plfil.com/casting/4202",
-      "email": null,
-      "specials": [],
-      "pay": "50만원 ~ 50만원"
     }
   ]
 }
