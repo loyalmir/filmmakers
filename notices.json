@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T06:21+00:00",
+  "updatedAt": "2026-08-20T07:30+00:00",
   "count": 13,
   "notices": [
     {
@@ -49,6 +49,40 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4216",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "멜라타치온(알약형) 제품 숏폼 촬영 모델 모집",
+      "role": "",
+      "gender": "female",
+      "ageMin": 30,
+      "ageMax": 46,
+      "ageText": "여성 · 30세 ~ 46세",
+      "due": "2026-08-24",
+      "url": "https://plfil.com/casting/4216",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
+    },
+    {
+      "id": "plfil-4215",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "프로폴리스 제품 숏폼 촬영 모델 모집",
+      "role": "",
+      "gender": "female",
+      "ageMin": 26,
+      "ageMax": 39,
+      "ageText": "여성 · 26세 ~ 39세",
+      "due": "2026-08-24",
+      "url": "https://plfil.com/casting/4215",
+      "email": null,
+      "specials": [],
+      "pay": "15만원 ~ 15만원"
     },
     {
       "id": "plfil-4214",
@@ -122,7 +156,7 @@
       "id": "plfil-4209",
       "source": "플필",
       "sourceType": "platform",
-      "cat": "영화",
+      "cat": "",
       "title": "넷플릭스 영화 <o직o> 고정 단역 (현장대사 있음) 여자 40-50대",
       "role": "",
       "gender": "female",
@@ -185,40 +219,6 @@
       "email": null,
       "specials": [],
       "pay": "100만원 ~ 100만원"
-    },
-    {
-      "id": "plfil-4204",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "안경 및 여성 의류 제품 영상 촬영",
-      "role": "",
-      "gender": "female",
-      "ageMin": 22,
-      "ageMax": 35,
-      "ageText": "여성 · 22세 ~ 35세",
-      "due": "2026-08-20",
-      "url": "https://plfil.com/casting/4204",
-      "email": null,
-      "specials": [],
-      "pay": "16만원 ~ 16만원"
-    },
-    {
-      "id": "plfil-4203",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "넷플릭스 비공개 영화 <o직o> 이미지 단역 (현장대사 있음)",
-      "role": "",
-      "gender": "female",
-      "ageMin": 30,
-      "ageMax": 52,
-      "ageText": "여성 · 30세 ~ 52세",
-      "due": "2026-08-29",
-      "url": "https://plfil.com/casting/4203",
-      "email": null,
-      "specials": [],
-      "pay": "25만원 ~ 25만원"
     }
   ]
 }
