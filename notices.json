@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-19T23:11+00:00",
-  "count": 14,
+  "updatedAt": "2026-08-20T00:28+00:00",
+  "count": 12,
   "notices": [
     {
       "id": "onepick-974",
@@ -86,23 +86,6 @@
       "pay": "10만원 ~ 10만원"
     },
     {
-      "id": "plfil-4210",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "광고",
-      "title": "가습기 광고 10대후반~ 80대 개성있는 이미지 모델 구인합니다",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-08-19",
-      "url": "https://plfil.com/casting/4210",
-      "email": null,
-      "specials": [],
-      "pay": "25만원 ~ 25만원"
-    },
-    {
       "id": "plfil-4209",
       "source": "플필",
       "sourceType": "platform",
@@ -135,23 +118,6 @@
       "email": null,
       "specials": [],
       "pay": "20만원 ~ 20만원"
-    },
-    {
-      "id": "plfil-4207",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "남자 배우님 섭외 합니다.",
-      "role": "",
-      "gender": "male",
-      "ageMin": 17,
-      "ageMax": 23,
-      "ageText": "남성 · 17세 ~ 23세",
-      "due": "2026-08-19",
-      "url": "https://plfil.com/casting/4207",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
     },
     {
       "id": "plfil-4206",
