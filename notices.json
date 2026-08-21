@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T06:22+00:00",
+  "updatedAt": "2026-08-21T07:32+00:00",
   "count": 13,
   "notices": [
     {
@@ -49,6 +49,40 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4221",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "비공개 TV영양제 광고",
+      "role": "",
+      "gender": "male",
+      "ageMin": 60,
+      "ageMax": 80,
+      "ageText": "남성 · 60세 ~ 80세 외 5개 배역",
+      "due": "2026-09-17",
+      "url": "https://plfil.com/casting/4221",
+      "email": null,
+      "specials": [],
+      "pay": "20만원 ~ 20만원"
+    },
+    {
+      "id": "plfil-4220",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "개성약과 2종 제품 사진 촬영 모델 모집",
+      "role": "",
+      "gender": "female",
+      "ageMin": 20,
+      "ageMax": 35,
+      "ageText": "여성 · 20세 ~ 35세",
+      "due": "2026-08-25",
+      "url": "https://plfil.com/casting/4220",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
     },
     {
       "id": "plfil-4219",
@@ -185,40 +219,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4209",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "넷플릭스 영화 <o직o> 고정 단역 (현장대사 있음) 여자 40-50대",
-      "role": "",
-      "gender": "female",
-      "ageMin": 40,
-      "ageMax": 60,
-      "ageText": "여성 · 40세 ~ 60세",
-      "due": "2026-09-05",
-      "url": "https://plfil.com/casting/4209",
-      "email": null,
-      "specials": [],
-      "pay": "25만원 ~ 25만원"
-    },
-    {
-      "id": "plfil-4208",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "[비공개 뮤직비디오] 남녀 이미지 단역으로 출연할 배우님들 섭외합니다.",
-      "role": "",
-      "gender": "male",
-      "ageMin": 35,
-      "ageMax": 45,
-      "ageText": "남성 · 35세 ~ 45세 외 3개 배역",
-      "due": "2026-08-21",
-      "url": "https://plfil.com/casting/4208",
-      "email": null,
-      "specials": [],
-      "pay": "20만원 ~ 20만원"
     }
   ]
 }
