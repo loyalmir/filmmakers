@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-21T23:11+00:00",
-  "count": 13,
+  "updatedAt": "2026-08-22T00:28+00:00",
+  "count": 10,
   "notices": [
     {
       "id": "onepick-977",
@@ -119,23 +119,6 @@
       "pay": "10만원 ~ 10만원"
     },
     {
-      "id": "plfil-4217",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "공익광고 엄마 역할 30대 초반, 4-5세 아동 이미지 모델 구인합니다",
-      "role": "",
-      "gender": "any",
-      "ageMin": 4,
-      "ageMax": 5,
-      "ageText": "성별 무관 · 4세 ~ 5세 외 1개 배역",
-      "due": "2026-08-21",
-      "url": "https://plfil.com/casting/4217",
-      "email": null,
-      "specials": [],
-      "pay": "30만원 ~ 30만원"
-    },
-    {
       "id": "plfil-4216",
       "source": "플필",
       "sourceType": "platform",
@@ -185,40 +168,6 @@
       "email": null,
       "specials": [],
       "pay": "25만원 ~ 25만원"
-    },
-    {
-      "id": "plfil-4212",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "테이프커터기 및 커피 제품 영상 촬영 모델 모집",
-      "role": "",
-      "gender": "female",
-      "ageMin": 20,
-      "ageMax": 35,
-      "ageText": "여성 · 20세 ~ 35세",
-      "due": "2026-08-21",
-      "url": "https://plfil.com/casting/4212",
-      "email": null,
-      "specials": [],
-      "pay": "20만원 ~ 20만원"
-    },
-    {
-      "id": "plfil-4211",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "여성청결제 제품 숏폼 촬영 모델 모집(신체부위노출X)",
-      "role": "",
-      "gender": "female",
-      "ageMin": 20,
-      "ageMax": 35,
-      "ageText": "여성 · 20세 ~ 35세",
-      "due": "2026-08-21",
-      "url": "https://plfil.com/casting/4211",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
     }
   ]
 }
