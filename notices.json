@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-23T23:08+00:00",
-  "count": 12,
+  "updatedAt": "2026-08-24T00:29+00:00",
+  "count": 10,
   "notices": [
     {
       "id": "onepick-977",
@@ -136,23 +136,6 @@
       "pay": "150만원 ~ 300만원"
     },
     {
-      "id": "plfil-4218",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "장편 독립영화 <Proximity> 단역배우들 모집",
-      "role": "",
-      "gender": "male",
-      "ageMin": 60,
-      "ageMax": 70,
-      "ageText": "남성 · 60세 ~ 70세 외 9개 배역",
-      "due": "2026-08-23",
-      "url": "https://plfil.com/casting/4218",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
-    },
-    {
       "id": "plfil-4216",
       "source": "플필",
       "sourceType": "platform",
@@ -185,23 +168,6 @@
       "email": null,
       "specials": [],
       "pay": "15만원 ~ 15만원"
-    },
-    {
-      "id": "plfil-4214",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "영진위 지원작 장편독립영화",
-      "role": "",
-      "gender": "male",
-      "ageMin": 50,
-      "ageMax": 60,
-      "ageText": "남성 · 50세 ~ 60세",
-      "due": "2026-08-23",
-      "url": "https://plfil.com/casting/4214",
-      "email": null,
-      "specials": [],
-      "pay": "25만원 ~ 25만원"
     }
   ]
 }
