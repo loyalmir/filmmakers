@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-24T00:29+00:00",
-  "count": 10,
+  "updatedAt": "2026-08-24T02:14+00:00",
+  "count": 12,
   "notices": [
     {
       "id": "onepick-977",
@@ -49,6 +49,40 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4226",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "핸드크림 및 콜라겐 젤리스틱 제품 숏폼 촬영 모델 모집",
+      "role": "",
+      "gender": "any",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "성별 무관 · 나이 무관",
+      "due": "2026-08-28",
+      "url": "https://plfil.com/casting/4226",
+      "email": null,
+      "specials": [],
+      "pay": "20만원 ~ 20만원"
+    },
+    {
+      "id": "plfil-4225",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "소불고기 밀키트 제품 숏폼 촬영 모델 모집",
+      "role": "",
+      "gender": "female",
+      "ageMin": 20,
+      "ageMax": 35,
+      "ageText": "여성 · 20세 ~ 35세",
+      "due": "2026-08-26",
+      "url": "https://plfil.com/casting/4225",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
     },
     {
       "id": "plfil-4223",
