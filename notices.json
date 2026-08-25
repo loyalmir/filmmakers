@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T11:15+00:00",
+  "updatedAt": "2026-08-25T12:20+00:00",
   "count": 17,
   "notices": [
     {
@@ -81,6 +81,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4240",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "광고",
+      "title": "아파트 광고 실제 경비원 이력 있으시거나 현직이신 50-70대 남자 모델",
+      "role": "",
+      "gender": "any",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "성별 무관 · 나이 무관",
+      "due": "2026-08-26",
+      "url": "https://plfil.com/casting/4240",
+      "email": null,
+      "specials": [],
+      "pay": "25만원 ~ 25만원"
     },
     {
       "id": "plfil-4239",
@@ -268,23 +285,6 @@
       "email": null,
       "specials": [],
       "pay": "20만원 ~ 20만원"
-    },
-    {
-      "id": "plfil-4228",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "TV/OTT",
-      "title": "OTT 사극 비공개 드라마 여자 승려 이미지 단역(삭발가능자)",
-      "role": "",
-      "gender": "female",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "여성 · 나이 무관",
-      "due": "2026-08-25",
-      "url": "https://plfil.com/casting/4228",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 30만원"
     }
   ]
 }
