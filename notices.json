@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T09:22+00:00",
+  "updatedAt": "2026-08-25T10:18+00:00",
   "count": 17,
   "notices": [
     {
@@ -81,6 +81,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4239",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "연극",
+      "title": "[오디션 공고] *배역추가!* 연극 <말을 삼킨 자리> 여자 주조연 배우",
+      "role": "",
+      "gender": "female",
+      "ageMin": 21,
+      "ageMax": 32,
+      "ageText": "여성 · 21세 ~ 32세 외 2개 배역",
+      "due": "2026-09-05",
+      "url": "https://plfil.com/casting/4239",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
     },
     {
       "id": "plfil-4238",
@@ -268,23 +285,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 30만원"
-    },
-    {
-      "id": "plfil-4227",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "제2회 천하제일 독백교류전 참가자 모집!!!",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-09-04",
-      "url": "https://plfil.com/casting/4227",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
     }
   ]
 }
