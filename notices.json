@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-26T21:22+00:00",
-  "count": 17,
+  "updatedAt": "2026-08-27T02:18+00:00",
+  "count": 13,
   "notices": [
     {
       "id": "onepick-979",
@@ -83,6 +83,23 @@
       "specials": []
     },
     {
+      "id": "plfil-4244",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "[쉐프본] 주방가전 상세",
+      "role": "",
+      "gender": "female",
+      "ageMin": 27,
+      "ageMax": 39,
+      "ageText": "여성 · 27세 ~ 39세",
+      "due": "2026-08-31",
+      "url": "https://plfil.com/casting/4244",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
+    },
+    {
       "id": "plfil-4243",
       "source": "플필",
       "sourceType": "platform",
@@ -98,57 +115,6 @@
       "email": null,
       "specials": [],
       "pay": "20만원 ~ 20만원"
-    },
-    {
-      "id": "plfil-4242",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "TV/OTT",
-      "title": "KBS2 일일드라마 <욕망의 덫> 일진여고생",
-      "role": "",
-      "gender": "female",
-      "ageMin": 18,
-      "ageMax": 23,
-      "ageText": "여성 · 18세 ~ 23세",
-      "due": "2026-08-26",
-      "url": "https://plfil.com/casting/4242",
-      "email": null,
-      "specials": [],
-      "pay": "15만원 ~ 15만원"
-    },
-    {
-      "id": "plfil-4241",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "기념행사 및 보도자료 촬영 가능하신 키 170후반 20-30대 남자모델",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-08-26",
-      "url": "https://plfil.com/casting/4241",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4240",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "광고",
-      "title": "아파트 광고 실제 경비원 이력 있으시거나 현직이신 50-70대 남자 모델",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-08-26",
-      "url": "https://plfil.com/casting/4240",
-      "email": null,
-      "specials": [],
-      "pay": "25만원 ~ 25만원"
     },
     {
       "id": "plfil-4239",
@@ -219,23 +185,6 @@
       "pay": "10만원 ~ 10만원"
     },
     {
-      "id": "plfil-4235",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "광고",
-      "title": "유아용품 광고 엄마, 아빠 역할 30대 중반 남녀모델 구인합니다",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-08-26",
-      "url": "https://plfil.com/casting/4235",
-      "email": null,
-      "specials": [],
-      "pay": "30만원 ~ 30만원"
-    },
-    {
       "id": "plfil-4234",
       "source": "플필",
       "sourceType": "platform",
@@ -268,23 +217,6 @@
       "email": null,
       "specials": [],
       "pay": "20만원 ~ 20만원"
-    },
-    {
-      "id": "plfil-4232",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "샤워타올 제품 숏폼 촬영 모델 모집 (민소매 착용 외에 신체부위노출x)",
-      "role": "",
-      "gender": "female",
-      "ageMin": 20,
-      "ageMax": 35,
-      "ageText": "여성 · 20세 ~ 35세",
-      "due": "2026-08-27",
-      "url": "https://plfil.com/casting/4232",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
     }
   ]
 }
