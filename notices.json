@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-08-27T23:16+00:00",
-  "count": 13,
+  "updatedAt": "2026-08-28T07:15+00:00",
+  "count": 11,
   "notices": [
     {
       "id": "onepick-979",
@@ -30,22 +30,6 @@
       "ageMax": null,
       "ageText": "나이 무관 | 성별 무관 | 경력 무관",
       "due": "상시모집",
-      "url": "https://www.myonepick.com/audi/list/",
-      "email": null,
-      "specials": []
-    },
-    {
-      "id": "onepick-977",
-      "source": "원픽",
-      "sourceType": "platform",
-      "cat": "드라마",
-      "title": "미드폼 드라마 <OOO> 30대초반 남자배우 모집",
-      "role": "나이 30대 | 성별 남성 | 경력 무관",
-      "gender": "male",
-      "ageMin": 30,
-      "ageMax": 39,
-      "ageText": "나이 30대 | 성별 남성 | 경력 무관",
-      "due": "2026-08-27",
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
@@ -81,6 +65,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4247",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "강아지 이동가방 숏폼 촬영 모델 모집(강아지 모델과 함께 촬영)",
+      "role": "",
+      "gender": "female",
+      "ageMin": 20,
+      "ageMax": 35,
+      "ageText": "여성 · 20세 ~ 35세",
+      "due": "2026-09-01",
+      "url": "https://plfil.com/casting/4247",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
     },
     {
       "id": "plfil-4246",
@@ -146,40 +147,6 @@
       "ageText": "여성 · 20세 ~ 35세",
       "due": "2026-08-31",
       "url": "https://plfil.com/casting/4243",
-      "email": null,
-      "specials": [],
-      "pay": "20만원 ~ 20만원"
-    },
-    {
-      "id": "plfil-4239",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "연극",
-      "title": "[오디션 공고] *배역추가!* 연극 <말을 삼킨 자리> 여자 주조연 배우",
-      "role": "",
-      "gender": "female",
-      "ageMin": 21,
-      "ageMax": 32,
-      "ageText": "여성 · 21세 ~ 32세 외 2개 배역",
-      "due": "2026-08-27",
-      "url": "https://plfil.com/casting/4239",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4238",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "와인잔 숏폼 및 스파클링화이트와인 롱폼 영상 촬영 모델 모집",
-      "role": "",
-      "gender": "female",
-      "ageMin": 20,
-      "ageMax": 35,
-      "ageText": "여성 · 20세 ~ 35세",
-      "due": "2026-08-27",
-      "url": "https://plfil.com/casting/4238",
       "email": null,
       "specials": [],
       "pay": "20만원 ~ 20만원"
