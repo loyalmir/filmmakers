@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T01:28+00:00",
+  "updatedAt": "2026-09-01T06:51+00:00",
   "count": 15,
   "notices": [
     {
@@ -49,6 +49,57 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4268",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "TV/OTT",
+      "title": "넷플릭스 시리즈 훈련병,직업군인 이미지 단역",
+      "role": "",
+      "gender": "male",
+      "ageMin": 20,
+      "ageMax": 32,
+      "ageText": "남성 · 20세 ~ 32세",
+      "due": "2026-09-30",
+      "url": "https://plfil.com/casting/4268",
+      "email": null,
+      "specials": [],
+      "pay": "40만원 ~ 40만원"
+    },
+    {
+      "id": "plfil-4267",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "광고",
+      "title": "세차장 광고 젠틀한 이미지의 30-40대 남자모델 구인합니다",
+      "role": "",
+      "gender": "any",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "성별 무관 · 나이 무관",
+      "due": "2026-09-02",
+      "url": "https://plfil.com/casting/4267",
+      "email": null,
+      "specials": [],
+      "pay": "50만원 ~ 50만원"
+    },
+    {
+      "id": "plfil-4266",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "가전 전자제품 오프닝 영상 40~50대 남성모델 모집합니다.",
+      "role": "",
+      "gender": "any",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "성별 무관 · 나이 무관",
+      "due": "2026-09-01",
+      "url": "https://plfil.com/casting/4266",
+      "email": null,
+      "specials": [],
+      "pay": "40만원 ~ 40만원"
     },
     {
       "id": "plfil-4265",
@@ -202,57 +253,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4256",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "핸드&네일 리페어밤 롱폼 촬영 모델 모집",
-      "role": "",
-      "gender": "female",
-      "ageMin": 20,
-      "ageMax": 38,
-      "ageText": "여성 · 20세 ~ 38세",
-      "due": "2026-09-03",
-      "url": "https://plfil.com/casting/4256",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4255",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "[스킨케어 브랜드 칸도럽] SNS 뷰티 광고 셀프 촬영 모델 모집",
-      "role": "",
-      "gender": "female",
-      "ageMin": 20,
-      "ageMax": 40,
-      "ageText": "여성 · 20세 ~ 40세",
-      "due": "2026-09-04",
-      "url": "https://plfil.com/casting/4255",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4254",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "닥터써클 헬스케어 20-30대초 (제품 상세",
-      "role": "",
-      "gender": "female",
-      "ageMin": 23,
-      "ageMax": 33,
-      "ageText": "여성 · 23세 ~ 33세",
-      "due": "2026-09-09",
-      "url": "https://plfil.com/casting/4254",
-      "email": null,
-      "specials": [],
-      "pay": "20만원 ~ 20만원"
     }
   ]
 }
