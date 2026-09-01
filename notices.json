@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-01T12:09+00:00",
-  "count": 15,
+  "updatedAt": "2026-09-01T17:01+00:00",
+  "count": 11,
   "notices": [
     {
       "id": "onepick-978",
@@ -49,23 +49,6 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
-    },
-    {
-      "id": "plfil-4272",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "TV/OTT",
-      "title": "KBS2 일일드라마 <욕망의 덫>",
-      "role": "",
-      "gender": "male",
-      "ageMin": 35,
-      "ageMax": 39,
-      "ageText": "남성 · 35세 ~ 39세",
-      "due": "2026-09-02",
-      "url": "https://plfil.com/casting/4272",
-      "email": null,
-      "specials": [],
-      "pay": "15만원 ~ 15만원"
     },
     {
       "id": "plfil-4271",
@@ -202,57 +185,6 @@
       "email": null,
       "specials": [],
       "pay": "70만원 ~ 70만원"
-    },
-    {
-      "id": "plfil-4263",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "[운동복 브랜드 숏폼 광고]2030 남성/여성 모델분을 1분씩 모집합니다",
-      "role": "",
-      "gender": "any",
-      "ageMin": 20,
-      "ageMax": 34,
-      "ageText": "성별 무관 · 20세 ~ 34세",
-      "due": "2026-09-16",
-      "url": "https://plfil.com/casting/4263",
-      "email": null,
-      "specials": [],
-      "pay": "25만원 ~ 25만원"
-    },
-    {
-      "id": "plfil-4262",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "장편독립영화 <한00 0000>",
-      "role": "",
-      "gender": "male",
-      "ageMin": 38,
-      "ageMax": 45,
-      "ageText": "남성 · 38세 ~ 45세",
-      "due": "2026-09-02",
-      "url": "https://plfil.com/casting/4262",
-      "email": null,
-      "specials": [],
-      "pay": "15만원 ~ 15만원"
-    },
-    {
-      "id": "plfil-4261",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "장편독립영화 <한00 0000>",
-      "role": "",
-      "gender": "female",
-      "ageMin": 52,
-      "ageMax": 65,
-      "ageText": "여성 · 52세 ~ 65세",
-      "due": "2026-09-02",
-      "url": "https://plfil.com/casting/4261",
-      "email": null,
-      "specials": [],
-      "pay": "15만원 ~ 15만원"
     }
   ]
 }
