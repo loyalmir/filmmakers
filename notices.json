@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-02T05:10+00:00",
+  "updatedAt": "2026-09-02T10:01+00:00",
   "count": 9,
   "notices": [
     {
@@ -49,6 +49,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4279",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "개성약과 2종 제품 숏폼 촬영 모델 모집",
+      "role": "",
+      "gender": "female",
+      "ageMin": 20,
+      "ageMax": 35,
+      "ageText": "여성 · 20세 ~ 35세",
+      "due": "2026-09-08",
+      "url": "https://plfil.com/casting/4279",
+      "email": null,
+      "specials": [],
+      "pay": "20만원 ~ 20만원"
     },
     {
       "id": "plfil-4276",
@@ -134,23 +151,6 @@
       "email": null,
       "specials": [],
       "pay": "40만원 ~ 40만원"
-    },
-    {
-      "id": "plfil-4267",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "광고",
-      "title": "세차장 광고 젠틀한 이미지의 30-40대 남자모델 구인합니다",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-09-02",
-      "url": "https://plfil.com/casting/4267",
-      "email": null,
-      "specials": [],
-      "pay": "50만원 ~ 50만원"
     }
   ]
 }
