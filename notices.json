@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-02T00:36+00:00",
-  "count": 10,
+  "updatedAt": "2026-09-02T05:10+00:00",
+  "count": 9,
   "notices": [
     {
       "id": "onepick-978",
@@ -151,23 +151,6 @@
       "email": null,
       "specials": [],
       "pay": "50만원 ~ 50만원"
-    },
-    {
-      "id": "plfil-4265",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "스킨부스터앰플/구급상자/픽셀인테리어장식 제품 숏폼 촬영 모델 모집",
-      "role": "",
-      "gender": "female",
-      "ageMin": 20,
-      "ageMax": 35,
-      "ageText": "여성 · 20세 ~ 35세",
-      "due": "2026-09-03",
-      "url": "https://plfil.com/casting/4265",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
     }
   ]
 }
