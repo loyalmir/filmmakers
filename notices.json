@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-01T22:52+00:00",
-  "count": 11,
+  "updatedAt": "2026-09-02T00:36+00:00",
+  "count": 10,
   "notices": [
     {
       "id": "onepick-978",
@@ -49,6 +49,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4276",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "닥터써클 헬스케어 제품 촬영 시니어 남녀 모델 구인",
+      "role": "",
+      "gender": "any",
+      "ageMin": 45,
+      "ageMax": 70,
+      "ageText": "성별 무관 · 45세 ~ 70세",
+      "due": "2026-09-09",
+      "url": "https://plfil.com/casting/4276",
+      "email": null,
+      "specials": [],
+      "pay": "20만원 ~ 20만원"
     },
     {
       "id": "plfil-4271",
@@ -136,23 +153,6 @@
       "pay": "50만원 ~ 50만원"
     },
     {
-      "id": "plfil-4266",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "가전 전자제품 오프닝 영상 40~50대 남성모델 모집합니다.",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-09-01",
-      "url": "https://plfil.com/casting/4266",
-      "email": null,
-      "specials": [],
-      "pay": "40만원 ~ 40만원"
-    },
-    {
       "id": "plfil-4265",
       "source": "플필",
       "sourceType": "platform",
@@ -168,23 +168,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4264",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "TV/OTT",
-      "title": "넷플릭스 드라마 군인머리 남자 대역 구인합니다",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-09-01",
-      "url": "https://plfil.com/casting/4264",
-      "email": null,
-      "specials": [],
-      "pay": "70만원 ~ 70만원"
     }
   ]
 }
