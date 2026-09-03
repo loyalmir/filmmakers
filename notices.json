@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-02T23:38+00:00",
-  "count": 9,
+  "updatedAt": "2026-09-03T01:40+00:00",
+  "count": 8,
   "notices": [
     {
       "id": "onepick-978",
@@ -100,23 +100,6 @@
       "email": null,
       "specials": [],
       "pay": "20만원 ~ 20만원"
-    },
-    {
-      "id": "plfil-4270",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "광고",
-      "title": "은행 광고 연기 잘하는 군인 역할 짧은 머리이거나 반삭 가능하신 20대~",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-09-02",
-      "url": "https://plfil.com/casting/4270",
-      "email": null,
-      "specials": [],
-      "pay": "70만원 ~ 70만원"
     },
     {
       "id": "plfil-4269",
