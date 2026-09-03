@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-03T06:34+00:00",
-  "count": 10,
+  "updatedAt": "2026-09-03T11:47+00:00",
+  "count": 11,
   "notices": [
     {
       "id": "onepick-978",
@@ -49,6 +49,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4285",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "선댄스 영화제 출품을 목표로 제작되는 독립 단편영화 남자배우 모집",
+      "role": "",
+      "gender": "male",
+      "ageMin": 48,
+      "ageMax": 65,
+      "ageText": "남성 · 48세 ~ 65세",
+      "due": "2026-09-16",
+      "url": "https://plfil.com/casting/4285",
+      "email": null,
+      "specials": [],
+      "pay": "100만원 ~ 200만원"
     },
     {
       "id": "plfil-4284",
