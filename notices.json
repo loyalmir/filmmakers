@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04T06:36+00:00",
+  "updatedAt": "2026-09-04T11:48+00:00",
   "count": 13,
   "notices": [
     {
@@ -49,6 +49,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4288",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "드라마",
+      "title": "숏폼 드라마 남녀 주인공 구인",
+      "role": "",
+      "gender": "male",
+      "ageMin": 20,
+      "ageMax": 39,
+      "ageText": "남성 · 20세 ~ 39세 외 1개 배역",
+      "due": "2026-09-09",
+      "url": "https://plfil.com/casting/4288",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 30만원"
     },
     {
       "id": "plfil-4287",
@@ -199,23 +216,6 @@
       "ageText": "여성 · 20세 ~ 35세",
       "due": "2026-09-08",
       "url": "https://plfil.com/casting/4279",
-      "email": null,
-      "specials": [],
-      "pay": "20만원 ~ 20만원"
-    },
-    {
-      "id": "plfil-4276",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "닥터써클 헬스케어 제품 촬영 시니어 남녀 모델 구인",
-      "role": "",
-      "gender": "any",
-      "ageMin": 45,
-      "ageMax": 70,
-      "ageText": "성별 무관 · 45세 ~ 70세",
-      "due": "2026-09-09",
-      "url": "https://plfil.com/casting/4276",
       "email": null,
       "specials": [],
       "pay": "20만원 ~ 20만원"
