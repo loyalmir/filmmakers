@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T13:38+00:00",
+  "updatedAt": "2026-09-05T16:19+00:00",
   "count": 12,
   "notices": [
     {
@@ -93,13 +93,13 @@
       "role": "",
       "gender": "any",
       "ageMin": 17,
-      "ageMax": 29,
-      "ageText": "성별 무관 · 17세 ~ 29세",
+      "ageMax": 35,
+      "ageText": "성별 무관 · 17세 ~ 35세",
       "due": "2026-09-15",
       "url": "https://plfil.com/casting/4286",
       "email": null,
       "specials": [],
-      "pay": "30만원 ~ 50만원"
+      "pay": "50만원 ~ 50만원"
     },
     {
       "id": "plfil-4285",
