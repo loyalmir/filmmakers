@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-04T23:28+00:00",
-  "count": 13,
+  "updatedAt": "2026-09-05T01:35+00:00",
+  "count": 12,
   "notices": [
     {
       "id": "onepick-978",
@@ -185,23 +185,6 @@
       "email": null,
       "specials": [],
       "pay": "30만원 ~ 50만원"
-    },
-    {
-      "id": "plfil-4280",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "광고",
-      "title": "광고 셀럽 라이팅&대역 가능한 20~30대 남자 모델 구인합니다",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-09-04",
-      "url": "https://plfil.com/casting/4280",
-      "email": null,
-      "specials": [],
-      "pay": "40만원 ~ 40만원"
     },
     {
       "id": "plfil-4279",
