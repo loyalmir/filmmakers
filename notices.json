@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07T05:21+00:00",
+  "updatedAt": "2026-09-07T10:50+00:00",
   "count": 13,
   "notices": [
     {
@@ -51,6 +51,74 @@
       "specials": []
     },
     {
+      "id": "plfil-4293",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "1분 스케치코미디 남여 배우 구합니다",
+      "role": "",
+      "gender": "male",
+      "ageMin": 25,
+      "ageMax": 40,
+      "ageText": "남성 · 25세 ~ 40세 외 1개 배역",
+      "due": "2026-09-11",
+      "url": "https://plfil.com/casting/4293",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
+    },
+    {
+      "id": "plfil-4292",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "세럼,크림,미스트 뷰티 SNS광고 20대 여성 배우님 모집합니다.",
+      "role": "",
+      "gender": "female",
+      "ageMin": 20,
+      "ageMax": 28,
+      "ageText": "여성 · 20세 ~ 28세",
+      "due": "2026-09-13",
+      "url": "https://plfil.com/casting/4292",
+      "email": null,
+      "specials": [],
+      "pay": "30만원 ~ 40만원"
+    },
+    {
+      "id": "plfil-4291",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "뮤지컬",
+      "title": "페인터즈에서 김해전용관 전속 배우를 구합니다.",
+      "role": "",
+      "gender": "male",
+      "ageMin": 20,
+      "ageMax": 32,
+      "ageText": "남성 · 20세 ~ 32세",
+      "due": "2026-09-30",
+      "url": "https://plfil.com/casting/4291",
+      "email": null,
+      "specials": [],
+      "pay": "215만원 ~ 300만원"
+    },
+    {
+      "id": "plfil-4290",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "세면대 워터탭 제품 숏폼 촬영_어린이 모델 모집(3~6세)",
+      "role": "",
+      "gender": "any",
+      "ageMin": 3,
+      "ageMax": 6,
+      "ageText": "성별 무관 · 3세 ~ 6세",
+      "due": "2026-09-09",
+      "url": "https://plfil.com/casting/4290",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
+    },
+    {
       "id": "plfil-4289",
       "source": "플필",
       "sourceType": "platform",
@@ -66,23 +134,6 @@
       "email": null,
       "specials": [],
       "pay": "35만원 ~ 35만원"
-    },
-    {
-      "id": "plfil-4288",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "드라마",
-      "title": "숏폼 드라마 남녀 주인공 구인",
-      "role": "",
-      "gender": "male",
-      "ageMin": 20,
-      "ageMax": 39,
-      "ageText": "남성 · 20세 ~ 39세 외 1개 배역",
-      "due": "2026-09-09",
-      "url": "https://plfil.com/casting/4288",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 30만원"
     },
     {
       "id": "plfil-4287",
@@ -136,40 +187,6 @@
       "pay": "100만원 ~ 200만원"
     },
     {
-      "id": "plfil-4284",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "세면대 워터탭 제품 숏폼 촬영 어린이 모델 모집",
-      "role": "",
-      "gender": "any",
-      "ageMin": 3,
-      "ageMax": 5,
-      "ageText": "성별 무관 · 3세 ~ 5세",
-      "due": "2026-09-08",
-      "url": "https://plfil.com/casting/4284",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4283",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "[운동복 브랜드 숏폼 광고] 20대 여성 모델 1분 모집합니다",
-      "role": "",
-      "gender": "female",
-      "ageMin": 20,
-      "ageMax": 29,
-      "ageText": "여성 · 20세 ~ 29세",
-      "due": "2026-09-16",
-      "url": "https://plfil.com/casting/4283",
-      "email": null,
-      "specials": [],
-      "pay": "25만원 ~ 25만원"
-    },
-    {
       "id": "plfil-4282",
       "source": "플필",
       "sourceType": "platform",
@@ -202,23 +219,6 @@
       "email": null,
       "specials": [],
       "pay": "30만원 ~ 50만원"
-    },
-    {
-      "id": "plfil-4279",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "개성약과 2종 제품 숏폼 촬영 모델 모집",
-      "role": "",
-      "gender": "female",
-      "ageMin": 20,
-      "ageMax": 35,
-      "ageText": "여성 · 20세 ~ 35세",
-      "due": "2026-09-08",
-      "url": "https://plfil.com/casting/4279",
-      "email": null,
-      "specials": [],
-      "pay": "20만원 ~ 20만원"
     }
   ]
 }
