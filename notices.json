@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-07T10:50+00:00",
-  "count": 13,
+  "updatedAt": "2026-09-07T16:08+00:00",
+  "count": 14,
   "notices": [
     {
       "id": "onepick-978",
@@ -49,6 +49,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4294",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "1분 스케치 코미디 남여 주인공 구합니다 (신생채널 본사 산들그린)",
+      "role": "",
+      "gender": "male",
+      "ageMin": 25,
+      "ageMax": 40,
+      "ageText": "남성 · 25세 ~ 40세 외 1개 배역",
+      "due": "2026-09-11",
+      "url": "https://plfil.com/casting/4294",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
     },
     {
       "id": "plfil-4293",
