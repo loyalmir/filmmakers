@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-07T23:05+00:00",
-  "count": 14,
+  "updatedAt": "2026-09-08T01:37+00:00",
+  "count": 13,
   "notices": [
     {
       "id": "onepick-978",
@@ -202,23 +202,6 @@
       "email": null,
       "specials": [],
       "pay": "100만원 ~ 200만원"
-    },
-    {
-      "id": "plfil-4282",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "글로벌 스포츠 브랜드 룩북모델 구인",
-      "role": "",
-      "gender": "any",
-      "ageMin": 20,
-      "ageMax": 30,
-      "ageText": "성별 무관 · 20세 ~ 30세",
-      "due": "2026-09-07",
-      "url": "https://plfil.com/casting/4282",
-      "email": null,
-      "specials": [],
-      "pay": "100만원 ~ 120만원"
     },
     {
       "id": "plfil-4281",
