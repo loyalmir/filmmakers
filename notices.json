@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-08T01:37+00:00",
-  "count": 13,
+  "updatedAt": "2026-09-08T06:36+00:00",
+  "count": 14,
   "notices": [
     {
       "id": "onepick-978",
@@ -49,6 +49,40 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4296",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "비공개 상업영화 남자 여자 주조연 모집 (고창희 캐디 진행)",
+      "role": "",
+      "gender": "male",
+      "ageMin": 15,
+      "ageMax": 30,
+      "ageText": "남성 · 15세 ~ 30세 외 1개 배역",
+      "due": "2026-09-30",
+      "url": "https://plfil.com/casting/4296",
+      "email": null,
+      "specials": [],
+      "pay": "30만원 ~ 100만원"
+    },
+    {
+      "id": "plfil-4295",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "[TVC] 스포츠브랜드 팝업 방문 스케치 촬영_20,30,40대 남녀 출",
+      "role": "",
+      "gender": "any",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "성별 무관 · 나이 무관",
+      "due": "2026-09-18",
+      "url": "https://plfil.com/casting/4295",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
     },
     {
       "id": "plfil-4294",
@@ -202,23 +236,6 @@
       "email": null,
       "specials": [],
       "pay": "100만원 ~ 200만원"
-    },
-    {
-      "id": "plfil-4281",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "TV/OTT",
-      "title": "tvn 드라마 단역 모집합니다",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관 외 2개 배역",
-      "due": "2026-12-31",
-      "url": "https://plfil.com/casting/4281",
-      "email": null,
-      "specials": [],
-      "pay": "30만원 ~ 50만원"
     }
   ]
 }
