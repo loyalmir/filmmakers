@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09T05:26+00:00",
+  "updatedAt": "2026-09-09T10:13+00:00",
   "count": 16,
   "notices": [
     {
@@ -67,6 +67,40 @@
       "specials": []
     },
     {
+      "id": "plfil-4309",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "드라마",
+      "title": "숏폼 드라마 《일처다부제》 내방 오디션 *(이메일필수)",
+      "role": "",
+      "gender": "male",
+      "ageMin": 20,
+      "ageMax": 28,
+      "ageText": "남성 · 20세 ~ 28세 외 3개 배역",
+      "due": "2026-09-17",
+      "url": "https://plfil.com/casting/4309",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
+    },
+    {
+      "id": "plfil-4308",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "미스트 에센스 제품 숏폼 촬영 모델 모집",
+      "role": "",
+      "gender": "female",
+      "ageMin": 20,
+      "ageMax": 35,
+      "ageText": "여성 · 20세 ~ 35세",
+      "due": "2026-09-14",
+      "url": "https://plfil.com/casting/4308",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
+    },
+    {
       "id": "plfil-4307",
       "source": "플필",
       "sourceType": "platform",
@@ -77,7 +111,7 @@
       "ageMin": 30,
       "ageMax": 55,
       "ageText": "남성 · 30세 ~ 55세 외 4개 배역",
-      "due": "2026-09-11",
+      "due": "2026-09-09",
       "url": "https://plfil.com/casting/4307",
       "email": null,
       "specials": [],
@@ -132,7 +166,7 @@
       "url": "https://plfil.com/casting/4304",
       "email": null,
       "specials": [],
-      "pay": "10만원 ~ 30만원"
+      "pay": "10만원 ~ 10만원"
     },
     {
       "id": "plfil-4303",
@@ -235,40 +269,6 @@
       "email": null,
       "specials": [],
       "pay": "25만원 ~ 25만원"
-    },
-    {
-      "id": "plfil-4297",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "[비공개 OTT 숏폼 드라마 <가족 (가제)> 배우 캐스팅 공고]",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-09-12",
-      "url": "https://plfil.com/casting/4297",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4296",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "비공개 상업영화 남자 여자 주조연 모집 (고창희 캐디 진행)",
-      "role": "",
-      "gender": "male",
-      "ageMin": 15,
-      "ageMax": 30,
-      "ageText": "남성 · 15세 ~ 30세 외 1개 배역",
-      "due": "2026-09-30",
-      "url": "https://plfil.com/casting/4296",
-      "email": null,
-      "specials": [],
-      "pay": "30만원 ~ 100만원"
     }
   ]
 }
