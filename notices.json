@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-09T23:35+00:00",
-  "count": 16,
+  "updatedAt": "2026-09-10T01:40+00:00",
+  "count": 15,
   "notices": [
     {
       "id": "onepick-980",
@@ -67,6 +67,23 @@
       "specials": []
     },
     {
+      "id": "plfil-4311",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "광고",
+      "title": "광고 셀럽 라이팅&대역 가능한 20~30대 남자 모델 구인합니다",
+      "role": "",
+      "gender": "any",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "성별 무관 · 나이 무관",
+      "due": "2026-09-10",
+      "url": "https://plfil.com/casting/4311",
+      "email": null,
+      "specials": [],
+      "pay": "35만원 ~ 35만원"
+    },
+    {
       "id": "plfil-4310",
       "source": "플필",
       "sourceType": "platform",
@@ -113,23 +130,6 @@
       "ageText": "여성 · 20세 ~ 35세",
       "due": "2026-09-14",
       "url": "https://plfil.com/casting/4308",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4307",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "서울예술대학교 기말제작 단편영화 <긴지아닌지>",
-      "role": "",
-      "gender": "male",
-      "ageMin": 30,
-      "ageMax": 55,
-      "ageText": "남성 · 30세 ~ 55세 외 4개 배역",
-      "due": "2026-09-09",
-      "url": "https://plfil.com/casting/4307",
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 10만원"
@@ -249,23 +249,6 @@
       "ageText": "성별 무관 · 나이 무관",
       "due": "2026-09-13",
       "url": "https://plfil.com/casting/4300",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4299",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "연극",
-      "title": "[부산] 연극 <택시안에서> 민수, 하영역 오디션",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-09-13",
-      "url": "https://plfil.com/casting/4299",
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 10만원"
