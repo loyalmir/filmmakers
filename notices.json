@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-10T23:28+00:00",
-  "count": 15,
+  "updatedAt": "2026-09-11T01:39+00:00",
+  "count": 11,
   "notices": [
     {
       "id": "onepick-980",
@@ -84,23 +84,6 @@
       "pay": "15만원 ~ 15만원"
     },
     {
-      "id": "plfil-4311",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "광고",
-      "title": "광고 셀럽 라이팅&대역 가능한 20~30대 남자 모델 구인합니다",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-09-10",
-      "url": "https://plfil.com/casting/4311",
-      "email": null,
-      "specials": [],
-      "pay": "35만원 ~ 35만원"
-    },
-    {
       "id": "plfil-4310",
       "source": "플필",
       "sourceType": "platform",
@@ -169,23 +152,6 @@
       "pay": "10만원 ~ 10만원"
     },
     {
-      "id": "plfil-4305",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "BL 숏폼드라마 <사000 00>",
-      "role": "",
-      "gender": "male",
-      "ageMin": 20,
-      "ageMax": 28,
-      "ageText": "남성 · 20세 ~ 28세",
-      "due": "2026-09-10",
-      "url": "https://plfil.com/casting/4305",
-      "email": null,
-      "specials": [],
-      "pay": "50만원 ~ 70만원"
-    },
-    {
       "id": "plfil-4304",
       "source": "플필",
       "sourceType": "platform",
@@ -203,23 +169,6 @@
       "pay": "10만원 ~ 10만원"
     },
     {
-      "id": "plfil-4303",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "장편독립영화 <한00 0000>",
-      "role": "",
-      "gender": "male",
-      "ageMin": 37,
-      "ageMax": 46,
-      "ageText": "남성 · 37세 ~ 46세",
-      "due": "2026-09-10",
-      "url": "https://plfil.com/casting/4303",
-      "email": null,
-      "specials": [],
-      "pay": "15만원 ~ 15만원"
-    },
-    {
       "id": "plfil-4302",
       "source": "플필",
       "sourceType": "platform",
@@ -235,23 +184,6 @@
       "email": null,
       "specials": [],
       "pay": "20만원 ~ 20만원"
-    },
-    {
-      "id": "plfil-4301",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "광고",
-      "title": "맥주 광고 20대 여자모델 구인합니다",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-09-10",
-      "url": "https://plfil.com/casting/4301",
-      "email": null,
-      "specials": [],
-      "pay": "25만원 ~ 25만원"
     }
   ]
 }
