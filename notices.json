@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-11T06:42+00:00",
-  "count": 13,
+  "updatedAt": "2026-09-11T11:52+00:00",
+  "count": 17,
   "notices": [
     {
       "id": "onepick-981",
@@ -81,6 +81,57 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4325",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "전자제품 인터뷰 촬영 20~30대남녀, 60대이상 남녀, 40-50대 실",
+      "role": "",
+      "gender": "any",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "성별 무관 · 나이 무관",
+      "due": "2026-09-13",
+      "url": "https://plfil.com/casting/4325",
+      "email": null,
+      "specials": [],
+      "pay": "20만원 ~ 30만원"
+    },
+    {
+      "id": "plfil-4316",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "광고",
+      "title": "광고 셀럽 라이팅&대역 가능한 20~30대 남자 모델 구인합니다",
+      "role": "",
+      "gender": "any",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "성별 무관 · 나이 무관",
+      "due": "2026-09-14",
+      "url": "https://plfil.com/casting/4316",
+      "email": null,
+      "specials": [],
+      "pay": "35만원 ~ 35만원"
+    },
+    {
+      "id": "plfil-4315",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "게임 캐릭터 보이스오버 배우 모집 남여",
+      "role": "",
+      "gender": "male",
+      "ageMin": 20,
+      "ageMax": 70,
+      "ageText": "남성 · 20세 ~ 70세 외 1개 배역",
+      "due": "2026-09-30",
+      "url": "https://plfil.com/casting/4315",
+      "email": null,
+      "specials": [],
+      "pay": "30만원 ~ 30만원"
     },
     {
       "id": "plfil-4314",
@@ -217,6 +268,23 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 10만원"
+    },
+    {
+      "id": "plfil-4302",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "광고",
+      "title": "[미디언스]숏폼 광고 출연 모델 모집",
+      "role": "",
+      "gender": "female",
+      "ageMin": 25,
+      "ageMax": 35,
+      "ageText": "여성 · 25세 ~ 35세",
+      "due": "2026-09-16",
+      "url": "https://plfil.com/casting/4302",
+      "email": null,
+      "specials": [],
+      "pay": "20만원 ~ 20만원"
     }
   ]
 }
