@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11T11:52+00:00",
+  "updatedAt": "2026-09-11T15:20+00:00",
   "count": 17,
   "notices": [
     {
@@ -236,23 +236,6 @@
       "pay": "10만원 ~ 10만원"
     },
     {
-      "id": "plfil-4306",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "3D프린터용 브러쉬 제품 숏폼 촬영 모델 모집",
-      "role": "",
-      "gender": "female",
-      "ageMin": 20,
-      "ageMax": 35,
-      "ageText": "여성 · 20세 ~ 35세",
-      "due": "2026-09-11",
-      "url": "https://plfil.com/casting/4306",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
-    },
-    {
       "id": "plfil-4304",
       "source": "플필",
       "sourceType": "platform",
@@ -285,6 +268,23 @@
       "email": null,
       "specials": [],
       "pay": "20만원 ~ 20만원"
+    },
+    {
+      "id": "plfil-4300",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "뮤지컬",
+      "title": "[부산] 뮤지컬 <오싹한알바> 남자 배역 오디션",
+      "role": "",
+      "gender": "any",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "성별 무관 · 나이 무관",
+      "due": "2026-09-13",
+      "url": "https://plfil.com/casting/4300",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
     }
   ]
 }
