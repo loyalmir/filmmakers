@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T14:28+00:00",
+  "updatedAt": "2026-09-12T17:28+00:00",
   "count": 17,
   "notices": [
     {
@@ -185,23 +185,6 @@
       "pay": "15만원 ~ 15만원"
     },
     {
-      "id": "plfil-4310",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "흙침대 브랜드 바이럴 촬영",
-      "role": "",
-      "gender": "any",
-      "ageMin": 50,
-      "ageMax": 80,
-      "ageText": "성별 무관 · 50세 ~ 80세",
-      "due": "2026-09-12",
-      "url": "https://plfil.com/casting/4310",
-      "email": null,
-      "specials": [],
-      "pay": "15만원 ~ 15만원"
-    },
-    {
       "id": "plfil-4309",
       "source": "플필",
       "sourceType": "platform",
@@ -282,6 +265,23 @@
       "ageText": "성별 무관 · 나이 무관",
       "due": "2026-09-13",
       "url": "https://plfil.com/casting/4300",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
+    },
+    {
+      "id": "plfil-4299",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "연극",
+      "title": "[부산] 연극 <택시안에서> 민수, 하영역 오디션",
+      "role": "",
+      "gender": "any",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "성별 무관 · 나이 무관",
+      "due": "2026-09-13",
+      "url": "https://plfil.com/casting/4299",
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 10만원"
