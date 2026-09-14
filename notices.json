@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14T07:16+00:00",
+  "updatedAt": "2026-09-14T14:28+00:00",
   "count": 18,
   "notices": [
     {
@@ -99,18 +99,18 @@
       "specials": []
     },
     {
-      "id": "plfil-4330",
+      "id": "plfil-4331",
       "source": "플필",
       "sourceType": "platform",
       "cat": "TV/OTT",
       "title": "KBS2 일일드라마 <욕망의 덫>",
       "role": "",
-      "gender": "female",
-      "ageMin": 35,
-      "ageMax": 40,
-      "ageText": "여성 · 35세 ~ 40세",
+      "gender": "male",
+      "ageMin": 26,
+      "ageMax": 33,
+      "ageText": "남성 · 26세 ~ 33세",
       "due": "2026-09-14",
-      "url": "https://plfil.com/casting/4330",
+      "url": "https://plfil.com/casting/4331",
       "email": null,
       "specials": [],
       "pay": "15만원 ~ 15만원"
@@ -160,7 +160,7 @@
       "ageMin": null,
       "ageMax": null,
       "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-09-14",
+      "due": "2026-09-15",
       "url": "https://plfil.com/casting/4327",
       "email": null,
       "specials": [],
