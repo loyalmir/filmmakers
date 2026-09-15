@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T12:17+00:00",
+  "updatedAt": "2026-09-15T17:20+00:00",
   "count": 19,
   "notices": [
     {
@@ -200,23 +200,6 @@
       "pay": "120만원 ~ 120만원"
     },
     {
-      "id": "plfil-4327",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "유튜브 컨텐츠 촬영 30~40대 마른체형의 남자 모델 구인합니다",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-09-15",
-      "url": "https://plfil.com/casting/4327",
-      "email": null,
-      "specials": [],
-      "pay": "20만원 ~ 20만원"
-    },
-    {
       "id": "plfil-4315",
       "source": "플필",
       "sourceType": "platform",
@@ -232,23 +215,6 @@
       "email": null,
       "specials": [],
       "pay": "30만원 ~ 30만원"
-    },
-    {
-      "id": "plfil-4312",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "세라큐 앰플 7종 제품 사진 촬영 모델 모집",
-      "role": "",
-      "gender": "female",
-      "ageMin": 20,
-      "ageMax": 35,
-      "ageText": "여성 · 20세 ~ 35세",
-      "due": "2026-09-15",
-      "url": "https://plfil.com/casting/4312",
-      "email": null,
-      "specials": [],
-      "pay": "15만원 ~ 15만원"
     },
     {
       "id": "plfil-4309",
@@ -314,6 +280,40 @@
       "ageText": "성별 무관 · 나이 무관",
       "due": "2026-09-20",
       "url": "https://plfil.com/casting/4300",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
+    },
+    {
+      "id": "plfil-4296",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "비공개 상업영화 남자 여자 주조연 모집 (고창희 캐디 진행)",
+      "role": "",
+      "gender": "male",
+      "ageMin": 15,
+      "ageMax": 30,
+      "ageText": "남성 · 15세 ~ 30세 외 1개 배역",
+      "due": "2026-09-30",
+      "url": "https://plfil.com/casting/4296",
+      "email": null,
+      "specials": [],
+      "pay": "30만원 ~ 100만원"
+    },
+    {
+      "id": "plfil-4295",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "[TVC] 스포츠브랜드 팝업 방문 스케치 촬영_20,30,40대 남녀 출",
+      "role": "",
+      "gender": "any",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "성별 무관 · 나이 무관",
+      "due": "2026-09-18",
+      "url": "https://plfil.com/casting/4295",
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 10만원"
