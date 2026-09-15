@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T01:01+00:00",
+  "updatedAt": "2026-09-15T06:50+00:00",
   "count": 18,
   "notices": [
     {
@@ -99,6 +99,40 @@
       "specials": []
     },
     {
+      "id": "plfil-4334",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "서초구 의회 홍보영상 배우 구인",
+      "role": "",
+      "gender": "female",
+      "ageMin": 25,
+      "ageMax": 35,
+      "ageText": "여성 · 25세 ~ 35세",
+      "due": "2026-09-17",
+      "url": "https://plfil.com/casting/4334",
+      "email": null,
+      "specials": [],
+      "pay": "20만원 ~ 20만원"
+    },
+    {
+      "id": "plfil-4333",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "TV/OTT",
+      "title": "넷플릭스 시리즈 <O직O> 덩치남 이미지단역 섭외",
+      "role": "",
+      "gender": "male",
+      "ageMin": 20,
+      "ageMax": 39,
+      "ageText": "남성 · 20세 ~ 39세",
+      "due": "2026-09-20",
+      "url": "https://plfil.com/casting/4333",
+      "email": null,
+      "specials": [],
+      "pay": "25만원 ~ 25만원"
+    },
+    {
       "id": "plfil-4332",
       "source": "플필",
       "sourceType": "platform",
@@ -113,7 +147,7 @@
       "url": "https://plfil.com/casting/4332",
       "email": null,
       "specials": [],
-      "pay": "40만원 ~ 50만원"
+      "pay": "60만원 ~ 60만원"
     },
     {
       "id": "plfil-4328",
@@ -235,6 +269,23 @@
       "pay": "20만원 ~ 20만원"
     },
     {
+      "id": "plfil-4300",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "뮤지컬",
+      "title": "[부산] 뮤지컬 <오싹한알바> 남자 배역 오디션",
+      "role": "",
+      "gender": "any",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "성별 무관 · 나이 무관",
+      "due": "2026-09-20",
+      "url": "https://plfil.com/casting/4300",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
+    },
+    {
       "id": "plfil-4296",
       "source": "플필",
       "sourceType": "platform",
@@ -250,57 +301,6 @@
       "email": null,
       "specials": [],
       "pay": "30만원 ~ 100만원"
-    },
-    {
-      "id": "plfil-4295",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "[TVC] 스포츠브랜드 팝업 방문 스케치 촬영_20,30,40대 남녀 출",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-09-18",
-      "url": "https://plfil.com/casting/4295",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4291",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "뮤지컬",
-      "title": "페인터즈에서 김해전용관 전속 배우를 구합니다.",
-      "role": "",
-      "gender": "male",
-      "ageMin": 20,
-      "ageMax": 32,
-      "ageText": "남성 · 20세 ~ 32세",
-      "due": "2026-09-30",
-      "url": "https://plfil.com/casting/4291",
-      "email": null,
-      "specials": [],
-      "pay": "215만원 ~ 300만원"
-    },
-    {
-      "id": "plfil-4286",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "남자 아이돌 뮤직비디오 이미지 외국인 남녀 단역 모집 (고등학생 역)",
-      "role": "",
-      "gender": "any",
-      "ageMin": 17,
-      "ageMax": 35,
-      "ageText": "성별 무관 · 17세 ~ 35세",
-      "due": "2026-09-15",
-      "url": "https://plfil.com/casting/4286",
-      "email": null,
-      "specials": [],
-      "pay": "50만원 ~ 50만원"
     }
   ]
 }
