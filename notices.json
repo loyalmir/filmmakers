@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T20:31+00:00",
+  "updatedAt": "2026-09-15T23:14+00:00",
   "count": 19,
   "notices": [
     {
@@ -113,6 +113,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4336",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "상업영화 <너와 함께라면> 댄스 가능 이미지 단역 배우 공고",
+      "role": "",
+      "gender": "female",
+      "ageMin": 25,
+      "ageMax": 39,
+      "ageText": "여성 · 25세 ~ 39세",
+      "due": "2026-09-23",
+      "url": "https://plfil.com/casting/4336",
+      "email": null,
+      "specials": [],
+      "pay": "20만원 ~ 30만원"
     },
     {
       "id": "plfil-4335",
@@ -300,23 +317,6 @@
       "email": null,
       "specials": [],
       "pay": "30만원 ~ 100만원"
-    },
-    {
-      "id": "plfil-4295",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "[TVC] 스포츠브랜드 팝업 방문 스케치 촬영_20,30,40대 남녀 출",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-09-18",
-      "url": "https://plfil.com/casting/4295",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
     }
   ]
 }
