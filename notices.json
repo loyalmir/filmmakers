@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T23:14+00:00",
+  "updatedAt": "2026-09-16T01:54+00:00",
   "count": 19,
   "notices": [
     {
@@ -115,6 +115,23 @@
       "specials": []
     },
     {
+      "id": "plfil-4337",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "트리트먼트 제품 숏폼 촬영 모델 모집",
+      "role": "",
+      "gender": "female",
+      "ageMin": 20,
+      "ageMax": 35,
+      "ageText": "여성 · 20세 ~ 35세",
+      "due": "2026-09-21",
+      "url": "https://plfil.com/casting/4337",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
+    },
+    {
       "id": "plfil-4336",
       "source": "플필",
       "sourceType": "platform",
@@ -122,9 +139,9 @@
       "title": "상업영화 <너와 함께라면> 댄스 가능 이미지 단역 배우 공고",
       "role": "",
       "gender": "female",
-      "ageMin": 25,
-      "ageMax": 39,
-      "ageText": "여성 · 25세 ~ 39세",
+      "ageMin": 26,
+      "ageMax": 37,
+      "ageText": "여성 · 26세 ~ 37세",
       "due": "2026-09-23",
       "url": "https://plfil.com/casting/4336",
       "email": null,
@@ -300,23 +317,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4296",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "비공개 상업영화 남자 여자 주조연 모집 (고창희 캐디 진행)",
-      "role": "",
-      "gender": "male",
-      "ageMin": 15,
-      "ageMax": 30,
-      "ageText": "남성 · 15세 ~ 30세 외 1개 배역",
-      "due": "2026-09-30",
-      "url": "https://plfil.com/casting/4296",
-      "email": null,
-      "specials": [],
-      "pay": "30만원 ~ 100만원"
     }
   ]
 }
