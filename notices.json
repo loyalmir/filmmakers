@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T23:18+00:00",
+  "updatedAt": "2026-09-17T01:58+00:00",
   "count": 19,
   "notices": [
     {
@@ -115,6 +115,23 @@
       "specials": []
     },
     {
+      "id": "plfil-4341",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "누룽지스낵 제품 숏폼 촬영",
+      "role": "",
+      "gender": "female",
+      "ageMin": 20,
+      "ageMax": 35,
+      "ageText": "여성 · 20세 ~ 35세",
+      "due": "2026-09-21",
+      "url": "https://plfil.com/casting/4341",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
+    },
+    {
       "id": "plfil-4340",
       "source": "플필",
       "sourceType": "platform",
@@ -159,7 +176,7 @@
       "ageMin": 20,
       "ageMax": 40,
       "ageText": "남성 · 20세 ~ 40세",
-      "due": "2026-09-21",
+      "due": "2026-09-18",
       "url": "https://plfil.com/casting/4338",
       "email": null,
       "specials": [],
@@ -300,23 +317,6 @@
       "email": null,
       "specials": [],
       "pay": "30만원 ~ 30만원"
-    },
-    {
-      "id": "plfil-4309",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "드라마",
-      "title": "숏폼 드라마 《일처다부제》 내방 오디션 *(이메일필수)",
-      "role": "",
-      "gender": "male",
-      "ageMin": 20,
-      "ageMax": 28,
-      "ageText": "남성 · 20세 ~ 28세 외 3개 배역",
-      "due": "2026-09-17",
-      "url": "https://plfil.com/casting/4309",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
     }
   ]
 }
