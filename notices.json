@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T12:49+00:00",
+  "updatedAt": "2026-09-17T17:19+00:00",
   "count": 19,
   "notices": [
     {
@@ -115,6 +115,40 @@
       "specials": []
     },
     {
+      "id": "plfil-4343",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "[B2B 금융플랫폼 광고] 30대 중반-40대 중반 남성 배우 모집합니다",
+      "role": "",
+      "gender": "male",
+      "ageMin": 30,
+      "ageMax": 45,
+      "ageText": "남성 · 30세 ~ 45세",
+      "due": "2026-09-20",
+      "url": "https://plfil.com/casting/4343",
+      "email": null,
+      "specials": [],
+      "pay": "50만원 ~ 50만원"
+    },
+    {
+      "id": "plfil-4342",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "독특하고 개성넘치는 하우스 음악 뮤직비디오 [남,여 배우님 모집]",
+      "role": "",
+      "gender": "male",
+      "ageMin": 20,
+      "ageMax": 40,
+      "ageText": "남성 · 20세 ~ 40세 외 3개 배역",
+      "due": "2026-09-24",
+      "url": "https://plfil.com/casting/4342",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
+    },
+    {
       "id": "plfil-4341",
       "source": "플필",
       "sourceType": "platform",
@@ -147,23 +181,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 300만원"
-    },
-    {
-      "id": "plfil-4339",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "전자광고 촬영 외벽 페인트칠 가능하신 남자모델 구인합니다",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-09-17",
-      "url": "https://plfil.com/casting/4339",
-      "email": null,
-      "specials": [],
-      "pay": "40만원 ~ 40만원"
     },
     {
       "id": "plfil-4338",
@@ -234,23 +251,6 @@
       "pay": "10만원 ~ 10만원"
     },
     {
-      "id": "plfil-4334",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "서초구 의회 홍보영상 배우 구인",
-      "role": "",
-      "gender": "female",
-      "ageMin": 25,
-      "ageMax": 35,
-      "ageText": "여성 · 25세 ~ 35세",
-      "due": "2026-09-17",
-      "url": "https://plfil.com/casting/4334",
-      "email": null,
-      "specials": [],
-      "pay": "20만원 ~ 20만원"
-    },
-    {
       "id": "plfil-4333",
       "source": "플필",
       "sourceType": "platform",
@@ -266,23 +266,6 @@
       "email": null,
       "specials": [],
       "pay": "25만원 ~ 25만원"
-    },
-    {
-      "id": "plfil-4332",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "쑥뜸좌훈기 sns광고 촬영 3040 여성 모집",
-      "role": "",
-      "gender": "female",
-      "ageMin": 30,
-      "ageMax": 42,
-      "ageText": "여성 · 30세 ~ 42세",
-      "due": "2026-09-17",
-      "url": "https://plfil.com/casting/4332",
-      "email": null,
-      "specials": [],
-      "pay": "60만원 ~ 60만원"
     },
     {
       "id": "plfil-4328",
@@ -317,6 +300,23 @@
       "email": null,
       "specials": [],
       "pay": "30만원 ~ 30만원"
+    },
+    {
+      "id": "plfil-4304",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "실사 장편영화 SF로맨스 <사랑하라는 명령은 없었다> 주연 모집",
+      "role": "",
+      "gender": "male",
+      "ageMin": 20,
+      "ageMax": 35,
+      "ageText": "남성 · 20세 ~ 35세 외 2개 배역",
+      "due": "2026-09-19",
+      "url": "https://plfil.com/casting/4304",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
     }
   ]
 }
