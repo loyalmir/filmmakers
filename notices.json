@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-09-18T23:41+00:00",
-  "count": 19,
+  "updatedAt": "2026-09-19T01:50+00:00",
+  "count": 18,
   "notices": [
     {
       "id": "onepick-983",
@@ -30,22 +30,6 @@
       "ageMax": 29,
       "ageText": "나이 20대 | 성별 여성 | 경력 무관",
       "due": "상시모집",
-      "url": "https://www.myonepick.com/audi/list/",
-      "email": null,
-      "specials": []
-    },
-    {
-      "id": "onepick-981",
-      "source": "원픽",
-      "sourceType": "platform",
-      "cat": "드라마",
-      "title": "미드폼 드라마<OOO> MC 역(목소리 출연) 모집",
-      "role": "나이 무관 | 성별 무관 | 경력 무관",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "나이 무관 | 성별 무관 | 경력 무관",
-      "due": "2026-09-18",
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
