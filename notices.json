@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19T14:54+00:00",
+  "updatedAt": "2026-09-19T17:31+00:00",
   "count": 18,
   "notices": [
     {
@@ -114,23 +114,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 15만원"
-    },
-    {
-      "id": "plfil-4352",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "유튜브 컨텐츠 촬영 30~40대 마른체형의 남자 모델 구인합니다",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-09-19",
-      "url": "https://plfil.com/casting/4352",
-      "email": null,
-      "specials": [],
-      "pay": "20만원 ~ 20만원"
     },
     {
       "id": "plfil-4350",
@@ -301,6 +284,23 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 10만원"
+    },
+    {
+      "id": "plfil-4340",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "간편결제/금융플랫폼 광고 (개성강한 이미지의 개그맨, 연극배우 등)",
+      "role": "",
+      "gender": "any",
+      "ageMin": 20,
+      "ageMax": 40,
+      "ageText": "성별 무관 · 20세 ~ 40세",
+      "due": "2026-09-30",
+      "url": "https://plfil.com/casting/4340",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 300만원"
     }
   ]
 }
