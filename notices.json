@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20T12:40+00:00",
+  "updatedAt": "2026-09-20T16:33+00:00",
   "count": 18,
   "notices": [
     {
@@ -184,23 +184,6 @@
       "pay": "100만원 ~ 100만원"
     },
     {
-      "id": "plfil-4347",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "다큐 배우모집 경호원 30~40대 남자",
-      "role": "",
-      "gender": "male",
-      "ageMin": 30,
-      "ageMax": 45,
-      "ageText": "남성 · 30세 ~ 45세",
-      "due": "2026-09-20",
-      "url": "https://plfil.com/casting/4347",
-      "email": null,
-      "specials": [],
-      "pay": "20만원 ~ 20만원"
-    },
-    {
       "id": "plfil-4346",
       "source": "플필",
       "sourceType": "platform",
@@ -235,40 +218,6 @@
       "pay": "10만원 ~ 10만원"
     },
     {
-      "id": "plfil-4344",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "TV/OTT",
-      "title": "다큐멘터리 사회자역 남자 30~40대 배우모집",
-      "role": "",
-      "gender": "male",
-      "ageMin": 30,
-      "ageMax": 48,
-      "ageText": "남성 · 30세 ~ 48세",
-      "due": "2026-09-20",
-      "url": "https://plfil.com/casting/4344",
-      "email": null,
-      "specials": [],
-      "pay": "20만원 ~ 30만원"
-    },
-    {
-      "id": "plfil-4343",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "[B2B 금융플랫폼 광고] 30대 중반-40대 중반 남성 배우 모집합니다",
-      "role": "",
-      "gender": "male",
-      "ageMin": 30,
-      "ageMax": 45,
-      "ageText": "남성 · 30세 ~ 45세",
-      "due": "2026-09-20",
-      "url": "https://plfil.com/casting/4343",
-      "email": null,
-      "specials": [],
-      "pay": "50만원 ~ 50만원"
-    },
-    {
       "id": "plfil-4342",
       "source": "플필",
       "sourceType": "platform",
@@ -301,6 +250,57 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 10만원"
+    },
+    {
+      "id": "plfil-4340",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "간편결제/금융플랫폼 광고 (개성강한 이미지의 개그맨, 연극배우 등)",
+      "role": "",
+      "gender": "any",
+      "ageMin": 20,
+      "ageMax": 40,
+      "ageText": "성별 무관 · 20세 ~ 40세",
+      "due": "2026-09-30",
+      "url": "https://plfil.com/casting/4340",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 300만원"
+    },
+    {
+      "id": "plfil-4337",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "트리트먼트 제품 숏폼 촬영 모델 모집",
+      "role": "",
+      "gender": "female",
+      "ageMin": 20,
+      "ageMax": 35,
+      "ageText": "여성 · 20세 ~ 35세",
+      "due": "2026-09-21",
+      "url": "https://plfil.com/casting/4337",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
+    },
+    {
+      "id": "plfil-4336",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "상업영화 <너와 함께라면> 댄스 가능 이미지 단역 배우 공고",
+      "role": "",
+      "gender": "female",
+      "ageMin": 26,
+      "ageMax": 37,
+      "ageText": "여성 · 26세 ~ 37세",
+      "due": "2026-09-23",
+      "url": "https://plfil.com/casting/4336",
+      "email": null,
+      "specials": [],
+      "pay": "20만원 ~ 30만원"
     }
   ]
 }
