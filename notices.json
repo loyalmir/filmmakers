@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T06:55+00:00",
+  "updatedAt": "2026-09-22T12:09+00:00",
   "count": 18,
   "notices": [
     {
@@ -99,6 +99,40 @@
       "specials": []
     },
     {
+      "id": "plfil-4365",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "광고",
+      "title": "호텔 광고 이미지 좋은 30대후반~40대 남자모델 구인합니다",
+      "role": "",
+      "gender": "any",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "성별 무관 · 나이 무관",
+      "due": "2026-09-23",
+      "url": "https://plfil.com/casting/4365",
+      "email": null,
+      "specials": [],
+      "pay": "30만원 ~ 30만원"
+    },
+    {
+      "id": "plfil-4364",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "정오의데이트 SNS 광고 여성 모델 모집",
+      "role": "",
+      "gender": "female",
+      "ageMin": 20,
+      "ageMax": 39,
+      "ageText": "여성 · 20세 ~ 39세",
+      "due": "2026-10-05",
+      "url": "https://plfil.com/casting/4364",
+      "email": null,
+      "specials": [],
+      "pay": "80만원 ~ 80만원"
+    },
+    {
       "id": "plfil-4363",
       "source": "플필",
       "sourceType": "platform",
@@ -194,7 +228,7 @@
       "ageMin": null,
       "ageMax": null,
       "ageText": "남성 · 나이 무관 외 2개 배역",
-      "due": "2026-09-30",
+      "due": "2026-09-26",
       "url": "https://plfil.com/casting/4353",
       "email": null,
       "specials": [],
@@ -267,40 +301,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4340",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "간편결제/금융플랫폼 광고 (개성강한 이미지의 개그맨, 연극배우 등)",
-      "role": "",
-      "gender": "any",
-      "ageMin": 20,
-      "ageMax": 40,
-      "ageText": "성별 무관 · 20세 ~ 40세",
-      "due": "2026-09-30",
-      "url": "https://plfil.com/casting/4340",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 300만원"
-    },
-    {
-      "id": "plfil-4336",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "상업영화 <너와 함께라면> 댄스 가능 이미지 단역 배우 공고",
-      "role": "",
-      "gender": "female",
-      "ageMin": 26,
-      "ageMax": 37,
-      "ageText": "여성 · 26세 ~ 37세",
-      "due": "2026-09-23",
-      "url": "https://plfil.com/casting/4336",
-      "email": null,
-      "specials": [],
-      "pay": "20만원 ~ 30만원"
     }
   ]
 }
