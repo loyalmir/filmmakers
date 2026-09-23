@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T13:04+00:00",
+  "updatedAt": "2026-09-23T18:00+00:00",
   "count": 18,
   "notices": [
     {
@@ -133,23 +133,6 @@
       "pay": "10만원 ~ 10만원"
     },
     {
-      "id": "plfil-4370",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "광고",
-      "title": "광고 셀럽 라이팅&대역 가능한 20~30대 여자 모델 구인합니다",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-09-23",
-      "url": "https://plfil.com/casting/4370",
-      "email": null,
-      "specials": [],
-      "pay": "30만원 ~ 30만원"
-    },
-    {
       "id": "plfil-4369",
       "source": "플필",
       "sourceType": "platform",
@@ -218,23 +201,6 @@
       "pay": "10만원 ~ 10만원"
     },
     {
-      "id": "plfil-4365",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "광고",
-      "title": "호텔 광고 이미지 좋은 30대후반~40대 남자모델 구인합니다",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-09-23",
-      "url": "https://plfil.com/casting/4365",
-      "email": null,
-      "specials": [],
-      "pay": "30만원 ~ 30만원"
-    },
-    {
       "id": "plfil-4364",
       "source": "플필",
       "sourceType": "platform",
@@ -301,6 +267,40 @@
       "email": null,
       "specials": [],
       "pay": "20만원 ~ 30만원"
+    },
+    {
+      "id": "plfil-4359",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "애어른",
+      "role": "",
+      "gender": "male",
+      "ageMin": 37,
+      "ageMax": 55,
+      "ageText": "남성 · 37세 ~ 55세",
+      "due": "2026-10-01",
+      "url": "https://plfil.com/casting/4359",
+      "email": null,
+      "specials": [],
+      "pay": "15만원 ~ 15만원"
+    },
+    {
+      "id": "plfil-4353",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "동서대학교 영화과 단편영화 <영성 상담소>에서 주연 배우를 모집합니다",
+      "role": "",
+      "gender": "male",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "남성 · 나이 무관 외 2개 배역",
+      "due": "2026-09-26",
+      "url": "https://plfil.com/casting/4353",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 15만원"
     }
   ]
 }
