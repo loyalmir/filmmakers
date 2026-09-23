@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T23:19+00:00",
+  "updatedAt": "2026-09-23T01:59+00:00",
   "count": 18,
   "notices": [
     {
@@ -99,6 +99,40 @@
       "specials": []
     },
     {
+      "id": "plfil-4368",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "손가락(통증완화)패치 제품 사진,gif 촬영_3040 여성모델 모집",
+      "role": "",
+      "gender": "female",
+      "ageMin": 35,
+      "ageMax": 48,
+      "ageText": "여성 · 35세 ~ 48세",
+      "due": "2026-09-28",
+      "url": "https://plfil.com/casting/4368",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
+    },
+    {
+      "id": "plfil-4367",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "통밀빵 제품 숏폼 촬영_2030 한국인 남성 모델 모집",
+      "role": "",
+      "gender": "male",
+      "ageMin": 26,
+      "ageMax": 35,
+      "ageText": "남성 · 26세 ~ 35세",
+      "due": "2026-09-28",
+      "url": "https://plfil.com/casting/4367",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
+    },
+    {
       "id": "plfil-4366",
       "source": "플필",
       "sourceType": "platform",
@@ -137,7 +171,7 @@
       "source": "플필",
       "sourceType": "platform",
       "cat": "기타",
-      "title": "정오의데이트 SNS 광고 여성 모델 모집",
+      "title": "[정오의데이트] 비주얼 여성 모델 모집 / \"글래머 우대\"",
       "role": "",
       "gender": "female",
       "ageMin": 20,
@@ -267,40 +301,6 @@
       "email": null,
       "specials": [],
       "pay": "100만원 ~ 120만원"
-    },
-    {
-      "id": "plfil-4348",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "운동복 브랜드 플래니트(PLAKNIT) 3개월 비전속 모델 모집합니다",
-      "role": "",
-      "gender": "any",
-      "ageMin": 20,
-      "ageMax": 29,
-      "ageText": "성별 무관 · 20세 ~ 29세",
-      "due": "2026-10-15",
-      "url": "https://plfil.com/casting/4348",
-      "email": null,
-      "specials": [],
-      "pay": "100만원 ~ 100만원"
-    },
-    {
-      "id": "plfil-4346",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "TV/OTT",
-      "title": "넷플릭스 <페000> 이미지단역 섭외",
-      "role": "",
-      "gender": "male",
-      "ageMin": 40,
-      "ageMax": 51,
-      "ageText": "남성 · 40세 ~ 51세 외 1개 배역",
-      "due": "2026-09-30",
-      "url": "https://plfil.com/casting/4346",
-      "email": null,
-      "specials": [],
-      "pay": "25만원 ~ 25만원"
     }
   ]
 }
