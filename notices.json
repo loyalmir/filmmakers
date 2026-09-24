@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T10:35+00:00",
+  "updatedAt": "2026-09-24T15:32+00:00",
   "count": 18,
   "notices": [
     {
@@ -150,23 +150,6 @@
       "pay": "150만원 ~ 200만원"
     },
     {
-      "id": "plfil-4372",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "광고",
-      "title": "페이 광고 몸 좋은 20~30대 남자 이미지모델 구인합니다",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-09-24",
-      "url": "https://plfil.com/casting/4372",
-      "email": null,
-      "specials": [],
-      "pay": "30만원 ~ 30만원"
-    },
-    {
       "id": "plfil-4371",
       "source": "플필",
       "sourceType": "platform",
@@ -301,6 +284,23 @@
       "email": null,
       "specials": [],
       "pay": "40만원 ~ 50만원"
+    },
+    {
+      "id": "plfil-4362",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "TV/OTT",
+      "title": "넷플릭스 시리즈 <000맨>",
+      "role": "",
+      "gender": "male",
+      "ageMin": 20,
+      "ageMax": 40,
+      "ageText": "남성 · 20세 ~ 40세",
+      "due": "2026-09-30",
+      "url": "https://plfil.com/casting/4362",
+      "email": null,
+      "specials": [],
+      "pay": "25만원 ~ 25만원"
     }
   ]
 }
