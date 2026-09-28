@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T14:36+00:00",
+  "updatedAt": "2026-09-28T20:52+00:00",
   "count": 18,
   "notices": [
     {
@@ -218,23 +218,6 @@
       "pay": "10만원 ~ 30만원"
     },
     {
-      "id": "plfil-4374",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "광고",
-      "title": "광고 셀럽 라이팅&대역 가능한 20~30대 여자 모델 구인합니다",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-09-28",
-      "url": "https://plfil.com/casting/4374",
-      "email": null,
-      "specials": [],
-      "pay": "40만원 ~ 40만원"
-    },
-    {
       "id": "plfil-4373",
       "source": "플필",
       "sourceType": "platform",
@@ -269,38 +252,55 @@
       "pay": "10만원 ~ 10만원"
     },
     {
-      "id": "plfil-4370",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "광고",
-      "title": "광고 셀럽 라이팅&대역 가능한 20~30대 여자 모델 구인합니다",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-09-28",
-      "url": "https://plfil.com/casting/4370",
-      "email": null,
-      "specials": [],
-      "pay": "40만원 ~ 40만원"
-    },
-    {
-      "id": "plfil-4369",
+      "id": "plfil-4364",
       "source": "플필",
       "sourceType": "platform",
       "cat": "기타",
-      "title": "통기타 제품 숏폼 촬영(기타 연주 가능한 2030 한국인 남성모델)",
+      "title": "[정오의데이트] 비주얼 여성 모델 모집 / \"글래머 우대\"",
+      "role": "",
+      "gender": "female",
+      "ageMin": 20,
+      "ageMax": 39,
+      "ageText": "여성 · 20세 ~ 39세",
+      "due": "2026-10-05",
+      "url": "https://plfil.com/casting/4364",
+      "email": null,
+      "specials": [],
+      "pay": "80만원 ~ 80만원"
+    },
+    {
+      "id": "plfil-4363",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "BL 숏폼드라마 주연 공고",
       "role": "",
       "gender": "male",
       "ageMin": 20,
-      "ageMax": 36,
-      "ageText": "남성 · 20세 ~ 36세",
-      "due": "2026-09-28",
-      "url": "https://plfil.com/casting/4369",
+      "ageMax": 30,
+      "ageText": "남성 · 20세 ~ 30세",
+      "due": "2026-09-30",
+      "url": "https://plfil.com/casting/4363",
       "email": null,
       "specials": [],
-      "pay": "15만원 ~ 15만원"
+      "pay": "40만원 ~ 50만원"
+    },
+    {
+      "id": "plfil-4362",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "TV/OTT",
+      "title": "넷플릭스 시리즈 <000맨>",
+      "role": "",
+      "gender": "male",
+      "ageMin": 20,
+      "ageMax": 40,
+      "ageText": "남성 · 20세 ~ 40세",
+      "due": "2026-09-30",
+      "url": "https://plfil.com/casting/4362",
+      "email": null,
+      "specials": [],
+      "pay": "25만원 ~ 25만원"
     }
   ]
 }
