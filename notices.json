@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T06:01+00:00",
+  "updatedAt": "2026-09-28T14:36+00:00",
   "count": 18,
   "notices": [
     {
@@ -97,6 +97,57 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4382",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "아이케어 디바이스 제품 숏폼 촬영_2030 한국인 여성 모델 모집",
+      "role": "",
+      "gender": "female",
+      "ageMin": 25,
+      "ageMax": 38,
+      "ageText": "여성 · 25세 ~ 38세",
+      "due": "2026-10-02",
+      "url": "https://plfil.com/casting/4382",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
+    },
+    {
+      "id": "plfil-4381",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "광고",
+      "title": "은행 광고 요리가 가능한 20대-40대 남녀 서브모델 구인합니다",
+      "role": "",
+      "gender": "any",
+      "ageMin": 20,
+      "ageMax": 49,
+      "ageText": "성별 무관 · 20세 ~ 49세",
+      "due": "2026-09-29",
+      "url": "https://plfil.com/casting/4381",
+      "email": null,
+      "specials": [],
+      "pay": "35만원 ~ 35만원"
+    },
+    {
+      "id": "plfil-4380",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "카페 홍보 숏폼영상 촬영_20대 한국인 여성 모델 모집",
+      "role": "",
+      "gender": "female",
+      "ageMin": 20,
+      "ageMax": 25,
+      "ageText": "여성 · 20세 ~ 25세",
+      "due": "2026-10-01",
+      "url": "https://plfil.com/casting/4380",
+      "email": null,
+      "specials": [],
+      "pay": "15만원 ~ 15만원"
     },
     {
       "id": "plfil-4379",
@@ -250,57 +301,6 @@
       "email": null,
       "specials": [],
       "pay": "15만원 ~ 15만원"
-    },
-    {
-      "id": "plfil-4368",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "손가락(통증완화)패치 제품 사진,gif 촬영_3040 여성모델 모집",
-      "role": "",
-      "gender": "female",
-      "ageMin": 35,
-      "ageMax": 48,
-      "ageText": "여성 · 35세 ~ 48세",
-      "due": "2026-09-28",
-      "url": "https://plfil.com/casting/4368",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4367",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "통밀빵 제품 숏폼 촬영_2030 한국인 남성 모델 모집",
-      "role": "",
-      "gender": "male",
-      "ageMin": 26,
-      "ageMax": 35,
-      "ageText": "남성 · 26세 ~ 35세",
-      "due": "2026-09-28",
-      "url": "https://plfil.com/casting/4367",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4366",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "동아방송예술대학교 영화예술과 졸업작품 <하늘 아래 혜라(가제)> 주연",
-      "role": "",
-      "gender": "male",
-      "ageMin": 28,
-      "ageMax": 37,
-      "ageText": "남성 · 28세 ~ 37세 외 1개 배역",
-      "due": "2026-10-02",
-      "url": "https://plfil.com/casting/4366",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
     }
   ]
 }
