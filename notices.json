@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T13:28+00:00",
+  "updatedAt": "2026-09-29T18:56+00:00",
   "count": 19,
   "notices": [
     {
@@ -200,23 +200,6 @@
       "pay": "10만원 ~ 10만원"
     },
     {
-      "id": "plfil-4381",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "광고",
-      "title": "은행 광고 요리가 가능한 20대-40대 남녀 서브모델 구인합니다",
-      "role": "",
-      "gender": "any",
-      "ageMin": 20,
-      "ageMax": 49,
-      "ageText": "성별 무관 · 20세 ~ 49세",
-      "due": "2026-09-29",
-      "url": "https://plfil.com/casting/4381",
-      "email": null,
-      "specials": [],
-      "pay": "35만원 ~ 35만원"
-    },
-    {
       "id": "plfil-4380",
       "source": "플필",
       "sourceType": "platform",
@@ -234,23 +217,6 @@
       "pay": "15만원 ~ 15만원"
     },
     {
-      "id": "plfil-4379",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "광고",
-      "title": "통신사 광고 전라도 또는 충청도 사투리 가능하신 50~70대 남녀모델 구",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-09-29",
-      "url": "https://plfil.com/casting/4379",
-      "email": null,
-      "specials": [],
-      "pay": "35만원 ~ 35만원"
-    },
-    {
       "id": "plfil-4378",
       "source": "플필",
       "sourceType": "platform",
@@ -266,23 +232,6 @@
       "email": null,
       "specials": [],
       "pay": "100만원 ~ 200만원"
-    },
-    {
-      "id": "plfil-4377",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "서울예술대학교 단편영화 <긴지 아닌지> 할머니 배우님 모집 !",
-      "role": "",
-      "gender": "female",
-      "ageMin": 59,
-      "ageMax": 80,
-      "ageText": "여성 · 59세 ~ 80세",
-      "due": "2026-09-29",
-      "url": "https://plfil.com/casting/4377",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
     },
     {
       "id": "plfil-4375",
@@ -317,6 +266,57 @@
       "email": null,
       "specials": [],
       "pay": "150만원 ~ 200만원"
+    },
+    {
+      "id": "plfil-4371",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "세럼 및 크림 제품 숏폼 촬영_2030 한국인 여성모델 모집",
+      "role": "",
+      "gender": "female",
+      "ageMin": 20,
+      "ageMax": 35,
+      "ageText": "여성 · 20세 ~ 35세",
+      "due": "2026-10-01",
+      "url": "https://plfil.com/casting/4371",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
+    },
+    {
+      "id": "plfil-4364",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "[정오의데이트] 비주얼 여성 모델 모집 / \"글래머 우대\"",
+      "role": "",
+      "gender": "female",
+      "ageMin": 20,
+      "ageMax": 39,
+      "ageText": "여성 · 20세 ~ 39세",
+      "due": "2026-10-05",
+      "url": "https://plfil.com/casting/4364",
+      "email": null,
+      "specials": [],
+      "pay": "80만원 ~ 80만원"
+    },
+    {
+      "id": "plfil-4363",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "BL 숏폼드라마 주연 공고",
+      "role": "",
+      "gender": "male",
+      "ageMin": 20,
+      "ageMax": 30,
+      "ageText": "남성 · 20세 ~ 30세",
+      "due": "2026-09-30",
+      "url": "https://plfil.com/casting/4363",
+      "email": null,
+      "specials": [],
+      "pay": "40만원 ~ 50만원"
     }
   ]
 }
