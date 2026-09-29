@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T00:40+00:00",
+  "updatedAt": "2026-09-29T06:19+00:00",
   "count": 18,
   "notices": [
     {
@@ -97,6 +97,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4383",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "광고",
+      "title": "광고 액션 및 무술 가능한 남자 모델 구인합니다",
+      "role": "",
+      "gender": "any",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "성별 무관 · 나이 무관",
+      "due": "2026-09-30",
+      "url": "https://plfil.com/casting/4383",
+      "email": null,
+      "specials": [],
+      "pay": "40만원 ~ 40만원"
     },
     {
       "id": "plfil-4382",
@@ -284,23 +301,6 @@
       "email": null,
       "specials": [],
       "pay": "40만원 ~ 50만원"
-    },
-    {
-      "id": "plfil-4362",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "TV/OTT",
-      "title": "넷플릭스 시리즈 <000맨>",
-      "role": "",
-      "gender": "male",
-      "ageMin": 20,
-      "ageMax": 40,
-      "ageText": "남성 · 20세 ~ 40세",
-      "due": "2026-09-30",
-      "url": "https://plfil.com/casting/4362",
-      "email": null,
-      "specials": [],
-      "pay": "25만원 ~ 25만원"
     }
   ]
 }
