@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T07:34+00:00",
+  "updatedAt": "2026-09-30T14:18+00:00",
   "count": 19,
   "notices": [
     {
@@ -113,6 +113,57 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4392",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "단편영화 <고스팅>에 출연하실 여성 배우님을 모집합니다. (하영 역)",
+      "role": "",
+      "gender": "female",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "여성 · 나이 무관",
+      "due": "2026-10-05",
+      "url": "https://plfil.com/casting/4392",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
+    },
+    {
+      "id": "plfil-4391",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "단편영화 <고스팅>에 출연하실 여성 배우님을 모집합니다. (유진 역)",
+      "role": "",
+      "gender": "female",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "여성 · 나이 무관",
+      "due": "2026-10-05",
+      "url": "https://plfil.com/casting/4391",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
+    },
+    {
+      "id": "plfil-4390",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "게임 유저 인터뷰 컨셉 / 카메라 프롬프트 있음",
+      "role": "",
+      "gender": "female",
+      "ageMin": 25,
+      "ageMax": 40,
+      "ageText": "여성 · 25세 ~ 40세",
+      "due": "2026-10-01",
+      "url": "https://plfil.com/casting/4390",
+      "email": null,
+      "specials": [],
+      "pay": "30만원 ~ 30만원"
     },
     {
       "id": "plfil-4388",
@@ -266,57 +317,6 @@
       "email": null,
       "specials": [],
       "pay": "100만원 ~ 200만원"
-    },
-    {
-      "id": "plfil-4375",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "영진위 지원작 장편영화<럭키금순>에서 주조연 및 단역배우 모집합니다.",
-      "role": "",
-      "gender": "male",
-      "ageMin": 32,
-      "ageMax": 45,
-      "ageText": "남성 · 32세 ~ 45세 외 7개 배역",
-      "due": "2026-10-18",
-      "url": "https://plfil.com/casting/4375",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 30만원"
-    },
-    {
-      "id": "plfil-4373",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "[비공개] 광고 모델 30~50대 남녀 (세련미)",
-      "role": "",
-      "gender": "male",
-      "ageMin": 28,
-      "ageMax": 61,
-      "ageText": "남성 · 28세 ~ 61세 외 1개 배역",
-      "due": "2026-10-05",
-      "url": "https://plfil.com/casting/4373",
-      "email": null,
-      "specials": [],
-      "pay": "150만원 ~ 200만원"
-    },
-    {
-      "id": "plfil-4371",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "세럼 및 크림 제품 숏폼 촬영_2030 한국인 여성모델 모집",
-      "role": "",
-      "gender": "female",
-      "ageMin": 20,
-      "ageMax": 35,
-      "ageText": "여성 · 20세 ~ 35세",
-      "due": "2026-10-01",
-      "url": "https://plfil.com/casting/4371",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
     }
   ]
 }
