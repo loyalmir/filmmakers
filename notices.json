@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T01:40+00:00",
+  "updatedAt": "2026-09-30T07:34+00:00",
   "count": 19,
   "notices": [
     {
@@ -113,6 +113,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4388",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "광고",
+      "title": "미디언스 숏폼 광고 출연 모델 모집",
+      "role": "",
+      "gender": "any",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "성별 무관 · 나이 무관",
+      "due": "2026-10-06",
+      "url": "https://plfil.com/casting/4388",
+      "email": null,
+      "specials": [],
+      "pay": "20만원 ~ 20만원"
     },
     {
       "id": "plfil-4387",
@@ -300,23 +317,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4364",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "[정오의데이트] 비주얼 여성 모델 모집 / \"글래머 우대\"",
-      "role": "",
-      "gender": "female",
-      "ageMin": 20,
-      "ageMax": 39,
-      "ageText": "여성 · 20세 ~ 39세",
-      "due": "2026-10-05",
-      "url": "https://plfil.com/casting/4364",
-      "email": null,
-      "specials": [],
-      "pay": "80만원 ~ 80만원"
     }
   ]
 }
