@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T09:29+00:00",
+  "updatedAt": "2026-10-01T16:43+00:00",
   "count": 19,
   "notices": [
     {
@@ -115,6 +115,23 @@
       "specials": []
     },
     {
+      "id": "plfil-4394",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "경기도교육청 홍보영상 모델 구인",
+      "role": "",
+      "gender": "female",
+      "ageMin": 30,
+      "ageMax": 50,
+      "ageText": "여성 · 30세 ~ 50세 외 1개 배역",
+      "due": "2026-10-05",
+      "url": "https://plfil.com/casting/4394",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
+    },
+    {
       "id": "plfil-4393",
       "source": "플필",
       "sourceType": "platform",
@@ -164,23 +181,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4390",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "게임 유저 인터뷰 컨셉 / 카메라 프롬프트 있음",
-      "role": "",
-      "gender": "female",
-      "ageMin": 25,
-      "ageMax": 40,
-      "ageText": "여성 · 25세 ~ 40세",
-      "due": "2026-10-01",
-      "url": "https://plfil.com/casting/4390",
-      "email": null,
-      "specials": [],
-      "pay": "30만원 ~ 30만원"
     },
     {
       "id": "plfil-4388",
@@ -268,23 +268,6 @@
       "pay": "10만원 ~ 10만원"
     },
     {
-      "id": "plfil-4380",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "카페 홍보 숏폼영상 촬영_20대 한국인 여성 모델 모집",
-      "role": "",
-      "gender": "female",
-      "ageMin": 20,
-      "ageMax": 25,
-      "ageText": "여성 · 20세 ~ 25세",
-      "due": "2026-10-01",
-      "url": "https://plfil.com/casting/4380",
-      "email": null,
-      "specials": [],
-      "pay": "15만원 ~ 15만원"
-    },
-    {
       "id": "plfil-4375",
       "source": "플필",
       "sourceType": "platform",
@@ -317,6 +300,23 @@
       "email": null,
       "specials": [],
       "pay": "150만원 ~ 200만원"
+    },
+    {
+      "id": "plfil-4364",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "[정오의데이트] 비주얼 여성 모델 모집 / \"글래머 우대\"",
+      "role": "",
+      "gender": "female",
+      "ageMin": 20,
+      "ageMax": 39,
+      "ageText": "여성 · 20세 ~ 39세",
+      "due": "2026-10-05",
+      "url": "https://plfil.com/casting/4364",
+      "email": null,
+      "specials": [],
+      "pay": "80만원 ~ 80만원"
     }
   ]
 }
