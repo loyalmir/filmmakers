@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T01:08+00:00",
+  "updatedAt": "2026-10-02T07:36+00:00",
   "count": 19,
   "notices": [
     {
@@ -113,6 +113,57 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4397",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "▶MV 이미지단역 섭외 공지 40~50대 남자",
+      "role": "",
+      "gender": "male",
+      "ageMin": 40,
+      "ageMax": 59,
+      "ageText": "남성 · 40세 ~ 59세",
+      "due": "2026-10-05",
+      "url": "https://plfil.com/casting/4397",
+      "email": null,
+      "specials": [],
+      "pay": "25만원 ~ 25만원"
+    },
+    {
+      "id": "plfil-4396",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "연극",
+      "title": "[부산] 연극 <택시안에서> 전 배역 오디션",
+      "role": "",
+      "gender": "any",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "성별 무관 · 나이 무관",
+      "due": "2026-10-05",
+      "url": "https://plfil.com/casting/4396",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
+    },
+    {
+      "id": "plfil-4395",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "온라인 이러닝 학습 프로그램 숏폼 모델_웃는게 예쁘고 이목구비 뚜렷한 분",
+      "role": "",
+      "gender": "any",
+      "ageMin": 20,
+      "ageMax": 36,
+      "ageText": "성별 무관 · 20세 ~ 36세",
+      "due": "2026-10-06",
+      "url": "https://plfil.com/casting/4395",
+      "email": null,
+      "specials": [],
+      "pay": "20만원 ~ 20만원"
     },
     {
       "id": "plfil-4394",
@@ -266,57 +317,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4375",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "영진위 지원작 장편영화<럭키금순>에서 주조연 및 단역배우 모집합니다.",
-      "role": "",
-      "gender": "male",
-      "ageMin": 32,
-      "ageMax": 45,
-      "ageText": "남성 · 32세 ~ 45세 외 7개 배역",
-      "due": "2026-10-18",
-      "url": "https://plfil.com/casting/4375",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 30만원"
-    },
-    {
-      "id": "plfil-4373",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "[비공개] 광고 모델 30~50대 남녀 (세련미)",
-      "role": "",
-      "gender": "male",
-      "ageMin": 28,
-      "ageMax": 61,
-      "ageText": "남성 · 28세 ~ 61세 외 1개 배역",
-      "due": "2026-10-05",
-      "url": "https://plfil.com/casting/4373",
-      "email": null,
-      "specials": [],
-      "pay": "150만원 ~ 200만원"
-    },
-    {
-      "id": "plfil-4364",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "[정오의데이트] 비주얼 여성 모델 모집 / \"글래머 우대\"",
-      "role": "",
-      "gender": "female",
-      "ageMin": 20,
-      "ageMax": 39,
-      "ageText": "여성 · 20세 ~ 39세",
-      "due": "2026-10-05",
-      "url": "https://plfil.com/casting/4364",
-      "email": null,
-      "specials": [],
-      "pay": "80만원 ~ 80만원"
     }
   ]
 }
