@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T02:30+00:00",
+  "updatedAt": "2026-10-03T08:39+00:00",
   "count": 19,
   "notices": [
     {
@@ -113,6 +113,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4398",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "영화",
+      "title": "영화 <소여의 모험>에서 다양한 연령대의 배우분들을 모집합니다",
+      "role": "",
+      "gender": "male",
+      "ageMin": 14,
+      "ageMax": 16,
+      "ageText": "남성 · 14세 ~ 16세 외 8개 배역",
+      "due": "2026-10-16",
+      "url": "https://plfil.com/casting/4398",
+      "email": null,
+      "specials": [],
+      "pay": ""
     },
     {
       "id": "plfil-4397",
@@ -300,23 +317,6 @@
       "email": null,
       "specials": [],
       "pay": "150만원 ~ 200만원"
-    },
-    {
-      "id": "plfil-4364",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "[정오의데이트] 비주얼 여성 모델 모집 / \"글래머 우대\"",
-      "role": "",
-      "gender": "female",
-      "ageMin": 20,
-      "ageMax": 39,
-      "ageText": "여성 · 20세 ~ 39세",
-      "due": "2026-10-05",
-      "url": "https://plfil.com/casting/4364",
-      "email": null,
-      "specials": [],
-      "pay": "80만원 ~ 80만원"
     }
   ]
 }
