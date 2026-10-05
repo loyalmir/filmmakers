@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T01:20+00:00",
+  "updatedAt": "2026-10-05T07:47+00:00",
   "count": 19,
   "notices": [
     {
@@ -155,10 +155,10 @@
       "cat": "영화",
       "title": "영화 <소여의 모험>에서 다양한 연령대의 배우분들을 모집합니다",
       "role": "",
-      "gender": "male",
-      "ageMin": 14,
-      "ageMax": 16,
-      "ageText": "남성 · 14세 ~ 16세 외 8개 배역",
+      "gender": "any",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "",
       "due": "2026-10-16",
       "url": "https://plfil.com/casting/4398",
       "email": null,
