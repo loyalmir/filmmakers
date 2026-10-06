@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T09:29+00:00",
+  "updatedAt": "2026-10-06T16:19+00:00",
   "count": 19,
   "notices": [
     {
@@ -149,23 +149,6 @@
       "pay": "25만원 ~ 25만원"
     },
     {
-      "id": "plfil-4401",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "[비공개 OTT 숏폼 드라마 <가족 (가제)> 배우 캐스팅 공고]",
-      "role": "",
-      "gender": "male",
-      "ageMin": 20,
-      "ageMax": 29,
-      "ageText": "남성 · 20세 ~ 29세 외 2개 배역",
-      "due": "2026-10-06",
-      "url": "https://plfil.com/casting/4401",
-      "email": null,
-      "specials": [],
-      "pay": ""
-    },
-    {
       "id": "plfil-4399",
       "source": "플필",
       "sourceType": "platform",
@@ -200,23 +183,6 @@
       "pay": ""
     },
     {
-      "id": "plfil-4395",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "온라인 이러닝 학습 프로그램 숏폼 모델_웃는게 예쁘고 이목구비 뚜렷한 분",
-      "role": "",
-      "gender": "any",
-      "ageMin": 20,
-      "ageMax": 36,
-      "ageText": "성별 무관 · 20세 ~ 36세",
-      "due": "2026-10-06",
-      "url": "https://plfil.com/casting/4395",
-      "email": null,
-      "specials": [],
-      "pay": "20만원 ~ 20만원"
-    },
-    {
       "id": "plfil-4393",
       "source": "플필",
       "sourceType": "platform",
@@ -232,23 +198,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4388",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "광고",
-      "title": "미디언스 숏폼 광고 출연 모델 모집",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-10-06",
-      "url": "https://plfil.com/casting/4388",
-      "email": null,
-      "specials": [],
-      "pay": "20만원 ~ 20만원"
     },
     {
       "id": "plfil-4384",
@@ -317,6 +266,57 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 20만원"
+    },
+    {
+      "id": "plfil-4017",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "TV/OTT",
+      "title": "tvn 12부작 사극드라마",
+      "role": "",
+      "gender": "any",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "성별 무관 · 나이 무관 외 6개 배역",
+      "due": "2026-12-31",
+      "url": "https://plfil.com/casting/4017",
+      "email": null,
+      "specials": [],
+      "pay": "20만원 ~ 100만원"
+    },
+    {
+      "id": "plfil-3829",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "오디션 <제스처맨> 여자 주인공 캐스팅 공고",
+      "role": "",
+      "gender": "female",
+      "ageMin": 20,
+      "ageMax": 28,
+      "ageText": "여성 · 20세 ~ 28세",
+      "due": "2027-02-24",
+      "url": "https://plfil.com/casting/3829",
+      "email": null,
+      "specials": [],
+      "pay": "30만원 ~ 30만원"
+    },
+    {
+      "id": "plfil-3780",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "TV/OTT",
+      "title": "일본어 가능자 모집합니다.",
+      "role": "",
+      "gender": "any",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "성별 무관 · 나이 무관",
+      "due": "2026-12-31",
+      "url": "https://plfil.com/casting/3780",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 100만원"
     }
   ]
 }
