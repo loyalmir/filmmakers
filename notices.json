@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T02:37+00:00",
+  "updatedAt": "2026-10-06T09:29+00:00",
   "count": 19,
   "notices": [
     {
@@ -113,6 +113,40 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4404",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "화재대피 파이어스루 제품 사진 촬영_2030남성모델 모집",
+      "role": "",
+      "gender": "male",
+      "ageMin": 20,
+      "ageMax": 38,
+      "ageText": "남성 · 20세 ~ 38세",
+      "due": "2026-10-16",
+      "url": "https://plfil.com/casting/4404",
+      "email": null,
+      "specials": [],
+      "pay": "15만원 ~ 15만원"
+    },
+    {
+      "id": "plfil-4402",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "▶MV 이미지단역 캐스팅 (아이돌 지망생)",
+      "role": "",
+      "gender": "any",
+      "ageMin": 17,
+      "ageMax": 25,
+      "ageText": "성별 무관 · 17세 ~ 25세",
+      "due": "2026-10-08",
+      "url": "https://plfil.com/casting/4402",
+      "email": null,
+      "specials": [],
+      "pay": "25만원 ~ 25만원"
     },
     {
       "id": "plfil-4401",
@@ -283,40 +317,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 20만원"
-    },
-    {
-      "id": "plfil-4017",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "TV/OTT",
-      "title": "tvn 12부작 사극드라마",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관 외 6개 배역",
-      "due": "2026-12-31",
-      "url": "https://plfil.com/casting/4017",
-      "email": null,
-      "specials": [],
-      "pay": "20만원 ~ 100만원"
-    },
-    {
-      "id": "plfil-3829",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "오디션 <제스처맨> 여자 주인공 캐스팅 공고",
-      "role": "",
-      "gender": "female",
-      "ageMin": 20,
-      "ageMax": 28,
-      "ageText": "여성 · 20세 ~ 28세",
-      "due": "2027-02-24",
-      "url": "https://plfil.com/casting/3829",
-      "email": null,
-      "specials": [],
-      "pay": "30만원 ~ 30만원"
     }
   ]
 }
