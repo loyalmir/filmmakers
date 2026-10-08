@@ -1,23 +1,7 @@
 {
-  "updatedAt": "2026-10-07T20:14+00:00",
-  "count": 17,
+  "updatedAt": "2026-10-08T00:30+00:00",
+  "count": 16,
   "notices": [
-    {
-      "id": "onepick-984",
-      "source": "원픽",
-      "sourceType": "platform",
-      "cat": "연극",
-      "title": "법정추리극 <침묵의 증거> 주연배우 모집합니다.",
-      "role": "나이 30대 | 성별 남성 | 경력 3년이상",
-      "gender": "male",
-      "ageMin": 30,
-      "ageMax": 39,
-      "ageText": "나이 30대 | 성별 남성 | 경력 3년이상",
-      "due": "2026-10-07",
-      "url": "https://www.myonepick.com/audi/list/",
-      "email": null,
-      "specials": []
-    },
     {
       "id": "onepick-983",
       "source": "원픽",
