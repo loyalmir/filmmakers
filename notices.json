@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T00:30+00:00",
+  "updatedAt": "2026-10-08T06:44+00:00",
   "count": 16,
   "notices": [
     {
@@ -67,6 +67,74 @@
       "specials": []
     },
     {
+      "id": "plfil-4419",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "튼살 케어 제품 SNS광고 30대 여성 배우님 모집합니다",
+      "role": "",
+      "gender": "female",
+      "ageMin": 28,
+      "ageMax": 40,
+      "ageText": "여성 · 28세 ~ 40세",
+      "due": "2026-10-14",
+      "url": "https://plfil.com/casting/4419",
+      "email": null,
+      "specials": [],
+      "pay": "30만원 ~ 30만원"
+    },
+    {
+      "id": "plfil-4418",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "세럼 및 크림 제품 영상(가로형/세로형) 촬영",
+      "role": "",
+      "gender": "female",
+      "ageMin": 20,
+      "ageMax": 28,
+      "ageText": "여성 · 20세 ~ 28세",
+      "due": "2026-10-12",
+      "url": "https://plfil.com/casting/4418",
+      "email": null,
+      "specials": [],
+      "pay": "25만원 ~ 25만원"
+    },
+    {
+      "id": "plfil-4417",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "2030 몸좋은 남자 배우님 모집합니다.",
+      "role": "",
+      "gender": "male",
+      "ageMin": 20,
+      "ageMax": 38,
+      "ageText": "남성 · 20세 ~ 38세",
+      "due": "2026-10-11",
+      "url": "https://plfil.com/casting/4417",
+      "email": null,
+      "specials": [],
+      "pay": "20만원 ~ 20만원"
+    },
+    {
+      "id": "plfil-4416",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "리포멜라(멜라토닌) 제품 숏폼 촬영 모델 모집(4050여성)",
+      "role": "",
+      "gender": "female",
+      "ageMin": 40,
+      "ageMax": 58,
+      "ageText": "여성 · 40세 ~ 58세",
+      "due": "2026-10-13",
+      "url": "https://plfil.com/casting/4416",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
+    },
+    {
       "id": "plfil-4415",
       "source": "플필",
       "sourceType": "platform",
@@ -105,7 +173,7 @@
       "source": "플필",
       "sourceType": "platform",
       "cat": "기타",
-      "title": "보호 이너웨어 제품 가로형 영상 촬영 모델 모집(남성)",
+      "title": "보호 이너웨어 및 허리띠 제품 가로형 영상 촬영 모델 모집(남성)",
       "role": "",
       "gender": "male",
       "ageMin": 20,
@@ -115,7 +183,7 @@
       "url": "https://plfil.com/casting/4413",
       "email": null,
       "specials": [],
-      "pay": "10만원 ~ 10만원"
+      "pay": "20만원 ~ 20만원"
     },
     {
       "id": "plfil-4412",
@@ -132,7 +200,7 @@
       "url": "https://plfil.com/casting/4412",
       "email": null,
       "specials": [],
-      "pay": "20만원 ~ 20만원"
+      "pay": "15만원 ~ 15만원"
     },
     {
       "id": "plfil-4411",
@@ -201,74 +269,6 @@
       "email": null,
       "specials": [],
       "pay": "25만원 ~ 25만원"
-    },
-    {
-      "id": "plfil-4407",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "피자광고 20~30대 초반 남녀 이미지모델 구인합니다",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-10-08",
-      "url": "https://plfil.com/casting/4407",
-      "email": null,
-      "specials": [],
-      "pay": "30만원 ~ 30만원"
-    },
-    {
-      "id": "plfil-4406",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "비공개 상업영화 비주얼 남자 20대 모집",
-      "role": "",
-      "gender": "male",
-      "ageMin": 19,
-      "ageMax": 33,
-      "ageText": "남성 · 19세 ~ 33세",
-      "due": "2026-10-30",
-      "url": "https://plfil.com/casting/4406",
-      "email": null,
-      "specials": [],
-      "pay": "30만원 ~ 100만원"
-    },
-    {
-      "id": "plfil-4405",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "감성멜로/뮤직 웹드라마 수취인 불명 (가제) 여주인공 모집",
-      "role": "",
-      "gender": "female",
-      "ageMin": 26,
-      "ageMax": 35,
-      "ageText": "여성 · 26세 ~ 35세",
-      "due": "2026-10-16",
-      "url": "https://plfil.com/casting/4405",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 20만원"
-    },
-    {
-      "id": "plfil-4404",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "화재대피 파이어스루 제품 사진 촬영_2030남성모델 모집",
-      "role": "",
-      "gender": "male",
-      "ageMin": 20,
-      "ageMax": 38,
-      "ageText": "남성 · 20세 ~ 38세",
-      "due": "2026-10-16",
-      "url": "https://plfil.com/casting/4404",
-      "email": null,
-      "specials": [],
-      "pay": "15만원 ~ 15만원"
     }
   ]
 }
