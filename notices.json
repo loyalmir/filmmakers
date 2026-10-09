@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T13:54+00:00",
+  "updatedAt": "2026-10-09T19:06+00:00",
   "count": 16,
   "notices": [
     {
@@ -99,23 +99,6 @@
       "email": null,
       "specials": [],
       "pay": "20만원 ~ 20만원"
-    },
-    {
-      "id": "plfil-4424",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "쇼핑몰광고 20~50대 남녀 이미지모델 구인합니다",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-10-09",
-      "url": "https://plfil.com/casting/4424",
-      "email": null,
-      "specials": [],
-      "pay": "25만원 ~ 25만원"
     },
     {
       "id": "plfil-4423",
@@ -269,6 +252,23 @@
       "email": null,
       "specials": [],
       "pay": "40만원 ~ 60만원"
+    },
+    {
+      "id": "plfil-4414",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "미끄럼 방지 양말 제품 숏폼 촬영 모델 모집",
+      "role": "",
+      "gender": "female",
+      "ageMin": 33,
+      "ageMax": 48,
+      "ageText": "여성 · 33세 ~ 48세",
+      "due": "2026-10-13",
+      "url": "https://plfil.com/casting/4414",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
     }
   ]
 }
