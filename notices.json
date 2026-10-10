@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T09:12+00:00",
+  "updatedAt": "2026-10-10T15:36+00:00",
   "count": 16,
   "notices": [
     {
@@ -67,21 +67,21 @@
       "specials": []
     },
     {
-      "id": "plfil-4426",
+      "id": "plfil-4427",
       "source": "플필",
       "sourceType": "platform",
       "cat": "",
-      "title": "피자광고 20~30대 초반 [개성있는] 남녀 이미지모델 추가로 구인합니다",
+      "title": "AI + 실사 융합 사극 단편영화의 출연자분들을 모집합니다.",
       "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-10-10",
-      "url": "https://plfil.com/casting/4426",
+      "gender": "male",
+      "ageMin": 40,
+      "ageMax": 50,
+      "ageText": "남성 · 40세 ~ 50세 외 9개 배역",
+      "due": "2026-10-13",
+      "url": "https://plfil.com/casting/4427",
       "email": null,
       "specials": [],
-      "pay": "30만원 ~ 30만원"
+      "pay": "20만원 ~ 30만원"
     },
     {
       "id": "plfil-4425",
