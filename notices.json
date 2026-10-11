@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11T01:35+00:00",
+  "updatedAt": "2026-10-11T07:55+00:00",
   "count": 16,
   "notices": [
     {
@@ -65,6 +65,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4431",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "뮤비 미용실 아주머니 역할 30~50대 여자 이미지모델 모집합니다",
+      "role": "",
+      "gender": "any",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "성별 무관 · 나이 무관",
+      "due": "2026-10-11",
+      "url": "https://plfil.com/casting/4431",
+      "email": null,
+      "specials": [],
+      "pay": "40만원 ~ 40만원"
     },
     {
       "id": "plfil-4427",
@@ -252,23 +269,6 @@
       "email": null,
       "specials": [],
       "pay": "40만원 ~ 60만원"
-    },
-    {
-      "id": "plfil-4414",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "미끄럼 방지 양말 제품 숏폼 촬영 모델 모집",
-      "role": "",
-      "gender": "female",
-      "ageMin": 33,
-      "ageMax": 48,
-      "ageText": "여성 · 33세 ~ 48세",
-      "due": "2026-10-13",
-      "url": "https://plfil.com/casting/4414",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
     }
   ]
 }
