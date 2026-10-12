@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T09:52+00:00",
+  "updatedAt": "2026-10-12T19:26+00:00",
   "count": 16,
   "notices": [
     {
@@ -186,23 +186,6 @@
       "pay": "30만원 ~ 30만원"
     },
     {
-      "id": "plfil-4418",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "세럼 및 크림 제품 영상(가로형/세로형) 촬영",
-      "role": "",
-      "gender": "female",
-      "ageMin": 20,
-      "ageMax": 28,
-      "ageText": "여성 · 20세 ~ 28세",
-      "due": "2026-10-12",
-      "url": "https://plfil.com/casting/4418",
-      "email": null,
-      "specials": [],
-      "pay": "25만원 ~ 25만원"
-    },
-    {
       "id": "plfil-4416",
       "source": "플필",
       "sourceType": "platform",
@@ -254,21 +237,38 @@
       "pay": "10만원 ~ 10만원"
     },
     {
-      "id": "plfil-4413",
+      "id": "plfil-4412",
       "source": "플필",
       "sourceType": "platform",
       "cat": "기타",
-      "title": "보호 이너웨어 및 허리띠 제품 가로형 영상 촬영 모델 모집(남성)",
+      "title": "스노우백,키링 제품 숏폼 촬영 모델 모집",
       "role": "",
-      "gender": "male",
+      "gender": "female",
       "ageMin": 20,
       "ageMax": 35,
-      "ageText": "남성 · 20세 ~ 35세",
-      "due": "2026-10-12",
-      "url": "https://plfil.com/casting/4413",
+      "ageText": "여성 · 20세 ~ 35세",
+      "due": "2026-10-13",
+      "url": "https://plfil.com/casting/4412",
       "email": null,
       "specials": [],
-      "pay": "20만원 ~ 20만원"
+      "pay": "15만원 ~ 15만원"
+    },
+    {
+      "id": "plfil-4406",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "비공개 상업영화 비주얼 남자 20대 모집",
+      "role": "",
+      "gender": "male",
+      "ageMin": 19,
+      "ageMax": 33,
+      "ageText": "남성 · 19세 ~ 33세",
+      "due": "2026-10-30",
+      "url": "https://plfil.com/casting/4406",
+      "email": null,
+      "specials": [],
+      "pay": "30만원 ~ 100만원"
     }
   ]
 }
