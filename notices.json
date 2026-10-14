@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T10:42+00:00",
+  "updatedAt": "2026-10-14T15:34+00:00",
   "count": 16,
   "notices": [
     {
@@ -220,23 +220,6 @@
       "pay": "10만원 ~ 10만원"
     },
     {
-      "id": "plfil-4437",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "광고",
-      "title": "공익 광고 40~60대 남녀 모델 구인합니다",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-10-14",
-      "url": "https://plfil.com/casting/4437",
-      "email": null,
-      "specials": [],
-      "pay": "40만원 ~ 40만원"
-    },
-    {
       "id": "plfil-4436",
       "source": "플필",
       "sourceType": "platform",
@@ -269,6 +252,23 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 30만원"
+    },
+    {
+      "id": "plfil-4415",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "TV/OTT",
+      "title": "SBS 크라임 다큐 <괴물의 시간> 주연배우(강호순 역) 모집",
+      "role": "",
+      "gender": "male",
+      "ageMin": 26,
+      "ageMax": 40,
+      "ageText": "남성 · 26세 ~ 40세",
+      "due": "2026-10-31",
+      "url": "https://plfil.com/casting/4415",
+      "email": null,
+      "specials": [],
+      "pay": "40만원 ~ 60만원"
     }
   ]
 }
