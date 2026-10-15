@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T12:12+00:00",
+  "updatedAt": "2026-10-15T17:25+00:00",
   "count": 16,
   "notices": [
     {
@@ -65,23 +65,6 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
-    },
-    {
-      "id": "plfil-4450",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "광고",
-      "title": "광고 촬영 농구 잘하는 17세~26세 여자 모델 구인합니다",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-10-15",
-      "url": "https://plfil.com/casting/4450",
-      "email": null,
-      "specials": [],
-      "pay": "70만원 ~ 70만원"
     },
     {
       "id": "plfil-4449",
@@ -237,38 +220,55 @@
       "pay": "15만원 ~ 25만원"
     },
     {
-      "id": "plfil-4440",
+      "id": "plfil-4436",
       "source": "플필",
       "sourceType": "platform",
-      "cat": "기타",
-      "title": "롤티슈&디스펜서 제품 가로형 영상 촬영 모델 모집",
+      "cat": "",
+      "title": "다이어트,변비 캔디 SNS광고 20대 여성",
       "role": "",
       "gender": "female",
       "ageMin": 20,
-      "ageMax": 35,
-      "ageText": "여성 · 20세 ~ 35세",
-      "due": "2026-10-15",
-      "url": "https://plfil.com/casting/4440",
+      "ageMax": 29,
+      "ageText": "여성 · 20세 ~ 29세",
+      "due": "2026-10-18",
+      "url": "https://plfil.com/casting/4436",
       "email": null,
       "specials": [],
-      "pay": "10만원 ~ 10만원"
+      "pay": "30만원 ~ 30만원"
     },
     {
-      "id": "plfil-4439",
+      "id": "plfil-4434",
       "source": "플필",
       "sourceType": "platform",
-      "cat": "광고",
-      "title": "광고 셀럽 라이팅&대역 가능한 20~30대 여자 모델 구인합니다",
+      "cat": "",
+      "title": "추가 공고] 독립장편영화 <럭키금순>에서 부산 지역 배우님을 모집합니다",
       "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-10-15",
-      "url": "https://plfil.com/casting/4439",
+      "gender": "male",
+      "ageMin": 33,
+      "ageMax": 49,
+      "ageText": "남성 · 33세 ~ 49세 외 3개 배역",
+      "due": "2026-10-30",
+      "url": "https://plfil.com/casting/4434",
       "email": null,
       "specials": [],
-      "pay": "35만원 ~ 35만원"
+      "pay": "10만원 ~ 30만원"
+    },
+    {
+      "id": "plfil-4415",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "TV/OTT",
+      "title": "SBS 크라임 다큐 <괴물의 시간> 주연배우(강호순 역) 모집",
+      "role": "",
+      "gender": "male",
+      "ageMin": 26,
+      "ageMax": 40,
+      "ageText": "남성 · 26세 ~ 40세",
+      "due": "2026-10-31",
+      "url": "https://plfil.com/casting/4415",
+      "email": null,
+      "specials": [],
+      "pay": "40만원 ~ 60만원"
     }
   ]
 }
