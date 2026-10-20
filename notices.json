@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T13:56+00:00",
+  "updatedAt": "2026-10-20T18:10+00:00",
   "count": 18,
   "notices": [
     {
@@ -269,23 +269,6 @@
       "pay": "20만원 ~ 20만원"
     },
     {
-      "id": "plfil-4467",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "광고",
-      "title": "광고 셀럽 라이팅&대역 가능한 20~30대 피부 하얀 여자 모델 구인합니",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-10-20",
-      "url": "https://plfil.com/casting/4467",
-      "email": null,
-      "specials": [],
-      "pay": "35만원 ~ 35만원"
-    },
-    {
       "id": "plfil-4465",
       "source": "플필",
       "sourceType": "platform",
@@ -301,6 +284,23 @@
       "email": null,
       "specials": [],
       "pay": ""
+    },
+    {
+      "id": "plfil-4463",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "상업영화 <너와 함께라면> 중국인 설정 요리사 배역모집",
+      "role": "",
+      "gender": "male",
+      "ageMin": 39,
+      "ageMax": 69,
+      "ageText": "남성 · 39세 ~ 69세",
+      "due": "2026-10-24",
+      "url": "https://plfil.com/casting/4463",
+      "email": null,
+      "specials": [],
+      "pay": "20만원 ~ 30만원"
     }
   ]
 }
