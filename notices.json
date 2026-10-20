@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T03:21+00:00",
+  "updatedAt": "2026-10-20T08:55+00:00",
   "count": 18,
   "notices": [
     {
@@ -97,6 +97,40 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4477",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "샴푸&트리트먼트 제품 숏폼 촬영 모델 모집(제품 사용컷O)",
+      "role": "",
+      "gender": "female",
+      "ageMin": 20,
+      "ageMax": 38,
+      "ageText": "여성 · 20세 ~ 38세",
+      "due": "2026-10-26",
+      "url": "https://plfil.com/casting/4477",
+      "email": null,
+      "specials": [],
+      "pay": "20만원 ~ 20만원"
+    },
+    {
+      "id": "plfil-4476",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "숏폼드라마 단역 모집",
+      "role": "",
+      "gender": "any",
+      "ageMin": 30,
+      "ageMax": 36,
+      "ageText": "성별 무관 · 30세 ~ 36세 외 8개 배역",
+      "due": "2026-10-23",
+      "url": "https://plfil.com/casting/4476",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
     },
     {
       "id": "plfil-4475",
@@ -267,40 +301,6 @@
       "email": null,
       "specials": [],
       "pay": ""
-    },
-    {
-      "id": "plfil-4463",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "상업영화 <너와 함께라면> 중국인 설정 요리사 배역모집",
-      "role": "",
-      "gender": "male",
-      "ageMin": 39,
-      "ageMax": 69,
-      "ageText": "남성 · 39세 ~ 69세",
-      "due": "2026-10-24",
-      "url": "https://plfil.com/casting/4463",
-      "email": null,
-      "specials": [],
-      "pay": "20만원 ~ 30만원"
-    },
-    {
-      "id": "plfil-4462",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "영진위/서영위 지원 독립장편 영화 <와우>에서 주조연 배우를 모집합니다",
-      "role": "",
-      "gender": "male",
-      "ageMin": 20,
-      "ageMax": 45,
-      "ageText": "남성 · 20세 ~ 45세 외 12개 배역",
-      "due": "2026-10-31",
-      "url": "https://plfil.com/casting/4462",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 30만원"
     }
   ]
 }
