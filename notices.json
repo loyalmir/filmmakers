@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T23:42+00:00",
+  "updatedAt": "2026-10-23T02:10+00:00",
   "count": 18,
   "notices": [
     {
@@ -97,6 +97,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4493",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "개성약과 2종 제품 숏폼 촬영 모델 모집 (2030 한국인 여성모델)",
+      "role": "",
+      "gender": "female",
+      "ageMin": 20,
+      "ageMax": 35,
+      "ageText": "여성 · 20세 ~ 35세",
+      "due": "2026-10-27",
+      "url": "https://plfil.com/casting/4493",
+      "email": null,
+      "specials": [],
+      "pay": "20만원 ~ 20만원"
     },
     {
       "id": "plfil-4492",
@@ -284,23 +301,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4477",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "샴푸&트리트먼트 제품 숏폼 촬영 모델 모집(제품 사용컷O)",
-      "role": "",
-      "gender": "female",
-      "ageMin": 20,
-      "ageMax": 38,
-      "ageText": "여성 · 20세 ~ 38세",
-      "due": "2026-10-26",
-      "url": "https://plfil.com/casting/4477",
-      "email": null,
-      "specials": [],
-      "pay": "20만원 ~ 20만원"
     }
   ]
 }
