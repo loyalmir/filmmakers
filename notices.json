@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T12:17+00:00",
+  "updatedAt": "2026-10-24T16:18+00:00",
   "count": 18,
   "notices": [
     {
@@ -235,23 +235,6 @@
       "pay": "20만원 ~ 20만원"
     },
     {
-      "id": "plfil-4483",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "웹드라마 중학생 남자 배우 모집중입니다.",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-10-24",
-      "url": "https://plfil.com/casting/4483",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
-    },
-    {
       "id": "plfil-4482",
       "source": "플필",
       "sourceType": "platform",
@@ -301,6 +284,23 @@
       "email": null,
       "specials": [],
       "pay": ""
+    },
+    {
+      "id": "plfil-4468",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "광고",
+      "title": "TV 영양제 광고 (흑염소) 남녀 시니어 배우 모집",
+      "role": "",
+      "gender": "male",
+      "ageMin": 50,
+      "ageMax": 70,
+      "ageText": "남성 · 50세 ~ 70세 외 1개 배역",
+      "due": "2026-10-31",
+      "url": "https://plfil.com/casting/4468",
+      "email": null,
+      "specials": [],
+      "pay": "20만원 ~ 20만원"
     }
   ]
 }
