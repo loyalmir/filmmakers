@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T05:30+00:00",
+  "updatedAt": "2026-10-26T11:39+00:00",
   "count": 17,
   "notices": [
     {
@@ -81,6 +81,40 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4499",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "TV/OTT",
+      "title": "KBS2 일일드라마",
+      "role": "",
+      "gender": "female",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "여성 · 나이 무관",
+      "due": "2026-10-27",
+      "url": "https://plfil.com/casting/4499",
+      "email": null,
+      "specials": [],
+      "pay": "15만원 ~ 15만원"
+    },
+    {
+      "id": "plfil-4498",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "스킨케어 UGC 셀프캠 여성 모델 모집",
+      "role": "",
+      "gender": "female",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "여성 · 나이 무관",
+      "due": "2026-11-09",
+      "url": "https://plfil.com/casting/4498",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 15만원"
     },
     {
       "id": "plfil-4497",
@@ -248,40 +282,6 @@
       "ageText": "남성 · 20세 ~ 28세",
       "due": "2026-11-02",
       "url": "https://plfil.com/casting/4482",
-      "email": null,
-      "specials": [],
-      "pay": ""
-    },
-    {
-      "id": "plfil-4477",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "샴푸&트리트먼트 제품 숏폼 촬영 모델 모집(제품 사용컷O)",
-      "role": "",
-      "gender": "female",
-      "ageMin": 20,
-      "ageMax": 38,
-      "ageText": "여성 · 20세 ~ 38세",
-      "due": "2026-10-26",
-      "url": "https://plfil.com/casting/4477",
-      "email": null,
-      "specials": [],
-      "pay": "20만원 ~ 20만원"
-    },
-    {
-      "id": "plfil-4469",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "대학생 단편영화 <23kg>에서 배우님을 모집합니다.",
-      "role": "",
-      "gender": "female",
-      "ageMin": 20,
-      "ageMax": 30,
-      "ageText": "여성 · 20세 ~ 30세 외 1개 배역",
-      "due": "2026-10-28",
-      "url": "https://plfil.com/casting/4469",
       "email": null,
       "specials": [],
       "pay": ""
