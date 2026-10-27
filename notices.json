@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T12:48+00:00",
+  "updatedAt": "2026-10-27T18:25+00:00",
   "count": 17,
   "notices": [
     {
@@ -117,23 +117,6 @@
       "pay": "10만원 ~ 10만원"
     },
     {
-      "id": "plfil-4499",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "TV/OTT",
-      "title": "KBS2 일일드라마",
-      "role": "",
-      "gender": "female",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "여성 · 나이 무관",
-      "due": "2026-10-27",
-      "url": "https://plfil.com/casting/4499",
-      "email": null,
-      "specials": [],
-      "pay": "15만원 ~ 15만원"
-    },
-    {
       "id": "plfil-4498",
       "source": "플필",
       "sourceType": "platform",
@@ -163,23 +146,6 @@
       "ageText": "남성 · 20세 ~ 35세 외 2개 배역",
       "due": "2026-10-28",
       "url": "https://plfil.com/casting/4495",
-      "email": null,
-      "specials": [],
-      "pay": "20만원 ~ 20만원"
-    },
-    {
-      "id": "plfil-4493",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "개성약과 2종 제품 숏폼 촬영 모델 모집 (2030 한국인 여성모델)",
-      "role": "",
-      "gender": "female",
-      "ageMin": 20,
-      "ageMax": 35,
-      "ageText": "여성 · 20세 ~ 35세",
-      "due": "2026-10-27",
-      "url": "https://plfil.com/casting/4493",
       "email": null,
       "specials": [],
       "pay": "20만원 ~ 20만원"
@@ -282,6 +248,40 @@
       "ageText": "여성 · 20세 ~ 30세 외 1개 배역",
       "due": "2026-10-28",
       "url": "https://plfil.com/casting/4469",
+      "email": null,
+      "specials": [],
+      "pay": ""
+    },
+    {
+      "id": "plfil-4468",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "광고",
+      "title": "TV 영양제 광고 (흑염소) 남녀 시니어 배우 모집",
+      "role": "",
+      "gender": "male",
+      "ageMin": 50,
+      "ageMax": 70,
+      "ageText": "남성 · 50세 ~ 70세 외 1개 배역",
+      "due": "2026-10-31",
+      "url": "https://plfil.com/casting/4468",
+      "email": null,
+      "specials": [],
+      "pay": "20만원 ~ 20만원"
+    },
+    {
+      "id": "plfil-4465",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "[고정출연] 2026 글로벌 숏폼 엔터테인먼트 콘텐츠 메인 크루 모집",
+      "role": "",
+      "gender": "any",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "성별 무관 · 나이 무관",
+      "due": "2026-11-15",
+      "url": "https://plfil.com/casting/4465",
       "email": null,
       "specials": [],
       "pay": ""
