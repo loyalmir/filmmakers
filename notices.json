@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T22:41+00:00",
+  "updatedAt": "2026-10-28T01:51+00:00",
   "count": 17,
   "notices": [
     {
@@ -81,6 +81,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4502",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "(전남광주 강진군 촬영) 음식점 홍보 숏폼 촬영 모델 모집",
+      "role": "",
+      "gender": "female",
+      "ageMin": 28,
+      "ageMax": 36,
+      "ageText": "여성 · 28세 ~ 36세",
+      "due": "2026-11-02",
+      "url": "https://plfil.com/casting/4502",
+      "email": null,
+      "specials": [],
+      "pay": "15만원 ~ 15만원"
     },
     {
       "id": "plfil-4501",
@@ -268,23 +285,6 @@
       "email": null,
       "specials": [],
       "pay": "20만원 ~ 20만원"
-    },
-    {
-      "id": "plfil-4465",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "[고정출연] 2026 글로벌 숏폼 엔터테인먼트 콘텐츠 메인 크루 모집",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-11-15",
-      "url": "https://plfil.com/casting/4465",
-      "email": null,
-      "specials": [],
-      "pay": ""
     }
   ]
 }
