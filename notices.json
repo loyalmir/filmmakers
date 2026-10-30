@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T09:08+00:00",
+  "updatedAt": "2026-10-30T16:18+00:00",
   "count": 17,
   "notices": [
     {
@@ -219,23 +219,6 @@
       "pay": "15만원 ~ 15만원"
     },
     {
-      "id": "plfil-4501",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "드립커피 홍보 동영상 세로형 숏폼 촬영 모델 모집",
-      "role": "",
-      "gender": "female",
-      "ageMin": 20,
-      "ageMax": 30,
-      "ageText": "여성 · 20세 ~ 30세",
-      "due": "2026-10-30",
-      "url": "https://plfil.com/casting/4501",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
-    },
-    {
       "id": "plfil-4500",
       "source": "플필",
       "sourceType": "platform",
@@ -285,6 +268,23 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 30만원"
+    },
+    {
+      "id": "plfil-4486",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "TV/OTT",
+      "title": "SBS 크라임 다큐 <괴물의 시간> 주연배우(유영철 역) 모집",
+      "role": "",
+      "gender": "male",
+      "ageMin": 25,
+      "ageMax": 45,
+      "ageText": "남성 · 25세 ~ 45세",
+      "due": "2026-10-31",
+      "url": "https://plfil.com/casting/4486",
+      "email": null,
+      "specials": [],
+      "pay": "40만원 ~ 60만원"
     }
   ]
 }
