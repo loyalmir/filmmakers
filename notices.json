@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T02:12+00:00",
+  "updatedAt": "2026-10-30T09:08+00:00",
   "count": 17,
   "notices": [
     {
@@ -81,6 +81,40 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4509",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "실제 연애하는 것처럼 자연스럽고 즐겁게 촬영할 여성 모델을 모집합니다!!",
+      "role": "",
+      "gender": "female",
+      "ageMin": 19,
+      "ageMax": 39,
+      "ageText": "여성 · 19세 ~ 39세",
+      "due": "2026-11-15",
+      "url": "https://plfil.com/casting/4509",
+      "email": null,
+      "specials": [],
+      "pay": "50만원 ~ 50만원"
+    },
+    {
+      "id": "plfil-4508",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "상업영화에 출연하실 배우님 섭외 합니다.",
+      "role": "",
+      "gender": "male",
+      "ageMin": 20,
+      "ageMax": 50,
+      "ageText": "남성 · 20세 ~ 50세",
+      "due": "2026-10-31",
+      "url": "https://plfil.com/casting/4508",
+      "email": null,
+      "specials": [],
+      "pay": "25만원 ~ 25만원"
     },
     {
       "id": "plfil-4507",
@@ -251,40 +285,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 30만원"
-    },
-    {
-      "id": "plfil-4486",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "TV/OTT",
-      "title": "SBS 크라임 다큐 <괴물의 시간> 주연배우(유영철 역) 모집",
-      "role": "",
-      "gender": "male",
-      "ageMin": 25,
-      "ageMax": 45,
-      "ageText": "남성 · 25세 ~ 45세",
-      "due": "2026-10-31",
-      "url": "https://plfil.com/casting/4486",
-      "email": null,
-      "specials": [],
-      "pay": "40만원 ~ 60만원"
-    },
-    {
-      "id": "plfil-4482",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "메가메타 - 신인배우 오디션",
-      "role": "",
-      "gender": "male",
-      "ageMin": 20,
-      "ageMax": 28,
-      "ageText": "남성 · 20세 ~ 28세",
-      "due": "2026-11-02",
-      "url": "https://plfil.com/casting/4482",
-      "email": null,
-      "specials": [],
-      "pay": ""
     }
   ]
 }
