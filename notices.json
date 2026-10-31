@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31T13:56+00:00",
+  "updatedAt": "2026-10-31T18:02+00:00",
   "count": 17,
   "notices": [
     {
@@ -117,40 +117,6 @@
       "pay": "50만원 ~ 50만원"
     },
     {
-      "id": "plfil-4508",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "상업영화에 출연하실 배우님 섭외 합니다.",
-      "role": "",
-      "gender": "male",
-      "ageMin": 20,
-      "ageMax": 50,
-      "ageText": "남성 · 20세 ~ 50세",
-      "due": "2026-10-31",
-      "url": "https://plfil.com/casting/4508",
-      "email": null,
-      "specials": [],
-      "pay": "25만원 ~ 25만원"
-    },
-    {
-      "id": "plfil-4507",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "유튜브 채널 CINESOOP에 출연하실 배우분들 찾습니다",
-      "role": "",
-      "gender": "male",
-      "ageMin": 28,
-      "ageMax": 35,
-      "ageText": "남성 · 28세 ~ 35세 외 2개 배역",
-      "due": "2026-10-31",
-      "url": "https://plfil.com/casting/4507",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
-    },
-    {
       "id": "plfil-4506",
       "source": "플필",
       "sourceType": "platform",
@@ -166,23 +132,6 @@
       "email": null,
       "specials": [],
       "pay": "30만원 ~ 35만원"
-    },
-    {
-      "id": "plfil-4505",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "예능에 출연하실 배우님 섭외 합니다.",
-      "role": "",
-      "gender": "male",
-      "ageMin": 28,
-      "ageMax": 37,
-      "ageText": "남성 · 28세 ~ 37세",
-      "due": "2026-10-31",
-      "url": "https://plfil.com/casting/4505",
-      "email": null,
-      "specials": [],
-      "pay": "25만원 ~ 25만원"
     },
     {
       "id": "plfil-4504",
@@ -285,6 +234,57 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 30만원"
+    },
+    {
+      "id": "plfil-4482",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "메가메타 - 신인배우 오디션",
+      "role": "",
+      "gender": "male",
+      "ageMin": 20,
+      "ageMax": 28,
+      "ageText": "남성 · 20세 ~ 28세",
+      "due": "2026-11-02",
+      "url": "https://plfil.com/casting/4482",
+      "email": null,
+      "specials": [],
+      "pay": ""
+    },
+    {
+      "id": "plfil-4465",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "[고정출연] 2026 글로벌 숏폼 엔터테인먼트 콘텐츠 메인 크루 모집",
+      "role": "",
+      "gender": "any",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "성별 무관 · 나이 무관",
+      "due": "2026-11-15",
+      "url": "https://plfil.com/casting/4465",
+      "email": null,
+      "specials": [],
+      "pay": ""
+    },
+    {
+      "id": "plfil-4454",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "뮤지컬",
+      "title": "페인터즈 공연에서 정규직 남자배우를 구합니다!",
+      "role": "",
+      "gender": "male",
+      "ageMin": 20,
+      "ageMax": 32,
+      "ageText": "남성 · 20세 ~ 32세",
+      "due": "2026-11-30",
+      "url": "https://plfil.com/casting/4454",
+      "email": null,
+      "specials": [],
+      "pay": "220만원 ~ 300만원"
     }
   ]
 }
