@@ -27,7 +27,7 @@ jobs:
         run: |
           git config user.name  "casting-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add notices.json
+          git add notices.json castingmap.json
           if git diff --staged --quiet; then
             echo "변경 없음"
           else

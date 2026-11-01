@@ -166,11 +166,134 @@ def enrich_plfil(notices):
         time.sleep(0.4)
     return notices
 
+# ---- 캐스팅맵 (castingmap.co.kr) ----
+#  · 디렉터 DB: 페이지에 JSON 객체(category/company/name/email…)가 박혀 있음
+#  · 오디션 상황판: "주소 — 작품" 형태의 방문 접수처 목록
+CM_BASE = "https://castingmap.co.kr"
+CM_FILE = os.path.join(os.path.dirname(__file__), "castingmap.json")
+
+def fetch_url(url, local_key=None):
+    if local_key:
+        p = os.path.join(LOCAL, f"{local_key}.html")
+        if os.path.exists(p):
+            return open(p, encoding="utf-8").read()
+    import urllib.request
+    req = urllib.request.Request(url, headers=HEADERS)
+    return urllib.request.urlopen(req, timeout=20).read().decode("utf-8", "replace")
+
+def parse_castingmap_directors(html):
+    raw = html.replace('\\"', '"')
+    seen = {}
+    for m in re.finditer(r'\{[^{}]*"category":"[^"]*"[^{}]*\}', raw):
+        try:
+            o = json.loads(m.group(0))
+        except Exception:
+            continue
+        if not o.get("id"):
+            continue
+        emails = []
+        for k in ("email", "sub_email"):
+            emails += [e.lower() for e in re.findall(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}", o.get(k) or "")]
+        cat = "AD" if "광고" in (o.get("category") or "") else "CD"
+        seen[(cat, o["id"])] = {
+            "id": o["id"], "cat": cat,
+            "company": (o.get("company") or "").strip(),
+            "name": (o.get("name") or "").strip(),
+            "emails": list(dict.fromkeys(emails)),
+            "contact": (o.get("contact") or "").strip(),
+            "status": (o.get("status") or "").strip(),
+            "note": re.sub(r"\s+", " ", o.get("note") or "").strip(),
+            "url": f"{CM_BASE}/actor-casting-directors/{o['id']}" if cat == "CD" else f"{CM_BASE}/model-ad-agencies",
+        }
+    return list(seen.values())
+
+def parse_castingmap_board(html):
+    checked = (re.search(r"(\d{4}-\d{2}-\d{2})\s*확인", txt(html)) or [None, ""])[1]
+    out, seen = [], set()
+    pat = r'<span class="text-slate-700 font-semibold">(.*?)</span>\s*<span[^>]*>\s*—\s*</span>\s*<span>\s*<a[^>]*href="/casting-board/(\d+)"[^>]*>(.*?)</a>'
+    for m in re.finditer(pat, html, re.S):
+        addr, num, title = txt(m.group(1)), m.group(2), txt(m.group(3))
+        if num in seen:
+            continue
+        seen.add(num)
+        out.append({"id": int(num), "title": title, "address": addr,
+                    "url": f"{CM_BASE}/casting-board/{num}", "checked": checked})
+    return out
+
+def _stamp(items, prev, key, today):
+    """처음 본 날짜 기록. 이전 파일이 없으면 'baseline'(=신규 표시 안 함)."""
+    old = {key(p): p.get("firstSeen") for p in prev} if prev is not None else None
+    for it in items:
+        it["firstSeen"] = (old.get(key(it)) or today) if old is not None else "baseline"
+    return items
+
+def _work_title(note):
+    m = re.search(r"[\[「<〈《]([^\]」>〉》]+)[\]」>〉》]", note or "")
+    return m.group(1).strip() if m else ""
+
+def castingmap_notices(dirs, board):
+    """작품이 걸린 디렉터 → 메일 지원 공고 / 상황판 → 방문 접수 공고"""
+    out, works = [], set()
+    for d in dirs:
+        if d["cat"] != "CD" or not d["emails"]:
+            continue
+        work = _work_title(d["note"])
+        active = d["status"] not in ("", "상시접수") or work
+        if not active or (work and work in works):   # 같은 작품 담당자 여러 명이면 1건만
+            continue
+        works.add(work)
+        subj = f"[영화 {work} 지원] {{name}}" if "제목에" in d["note"] and work else f"[{work or d['company']}] 프로필 지원_{{name}}"
+        out.append({
+            "id": f"castingmap-cd-{d['id']}", "source": "캐스팅맵", "sourceType": "email",
+            "cat": "캐스팅 디렉터", "title": work or f"{d['company']} {d['name']}",
+            "role": "", "syn": f"{d['company']} {d['name']} · {d['status'] or '상시접수'} · {d['note']}".strip(" ·"),
+            "gender": "any", "ageMin": None, "ageMax": None, "ageText": "",
+            "due": "상시모집", "url": d["url"], "email": d["emails"][0],
+            "subjectFmt": subj, "required": ["프로필", "연기 영상", "연락처"], "specials": [],
+        })
+    for b in board:
+        out.append({
+            "id": f"castingmap-board-{b['id']}", "source": "캐스팅맵", "sourceType": "visit",
+            "cat": "방문 접수", "title": b["title"], "role": "",
+            "address": b["address"], "syn": f"📍 {b['address']}" + (f" · {b['checked']} 확인" if b.get("checked") else ""),
+            "gender": "any", "ageMin": None, "ageMax": None, "ageText": "",
+            "due": "상시모집", "url": b["url"], "email": None, "specials": [],
+        })
+    return out
+
+def collect_castingmap():
+    today = datetime.date.today().isoformat()
+    try:
+        prev = json.load(open(CM_FILE, encoding="utf-8"))
+    except Exception:
+        prev = None
+    try:
+        dirs = parse_castingmap_directors(fetch_url(f"{CM_BASE}/actor-casting-directors", "castingmap_dirs"))
+    except Exception as e:
+        print(f"  캐스팅맵 디렉터 수집 실패: {e}"); dirs = (prev or {}).get("directors", [])
+    try:
+        board = parse_castingmap_board(fetch_url(f"{CM_BASE}/casting-board", "castingmap_board"))
+    except Exception as e:
+        print(f"  캐스팅맵 상황판 수집 실패: {e}"); board = (prev or {}).get("board", [])
+    if not dirs and prev:   # 구조가 바뀌어 0건이면 이전 데이터 유지
+        dirs = prev.get("directors", [])
+    if not board and prev:
+        board = prev.get("board", [])
+    _stamp(dirs, None if prev is None else prev.get("directors", []), lambda x: (x["cat"], x["id"], ",".join(x["emails"])), today)
+    _stamp(board, None if prev is None else prev.get("board", []), lambda x: x["id"], today)
+    data = {"updatedAt": datetime.datetime.now().astimezone().isoformat(timespec="minutes"),
+            "directors": dirs, "board": board}
+    json.dump(data, open(CM_FILE, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    new_d = [d for d in dirs if d["firstSeen"] == today]
+    print(f"캐스팅맵: 디렉터·에이전시 {len(dirs)}건(오늘 신규/메일변경 {len(new_d)}), 상황판 {len(board)}건")
+    return castingmap_notices(dirs, board)
+
 def main():
     raw = []
     raw += parse_onepick(get_html("onepick"))
     raw += parse_plfil(get_html("plfil"))
     raw = enrich_plfil(raw)            # 플필 상세에서 성별·나이 정확히 보강
+    raw += collect_castingmap()        # 캐스팅맵 디렉터 DB + 오디션 상황판
     # 마감 지난 공고 제외
     notices = [n for n in raw if is_open(n.get("due", ""))]
     dropped = len(raw) - len(notices)
