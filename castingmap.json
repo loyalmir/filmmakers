@@ -1,0 +1,2060 @@
+{
+ "updatedAt": "2026-11-01T14:36+00:00",
+ "directors": [
+  {
+   "id": 1,
+   "cat": "CD",
+   "company": "MCA 스튜디오",
+   "name": "황정환",
+   "emails": [
+    "cy-casting@naver.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/1",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 2,
+   "cat": "CD",
+   "company": "그리다 캐스팅",
+   "name": "이민호",
+   "emails": [
+    "01064496603@hanmail.net"
+   ],
+   "contact": "https://forms.gle/yuL6AQiomKQhCigK6",
+   "status": "상시접수",
+   "note": "구글 폼 및 이메일 동시 지원 가능",
+   "url": "https://castingmap.co.kr/actor-casting-directors/2",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 3,
+   "cat": "CD",
+   "company": "대본창고",
+   "name": "김송은",
+   "emails": [
+    "castingone@hanmail.net"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/3",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 4,
+   "cat": "CD",
+   "company": "대본창고",
+   "name": "김은애",
+   "emails": [
+    "cdeunae@naver.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/4",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 5,
+   "cat": "CD",
+   "company": "라인업",
+   "name": "김재윤",
+   "emails": [
+    "c_jaeyoon@naver.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/5",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 6,
+   "cat": "CD",
+   "company": "라인업",
+   "name": "박소현",
+   "emails": [
+    "mindlove20@hanmail.net"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/6",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 7,
+   "cat": "CD",
+   "company": "라인업",
+   "name": "오재동",
+   "emails": [],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/7",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 8,
+   "cat": "CD",
+   "company": "라인업",
+   "name": "최길홍",
+   "emails": [
+    "cgh0401@hanmail.net"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/8",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 9,
+   "cat": "CD",
+   "company": "런업컴퍼니",
+   "name": "컨택트 캐스팅 1본부",
+   "emails": [
+    "j_y777@naver.com"
+   ],
+   "contact": "https://castik.co.kr/auditions/26",
+   "status": "상시접수",
+   "note": "런업컴퍼니 캐스팅본부 1본부(컨택트 캐스팅) · 담당 김지영. 프로필은 castik 공식 페이지가 대표 접수처입니다.",
+   "url": "https://castingmap.co.kr/actor-casting-directors/9",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 10,
+   "cat": "CD",
+   "company": "캐스팅러너",
+   "name": "1팀",
+   "emails": [
+    "32soaring@hanmail.net"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/10",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 11,
+   "cat": "CD",
+   "company": "메이드 트레이닝 센터",
+   "name": "이상길",
+   "emails": [
+    "kbbs1837@hanmail.net"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "숲컴퍼니/메이드 트레이닝 센터",
+   "url": "https://castingmap.co.kr/actor-casting-directors/11",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 13,
+   "cat": "CD",
+   "company": "배우마당",
+   "name": "장미향",
+   "emails": [
+    "algid5148@naver.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/13",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 15,
+   "cat": "CD",
+   "company": "수엔터테인먼트",
+   "name": "정동진",
+   "emails": [
+    "sooent.cast@gmail.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/15",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 16,
+   "cat": "CD",
+   "company": "숲컴퍼니",
+   "name": "김선아",
+   "emails": [
+    "soopcompany2020@naver.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "숲컴퍼니 팀 공용 메일 2",
+   "url": "https://castingmap.co.kr/actor-casting-directors/16",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 17,
+   "cat": "CD",
+   "company": "숲컴퍼니",
+   "name": "이규린",
+   "emails": [
+    "soopcompany_2@naver.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/17",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 18,
+   "cat": "CD",
+   "company": "숲컴퍼니",
+   "name": "이상길",
+   "emails": [
+    "01036482371@daum.net"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "숲컴퍼니/메이드 트레이닝 센터",
+   "url": "https://castingmap.co.kr/actor-casting-directors/18",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 19,
+   "cat": "CD",
+   "company": "숲컴퍼니",
+   "name": "이영섭",
+   "emails": [
+    "j-t-ok@hanmail.net"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "숲컴퍼니 팀 공용 메일 1",
+   "url": "https://castingmap.co.kr/actor-casting-directors/19",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 20,
+   "cat": "CD",
+   "company": "숲컴퍼니",
+   "name": "추연진",
+   "emails": [],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/20",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 21,
+   "cat": "CD",
+   "company": "스타라온",
+   "name": "이용인",
+   "emails": [
+    "sammai12@naver.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "스타라온 대표 캐스팅 디렉터로 20여 년 경력. KBS 드라마를 중심으로 청소년물부터 일일·주말·대하드라마, 넷플릭스 OTT까지 폭넓게 캐스팅해 왔습니다.",
+   "url": "https://castingmap.co.kr/actor-casting-directors/21",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 22,
+   "cat": "CD",
+   "company": "스타라온",
+   "name": "이상원",
+   "emails": [
+    "soneeye@hanmail.net"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/22",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 23,
+   "cat": "CD",
+   "company": "아이엠그라운드",
+   "name": "표미희",
+   "emails": [
+    "01031734108@daum.net"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/23",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 24,
+   "cat": "CD",
+   "company": "액터스 뱅크",
+   "name": "고은민",
+   "emails": [
+    "emem5903@daum.net",
+    "castk@daum.net"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/24",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 25,
+   "cat": "CD",
+   "company": "액터스 뱅크",
+   "name": "김우종",
+   "emails": [],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/25",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 26,
+   "cat": "CD",
+   "company": "액터스 뱅크",
+   "name": "김주남",
+   "emails": [
+    "bach7133@daum.net",
+    "namu7133@naver.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/26",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 27,
+   "cat": "CD",
+   "company": "액터스 뱅크",
+   "name": "소규원",
+   "emails": [
+    "dotrose@naver.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/27",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 28,
+   "cat": "CD",
+   "company": "에피퍼니",
+   "name": "손승범",
+   "emails": [
+    "sb5584@naver.com",
+    "0116692529@daum.net"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/28",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 29,
+   "cat": "AD",
+   "company": "제이엔 에이전트",
+   "name": "박준일",
+   "emails": [
+    "jn-agent@hanmail.net"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/model-ad-agencies",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 30,
+   "cat": "CD",
+   "company": "캐스트밴드",
+   "name": "담당자",
+   "emails": [
+    "castband@daum.net",
+    "castband@hanmail.net"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "다음/한메일 2개 이메일 병행 접수",
+   "url": "https://castingmap.co.kr/actor-casting-directors/30",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 31,
+   "cat": "AD",
+   "company": "캐스팅에너지",
+   "name": "담당자",
+   "emails": [
+    "kw.koo@castingenergy.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/model-ad-agencies",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 32,
+   "cat": "AD",
+   "company": "캐스팅에너지",
+   "name": "담당자",
+   "emails": [
+    "model@castingenergy.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/model-ad-agencies",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 33,
+   "cat": "AD",
+   "company": "클로버",
+   "name": "담당자",
+   "emails": [
+    "cloveragency2@naver.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/model-ad-agencies",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 34,
+   "cat": "CD",
+   "company": "트리플컴퍼니",
+   "name": "남광우",
+   "emails": [
+    "triple_company@naver.com",
+    "8congroup@naver.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/34",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 35,
+   "cat": "CD",
+   "company": "티아이",
+   "name": "김상익",
+   "emails": [
+    "skpower111@hanmail.net"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "드라마 담당",
+   "url": "https://castingmap.co.kr/actor-casting-directors/35",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 36,
+   "cat": "CD",
+   "company": "티아이",
+   "name": "영화팀",
+   "emails": [
+    "yh@gti.kr"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "영화팀 공식 공용 메일",
+   "url": "https://castingmap.co.kr/actor-casting-directors/36",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 37,
+   "cat": "CD",
+   "company": "티아이",
+   "name": "이현경",
+   "emails": [
+    "timovie@daum.net"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "영화 관련 담당",
+   "url": "https://castingmap.co.kr/actor-casting-directors/37",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 39,
+   "cat": "CD",
+   "company": "팔콘 컴퍼니",
+   "name": "담당자",
+   "emails": [
+    "8concompany@naver.com",
+    "8congroup@naver.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/39",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 40,
+   "cat": "CD",
+   "company": "페어콘텐츠",
+   "name": "유동완",
+   "emails": [
+    "wan13@naver.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "KBS 2TV 주말드라마 「너 말고 다른 연애」 캐스팅을 담당합니다. 프로필과 함께 출연 영상, 현재 모습을 알 수 있는 사진 2~3장을 첨부해 보내세요.",
+   "url": "https://castingmap.co.kr/actor-casting-directors/40",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 41,
+   "cat": "CD",
+   "company": "페어콘텐츠",
+   "name": "전기창",
+   "emails": [
+    "faircon@hanmail.net"
+   ],
+   "contact": "",
+   "status": "프리프로덕션",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/41",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 42,
+   "cat": "CD",
+   "company": "프리랜서/개인",
+   "name": "강용남",
+   "emails": [
+    "ynkang00@gmail.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/42",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 43,
+   "cat": "CD",
+   "company": "프리랜서/개인",
+   "name": "김규리",
+   "emails": [
+    "pop-2002@naver.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/43",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 44,
+   "cat": "CD",
+   "company": "프리랜서/개인",
+   "name": "김상규",
+   "emails": [
+    "sang-8540@hanmail.net"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/44",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 45,
+   "cat": "CD",
+   "company": "프리랜서/개인",
+   "name": "김희수",
+   "emails": [
+    "01041955704@nate.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/45",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 46,
+   "cat": "CD",
+   "company": "프리랜서/개인",
+   "name": "박한비",
+   "emails": [],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/46",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 47,
+   "cat": "CD",
+   "company": "프리랜서/개인",
+   "name": "방진원",
+   "emails": [
+    "roosiend@naver.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/47",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 48,
+   "cat": "CD",
+   "company": "프리랜서/개인",
+   "name": "백종훈",
+   "emails": [
+    "muhorse@naver.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/48",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 49,
+   "cat": "CD",
+   "company": "프리랜서/개인",
+   "name": "송대중",
+   "emails": [
+    "daejoong99@hanmail.net"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/49",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 50,
+   "cat": "CD",
+   "company": "프리랜서/개인",
+   "name": "양진모",
+   "emails": [
+    "yjm0911@hanmail.net"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/50",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 51,
+   "cat": "CD",
+   "company": "프리랜서/개인",
+   "name": "엄현숙",
+   "emails": [
+    "xxxsnaco@hanmail.net"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/51",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 52,
+   "cat": "CD",
+   "company": "프리랜서/개인",
+   "name": "오누리",
+   "emails": [],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/52",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 53,
+   "cat": "CD",
+   "company": "프리랜서/개인",
+   "name": "유제일",
+   "emails": [
+    "yjione10@gmail.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/53",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 54,
+   "cat": "CD",
+   "company": "레디엔터테인먼트",
+   "name": "윤승재",
+   "emails": [
+    "casting@readyent.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/54",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 55,
+   "cat": "CD",
+   "company": "프리랜서/개인",
+   "name": "이백재",
+   "emails": [
+    "lbj0623@naver.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/55",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 56,
+   "cat": "CD",
+   "company": "프리랜서/개인",
+   "name": "이창민",
+   "emails": [
+    "suney27min@daum.net"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/56",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 57,
+   "cat": "CD",
+   "company": "프리랜서/개인",
+   "name": "이훈배",
+   "emails": [
+    "wecaresenter@hanmail.net"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/57",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 58,
+   "cat": "CD",
+   "company": "프리랜서/개인",
+   "name": "임아름",
+   "emails": [
+    "lar0218@nate.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/58",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 59,
+   "cat": "CD",
+   "company": "프리랜서/개인",
+   "name": "정진태",
+   "emails": [
+    "jtcinema@naver.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/59",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 60,
+   "cat": "CD",
+   "company": "프리랜서/개인",
+   "name": "조성근",
+   "emails": [
+    "steven771231@naver.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/60",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 61,
+   "cat": "CD",
+   "company": "프리랜서/개인",
+   "name": "채도현",
+   "emails": [
+    "casting14@daum.net"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/61",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 62,
+   "cat": "CD",
+   "company": "프리랜서/개인",
+   "name": "최유정",
+   "emails": [
+    "youjung9010@gmail.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/62",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 63,
+   "cat": "CD",
+   "company": "프리랜서/개인",
+   "name": "홍유진",
+   "emails": [
+    "ssenime@naver.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/63",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 64,
+   "cat": "CD",
+   "company": "하이랭크",
+   "name": "박우희",
+   "emails": [
+    "peche-plate@naver.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/64",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 65,
+   "cat": "CD",
+   "company": "A&O X AN 캐스팅",
+   "name": "이상 이사",
+   "emails": [
+    "ancasting0419@gmail.com"
+   ],
+   "contact": "",
+   "status": "프리프로덕션",
+   "note": "AN 캐스팅 팀 전원 통합 관리",
+   "url": "https://castingmap.co.kr/actor-casting-directors/65",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 66,
+   "cat": "CD",
+   "company": "AB캐스팅",
+   "name": "이명근",
+   "emails": [
+    "castingdir@naver.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/66",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 68,
+   "cat": "CD",
+   "company": "CNA",
+   "name": "나정혁",
+   "emails": [
+    "hiphopwhej@hanmail.net"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/68",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 69,
+   "cat": "CD",
+   "company": "CNA",
+   "name": "담당자",
+   "emails": [
+    "cna_casting@daum.net"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "국내 최대 규모로 꼽히는 캐스팅 전문 회사 CNA의 대표 접수 창구입니다. 드라마·영화 캐스팅을 팀 단위로 진행하며, 어느 팀이 맡는지 확실치 않을 때 이 주소로 프로필을 보내면 담당 팀으로 전달됩니다. 팀별 세부 접수처는 각 디렉터 페이지에서 확인할 수 있습니다.",
+   "url": "https://castingmap.co.kr/actor-casting-directors/69",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 70,
+   "cat": "CD",
+   "company": "CNA",
+   "name": "박대규",
+   "emails": [
+    "cast8000@hanmail.net"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/70",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 71,
+   "cat": "CD",
+   "company": "FLOWS 엔터테인먼트",
+   "name": "장철한",
+   "emails": [
+    "7257470@hanmail.net"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/71",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 72,
+   "cat": "CD",
+   "company": "H크루 캐스팅",
+   "name": "곽재준",
+   "emails": [
+    "basterdz@naver.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/72",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 73,
+   "cat": "CD",
+   "company": "H크루 캐스팅",
+   "name": "윤연주",
+   "emails": [
+    "hcrewcasting@gmail.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/73",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 74,
+   "cat": "CD",
+   "company": "M캐스팅",
+   "name": "캐스팅팀",
+   "emails": [
+    "mcast_w@naver.com"
+   ],
+   "contact": "",
+   "status": "프리프로덕션",
+   "note": "저예산 상업영화 [봉천동귀신] 진행 예정 - 상세 캐스팅 일정 조율 중",
+   "url": "https://castingmap.co.kr/actor-casting-directors/74",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 75,
+   "cat": "CD",
+   "company": "MCA 스튜디오",
+   "name": "박부성",
+   "emails": [
+    "0196786636@daum.net"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "이메일 외에 카카오톡 ID psh3636으로도 프로필을 접수할 수 있습니다.",
+   "url": "https://castingmap.co.kr/actor-casting-directors/75",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 76,
+   "cat": "CD",
+   "company": "SSAW",
+   "name": "김연희",
+   "emails": [
+    "yplan2023@daum.net"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/76",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 77,
+   "cat": "CD",
+   "company": "U캐스팅",
+   "name": "권주연",
+   "emails": [
+    "kwonjooyeon@gmail.com",
+    "u-casting@daum.net"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/77",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 78,
+   "cat": "CD",
+   "company": "U캐스팅",
+   "name": "김건보",
+   "emails": [
+    "0117486578@daum.net"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/78",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 79,
+   "cat": "CD",
+   "company": "U캐스팅",
+   "name": "이누리",
+   "emails": [],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/79",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 80,
+   "cat": "CD",
+   "company": "w캐스팅",
+   "name": "이상윤",
+   "emails": [
+    "wcasting999@gmail.com",
+    "wcasting@daum.net"
+   ],
+   "contact": "",
+   "status": "프리프로덕션",
+   "note": "영화 [살생부] 오디션 진행 중 - 메일 제목에 [영화 살생부 지원] 명시 추천",
+   "url": "https://castingmap.co.kr/actor-casting-directors/80",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 81,
+   "cat": "CD",
+   "company": "w캐스팅",
+   "name": "임소리",
+   "emails": [
+    "wcasting@daum.net"
+   ],
+   "contact": "",
+   "status": "프리프로덕션",
+   "note": "영화 [살생부] 오디션 진행 중 - 메일 제목에 [영화 살생부 지원] 명시 추천",
+   "url": "https://castingmap.co.kr/actor-casting-directors/81",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 82,
+   "cat": "AD",
+   "company": "온유에이전시",
+   "name": "담당자",
+   "emails": [
+    "hjy7047@naver.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "광고, 공기업, 뮤직비디오",
+   "url": "https://castingmap.co.kr/model-ad-agencies",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 83,
+   "cat": "CD",
+   "company": "티아이 (20세 이상 배우 접수)",
+   "name": "20세 이상 배우 캐스팅팀",
+   "emails": [
+    "pf@gti.kr"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "20세 이상 배우 프로필 접수 전용 공식 메일 (아역과 접수처가 분리되어 있음)",
+   "url": "https://castingmap.co.kr/actor-casting-directors/83",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 84,
+   "cat": "CD",
+   "company": "액터스 뱅크",
+   "name": "임보경",
+   "emails": [
+    "casting2026@nate.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "프로필, 출연영상(파일), 현재모습사진 얼굴 정면&측면 첨부 필수",
+   "url": "https://castingmap.co.kr/actor-casting-directors/84",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 85,
+   "cat": "AD",
+   "company": "엔와이컴",
+   "name": "담당자",
+   "emails": [
+    "webmaster@nycommodel.com"
+   ],
+   "contact": "02-541-9686",
+   "status": "상시접수",
+   "note": "홈페이지: https://www.nycommodel.com/ | 주소: 서울특별시 강남구 도산대로 49길 3 CC빌딩 3층",
+   "url": "https://castingmap.co.kr/model-ad-agencies",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 86,
+   "cat": "AD",
+   "company": "피플 에이전시",
+   "name": "담당자",
+   "emails": [
+    "people@topeople.co.kr"
+   ],
+   "contact": "02-517-8787",
+   "status": "상시접수",
+   "note": "홈페이지: https://peopleagency.kr/ | 주소: 서울시 강남구 도산대로 8길 20-4 미하임빌딩, 4층",
+   "url": "https://castingmap.co.kr/model-ad-agencies",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 87,
+   "cat": "AD",
+   "company": "쿠키 모델 에이전시",
+   "name": "담당자",
+   "emails": [
+    "info@cookiemodel.co.kr"
+   ],
+   "contact": "02-542-2800",
+   "status": "상시접수",
+   "note": "인스타: @cookiemodel_kr | 압구정역 4번 출구 682m | 주소: 서울 강남구 도산대로25길 21, 4층",
+   "url": "https://castingmap.co.kr/model-ad-agencies",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 88,
+   "cat": "AD",
+   "company": "크림캐스팅",
+   "name": "담당자",
+   "emails": [
+    "creamcasting@hanmail.net"
+   ],
+   "contact": "02-511-5010",
+   "status": "상시접수",
+   "note": "카카오톡: https://pf.kakao.com/_xaLxaxfn | 주소: 서울시 강남구 학동로 30길 13 이담빌딩 5층 6층",
+   "url": "https://castingmap.co.kr/model-ad-agencies",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 89,
+   "cat": "AD",
+   "company": "비엑스(BX)모델 에이전시",
+   "name": "담당자",
+   "emails": [
+    "bx-agency@naver.com"
+   ],
+   "contact": "02-540-3961",
+   "status": "상시접수",
+   "note": "홈페이지: http://www.bx-agency.com/ | 주소: 서울 서초구 강남대로89길 15, 1층",
+   "url": "https://castingmap.co.kr/model-ad-agencies",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 90,
+   "cat": "AD",
+   "company": "브릿지 모델 에이전시",
+   "name": "담당자",
+   "emails": [
+    "bridge_profile@naver.com"
+   ],
+   "contact": "02-6954-7339",
+   "status": "상시접수",
+   "note": "인스타: https://www.instagram.com/bridge_agency | 주소: 서울 강남구 언주로 148길 19 청호빌딩 3층 (논현동 97-7) | 네이버 지도 예약 가능",
+   "url": "https://castingmap.co.kr/model-ad-agencies",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 91,
+   "cat": "AD",
+   "company": "욜로 에이전시",
+   "name": "담당자",
+   "emails": [
+    "yolo5120126@gmail.com"
+   ],
+   "contact": "02-512-0126",
+   "status": "상시접수",
+   "note": "홈페이지: https://www.agencyyolo.com/ | 주소: 서울시 강남구 학동로 338, 강남파라곤 B동 401호",
+   "url": "https://castingmap.co.kr/model-ad-agencies",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 92,
+   "cat": "AD",
+   "company": "에이전시레인보우",
+   "name": "담당자",
+   "emails": [
+    "rainbowagency2017@naver.com"
+   ],
+   "contact": "0507-1435-7882",
+   "status": "상시접수",
+   "note": "선릉역 2번출구 100m | 주소: 서울 강남구 선릉로 428 10층 106호",
+   "url": "https://castingmap.co.kr/model-ad-agencies",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 93,
+   "cat": "AD",
+   "company": "체리픽모델에이전시",
+   "name": "담당자",
+   "emails": [
+    "creamcasting@hanmail.net"
+   ],
+   "contact": "0507-1349-4721",
+   "status": "상시접수",
+   "note": "구 토마토에이전시 | 학동역 5번 출구 323m | 주소: 서울 강남구 학동로24길 19 공용빌딩 4층",
+   "url": "https://castingmap.co.kr/model-ad-agencies",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 94,
+   "cat": "AD",
+   "company": "씨플러스에이전시 (CPLUS)",
+   "name": "담당자",
+   "emails": [
+    "cplus1112@naver.com"
+   ],
+   "contact": "02-3448-1606",
+   "status": "상시접수",
+   "note": "인스타: @cplusagency_official | 선정릉역 2번 출구 584m | 주소: 서울 강남구 삼성로99길 24 201호",
+   "url": "https://castingmap.co.kr/model-ad-agencies",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 95,
+   "cat": "AD",
+   "company": "(주) 메이드인 엔터테인먼트",
+   "name": "윤정현 대표",
+   "emails": [
+    "junghyun_yun@madeinent.com",
+    "naehyun_an@madeinent.com"
+   ],
+   "contact": "82-2-3474-5905",
+   "status": "상시접수",
+   "note": "홈페이지: http://www.madeinplus.com/aboutus.php | 주소: 서울시 성동구 성수이로 51 서울숲한라시그마밸리1차, 610호",
+   "url": "https://castingmap.co.kr/model-ad-agencies",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 96,
+   "cat": "AD",
+   "company": "온에어 모델 에이전시",
+   "name": "담당자",
+   "emails": [
+    "onairmodel@naver.com"
+   ],
+   "contact": "02-548-1560",
+   "status": "상시접수",
+   "note": "전화 예약 필수 (02-548-1560, 평일 10:00 - 19:00) | 홈페이지: www.onairmodel.co.kr | 인스타: @onairmodel | 미팅 팁: 방문 시 수기 프로필 작성 후 대기실 순차 대기 (광고 캐스팅에 참고되므로 정밀 작성 필수) | 에티켓: 스튜디오 방음 취약 정숙 엄수 & 건물 앞 전 구역 흡연 절대 금지 | 주소: 서울 강남구 논현로133길 12 능원타워 301호",
+   "url": "https://castingmap.co.kr/model-ad-agencies",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 97,
+   "cat": "AD",
+   "company": "오션스타 모델 에이전시",
+   "name": "담당자",
+   "emails": [
+    "oceanstar0887@naver.com"
+   ],
+   "contact": "02-540-0887",
+   "status": "상시접수",
+   "note": "예약 없음 (방문 전 가능 시간 확인 권장, 평일 13:40 - 18:00) | 학동역 10번 출구 3분 | 주소: 서울특별시 강남구 언주로133길 27 4층 (지번: 논현동 85-4)",
+   "url": "https://castingmap.co.kr/model-ad-agencies",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 98,
+   "cat": "AD",
+   "company": "굿모델 에이전시",
+   "name": "담당자",
+   "emails": [
+    "goodmodels@naver.com"
+   ],
+   "contact": "02-545-9534",
+   "status": "상시접수",
+   "note": "인스타: @goodmodel__official | 논현역 8번 출구 286m | 주소: 서울 서초구 신반포로47길 52 동구빌딩 4층",
+   "url": "https://castingmap.co.kr/model-ad-agencies",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 99,
+   "cat": "AD",
+   "company": "COREO",
+   "name": "담당자",
+   "emails": [
+    "official@coreo.co.kr"
+   ],
+   "contact": "0507-1346-0523",
+   "status": "상시접수",
+   "note": "홈페이지: https://coreo.co.kr/ | 인스타: @coreo.ent | 주소: 서울 강남구 언주로 530 COREO 1층",
+   "url": "https://castingmap.co.kr/model-ad-agencies",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 100,
+   "cat": "AD",
+   "company": "에이전시 우드",
+   "name": "담당자",
+   "emails": [],
+   "contact": "02-540-3988",
+   "status": "상시접수",
+   "note": "공식 홈페이지 온라인 예약 필수 (평일 11:00 - 18:00) | 압구정역 4번 출구 3분 | 주소: 서울특별시 강남구 논현로167길 17 동남빌딩 402호",
+   "url": "https://castingmap.co.kr/model-ad-agencies",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 101,
+   "cat": "AD",
+   "company": "파워 캐스팅",
+   "name": "담당자",
+   "emails": [
+    "profile@powercasting.co.kr"
+   ],
+   "contact": "02-514-6088",
+   "status": "상시접수",
+   "note": "홈페이지: www.powercasting.co.kr | 주소: 서울시 강남구 언주로 113길 7(논현동) 5층 (언주역 4번 출구에서 400m)",
+   "url": "https://castingmap.co.kr/model-ad-agencies",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 102,
+   "cat": "AD",
+   "company": "유나스 엔터테인먼트",
+   "name": "담당자",
+   "emails": [
+    "unas@unas.co.kr"
+   ],
+   "contact": "02-533-9501",
+   "status": "상시접수",
+   "note": "인스타: @unasentertainment | 방문 미팅 일정 예약 필수: https://www.castingmonster.co.kr/reservation | 주소: 서울특별시 강남구 도산대로 50길 25 유나스빌딩 2/3층",
+   "url": "https://castingmap.co.kr/model-ad-agencies",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 103,
+   "cat": "AD",
+   "company": "엠케이모델에이전시",
+   "name": "담당자",
+   "emails": [
+    "mkagency.office@gmail.com"
+   ],
+   "contact": "02-6949-4855",
+   "status": "상시접수",
+   "note": "인스타: @mk.modelagency | 비대면으로 프로필 및 자기소개 영상 필수 제출 | 주소: 서울특별시 강남구 논현동 217-38 3층",
+   "url": "https://castingmap.co.kr/model-ad-agencies",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 104,
+   "cat": "AD",
+   "company": "헤드모델에이전시",
+   "name": "담당자",
+   "emails": [
+    "modelhead@daum.net"
+   ],
+   "contact": "02-545-5095",
+   "status": "상시접수",
+   "note": "홈페이지: http://www.headmodel.co.kr | 성수역 1번 출구 280m | 주소: 서울 성동구 성수일로10길 26 하우스디 세종타워 1109호",
+   "url": "https://castingmap.co.kr/model-ad-agencies",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 105,
+   "cat": "AD",
+   "company": "레디엔터테인먼트",
+   "name": "담당자 (K-모델/인플루언서)",
+   "emails": [
+    "ready@readyent.com"
+   ],
+   "contact": "02-6900-0947",
+   "status": "상시접수",
+   "note": "네이버 지도 예약 (평일 10:00 - 17:00) | 연기영상: 선택사항 (30초 내외) | 특이사항: 방문 이력 없을 시 프로필 전송 후 대기 필수 | 학동역 1번 출구 5분 | 주소: 서울특별시 강남구 언주로130길 13 1층 모델라운지",
+   "url": "https://castingmap.co.kr/model-ad-agencies",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 106,
+   "cat": "AD",
+   "company": "리더스 에이전시",
+   "name": "담당자",
+   "emails": [
+    "cast@ldsagency.co.kr"
+   ],
+   "contact": "02-6738-5053",
+   "status": "상시접수",
+   "note": "영상 미팅 예약: https://ldsagency.co.kr/index.php?mid=reservation&act=dispBoardWrite | 운영: 10:00 - 18:00 | 주소: 서울특별시 서초구 강남대로 97길 48 1층 (신사역 4번출구 도보 4분)",
+   "url": "https://castingmap.co.kr/model-ad-agencies",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 107,
+   "cat": "AD",
+   "company": "캐스팅봄나인 에이전시",
+   "name": "담당자",
+   "emails": [
+    "pp@castingbom.co.kr"
+   ],
+   "contact": "02-2088-2832",
+   "status": "상시접수",
+   "note": "파일명 규칙: _년생_이름_키_미팅년월 (예: 1999_홍길동_170_26.06) 엄수 | 신사역 도보 4분 (300m) / 논현역 도보 9분 | 주소: 서울 서초구 나루터로10길 29 401호",
+   "url": "https://castingmap.co.kr/model-ad-agencies",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 108,
+   "cat": "AD",
+   "company": "스타메카 에이전시",
+   "name": "담당자",
+   "emails": [
+    "5405216s@gmail.com"
+   ],
+   "contact": "02-540-5216",
+   "status": "상시접수",
+   "note": "네이버 지도 예약 가능 (평일 11:00 - 18:00) | 연기영상: 선택사항 (30초 내외) | 압구정역 4번 출구 3분 | 주소: 서울특별시 강남구 논현로 152길 21, 6층 (신사동, 디오사옥)",
+   "url": "https://castingmap.co.kr/model-ad-agencies",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 109,
+   "cat": "AD",
+   "company": "앨리스 엔터테인먼트",
+   "name": "담당자",
+   "emails": [
+    "aliceent2064@gmail.com"
+   ],
+   "contact": "02-540-2064",
+   "status": "상시접수",
+   "note": "네이버 지도 예약 가능 (평일 10:30 - 17:00) | 연기영상: 선택사항 (30초 내외) | 압구정역 3번 출구 5분 | 주소: 서울특별시 강남구 논현로164길 6",
+   "url": "https://castingmap.co.kr/model-ad-agencies",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 110,
+   "cat": "AD",
+   "company": "무이엔터테인먼트",
+   "name": "담당자",
+   "emails": [
+    "casting3@moooicasting.com"
+   ],
+   "contact": "02-512-6353",
+   "status": "상시접수",
+   "note": "영상미팅예약은 반드시 전화 접수 필수 (02-512-6353) | 홈페이지: moooi2020.koreafree.co.kr | 주소: 서울 강남구 선릉로 157길 27 4층 (moooi_ent)",
+   "url": "https://castingmap.co.kr/model-ad-agencies",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 111,
+   "cat": "AD",
+   "company": "잇츠 모델 에이전시",
+   "name": "담당자",
+   "emails": [
+    "itsmodel@hanmail.net"
+   ],
+   "contact": "0507-1401-8538",
+   "status": "상시접수",
+   "note": "네이버 영상 상담 예약 가능 (https://m.booking.naver.com/booking/13/bizes/1460254...) | 한국 프로필 Google폼 접수: forms.gle/X5KTTQpQKZT6q5Nh8 | 주의: 첫 방문 시 사전에 메일로 프로필/포토폴리오 선송 후 대기 필수 | 주소: 서울 서초구 강남대로95길 48-4 3층 (논현역 8번 출구 374m)",
+   "url": "https://castingmap.co.kr/model-ad-agencies",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 112,
+   "cat": "AD",
+   "company": "에스크 모델 에이전시",
+   "name": "담당자",
+   "emails": [
+    "askmodels@hanmail.net"
+   ],
+   "contact": "02-543-8684",
+   "status": "상시접수",
+   "note": "전화 예약 혹은 이메일 사전 예약 | 인스타: @askmodel_agency | 주소: 서울 성동구 성수일로 10 1408호 (서울숲역 2번 출구 567m)",
+   "url": "https://castingmap.co.kr/model-ad-agencies",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 113,
+   "cat": "AD",
+   "company": "올인원 엔터테인먼트 에이전시",
+   "name": "담당자",
+   "emails": [
+    "aioent.20@gmail.com"
+   ],
+   "contact": "02-6082-6400",
+   "status": "상시접수",
+   "note": "네이버 지도 방문 미팅 예약 가능 (map.naver.com/p/search/올인원엔터테인먼트...) | 홈페이지: www.allinoneenter.com | 주소: 서울특별시 강남구 압구정로4길 14-11 202호 (신사역 6번 출구 582m)",
+   "url": "https://castingmap.co.kr/model-ad-agencies",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 114,
+   "cat": "CD",
+   "company": "이에이치컴퍼니",
+   "name": "황은희",
+   "emails": [
+    "catingeh@gmail.com"
+   ],
+   "contact": "https://www.instagram.com/ehcompany.casting/",
+   "status": "상시접수",
+   "note": "인스타: @ehcompany.casting | 황은희 캐스팅 디렉터",
+   "url": "https://castingmap.co.kr/actor-casting-directors/114",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 132,
+   "cat": "CD",
+   "company": "에피퍼니",
+   "name": "김량현",
+   "emails": [
+    "ssb3613@naver.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/132",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 134,
+   "cat": "AD",
+   "company": "레인보우에이전시",
+   "name": "담당자",
+   "emails": [
+    "rainbowagency2017@naver.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "주소: 서울 강남구 선릉로 428 10층 106호 (선릉역 2번출구 약 100m) | 인스타: https://www.instagram.com/agencyrainbow2017",
+   "url": "https://castingmap.co.kr/model-ad-agencies",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 135,
+   "cat": "AD",
+   "company": "에스모델",
+   "name": "담당자",
+   "emails": [
+    "smodel1004@naver.com"
+   ],
+   "contact": "02-3443-6231",
+   "status": "상시접수",
+   "note": "주소: 서울 서초구 신반포로45길 26 동화빌딩 301호 (논현역 7번 출구에서 312m) | 홈페이지: https://www.smodelagency.com/",
+   "url": "https://castingmap.co.kr/model-ad-agencies",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 136,
+   "cat": "AD",
+   "company": "휴미디어공씨네",
+   "name": "담당자",
+   "emails": [
+    "2104kk38@hanmail.net"
+   ],
+   "contact": "02-453-5430",
+   "status": "상시접수",
+   "note": "주소: 서울 서초구 신반포로47길 52, 2층 (잠원동 36-3) 논현역 8번 출구에서 286m | 홈페이지: http://huemedia.co.kr/",
+   "url": "https://castingmap.co.kr/model-ad-agencies",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 137,
+   "cat": "AD",
+   "company": "캐스팅나우엔터테인먼트",
+   "name": "담당자",
+   "emails": [],
+   "contact": "02-518-9657",
+   "status": "상시접수",
+   "note": "주소: 서울 강남구 언주로172길 25 640아트타워 3층 (압구정로데오역 6번 출구에서 491m)",
+   "url": "https://castingmap.co.kr/model-ad-agencies",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 138,
+   "cat": "CD",
+   "company": "캐스팅러너",
+   "name": "방진원",
+   "emails": [
+    "9933bjw@gmail.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/138",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 139,
+   "cat": "CD",
+   "company": "캐스팅러너",
+   "name": "3팀",
+   "emails": [
+    "ljy0512@daum.net"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/139",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 140,
+   "cat": "CD",
+   "company": "에픽크루",
+   "name": "박시현",
+   "emails": [
+    "parkseehyun@naver.com",
+    "parkseehyun@hanmail.net"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "프리랜서 캐스팅 디렉터",
+   "url": "https://castingmap.co.kr/actor-casting-directors/140",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 141,
+   "cat": "CD",
+   "company": "김경남",
+   "name": "김경남",
+   "emails": [
+    "rudska0336@naver.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "프리랜서 캐스팅 디렉터",
+   "url": "https://castingmap.co.kr/actor-casting-directors/141",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 142,
+   "cat": "CD",
+   "company": "CNA",
+   "name": "영화팀2",
+   "emails": [
+    "hsmmovie@daum.net"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/142",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 143,
+   "cat": "CD",
+   "company": "CNA",
+   "name": "김세영",
+   "emails": [
+    "ksywiner@hanmail.net",
+    "ksywiner@naver.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "CNA 영화팀",
+   "url": "https://castingmap.co.kr/actor-casting-directors/143",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 144,
+   "cat": "CD",
+   "company": "CNA",
+   "name": "박정해",
+   "emails": [
+    "y.486@daum.net"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/144",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 145,
+   "cat": "CD",
+   "company": "런업컴퍼니",
+   "name": "H크루 2본부",
+   "emails": [],
+   "contact": "https://castik.co.kr/auditions/26",
+   "status": "상시접수",
+   "note": "런업컴퍼니 캐스팅본부 2본부(H크루). 프로필은 castik 공식 페이지가 대표 접수처입니다.",
+   "url": "https://castingmap.co.kr/actor-casting-directors/145",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 146,
+   "cat": "CD",
+   "company": "스튜디오빌드업",
+   "name": "박병철",
+   "emails": [],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/146",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 147,
+   "cat": "CD",
+   "company": "루이스픽쳐스",
+   "name": "주영환",
+   "emails": [],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/147",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 148,
+   "cat": "CD",
+   "company": "퀀텀이엔엠",
+   "name": "김도성",
+   "emails": [],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/148",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 149,
+   "cat": "CD",
+   "company": "프리랜서/개인",
+   "name": "김용곤",
+   "emails": [],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/149",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 150,
+   "cat": "CD",
+   "company": "엑터스 프로젝트",
+   "name": "이종민",
+   "emails": [],
+   "contact": "",
+   "status": "상시접수",
+   "note": "캐스팅러너 대표를 지낸 캐스팅 디렉터로, 현재 엑터스 프로젝트와 함께합니다. 상업영화에서 시작해 신병·커넥트·사마귀·대도시의 사랑법 등 드라마·OTT로 활동 폭을 넓혀 왔습니다.",
+   "url": "https://castingmap.co.kr/actor-casting-directors/150",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 151,
+   "cat": "CD",
+   "company": "아티브 컴퍼니",
+   "name": "이호균",
+   "emails": [],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/151",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 152,
+   "cat": "CD",
+   "company": "아티브 컴퍼니",
+   "name": "이송아",
+   "emails": [],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/152",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 153,
+   "cat": "CD",
+   "company": "엑터스 프로젝트",
+   "name": "배정환",
+   "emails": [],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/153",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 154,
+   "cat": "CD",
+   "company": "엑터스 프로젝트",
+   "name": "신준호",
+   "emails": [],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/154",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 155,
+   "cat": "CD",
+   "company": "프리랜서/개인",
+   "name": "담당자",
+   "emails": [
+    "wodus6578@naver.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "공공기관·홍보영상·웹예능 캐스팅. 제출 필수: ① 현재 모습 정면 사진 2~3장 ② 가로로 촬영한 자기소개 영상 1개. (제보 출처: 스레드 @cast_yeon02)",
+   "url": "https://castingmap.co.kr/actor-casting-directors/155",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 156,
+   "cat": "CD",
+   "company": "H크루 캐스팅",
+   "name": "이기훈",
+   "emails": [
+    "hcrewcasting@gmail.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "H크루 캐스팅 팀 캐스팅 디렉터입니다.",
+   "url": "https://castingmap.co.kr/actor-casting-directors/156",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 157,
+   "cat": "CD",
+   "company": "티아이",
+   "name": "최훈민",
+   "emails": [
+    "hunmin5569@naver.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "",
+   "url": "https://castingmap.co.kr/actor-casting-directors/157",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 158,
+   "cat": "CD",
+   "company": "더베스트 이엔앰",
+   "name": "담당자",
+   "emails": [
+    "actorunion@naver.com"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "actorunion@naver.com으로 프로필을 접수합니다. 메일 제목은 [작품_이름_나이] 형식으로 맞추고, 최신 프로필 1부(PPT 파일)와 연기영상 1개를 첨부해 보내세요.",
+   "url": "https://castingmap.co.kr/actor-casting-directors/158",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 159,
+   "cat": "CD",
+   "company": "로드스타 에이전시",
+   "name": "담당자",
+   "emails": [
+    "casting_hyun@daum.net"
+   ],
+   "contact": "",
+   "status": "상시접수",
+   "note": "로드스타 에이전시 캐스팅 디렉터 프로필 접수 메일입니다.",
+   "url": "https://castingmap.co.kr/actor-casting-directors/159",
+   "firstSeen": "baseline"
+  }
+ ],
+ "board": [
+  {
+   "id": 31,
+   "title": "드라마 중증외상센터 시즌2·3",
+   "address": "강남구 논현로 138길 7 5층",
+   "url": "https://castingmap.co.kr/casting-board/31",
+   "checked": "2026-10-28",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 19,
+   "title": "언내추럴",
+   "address": "강남구 논현로128길 20 6층",
+   "url": "https://castingmap.co.kr/casting-board/19",
+   "checked": "2026-10-28",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 21,
+   "title": "학교다녀왔습니다",
+   "address": "강남구 논현로175길 60 2층",
+   "url": "https://castingmap.co.kr/casting-board/21",
+   "checked": "2026-10-28",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 26,
+   "title": "영화 동티",
+   "address": "강남구 도산대로 59길 26",
+   "url": "https://castingmap.co.kr/casting-board/26",
+   "checked": "2026-10-28",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 32,
+   "title": "숏폼 (노바필름)",
+   "address": "강남구 도산대로 59길 26 4층",
+   "url": "https://castingmap.co.kr/casting-board/32",
+   "checked": "2026-10-28",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 37,
+   "title": "영화 투피스",
+   "address": "강남구 도산대로8길 17-11 1층",
+   "url": "https://castingmap.co.kr/casting-board/37",
+   "checked": "2026-10-28",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 45,
+   "title": "영화 남은정",
+   "address": "강남구 도산대로96길 13",
+   "url": "https://castingmap.co.kr/casting-board/45",
+   "checked": "2026-10-28",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 3,
+   "title": "드라마 오늘도 출근",
+   "address": "강남구 학동로30길 16 7층",
+   "url": "https://castingmap.co.kr/casting-board/3",
+   "checked": "2026-10-28",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 30,
+   "title": "드라마 조련의 여왕",
+   "address": "경기 고양시 덕양구 청초로 66 1711호",
+   "url": "https://castingmap.co.kr/casting-board/30",
+   "checked": "2026-10-28",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 20,
+   "title": "연애의 재발견",
+   "address": "마포구 상암동 1650 로비",
+   "url": "https://castingmap.co.kr/casting-board/20",
+   "checked": "2026-10-28",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 35,
+   "title": "이혼조사관 홍말금",
+   "address": "마포구 상암동 DMC첨단산업센터 521호",
+   "url": "https://castingmap.co.kr/casting-board/35",
+   "checked": "2026-10-28",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 34,
+   "title": "속풀이쇼 동치미",
+   "address": "마포구 성암로 15길 20",
+   "url": "https://castingmap.co.kr/casting-board/34",
+   "checked": "2026-10-28",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 33,
+   "title": "트레이니",
+   "address": "마포구 성암로 330 A동 5층",
+   "url": "https://castingmap.co.kr/casting-board/33",
+   "checked": "2026-10-28",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 41,
+   "title": "건강하기만 하면 돼!",
+   "address": "마포구 성암로 330 DMC첨단산업센터 5층",
+   "url": "https://castingmap.co.kr/casting-board/41",
+   "checked": "2026-10-28",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 44,
+   "title": "금월도",
+   "address": "마포구 월드컵북로 434 12층",
+   "url": "https://castingmap.co.kr/casting-board/44",
+   "checked": "2026-10-28",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 29,
+   "title": "비공개 작품 (나루터로 2층)",
+   "address": "서초구 나루터로 12길 19 2층",
+   "url": "https://castingmap.co.kr/casting-board/29",
+   "checked": "2026-10-28",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 18,
+   "title": "숏폼 — 제리굿 (나루터로 접수처)",
+   "address": "서초구 나루터로12길 19 3층",
+   "url": "https://castingmap.co.kr/casting-board/18",
+   "checked": "2026-10-28",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 28,
+   "title": "드라마 러브 클라우드",
+   "address": "영등포구 여의도동 46 로비",
+   "url": "https://castingmap.co.kr/casting-board/28",
+   "checked": "2026-10-28",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 36,
+   "title": "환생경찰",
+   "address": "영등포구 의사당대로1길 25 9층",
+   "url": "https://castingmap.co.kr/casting-board/36",
+   "checked": "2026-10-28",
+   "firstSeen": "baseline"
+  },
+  {
+   "id": 39,
+   "title": "영화 안개무덤",
+   "address": "용산구 독서당로 46 2층 209호",
+   "url": "https://castingmap.co.kr/casting-board/39",
+   "checked": "2026-10-28",
+   "firstSeen": "baseline"
+  }
+ ]
+}
