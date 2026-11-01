@@ -199,6 +199,13 @@
   .prow{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
   @media (max-width:380px){.prow{grid-template-columns:1fr;}}
   .hint{font-size:11.5px;color:var(--muted);line-height:1.5;margin-top:-6px;margin-bottom:14px;}
+  .fm-bar{margin:10px 14px 0;display:flex;gap:8px;align-items:center;background:#fff;border:1px solid var(--line-strong);border-radius:11px;padding:10px 12px;font-size:13px;}
+  .fm-bar .t{flex:1;line-height:1.4}
+  .fm-bar button{flex:0 0 auto;font:inherit;font-size:12.5px;font-weight:600;border-radius:9px;padding:7px 10px;border:1px solid var(--line-strong);background:#fff;cursor:pointer}
+  .fm-bm{display:block;text-align:center;font-weight:700;padding:12px;border-radius:11px;border:2px dashed var(--line-strong);text-decoration:none;color:inherit;margin:8px 0 4px;cursor:grab}
+  .fm-steps{margin:6px 0 14px;padding-left:18px;font-size:13px;line-height:1.6}
+  .fm-steps li{margin:3px 0}
+  .fm-h{font-weight:700;font-size:13.5px;margin:14px 0 2px}
 </style>
 </head>
 <body>
@@ -229,6 +236,11 @@
 
   <div class="demo">
     <b>원픽·플필·캐스팅맵 공고를 매시간 자동 수집해요.</b> 마감 지난 건 자동으로 숨겨집니다. 캐스트링크는 봇 차단이라 맨 아래 링크로 직접 확인하세요.
+  </div>
+
+  <div class="fm-bar" id="fmBar">
+    <div class="t"><b>필름메이커스 가져오기</b><br><span id="fmCount">필메 화면에서 버튼 한 번이면 여기로 넘어와요</span></div>
+    <button id="fmOpen">설치·사용법</button>
   </div>
 
   <div class="list" id="list"></div>
@@ -332,6 +344,42 @@
   </div>
 </div>
 
+<!-- filmmakers import sheet -->
+<div class="sheet" id="fmSheet" role="dialog" aria-modal="true" aria-label="필름메이커스 가져오기">
+  <div class="sheet-grip"></div>
+  <div class="sheet-head">
+    <h3>필름메이커스 가져오기</h3>
+    <button class="x" id="fmClose" aria-label="닫기">×</button>
+  </div>
+  <div class="sheet-body">
+    <p class="hint">봇이 몰래 긁는 게 아니라, <b>네가 열어둔 필메 화면</b>에 보이는 공고만 이 앱으로 옮기는 버튼이에요. 옮겨오면 나이·성별 판정이랑 메일 초안이 자동으로 붙어요.</p>
+    <div class="fm-h">PC (크롬)</div>
+    <ol class="fm-steps">
+      <li>북마크바 켜기: <b>Ctrl+Shift+B</b> (맥은 ⌘+Shift+B)</li>
+      <li>아래 버튼을 <b>북마크바로 끌어다 놓기</b></li>
+    </ol>
+    <a class="fm-bm" id="fmBm" href="#">📥 필메→슬레이트</a>
+    <div class="fm-h">폰 (크롬·사파리)</div>
+    <ol class="fm-steps">
+      <li><b>코드 복사</b> 누르기</li>
+      <li>아무 페이지나 북마크 추가 → 북마크 편집 → 이름 <b>필메가져오기</b>, 주소칸을 지우고 복사한 코드 붙여넣기</li>
+      <li>필메 화면에서 주소창에 <b>필메가져오기</b> 입력 → 뜨는 북마크 누르기 (사파리는 북마크 목록에서 누르기)</li>
+    </ol>
+    <button class="btn btn-ghost" id="fmCopy" style="width:100%">코드 복사</button>
+    <div class="fm-h">쓰는 법</div>
+    <ol class="fm-steps">
+      <li>필메 <b>배우모집 목록</b>에서 누르면 → 화면에 보이는 공고가 전부 넘어와요</li>
+      <li>메일 주소까지 받으려면 공고 <b>상세 화면에서 '연락처 보기'</b>를 누른 다음 버튼을 눌러요 → 그 공고에 메일이 채워져요</li>
+      <li>마감 지난 공고, 3주 지난 공고는 자동으로 정리돼요 (이 기기에만 저장)</li>
+    </ol>
+    <div class="sheet-foot">
+      <button class="btn btn-ghost" id="fmClear">가져온 공고 비우기</button>
+      <a class="btn btn-primary src-link" href="https://www.filmmakers.co.kr/castingPro" target="_blank" rel="noopener">필메 배우모집 열기 ↗</a>
+    </div>
+    <div class="copied" id="fmMsg"></div>
+  </div>
+</div>
+
 <script>
 /* ---------------- 내 프로필 (PDF 기준 초기값) ---------------- */
 const me = {
@@ -361,7 +409,7 @@ const me = {
 const PINNED = [
   { id:"filmmakers", source:"필름메이커스", sourceType:"linkmail", cat:"",
     title:"필름메이커스 — 공고 확인 후 메일 지원",
-    syn:"필름메이커스는 약관상 자동수집을 안 합니다. 사이트에서 직접 공고를 보고, 마음에 들면 '메일 초안'으로 바로 지원 준비하세요.",
+    syn:"필름메이커스는 약관상 자동수집을 안 합니다. 필메 화면에서 '📥 필메→슬레이트' 버튼을 누르면 보이는 공고가 여기로 넘어와요(위 '설치·사용법').",
     role:"", due:"", url:"https://www.filmmakers.co.kr/actorCasting", email:null,
     required:["프로필","연기 영상","연락처"], specials:[] },
   { id:"castlink", source:"캐스트링크", sourceType:"link", cat:"",
@@ -386,7 +434,73 @@ function normalize(n){
   }, n);
 }
 
-let NOTICES = PLATFORM_SAMPLES.concat(PINNED).map(normalize);
+/* ---------------- 필름메이커스 가져오기 (북마클릿) ---------------- */
+const FM_KEY="fmImports";
+const FM_CODE="(function () { var APP = \"https://loyalmir.github.io/filmmakers/\"; if (!/filmmakers\\.co\\.kr/.test(location.host)) { alert(\"필름메이커스 배우모집 화면에서 눌러주세요\"); return; } function T(el) { return el ? el.textContent.replace(/\\s+/g, \" \").trim() : \"\"; } function fields(box) { var o = {}; box.querySelectorAll(\"div\").forEach(function (d) { var k = d.children; if (k.length === 2 && !k[0].children.length && !k[1].children.length) { var key = T(k[0]); if (key && key.length <= 6 && !(key in o)) o[key] = T(k[1]); } }); return o; } function ymd(s) { var q = (s || \"\").match(/(\\d{1,2})\\s*월\\s*(\\d{1,2})\\s*일/); if (!q) return (s || \"\").trim(); var now = new Date(), y = now.getFullYear(); if (+q[1] < now.getMonth() + 1 - 1) y++; return y + \"-\" + (\"0\" + q[1]).slice(-2) + \"-\" + (\"0\" + q[2]).slice(-2); } var out = [], m = location.pathname.match(/^\\/([A-Za-z]+)\\/(\\d+)/); if (m) { var main = document.querySelector(\"main\") || document.body, txt = main.innerText; var mails = []; document.querySelectorAll('a[href^=\"mailto:\"]').forEach(function (a) { mails.push(a.getAttribute(\"href\").slice(7).split(\"?\")[0]); }); mails = mails.concat(txt.match(/[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}/g) || []) .filter(function (e) { return !/filmmakers\\.co\\.kr/i.test(e); }); var g = txt.match(/성별\\s*([^\\n국]+?)(?:국적|\\n)/), a = txt.match(/연령\\s*([^\\n인]+?)(?:인원|\\n)/), due = txt.match(/모집 마감일[\\s~]*([^\\n(]+)/); out.push({ id: m[2], board: m[1], url: location.href.split(\"#\")[0], title: document.title.replace(/\\s*-\\s*필름메이커스\\s*$/, \"\"), gender: g ? g[1].trim() : \"\", age: a ? a[1].trim() : \"\", due: due ? ymd(due[1]) : \"\", email: mails[0] || \"\", detail: 1 }); } else { document.querySelectorAll(\"h2 a[href]\").forEach(function (a) { var mm = a.getAttribute(\"href\").match(/\\/([A-Za-z]+)\\/(\\d+)$/); if (!mm) return; var card = a.closest(\"h2\").parentElement, f = fields(card), spans = card.querySelectorAll(\"span\"); out.push({ id: mm[2], board: mm[1], url: a.href, title: T(a), cat: T(spans[0]), prod: f[\"제작\"] || \"\", work: f[\"제목\"] || \"\", gender: f[\"성별\"] || \"\", age: f[\"연령\"] || \"\", pay: f[\"출연료\"] || \"\", due: f[\"마감\"] || \"\" }); }); } if (!out.length) { alert(\"가져올 공고를 못 찾았어요. 배우모집 목록이나 공고 상세 화면에서 눌러주세요.\"); return; } var data = btoa(unescape(encodeURIComponent(JSON.stringify(out)))).replace(/\\+/g, \"-\").replace(/\\//g, \"_\").replace(/=+$/, \"\"); location.href = APP + \"#fm=\" + data; })();";
+const FM_BOOKMARKLET="javascript:"+encodeURIComponent(FM_CODE);
+function fmLoad(){ try{ return JSON.parse(localStorage.getItem(FM_KEY)||"[]"); }catch(e){ return []; } }
+function fmSave(a){ try{ localStorage.setItem(FM_KEY, JSON.stringify(a)); }catch(e){} }
+function fmGender(s){
+  s=s||""; const m=/남/.test(s), f=/여/.test(s);
+  if(m&&!f) return "male"; if(f&&!m) return "female"; return "any";
+}
+function fmAge(s){
+  s=s||""; const vals=[];
+  const off={"초반":[0,3],"중반":[3,6],"후반":[6,9]};
+  for(const m of s.matchAll(/(\d{1,2})\s*대\s*(초반|중반|후반|이상)?/g)){
+    const b=+m[1], q=m[2];
+    if(q==="이상"){ vals.push(b, 99); continue; }
+    const o=off[q]||[0,9]; vals.push(b+o[0], b+o[1]);
+  }
+  for(const m of s.matchAll(/(\d{1,2})\s*세/g)) vals.push(+m[1]);
+  if(!vals.length) return [null,null];
+  return [Math.min(...vals), Math.max(...vals)];
+}
+function fmToNotice(o){
+  const [lo,hi]=fmAge(o.age);
+  const work=o.work||((o.title||"").match(/[<〈《「\[]([^>〉》」\]]+)[>〉》」\]]/)||[])[1]||"";
+  return {
+    id:"fm-"+o.id, source:"필름메이커스", sourceType:"email",
+    cat:o.cat||"", title:o.title||"", role:"",
+    syn:[o.prod, o.pay].filter(Boolean).join(" · "),
+    gender:fmGender(o.gender), ageMin:lo, ageMax:hi,
+    ageText:[o.gender,o.age].filter(Boolean).join(" · "),
+    due:o.due||"", url:o.url, email:o.email||null, pay:"",
+    subjectFmt:`[${work||"작품명"}] 프로필 지원_{name}`,
+    required:["프로필","연기 영상","연락처"], specials:[]
+  };
+}
+function fmImportFromHash(){
+  const m=location.hash.match(/^#fm=([A-Za-z0-9_-]+)/); if(!m) return 0;
+  let items=[];
+  try{
+    let b=m[1].replace(/-/g,"+").replace(/_/g,"/"); while(b.length%4) b+="=";
+    items=JSON.parse(decodeURIComponent(escape(atob(b))));
+  }catch(e){ return -1; }
+  const now=Date.now(), map={};
+  fmLoad().forEach(x=>map[x.id]=x);
+  items.forEach(x=>{
+    const old=map[x.id]||{};
+    const merged=Object.assign({}, old, x);
+    Object.keys(old).forEach(k=>{ if(!x[k] && old[k]) merged[k]=old[k]; });   // 상세에서 빈 값이 목록 값을 덮지 않게
+    merged.importedAt=old.importedAt||now; merged.seenAt=now;
+    map[x.id]=merged;
+  });
+  fmSave(Object.values(map));
+  try{ history.replaceState(null,"",location.pathname+location.search); }catch(e){ location.hash=""; }
+  return items.length;
+}
+function fmPrune(){
+  const cutoff=Date.now()-21*86400000;
+  fmSave(fmLoad().filter(x=> (x.seenAt||0)>=cutoff && !isExpired(x.due)));
+}
+function withExtras(base){ return base.concat(fmLoad().map(fmToNotice)).concat(PINNED).map(normalize); }
+function fmUpdateBar(msg){
+  const n=fmLoad().length, el=document.getElementById("fmCount");
+  el.textContent = msg || (n? `가져온 필메 공고 ${n}건 · 메일 확인된 것 ${fmLoad().filter(x=>x.email).length}건` : "필메 화면에서 버튼 한 번이면 여기로 넘어와요");
+}
+
+let NOTICES = withExtras(PLATFORM_SAMPLES);
 
 /* 배포 환경에서 repo의 notices.json을 읽어 플랫폼 공고를 라이브로 교체 */
 async function loadNotices(){
@@ -395,7 +509,7 @@ async function loadNotices(){
     if(!r.ok) return;
     const d = await r.json();
     if(d && Array.isArray(d.notices)){
-      NOTICES = d.notices.concat(PINNED).map(normalize);
+      NOTICES = withExtras(d.notices);
       const u=document.getElementById("updatedAt");
       if(u && d.updatedAt) u.textContent = "업데이트 " + d.updatedAt.replace("T"," ");
       render();
@@ -601,7 +715,7 @@ function buildSubject(n){
 function buildBody(n){
   const lines=[];
   if(n.role) lines.push(`안녕하세요. ${n.cat} <${n.title}> 캐스팅 공고 보고 ${roleLabel(n.role)} 役에 지원합니다.`);
-  else lines.push(`안녕하세요. 배우 ${me.name}입니다. <${n.title}> 캐스팅 진행 중이라고 들어 프로필 보내드립니다.`);
+  else lines.push(`안녕하세요. 배우 ${me.name}입니다. <${n.title}> 공고 보고 프로필 보내드립니다.`);
   lines.push("");
   lines.push(`공고에서 요청하신 ${n.required.join(", ")} 함께 보내드립니다.`);
   lines.push("");
@@ -775,6 +889,7 @@ function closeSheets(){
   document.getElementById("scrim").classList.remove("open");
   document.getElementById("mailSheet").classList.remove("open");
   document.getElementById("profSheet").classList.remove("open");
+  document.getElementById("fmSheet").classList.remove("open");
   document.body.style.overflow="";
 }
 document.getElementById("scrim").onclick=closeSheets;
@@ -815,6 +930,27 @@ document.getElementById("profSave").onclick=()=>{
   setTimeout(()=>{closeSheets();},650);
 };
 
+document.getElementById("fmBm").href=FM_BOOKMARKLET;
+document.getElementById("fmBm").onclick=(e)=>{ e.preventDefault(); document.getElementById("fmMsg").textContent="여기서 누르는 게 아니라 북마크바로 끌어다 놓아야 해요"; };
+document.getElementById("fmOpen").onclick=()=>{ document.getElementById("fmMsg").textContent=""; openSheet("fmSheet"); };
+document.getElementById("fmClose").onclick=closeSheets;
+document.getElementById("fmCopy").onclick=async()=>{
+  try{ await navigator.clipboard.writeText(FM_BOOKMARKLET); document.getElementById("fmMsg").textContent="코드 복사 완료 ✓ 북마크 주소칸에 붙여넣으세요"; }
+  catch{ document.getElementById("fmMsg").textContent="복사 실패 — PC에서 북마크바로 끌어다 놓는 방법을 써주세요"; }
+};
+document.getElementById("fmClear").onclick=()=>{ fmSave([]); NOTICES=NOTICES.filter(n=>!String(n.id).startsWith("fm-")); fmUpdateBar(); render(); document.getElementById("fmMsg").textContent="비웠어요"; };
+
+function fmRun(){
+  const got=fmImportFromHash();
+  fmPrune();
+  NOTICES = withExtras(NOTICES.filter(n=>n.sourceType!=="link" && n.sourceType!=="linkmail" && !String(n.id).startsWith("fm-")));
+  if(got>0){ activeSrc="필름메이커스"; fmUpdateBar(`필메 공고 ${got}건 가져왔어요 ✓`); }
+  else if(got<0){ fmUpdateBar("가져오기 실패 — 필메 화면에서 다시 눌러주세요"); }
+  else fmUpdateBar();
+  return got;
+}
+fmRun();
+window.addEventListener("hashchange",()=>{ if(fmRun()) render(); });
 render();
 loadNotices();
 </script>
