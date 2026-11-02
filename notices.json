@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T08:36+00:00",
+  "updatedAt": "2026-11-02T18:54+00:00",
   "count": 43,
   "notices": [
     {
@@ -83,6 +83,23 @@
       "specials": []
     },
     {
+      "id": "plfil-4516",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "배달어플광고 댄스 가능한 20~30대 남자 이미지모델 구인합니다",
+      "role": "",
+      "gender": "any",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "성별 무관 · 나이 무관",
+      "due": "2026-11-03",
+      "url": "https://plfil.com/casting/4516",
+      "email": null,
+      "specials": [],
+      "pay": "35만원 ~ 35만원"
+    },
+    {
       "id": "plfil-4515",
       "source": "플필",
       "sourceType": "platform",
@@ -115,23 +132,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4512",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "배달어플광고 30~40대 남녀 이미지모델 구인합니다",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-11-02",
-      "url": "https://plfil.com/casting/4512",
-      "email": null,
-      "specials": [],
-      "pay": "35만원 ~ 35만원"
     },
     {
       "id": "plfil-4511",
@@ -202,23 +202,6 @@
       "pay": "30만원 ~ 35만원"
     },
     {
-      "id": "plfil-4504",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "전기자전거 제품 가로형 영상 촬영 모델 모집(168 이상 키큰 여성모델)",
-      "role": "",
-      "gender": "female",
-      "ageMin": 20,
-      "ageMax": 35,
-      "ageText": "여성 · 20세 ~ 35세",
-      "due": "2026-11-02",
-      "url": "https://plfil.com/casting/4504",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
-    },
-    {
       "id": "plfil-4503",
       "source": "플필",
       "sourceType": "platform",
@@ -234,23 +217,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4502",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "(전남광주 강진군 촬영) 음식점 홍보 숏폼 촬영 모델 모집",
-      "role": "",
-      "gender": "female",
-      "ageMin": 28,
-      "ageMax": 36,
-      "ageText": "여성 · 28세 ~ 36세",
-      "due": "2026-11-02",
-      "url": "https://plfil.com/casting/4502",
-      "email": null,
-      "specials": [],
-      "pay": "15만원 ~ 15만원"
     },
     {
       "id": "plfil-4500",
@@ -285,6 +251,40 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 15만원"
+    },
+    {
+      "id": "plfil-4487",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "TV/OTT",
+      "title": "OTT VIU 드라마 B급 SF 코믹 히어로 <을(乙)앗차차> 남녀 조연",
+      "role": "",
+      "gender": "male",
+      "ageMin": 26,
+      "ageMax": 36,
+      "ageText": "남성 · 26세 ~ 36세 외 2개 배역",
+      "due": "2026-11-15",
+      "url": "https://plfil.com/casting/4487",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 30만원"
+    },
+    {
+      "id": "plfil-4465",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "[고정출연] 2026 글로벌 숏폼 엔터테인먼트 콘텐츠 메인 크루 모집",
+      "role": "",
+      "gender": "any",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "성별 무관 · 나이 무관",
+      "due": "2026-11-15",
+      "url": "https://plfil.com/casting/4465",
+      "email": null,
+      "specials": [],
+      "pay": ""
     },
     {
       "id": "castingmap-cd-40",
