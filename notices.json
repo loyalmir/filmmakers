@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T22:29+00:00",
+  "updatedAt": "2026-11-02T01:56+00:00",
   "count": 43,
   "notices": [
     {
@@ -83,6 +83,23 @@
       "specials": []
     },
     {
+      "id": "plfil-4512",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "배달어플광고 30~40대 남녀 이미지모델 구인합니다",
+      "role": "",
+      "gender": "any",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "성별 무관 · 나이 무관",
+      "due": "2026-11-02",
+      "url": "https://plfil.com/casting/4512",
+      "email": null,
+      "specials": [],
+      "pay": "35만원 ~ 35만원"
+    },
+    {
       "id": "plfil-4511",
       "source": "플필",
       "sourceType": "platform",
@@ -144,7 +161,7 @@
       "ageMin": 50,
       "ageMax": 80,
       "ageText": "성별 무관 · 50세 ~ 80세",
-      "due": "2026-11-02",
+      "due": "2026-11-05",
       "url": "https://plfil.com/casting/4506",
       "email": null,
       "specials": [],
@@ -265,23 +282,6 @@
       "ageText": "남성 · 20세 ~ 28세",
       "due": "2026-11-02",
       "url": "https://plfil.com/casting/4482",
-      "email": null,
-      "specials": [],
-      "pay": ""
-    },
-    {
-      "id": "plfil-4465",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "[고정출연] 2026 글로벌 숏폼 엔터테인먼트 콘텐츠 메인 크루 모집",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-11-15",
-      "url": "https://plfil.com/casting/4465",
       "email": null,
       "specials": [],
       "pay": ""
