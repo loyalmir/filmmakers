@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T01:56+00:00",
+  "updatedAt": "2026-11-02T08:36+00:00",
   "count": 43,
   "notices": [
     {
@@ -81,6 +81,40 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4515",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "화재대피 파이어스루 제품 숏폼_ 2030 한국인 여성 모델 모집",
+      "role": "",
+      "gender": "female",
+      "ageMin": 20,
+      "ageMax": 35,
+      "ageText": "여성 · 20세 ~ 35세",
+      "due": "2026-11-03",
+      "url": "https://plfil.com/casting/4515",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
+    },
+    {
+      "id": "plfil-4513",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "가방 제품 숏폼 촬영 모델 모집(손이 예쁘신 2030 한국인 여성 모델",
+      "role": "",
+      "gender": "female",
+      "ageMin": 20,
+      "ageMax": 35,
+      "ageText": "여성 · 20세 ~ 35세",
+      "due": "2026-11-05",
+      "url": "https://plfil.com/casting/4513",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
     },
     {
       "id": "plfil-4512",
@@ -251,40 +285,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 15만원"
-    },
-    {
-      "id": "plfil-4487",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "TV/OTT",
-      "title": "OTT VIU 드라마 B급 SF 코믹 히어로 <을(乙)앗차차> 남녀 조연",
-      "role": "",
-      "gender": "male",
-      "ageMin": 26,
-      "ageMax": 36,
-      "ageText": "남성 · 26세 ~ 36세 외 2개 배역",
-      "due": "2026-11-15",
-      "url": "https://plfil.com/casting/4487",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 30만원"
-    },
-    {
-      "id": "plfil-4482",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "메가메타 - 신인배우 오디션",
-      "role": "",
-      "gender": "male",
-      "ageMin": 20,
-      "ageMax": 28,
-      "ageText": "남성 · 20세 ~ 28세",
-      "due": "2026-11-02",
-      "url": "https://plfil.com/casting/4482",
-      "email": null,
-      "specials": [],
-      "pay": ""
     },
     {
       "id": "castingmap-cd-40",
