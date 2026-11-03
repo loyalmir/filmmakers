@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T08:42+00:00",
+  "updatedAt": "2026-11-03T16:40+00:00",
   "count": 43,
   "notices": [
     {
@@ -168,40 +168,6 @@
       "pay": "15만원 ~ 15만원"
     },
     {
-      "id": "plfil-4516",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "배달어플광고 댄스 가능한 20~30대 남자 이미지모델 구인합니다",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-11-03",
-      "url": "https://plfil.com/casting/4516",
-      "email": null,
-      "specials": [],
-      "pay": "35만원 ~ 35만원"
-    },
-    {
-      "id": "plfil-4515",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "화재대피 파이어스루 제품 숏폼_ 2030 한국인 여성 모델 모집",
-      "role": "",
-      "gender": "female",
-      "ageMin": 20,
-      "ageMax": 35,
-      "ageText": "여성 · 20세 ~ 35세",
-      "due": "2026-11-03",
-      "url": "https://plfil.com/casting/4515",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
-    },
-    {
       "id": "plfil-4513",
       "source": "플필",
       "sourceType": "platform",
@@ -285,6 +251,40 @@
       "email": null,
       "specials": [],
       "pay": "30만원 ~ 35만원"
+    },
+    {
+      "id": "plfil-4503",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "1분 스케치코미디 남여 배우 구합니다 (숏폼)",
+      "role": "",
+      "gender": "male",
+      "ageMin": 25,
+      "ageMax": 40,
+      "ageText": "남성 · 25세 ~ 40세 외 1개 배역",
+      "due": "2026-11-04",
+      "url": "https://plfil.com/casting/4503",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
+    },
+    {
+      "id": "plfil-4500",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "군관련 유튜브 웹드라마(사건사고 관련)",
+      "role": "",
+      "gender": "male",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "남성 · 나이 무관 외 4개 배역",
+      "due": "2026-11-30",
+      "url": "https://plfil.com/casting/4500",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
     },
     {
       "id": "castingmap-cd-40",
