@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-11-04T10:00+00:00",
+ "updatedAt": "2026-11-04T18:16+00:00",
  "directors": [
   {
    "id": 1,
@@ -1897,155 +1897,43 @@
  ],
  "board": [
   {
-   "id": 31,
-   "title": "드라마 중증외상센터 시즌2·3",
-   "address": "강남구 논현로 138길 7 5층",
-   "url": "https://castingmap.co.kr/casting-board/31",
-   "checked": "2026-10-28",
-   "firstSeen": "baseline"
-  },
-  {
-   "id": 19,
-   "title": "언내추럴",
-   "address": "강남구 논현로128길 20 6층",
-   "url": "https://castingmap.co.kr/casting-board/19",
-   "checked": "2026-10-28",
-   "firstSeen": "baseline"
-  },
-  {
-   "id": 21,
-   "title": "학교다녀왔습니다",
+   "id": 38,
+   "title": "드라마 운명을 보는 회사원",
    "address": "강남구 논현로175길 60 2층",
-   "url": "https://castingmap.co.kr/casting-board/21",
-   "checked": "2026-10-28",
-   "firstSeen": "baseline"
-  },
-  {
-   "id": 26,
-   "title": "영화 동티",
-   "address": "강남구 도산대로 59길 26",
-   "url": "https://castingmap.co.kr/casting-board/26",
-   "checked": "2026-10-28",
-   "firstSeen": "baseline"
-  },
-  {
-   "id": 32,
-   "title": "숏폼 (노바필름)",
-   "address": "강남구 도산대로 59길 26 4층",
-   "url": "https://castingmap.co.kr/casting-board/32",
-   "checked": "2026-10-28",
-   "firstSeen": "baseline"
-  },
-  {
-   "id": 37,
-   "title": "영화 투피스",
-   "address": "강남구 도산대로8길 17-11 1층",
-   "url": "https://castingmap.co.kr/casting-board/37",
-   "checked": "2026-10-28",
-   "firstSeen": "baseline"
+   "url": "https://castingmap.co.kr/casting-board/38",
+   "checked": "2026-11-04",
+   "firstSeen": "2026-11-04"
   },
   {
    "id": 45,
    "title": "영화 남은정",
-   "address": "강남구 도산대로96길 13",
+   "address": "강남구 도산대로 59길 26 — 영화 동티 강남구 도산대로8길 17-11 1층 — 영화 투피스 강남구 도산대로96길 13",
    "url": "https://castingmap.co.kr/casting-board/45",
-   "checked": "2026-10-28",
-   "firstSeen": "baseline"
-  },
-  {
-   "id": 3,
-   "title": "드라마 오늘도 출근",
-   "address": "강남구 학동로30길 16 7층",
-   "url": "https://castingmap.co.kr/casting-board/3",
-   "checked": "2026-10-28",
+   "checked": "2026-11-04",
    "firstSeen": "baseline"
   },
   {
    "id": 30,
    "title": "드라마 조련의 여왕",
-   "address": "경기 고양시 덕양구 청초로 66 1711호",
+   "address": "강남구 학동로30길 16 7층 — 드라마 오늘도 출근 경기 고양시 덕양구 청초로 66 1711호",
    "url": "https://castingmap.co.kr/casting-board/30",
-   "checked": "2026-10-28",
+   "checked": "2026-11-04",
    "firstSeen": "baseline"
   },
   {
-   "id": 20,
-   "title": "연애의 재발견",
+   "id": 40,
+   "title": "드라마 50일의 썸",
    "address": "마포구 상암동 1650 로비",
-   "url": "https://castingmap.co.kr/casting-board/20",
-   "checked": "2026-10-28",
-   "firstSeen": "baseline"
-  },
-  {
-   "id": 35,
-   "title": "이혼조사관 홍말금",
-   "address": "마포구 상암동 DMC첨단산업센터 521호",
-   "url": "https://castingmap.co.kr/casting-board/35",
-   "checked": "2026-10-28",
-   "firstSeen": "baseline"
-  },
-  {
-   "id": 34,
-   "title": "속풀이쇼 동치미",
-   "address": "마포구 성암로 15길 20",
-   "url": "https://castingmap.co.kr/casting-board/34",
-   "checked": "2026-10-28",
-   "firstSeen": "baseline"
-  },
-  {
-   "id": 33,
-   "title": "트레이니",
-   "address": "마포구 성암로 330 A동 5층",
-   "url": "https://castingmap.co.kr/casting-board/33",
-   "checked": "2026-10-28",
-   "firstSeen": "baseline"
-  },
-  {
-   "id": 41,
-   "title": "건강하기만 하면 돼!",
-   "address": "마포구 성암로 330 DMC첨단산업센터 5층",
-   "url": "https://castingmap.co.kr/casting-board/41",
-   "checked": "2026-10-28",
-   "firstSeen": "baseline"
-  },
-  {
-   "id": 44,
-   "title": "금월도",
-   "address": "마포구 월드컵북로 434 12층",
-   "url": "https://castingmap.co.kr/casting-board/44",
-   "checked": "2026-10-28",
-   "firstSeen": "baseline"
-  },
-  {
-   "id": 29,
-   "title": "비공개 작품 (나루터로 2층)",
-   "address": "서초구 나루터로 12길 19 2층",
-   "url": "https://castingmap.co.kr/casting-board/29",
-   "checked": "2026-10-28",
-   "firstSeen": "baseline"
-  },
-  {
-   "id": 18,
-   "title": "숏폼 — 제리굿 (나루터로 접수처)",
-   "address": "서초구 나루터로12길 19 3층",
-   "url": "https://castingmap.co.kr/casting-board/18",
-   "checked": "2026-10-28",
-   "firstSeen": "baseline"
-  },
-  {
-   "id": 28,
-   "title": "드라마 러브 클라우드",
-   "address": "영등포구 여의도동 46 로비",
-   "url": "https://castingmap.co.kr/casting-board/28",
-   "checked": "2026-10-28",
-   "firstSeen": "baseline"
+   "url": "https://castingmap.co.kr/casting-board/40",
+   "checked": "2026-11-04",
+   "firstSeen": "2026-11-04"
   },
   {
    "id": 36,
    "title": "환생경찰",
-   "address": "영등포구 의사당대로1길 25 9층",
+   "address": "마포구 성암로 15길 20 — 속풀이쇼 동치미 마포구 성암로 330 DMC첨단산업센터 5층 — 영화 건강하기만 하면 돼! , 영화 탁란 , 영화 와우 마포구 월드컵북로 434 12층 — 영화 금월도 서초구 나루터로 12길 19 2층 — 비공개 작품 (나루터로 2층) 영등포구 의사당대로1길 25 9층",
    "url": "https://castingmap.co.kr/casting-board/36",
-   "checked": "2026-10-28",
+   "checked": "2026-11-04",
    "firstSeen": "baseline"
   },
   {
@@ -2053,7 +1941,7 @@
    "title": "영화 안개무덤",
    "address": "용산구 독서당로 46 2층 209호",
    "url": "https://castingmap.co.kr/casting-board/39",
-   "checked": "2026-10-28",
+   "checked": "2026-11-04",
    "firstSeen": "baseline"
   }
  ]
