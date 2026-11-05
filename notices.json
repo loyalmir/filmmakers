@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T13:34+00:00",
+  "updatedAt": "2026-11-05T20:51+00:00",
   "count": 29,
   "notices": [
     {
@@ -236,23 +236,6 @@
       "pay": "30만원 ~ 70만원"
     },
     {
-      "id": "plfil-4521",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "공공기관 브랜드 영상 여성 모델",
-      "role": "",
-      "gender": "female",
-      "ageMin": 23,
-      "ageMax": 35,
-      "ageText": "여성 · 23세 ~ 35세",
-      "due": "2026-11-05",
-      "url": "https://plfil.com/casting/4521",
-      "email": null,
-      "specials": [],
-      "pay": "120만원 ~ 150만원"
-    },
-    {
       "id": "plfil-4520",
       "source": "플필",
       "sourceType": "platform",
@@ -285,6 +268,23 @@
       "email": null,
       "specials": [],
       "pay": "15만원 ~ 15만원"
+    },
+    {
+      "id": "plfil-4509",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "실제 연애하는 것처럼 자연스럽고 즐겁게 촬영할 여성 모델을 모집합니다!!",
+      "role": "",
+      "gender": "female",
+      "ageMin": 19,
+      "ageMax": 39,
+      "ageText": "여성 · 19세 ~ 39세",
+      "due": "2026-11-15",
+      "url": "https://plfil.com/casting/4509",
+      "email": null,
+      "specials": [],
+      "pay": "50만원 ~ 50만원"
     },
     {
       "id": "castingmap-cd-40",
