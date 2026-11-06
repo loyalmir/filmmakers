@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T08:38+00:00",
+  "updatedAt": "2026-11-06T16:22+00:00",
   "count": 29,
   "notices": [
     {
@@ -81,6 +81,23 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4535",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "아이돌 후시녹음 10대후반~20대 중반 여자 구인합니다.",
+      "role": "",
+      "gender": "any",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "성별 무관 · 나이 무관",
+      "due": "2026-11-07",
+      "url": "https://plfil.com/casting/4535",
+      "email": null,
+      "specials": [],
+      "pay": "12만원 ~ 12만원"
     },
     {
       "id": "plfil-4534",
@@ -217,23 +234,6 @@
       "email": null,
       "specials": [],
       "pay": "25만원 ~ 50만원"
-    },
-    {
-      "id": "plfil-4523",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "TV/OTT",
-      "title": "예능에 출연하실 배우님 섭외 합니다.",
-      "role": "",
-      "gender": "female",
-      "ageMin": 35,
-      "ageMax": 53,
-      "ageText": "여성 · 35세 ~ 53세",
-      "due": "2026-11-06",
-      "url": "https://plfil.com/casting/4523",
-      "email": null,
-      "specials": [],
-      "pay": "25만원 ~ 25만원"
     },
     {
       "id": "plfil-4522",
