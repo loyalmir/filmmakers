@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T01:12+00:00",
+  "updatedAt": "2026-11-06T08:38+00:00",
   "count": 29,
   "notices": [
     {
@@ -83,6 +83,23 @@
       "specials": []
     },
     {
+      "id": "plfil-4534",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "한국영상대학교 공모전 과제 작품 배우 구합니다. (대전, 세종사람 환영)",
+      "role": "",
+      "gender": "male",
+      "ageMin": 18,
+      "ageMax": 24,
+      "ageText": "남성 · 18세 ~ 24세 외 1개 배역",
+      "due": "2026-11-12",
+      "url": "https://plfil.com/casting/4534",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
+    },
+    {
       "id": "plfil-4533",
       "source": "플필",
       "sourceType": "platform",
@@ -115,40 +132,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 30만원"
-    },
-    {
-      "id": "plfil-4531",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "TV/OTT",
-      "title": "넷플릭스 시리즈 <000맨> 내사팀 직원 30대 남녀 (이미지)",
-      "role": "",
-      "gender": "any",
-      "ageMin": 30,
-      "ageMax": 40,
-      "ageText": "성별 무관 · 30세 ~ 40세",
-      "due": "2026-11-11",
-      "url": "https://plfil.com/casting/4531",
-      "email": null,
-      "specials": [],
-      "pay": "25만원 ~ 25만원"
-    },
-    {
-      "id": "plfil-4530",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "TV/OTT",
-      "title": "넷플릭스 시리즈 <000맨> 카지노 보안직원 30대남 (이미지)",
-      "role": "",
-      "gender": "male",
-      "ageMin": 30,
-      "ageMax": 40,
-      "ageText": "남성 · 30세 ~ 40세",
-      "due": "2026-11-11",
-      "url": "https://plfil.com/casting/4530",
-      "email": null,
-      "specials": [],
-      "pay": "25만원 ~ 25만원"
     },
     {
       "id": "plfil-4529",
@@ -285,6 +268,23 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 20만원"
+    },
+    {
+      "id": "plfil-4517",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "장편독립영화 영진위 지원작 <워킹홀리데이 인 라보플라워(가제)> 조연모집",
+      "role": "",
+      "gender": "female",
+      "ageMin": 20,
+      "ageMax": 35,
+      "ageText": "여성 · 20세 ~ 35세",
+      "due": "2026-11-26",
+      "url": "https://plfil.com/casting/4517",
+      "email": null,
+      "specials": [],
+      "pay": "15만원 ~ 15만원"
     },
     {
       "id": "castingmap-cd-40",
