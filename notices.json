@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T08:30+00:00",
+  "updatedAt": "2026-11-11T16:41+00:00",
   "count": 30,
   "notices": [
     {
@@ -201,23 +201,6 @@
       "pay": "10만원 ~ 20만원"
     },
     {
-      "id": "plfil-4548",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "TV/OTT",
-      "title": "20대 액션 가능자 (이미지단역)",
-      "role": "",
-      "gender": "male",
-      "ageMin": 20,
-      "ageMax": 30,
-      "ageText": "남성 · 20세 ~ 30세",
-      "due": "2026-11-11",
-      "url": "https://plfil.com/casting/4548",
-      "email": null,
-      "specials": [],
-      "pay": "20만원 ~ 25만원"
-    },
-    {
       "id": "plfil-4544",
       "source": "플필",
       "sourceType": "platform",
@@ -269,23 +252,6 @@
       "pay": "10만원 ~ 10만원"
     },
     {
-      "id": "plfil-4540",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "광고",
-      "title": "광고 요리 가능한 20~30대 남자 라이팅&대역 모델 구인합니다",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-11-11",
-      "url": "https://plfil.com/casting/4540",
-      "email": null,
-      "specials": [],
-      "pay": "35만원 ~ 35만원"
-    },
-    {
       "id": "plfil-4539",
       "source": "플필",
       "sourceType": "platform",
@@ -301,6 +267,40 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 10만원"
+    },
+    {
+      "id": "plfil-4538",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "광고",
+      "title": "SNS 바이럴 광고 (양치/치아부각/부담스러운컷X)",
+      "role": "",
+      "gender": "female",
+      "ageMin": 20,
+      "ageMax": 40,
+      "ageText": "여성 · 20세 ~ 40세",
+      "due": "2026-11-16",
+      "url": "https://plfil.com/casting/4538",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
+    },
+    {
+      "id": "plfil-4537",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "공공기관 숏 드라마 배우 모집중입니다",
+      "role": "",
+      "gender": "male",
+      "ageMin": 40,
+      "ageMax": 49,
+      "ageText": "남성 · 40세 ~ 49세 외 13개 배역",
+      "due": "2026-11-12",
+      "url": "https://plfil.com/casting/4537",
+      "email": null,
+      "specials": [],
+      "pay": ""
     },
     {
       "id": "castingmap-cd-40",
