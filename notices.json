@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T01:31+00:00",
+  "updatedAt": "2026-11-11T08:30+00:00",
   "count": 30,
   "notices": [
     {
@@ -97,6 +97,40 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4555",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "가방 제품 숏폼 촬영 모델 모집(2030 한국인)",
+      "role": "",
+      "gender": "female",
+      "ageMin": 20,
+      "ageMax": 35,
+      "ageText": "여성 · 20세 ~ 35세",
+      "due": "2026-11-16",
+      "url": "https://plfil.com/casting/4555",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
+    },
+    {
+      "id": "plfil-4554",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "SNS광고 20대 초중반 헤어세럼 제품 머릿결 좋은 여성 배우님",
+      "role": "",
+      "gender": "female",
+      "ageMin": 20,
+      "ageMax": 27,
+      "ageText": "여성 · 20세 ~ 27세",
+      "due": "2026-11-12",
+      "url": "https://plfil.com/casting/4554",
+      "email": null,
+      "specials": [],
+      "pay": "35만원 ~ 35만원"
     },
     {
       "id": "plfil-4553",
@@ -210,7 +244,7 @@
       "gender": "male",
       "ageMin": 40,
       "ageMax": 49,
-      "ageText": "남성 · 40세 ~ 49세 외 1개 배역",
+      "ageText": "남성 · 40세 ~ 49세 외 2개 배역",
       "due": "2026-11-15",
       "url": "https://plfil.com/casting/4542",
       "email": null,
@@ -267,40 +301,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4538",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "광고",
-      "title": "SNS 바이럴 광고 (양치/치아부각/부담스러운컷X)",
-      "role": "",
-      "gender": "female",
-      "ageMin": 20,
-      "ageMax": 40,
-      "ageText": "여성 · 20세 ~ 40세",
-      "due": "2026-11-16",
-      "url": "https://plfil.com/casting/4538",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
-    },
-    {
-      "id": "plfil-4537",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "공공기관 숏 드라마 배우 모집중입니다",
-      "role": "",
-      "gender": "male",
-      "ageMin": 40,
-      "ageMax": 49,
-      "ageText": "남성 · 40세 ~ 49세 외 13개 배역",
-      "due": "2026-11-12",
-      "url": "https://plfil.com/casting/4537",
-      "email": null,
-      "specials": [],
-      "pay": ""
     },
     {
       "id": "castingmap-cd-40",
