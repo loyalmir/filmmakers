@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T11:49+00:00",
+  "updatedAt": "2026-11-14T17:22+00:00",
   "count": 30,
   "notices": [
     {
@@ -150,23 +150,6 @@
       "pay": "20만원 ~ 20만원"
     },
     {
-      "id": "plfil-4560",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "부산/전라도/강원도 에 실제로 거주중이고 사투리쓰시는 20~30대 이미지",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-11-14",
-      "url": "https://plfil.com/casting/4560",
-      "email": null,
-      "specials": [],
-      "pay": "35만원 ~ 35만원"
-    },
-    {
       "id": "plfil-4559",
       "source": "플필",
       "sourceType": "platform",
@@ -301,6 +284,23 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 10만원"
+    },
+    {
+      "id": "plfil-4536",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "비공개 상업영화 단역 캐스팅",
+      "role": "",
+      "gender": "male",
+      "ageMin": 14,
+      "ageMax": 27,
+      "ageText": "남성 · 14세 ~ 27세",
+      "due": "2026-11-20",
+      "url": "https://plfil.com/casting/4536",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 15만원"
     },
     {
       "id": "castingmap-cd-40",
