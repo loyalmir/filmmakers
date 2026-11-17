@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T09:48+00:00",
+  "updatedAt": "2026-11-17T18:49+00:00",
   "count": 29,
   "notices": [
     {
@@ -134,23 +134,6 @@
       "pay": "10만원 ~ 10만원"
     },
     {
-      "id": "plfil-4573",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "광고",
-      "title": "광고 요리 가능한 20~30대 여자 모델 구인합니다",
-      "role": "",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "성별 무관 · 나이 무관",
-      "due": "2026-11-17",
-      "url": "https://plfil.com/casting/4573",
-      "email": null,
-      "specials": [],
-      "pay": "35만원 ~ 35만원"
-    },
-    {
       "id": "plfil-4572",
       "source": "플필",
       "sourceType": "platform",
@@ -236,23 +219,6 @@
       "pay": "10만원 ~ 10만원"
     },
     {
-      "id": "plfil-4562",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "의류 제품 숏폼 촬영_2030 남성 모델 모집 (국적무관)",
-      "role": "",
-      "gender": "male",
-      "ageMin": 20,
-      "ageMax": 35,
-      "ageText": "남성 · 20세 ~ 35세",
-      "due": "2026-11-17",
-      "url": "https://plfil.com/casting/4562",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
-    },
-    {
       "id": "plfil-4559",
       "source": "플필",
       "sourceType": "platform",
@@ -285,6 +251,40 @@
       "email": null,
       "specials": [],
       "pay": ""
+    },
+    {
+      "id": "plfil-4536",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "비공개 상업영화 단역 캐스팅",
+      "role": "",
+      "gender": "male",
+      "ageMin": 14,
+      "ageMax": 27,
+      "ageText": "남성 · 14세 ~ 27세",
+      "due": "2026-11-20",
+      "url": "https://plfil.com/casting/4536",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 15만원"
+    },
+    {
+      "id": "plfil-4524",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "[상시모집] 브랜드 인하우스 SNS 영상 광고 출연 DB배우/모델 풀(P",
+      "role": "",
+      "gender": "any",
+      "ageMin": 20,
+      "ageMax": 59,
+      "ageText": "성별 무관 · 20세 ~ 59세",
+      "due": "2026-11-22",
+      "url": "https://plfil.com/casting/4524",
+      "email": null,
+      "specials": [],
+      "pay": "25만원 ~ 50만원"
     },
     {
       "id": "castingmap-cd-40",
