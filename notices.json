@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T09:19+00:00",
+  "updatedAt": "2026-11-18T18:27+00:00",
   "count": 28,
   "notices": [
     {
@@ -67,6 +67,23 @@
       "specials": []
     },
     {
+      "id": "plfil-4578",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "군대컨셉 릴스 숏츠 촬영 배우",
+      "role": "",
+      "gender": "female",
+      "ageMin": null,
+      "ageMax": null,
+      "ageText": "여성 · 나이 무관",
+      "due": "2028-01-31",
+      "url": "https://plfil.com/casting/4578",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
+    },
+    {
       "id": "plfil-4577",
       "source": "플필",
       "sourceType": "platform",
@@ -99,23 +116,6 @@
       "email": null,
       "specials": [],
       "pay": "20만원 ~ 20만원"
-    },
-    {
-      "id": "plfil-4575",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "웨딩 홍보영상 모델 섭외 합니다.",
-      "role": "",
-      "gender": "any",
-      "ageMin": 20,
-      "ageMax": 35,
-      "ageText": "성별 무관 · 20세 ~ 35세",
-      "due": "2026-11-18",
-      "url": "https://plfil.com/casting/4575",
-      "email": null,
-      "specials": [],
-      "pay": ""
     },
     {
       "id": "plfil-4574",
