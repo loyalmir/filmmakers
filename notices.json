@@ -1,7 +1,23 @@
 {
-  "updatedAt": "2026-11-18T01:23+00:00",
+  "updatedAt": "2026-11-18T09:19+00:00",
   "count": 28,
   "notices": [
+    {
+      "id": "onepick-992",
+      "source": "원픽",
+      "sourceType": "platform",
+      "cat": "인스타",
+      "title": "KPOP 퍼포먼스 댄스팀 / 틱톡 라이브 아이돌 스타일 댄서",
+      "role": "나이 20대 | 성별 남성 | 경력 무관",
+      "gender": "male",
+      "ageMin": 20,
+      "ageMax": 29,
+      "ageText": "나이 20대 | 성별 남성 | 경력 무관",
+      "due": "상시모집",
+      "url": "https://www.myonepick.com/audi/list/",
+      "email": null,
+      "specials": []
+    },
     {
       "id": "onepick-988",
       "source": "원픽",
@@ -51,20 +67,21 @@
       "specials": []
     },
     {
-      "id": "onepick-980",
-      "source": "원픽",
+      "id": "plfil-4577",
+      "source": "플필",
       "sourceType": "platform",
-      "cat": "K-POP, 발라드, 랩, 힙합, R&D, 소울, 트로트",
-      "title": "틱톡 글로벌 라이브 크리에이터 / 에이전트 모집 !",
-      "role": "나이 무관 | 성별 무관 | 경력 무관",
-      "gender": "any",
-      "ageMin": null,
-      "ageMax": null,
-      "ageText": "나이 무관 | 성별 무관 | 경력 무관",
-      "due": "상시모집",
-      "url": "https://www.myonepick.com/audi/list/",
+      "cat": "광고",
+      "title": "광고 셀럽 라이팅&손모델 가능한 키 166-170cm 부근의 20~30대",
+      "role": "",
+      "gender": "female",
+      "ageMin": 20,
+      "ageMax": 39,
+      "ageText": "여성 · 20세 ~ 39세",
+      "due": "2026-11-20",
+      "url": "https://plfil.com/casting/4577",
       "email": null,
-      "specials": []
+      "specials": [],
+      "pay": "35만원 ~ 35만원"
     },
     {
       "id": "plfil-4576",
@@ -252,23 +269,6 @@
       "email": null,
       "specials": [],
       "pay": "10만원 ~ 15만원"
-    },
-    {
-      "id": "plfil-4524",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "[상시모집] 브랜드 인하우스 SNS 영상 광고 출연 DB배우/모델 풀(P",
-      "role": "",
-      "gender": "any",
-      "ageMin": 20,
-      "ageMax": 59,
-      "ageText": "성별 무관 · 20세 ~ 59세",
-      "due": "2026-11-22",
-      "url": "https://plfil.com/casting/4524",
-      "email": null,
-      "specials": [],
-      "pay": "25만원 ~ 50만원"
     },
     {
       "id": "castingmap-cd-40",
