@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T02:59+00:00",
+  "updatedAt": "2026-11-21T10:38+00:00",
   "count": 28,
   "notices": [
     {
@@ -65,6 +65,40 @@
       "url": "https://www.myonepick.com/audi/list/",
       "email": null,
       "specials": []
+    },
+    {
+      "id": "plfil-4590",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "[모바일 게임 UA 광고] 20~30대 여성 배우 모집",
+      "role": "",
+      "gender": "female",
+      "ageMin": 20,
+      "ageMax": 30,
+      "ageText": "여성 · 20세 ~ 30세",
+      "due": "2026-11-24",
+      "url": "https://plfil.com/casting/4590",
+      "email": null,
+      "specials": [],
+      "pay": "20만원 ~ 20만원"
+    },
+    {
+      "id": "plfil-4589",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "[모바일 게임 UA 광고] 20~30대 남성 배우 2명 모집",
+      "role": "",
+      "gender": "male",
+      "ageMin": 20,
+      "ageMax": 39,
+      "ageText": "남성 · 20세 ~ 39세",
+      "due": "2026-11-24",
+      "url": "https://plfil.com/casting/4589",
+      "email": null,
+      "specials": [],
+      "pay": "30만원 ~ 30만원"
     },
     {
       "id": "plfil-4588",
@@ -235,40 +269,6 @@
       "email": null,
       "specials": [],
       "pay": "40만원 ~ 60만원"
-    },
-    {
-      "id": "plfil-4524",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "[상시모집] 브랜드 인하우스 SNS 영상 광고 출연 DB배우/모델 풀(P",
-      "role": "",
-      "gender": "any",
-      "ageMin": 20,
-      "ageMax": 59,
-      "ageText": "성별 무관 · 20세 ~ 59세",
-      "due": "2026-11-22",
-      "url": "https://plfil.com/casting/4524",
-      "email": null,
-      "specials": [],
-      "pay": "25만원 ~ 50만원"
-    },
-    {
-      "id": "plfil-4522",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "차량용 타이어 관련 리뷰/소개",
-      "role": "",
-      "gender": "male",
-      "ageMin": 25,
-      "ageMax": 39,
-      "ageText": "남성 · 25세 ~ 39세 외 1개 배역",
-      "due": "2026-11-30",
-      "url": "https://plfil.com/casting/4522",
-      "email": null,
-      "specials": [],
-      "pay": "30만원 ~ 70만원"
     },
     {
       "id": "castingmap-cd-40",
