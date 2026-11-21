@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21T10:38+00:00",
+  "updatedAt": "2026-11-21T17:48+00:00",
   "count": 28,
   "notices": [
     {
@@ -67,6 +67,23 @@
       "specials": []
     },
     {
+      "id": "plfil-4591",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "",
+      "title": "대학 과제 뮤직비디오 주연배우 모집",
+      "role": "",
+      "gender": "male",
+      "ageMin": 20,
+      "ageMax": 35,
+      "ageText": "남성 · 20세 ~ 35세 외 1개 배역",
+      "due": "2026-12-02",
+      "url": "https://plfil.com/casting/4591",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
+    },
+    {
       "id": "plfil-4590",
       "source": "플필",
       "sourceType": "platform",
@@ -116,23 +133,6 @@
       "email": null,
       "specials": [],
       "pay": "20만원 ~ 20만원"
-    },
-    {
-      "id": "plfil-4586",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "",
-      "title": "보험사 홍보영상 이미지단역",
-      "role": "",
-      "gender": "any",
-      "ageMin": 30,
-      "ageMax": 39,
-      "ageText": "성별 무관 · 30세 ~ 39세 외 5개 배역",
-      "due": "2026-11-21",
-      "url": "https://plfil.com/casting/4586",
-      "email": null,
-      "specials": [],
-      "pay": "25만원 ~ 25만원"
     },
     {
       "id": "plfil-4585",
