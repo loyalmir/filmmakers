@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-22T10:25+00:00",
+  "updatedAt": "2026-11-22T18:06+00:00",
   "count": 28,
   "notices": [
     {
@@ -237,23 +237,6 @@
       "pay": "30만원 ~ 30만원"
     },
     {
-      "id": "plfil-4566",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "드라마",
-      "title": "[글로벌 드라마 시리즈] THE LOCKER 남자 주연 배우 모집",
-      "role": "",
-      "gender": "male",
-      "ageMin": 19,
-      "ageMax": 26,
-      "ageText": "남성 · 19세 ~ 26세",
-      "due": "2026-11-22",
-      "url": "https://plfil.com/casting/4566",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
-    },
-    {
       "id": "plfil-4559",
       "source": "플필",
       "sourceType": "platform",
@@ -269,6 +252,23 @@
       "email": null,
       "specials": [],
       "pay": "40만원 ~ 60만원"
+    },
+    {
+      "id": "plfil-4522",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "차량용 타이어 관련 리뷰/소개",
+      "role": "",
+      "gender": "male",
+      "ageMin": 25,
+      "ageMax": 39,
+      "ageText": "남성 · 25세 ~ 39세 외 1개 배역",
+      "due": "2026-11-30",
+      "url": "https://plfil.com/casting/4522",
+      "email": null,
+      "specials": [],
+      "pay": "30만원 ~ 70만원"
     },
     {
       "id": "castingmap-cd-40",
