@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T10:29+00:00",
+  "updatedAt": "2026-11-27T19:42+00:00",
   "count": 28,
   "notices": [
     {
@@ -67,6 +67,23 @@
       "specials": []
     },
     {
+      "id": "plfil-4605",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "연극",
+      "title": "[전배우 모집]심야비행 / 유명 인디밴드와 함께하는 라이브 음악극",
+      "role": "",
+      "gender": "male",
+      "ageMin": 20,
+      "ageMax": 39,
+      "ageText": "남성 · 20세 ~ 39세 외 2개 배역",
+      "due": "2026-11-30",
+      "url": "https://plfil.com/casting/4605",
+      "email": null,
+      "specials": [],
+      "pay": "10만원 ~ 10만원"
+    },
+    {
       "id": "plfil-4604",
       "source": "플필",
       "sourceType": "platform",
@@ -82,23 +99,6 @@
       "email": null,
       "specials": [],
       "pay": "35만원 ~ 35만원"
-    },
-    {
-      "id": "plfil-4603",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "수납 서비스 숏폼 촬영 모델 모집(2030 한국인 여성 모델)",
-      "role": "",
-      "gender": "female",
-      "ageMin": 20,
-      "ageMax": 35,
-      "ageText": "여성 · 20세 ~ 35세",
-      "due": "2026-11-27",
-      "url": "https://plfil.com/casting/4603",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
     },
     {
       "id": "plfil-4602",
@@ -169,23 +169,6 @@
       "pay": ""
     },
     {
-      "id": "plfil-4596",
-      "source": "플필",
-      "sourceType": "platform",
-      "cat": "기타",
-      "title": "보조배터리 제품 숏폼 촬영_2030 남성 모델 모집",
-      "role": "",
-      "gender": "male",
-      "ageMin": 20,
-      "ageMax": 38,
-      "ageText": "남성 · 20세 ~ 38세",
-      "due": "2026-11-27",
-      "url": "https://plfil.com/casting/4596",
-      "email": null,
-      "specials": [],
-      "pay": "10만원 ~ 10만원"
-    },
-    {
       "id": "plfil-4592",
       "source": "플필",
       "sourceType": "platform",
@@ -254,21 +237,38 @@
       "pay": "30만원 ~ 30만원"
     },
     {
-      "id": "plfil-4566",
+      "id": "plfil-4559",
       "source": "플필",
       "sourceType": "platform",
-      "cat": "드라마",
-      "title": "[글로벌 드라마 시리즈] THE LOCKER 남자 주연 배우 모집",
+      "cat": "TV/OTT",
+      "title": "SBS 크라임 다큐 <괴물의 시간> 주연배우(강호순 역) 모집",
       "role": "",
       "gender": "male",
-      "ageMin": 19,
-      "ageMax": 26,
-      "ageText": "남성 · 19세 ~ 26세",
-      "due": "2026-11-27",
-      "url": "https://plfil.com/casting/4566",
+      "ageMin": 25,
+      "ageMax": 45,
+      "ageText": "남성 · 25세 ~ 45세",
+      "due": "2026-11-30",
+      "url": "https://plfil.com/casting/4559",
       "email": null,
       "specials": [],
-      "pay": "10만원 ~ 10만원"
+      "pay": "40만원 ~ 60만원"
+    },
+    {
+      "id": "plfil-4522",
+      "source": "플필",
+      "sourceType": "platform",
+      "cat": "기타",
+      "title": "차량용 타이어 관련 리뷰/소개",
+      "role": "",
+      "gender": "male",
+      "ageMin": 25,
+      "ageMax": 39,
+      "ageText": "남성 · 25세 ~ 39세 외 1개 배역",
+      "due": "2026-11-30",
+      "url": "https://plfil.com/casting/4522",
+      "email": null,
+      "specials": [],
+      "pay": "30만원 ~ 70만원"
     },
     {
       "id": "castingmap-cd-40",
